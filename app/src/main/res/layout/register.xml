@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img4"
+    tools:context=".Panel.RegisterPanel">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="35dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/back" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/surname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:hint=" E-Posta"
+        android:textAlignment="viewStart"
+        android:textColor="?android:attr/textColorSecondaryInverse"
+        android:textColorHint="@android:color/primary_text_dark"
+        android:textSize="13sp"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:hint=" Şifre"
+        android:textAlignment="viewStart"
+        android:textColor="?android:attr/textColorSecondaryInverse"
+        android:textColorHint="@android:color/primary_text_dark"
+        android:textSize="13sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/editProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@android:drawable/divider_horizontal_bright"
+        android:shadowColor="@android:color/holo_green_dark"
+        android:text="YENİ ÜYE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textSize="35sp"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignTop="@+id/editProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/gallery_thumb"
+        android:hint=" İsim"
+        android:textAlignment="viewStart"
+        android:textColor="?android:attr/textColorSecondaryInverse"
+        android:textColorHint="@android:color/primary_text_dark"
+        android:textSize="13sp"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/name"
+        android:layout_marginTop="55dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:hint=" Soyad"
+        android:textAlignment="viewStart"
+        android:textColor="?android:attr/textColorSecondaryInverse"
+        android:textColorHint="@android:color/primary_text_dark"
+        android:textSize="13sp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="76dp"
+        android:layout_height="28dp"
+        android:layout_alignTop="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/register"
+        android:textColor="@android:color/background_light" />
+
+
+</RelativeLayout>
