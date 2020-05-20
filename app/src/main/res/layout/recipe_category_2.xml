@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:typeface="monospace"
+        android:text="@string/yemekler" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+        android:text="@string/tatlılar" />
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView"
+        android:drawableLeft="@drawable/arrow_white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="135dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:typeface="monospace"
+        android:text="  Güllaç" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView"
+        android:drawableLeft="@drawable/arrow_white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="175dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:typeface="monospace"
+        android:text="  Kazandibi" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView"
+        android:drawableLeft="@drawable/arrow_white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="215dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:typeface="monospace"
+        android:text="  Tavukgöğsü" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView"
+        android:drawableLeft="@drawable/arrow_white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="255dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:typeface="monospace"
+        android:text="  Sütlaç" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView"
+        android:drawableLeft="@drawable/arrow_white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="295dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:typeface="monospace"
+        android:text="  Sakızlı Muhallebi" />
+
+</RelativeLayout>

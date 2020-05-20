@@ -16,4 +16,16 @@
     <string name="email1">pelsinkaplan@gmail.com</string>
     <string name="name1">Ferihan</string>
     <string name="notifications">Bildirimler:</string>
+    <string name="recipes">TARİFLER</string>
+    <string name="recipe_button1_name">Tüm Yemek Tarifleri</string>
+    <string name="recipe_button2_name">SKT Yaklaşanlarla Tarifler</string>
+    <string name="recipe_button3_name">Stoktakilerle Tarifler</string>
+    <string name="yemekler">YEMEKLER</string>
+    <string name="çorbalar">ÇORBALAR</string>
+    <string name="anayemekler">ANA YEMEKLER</string>
+    <string name="pilavmakarna">PİLAVLAR/MAKARNALAR</string>
+    <string name="salatalar">SALATALAR</string>
+    <string name="tatlılar">TATLILAR</string>
+    <string name="hamurişi">HAMUR İŞİ</string>
+
 </resources>
