@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="660dp"
+    android:layout_width="360dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg6">
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menu"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="FOODIARY"
+        android:textColor="#F4F6F4"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/search"
+        />
+
+    <!--        <com.google.android.material.navigation.NavigationView-->
+    <!--            android:id="@+id/navigation"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_gravity="start"-->
+    <!--            app:menu="@menu/drawer_menu"-->
+    <!--            />-->
+
+    <TextView
+        android:id="@+id/daily_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="80dp"
+        android:text="Günün Menüsü"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="27dp"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_below="@+id/daily_menu"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="230dp"
+        android:layout_height="1dp"
+        android:background="@color/design_default_color_background"/>
+    <TextView
+        android:id="@+id/daily_soup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/daily_menu"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="25dp"
+        android:text="Tarhana Çorbası"/>
+
+    <TextView
+        android:id="@+id/main_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/daily_soup"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="25dp"
+        android:text="Tas Kebabı"/>
+    <TextView
+        android:id="@+id/legumes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/main_food"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="25dp"
+        android:text="Bulgur Pilavı"/>
+    <TextView
+        android:id="@+id/dessert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/legumes"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="25dp"
+        android:text="Güllaç"/>
+
+
+
+
+
+</RelativeLayout>

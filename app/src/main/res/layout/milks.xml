@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="660dp"
+    android:background="@drawable/bg6">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back"
+        />
+    <TextView
+        android:id="@+id/veg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="SÜT ÜRÜNLERİ"
+        android:textSize="28dp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/food1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ürün              Miktarı                SKT"
+        android:textSize="20dp"
+        android:textColor="#FFFF"
+        android:layout_below="@id/veg2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <View
+        android:layout_centerHorizontal="true"
+        android:id="@+id/line"
+        android:layout_below="@+id/food1"
+        android:layout_marginTop="5dp"
+        android:layout_width="320dp"
+        android:layout_height="1dp"
+        android:background="@color/design_default_color_background"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Süt                           2 kg                        25.06.2020"
+        android:textSize="15dp"
+        android:textColor="#FFFF"
+        android:layout_below="@id/veg2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yoğurt                     1 kg                        30.06.2020"
+        android:textSize="15dp"
+        android:textColor="#FFFF"
+        android:layout_below="@id/veg2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tereyağ                   1 kg                        01.07.2020"
+        android:textSize="15dp"
+        android:textColor="#FFFF"
+        android:layout_below="@id/veg2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaymak                   1 kg                        01.07.2020"
+        android:textSize="15dp"
+        android:textColor="#FFFF"
+        android:layout_below="@id/veg2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="160dp"/>
+
+
+</RelativeLayout>
