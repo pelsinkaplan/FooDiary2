@@ -2,15 +2,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/arkaplan"
-    tools:context=".MainActivity">
+    android:background="@drawable/img2"
+    tools:context=".Panel.LoginPanel">
 
-    <TextView
+    <EditText
         android:id="@+id/oldPassword"
         android:layout_width="287dp"
         android:layout_height="40dp"
-        android:layout_alignStart="@id/email"
-        android:layout_alignTop="@id/email"
+        android:layout_alignStart="@id/emailPro"
+        android:layout_alignTop="@id/emailPro"
         android:layout_marginTop="50dp"
         android:background="@android:drawable/gallery_thumb"
         android:hint="@string/oldPassword"
@@ -20,11 +20,11 @@
         android:textSize="13sp"
         android:typeface="monospace" />
 
-    <TextView
+    <EditText
         android:id="@+id/newPassword"
         android:layout_width="287dp"
         android:layout_height="40dp"
-        android:layout_alignStart="@id/email"
+        android:layout_alignStart="@id/emailPro"
         android:layout_alignTop="@id/oldPassword"
         android:layout_marginTop="60dp"
         android:background="@android:drawable/gallery_thumb"
@@ -41,34 +41,33 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:background="@android:drawable/divider_horizontal_bright"
-        android:shadowColor="@android:color/holo_green_dark"
         android:text="@string/editProfile"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@android:color/background_light"
-        android:textColorHighlight="@android:color/holo_green_dark"
         android:textSize="28sp"
         android:typeface="monospace" />
 
     <Button
-        android:id="@+id/menu"
+        android:id="@+id/back"
         android:layout_width="40dp"
         android:layout_height="24dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/menu" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back" />
 
-    <Button
+    <ImageButton
         android:id="@+id/logo"
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_alignTop="@id/menu"
+        android:layout_alignTop="@id/back"
         android:layout_alignParentStart="true"
         android:layout_marginTop="80dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/ppicon" />
 
     <TextView
-        android:id="@+id/email"
+        android:id="@+id/emailPro"
         android:layout_width="336dp"
         android:layout_height="30dp"
         android:layout_below="@+id/logo"
@@ -78,10 +77,11 @@
         android:background="@android:drawable/divider_horizontal_dark"
         android:text="@string/email2"
         android:textColor="@android:color/background_light"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:typeface="monospace" />
 
-    <TextView
-        android:id="@+id/name"
+    <EditText
+        android:id="@+id/namePro"
         android:layout_width="150dp"
         android:layout_height="43dp"
         android:layout_alignTop="@id/logo"
@@ -96,11 +96,11 @@
         android:textSize="13sp"
         android:typeface="monospace" />
 
-    <TextView
-        android:id="@+id/surname"
+    <EditText
+        android:id="@+id/surnamePro"
         android:layout_width="150dp"
         android:layout_height="43dp"
-        android:layout_alignTop="@id/name"
+        android:layout_alignTop="@id/namePro"
         android:layout_alignStart="@id/logo"
         android:layout_marginStart="150dp"
         android:layout_marginTop="50dp"
@@ -120,7 +120,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="63dp"
         android:background="@android:color/holo_green_dark"
-        android:text="@string/save" />
+        android:text="@string/save"
+        android:typeface="monospace" />
 
 
 </RelativeLayout>

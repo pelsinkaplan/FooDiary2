@@ -2,8 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/arkaplan"
-    tools:context=".MainActivity">
+    android:background="@drawable/img2"
+    tools:context=".Panel.ProfilePanel">
 
     <TextView
         android:id="@+id/editProfile"
@@ -11,51 +11,61 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:background="@android:drawable/divider_horizontal_bright"
-        android:shadowColor="@android:color/holo_green_dark"
         android:text="@string/profile"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@android:color/background_light"
-        android:textColorHighlight="@android:color/holo_green_dark"
         android:textSize="28sp"
         android:typeface="monospace" />
 
     <Button
-        android:id="@+id/menu"
+        android:id="@+id/back"
         android:layout_width="40dp"
         android:layout_height="24dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/menu" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back" />
 
     <Button
-        android:id="@+id/logo"
+        android:id="@+id/home"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/home" />
+
+    <Button
+        android:id="@+id/imagePro"
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_alignTop="@id/menu"
+        android:layout_alignTop="@id/back"
         android:layout_alignParentStart="true"
         android:layout_marginTop="80dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/ppicon" />
 
     <TextView
-        android:id="@+id/email"
+        android:id="@+id/emailPro"
         android:layout_width="336dp"
         android:layout_height="30dp"
-        android:layout_below="@+id/logo"
+        android:layout_below="@+id/imagePro"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:background="@android:drawable/divider_horizontal_dark"
         android:text="@string/email1"
         android:textColor="@android:color/background_light"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:typeface="monospace" />
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/namePro"
         android:layout_width="150dp"
         android:layout_height="43dp"
-        android:layout_alignStart="@id/logo"
-        android:layout_alignTop="@id/logo"
-        android:layout_marginStart="150dp"
+        android:layout_alignStart="@+id/imagePro"
+        android:layout_alignTop="@id/imagePro"
+        android:layout_marginStart="160dp"
         android:layout_marginTop="25dp"
         android:hint="@string/name1"
         android:textAlignment="viewStart"
@@ -68,8 +78,8 @@
         android:id="@+id/notifications"
         android:layout_width="150dp"
         android:layout_height="43dp"
-        android:layout_alignStart="@id/email"
-        android:layout_alignTop="@id/email"
+        android:layout_alignStart="@id/emailPro"
+        android:layout_alignTop="@id/emailPro"
         android:layout_marginStart="0dp"
         android:layout_marginTop="50dp"
         android:hint="@string/notifications"
@@ -97,7 +107,7 @@
         android:id="@+id/notificationButton1"
         android:layout_width="29dp"
         android:layout_height="29dp"
-        android:layout_alignStart="@id/email"
+        android:layout_alignStart="@id/emailPro"
         android:layout_alignTop="@+id/notifications"
         android:layout_marginStart="0dp"
         android:layout_marginTop="33dp"
@@ -122,7 +132,7 @@
         android:layout_width="29dp"
         android:layout_height="29dp"
         android:layout_below="@+id/notificationButton1"
-        android:layout_alignStart="@id/email"
+        android:layout_alignStart="@id/emailPro"
         android:layout_marginTop="33dp"
         android:background="@android:drawable/presence_busy" />
 
@@ -144,21 +154,21 @@
         android:id="@+id/notificationButton2"
         android:layout_width="29dp"
         android:layout_height="29dp"
-        android:layout_alignStart="@id/email"
+        android:layout_alignStart="@id/emailPro"
         android:layout_alignTop="@+id/notificationButton1"
         android:layout_marginStart="0dp"
         android:layout_marginTop="30dp"
         android:background="@android:drawable/presence_busy" />
 
     <TextView
-        android:id="@+id/surname"
+        android:id="@+id/surnamePro"
         android:layout_width="150dp"
         android:layout_height="43dp"
-        android:layout_alignTop="@id/name"
-        android:layout_alignStart="@id/logo"
-        android:layout_marginStart="150dp"
+        android:layout_alignStart="@+id/imagePro"
+        android:layout_alignTop="@id/namePro"
+        android:layout_marginStart="160dp"
         android:layout_marginTop="55dp"
-        android:hint=" Çabuk"
+        android:hint="Çabuk"
         android:textAlignment="viewStart"
         android:textColor="?android:attr/textColorSecondaryInverse"
         android:textColorHint="@android:color/primary_text_dark"
@@ -169,11 +179,11 @@
         android:id="@+id/edit"
         android:layout_width="29dp"
         android:layout_height="31dp"
-        android:layout_alignEnd="@id/name"
+        android:layout_alignEnd="@id/namePro"
         android:layout_alignBottom="@id/editProfile"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="45dp"
-        android:layout_marginBottom="-134dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="-123dp"
         android:background="@android:drawable/ic_menu_edit" />
 
 </RelativeLayout>

@@ -5,30 +5,79 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/arkaplan"
+    android:background="@drawable/img2"
     tools:contexst=".MainActivity">
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textAlignment="center"
+        android:layout_marginTop="15dp"
         android:gravity="center_vertical"
+        android:text="@string/recipes"
         android:textColor="@android:color/white"
         android:textSize="28sp"
-        android:typeface="monospace"
-        android:text="@string/recipes"/>
+        android:typeface="monospace" />
 
     <Button
         android:id="@+id/menu"
         android:layout_width="40dp"
         android:layout_height="24dp"
-        android:layout_marginTop="12dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/menu" />
+    <Button
+        android:id="@+id/home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/home" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/stockrecipes"
+        android:drawableRight="@drawable/ic_action_button2"
+        android:drawableLeft="@drawable/ic_action_button"
+        android:drawableEnd="@drawable/ic_action_button2"
+        android:drawableStart="@drawable/ic_action_button"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        android:background="#965E5D5D"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp"
+        android:typeface="monospace"
+        android:visibility="invisible"
+        android:text="@string/recipe_button3_name" />
+
+    <Button
+        android:id="@+id/allrecipes2"
+        android:drawableRight="@drawable/ic_action_button2"
+        android:drawableLeft="@drawable/ic_action_button"
+        android:drawableEnd="@drawable/ic_action_button2"
+        android:drawableStart="@drawable/ic_action_button"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="#965E5D5D"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp"
+        android:typeface="monospace"
+        android:visibility="invisible"
+        android:text="@string/recipe_button1_name"
+        />
+    <Button
+        android:id="@+id/allrecipes1"
         android:drawableRight="@drawable/ic_action_button2"
         android:drawableLeft="@drawable/ic_action_button"
         android:drawableEnd="@drawable/ic_action_button2"
@@ -47,7 +96,7 @@
         android:text="@string/recipe_button1_name" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/expirerecipes"
         android:drawableRight="@drawable/ic_action_button2"
         android:drawableLeft="@drawable/ic_action_button"
         android:drawableEnd="@drawable/ic_action_button2"
@@ -63,43 +112,6 @@
         android:typeface="monospace"
         android:visibility="visible"
         android:text="@string/recipe_button2_name" />
-
-    <Button
-        android:id="@+id/button3"
-        android:drawableRight="@drawable/ic_action_button2"
-        android:drawableLeft="@drawable/ic_action_button"
-        android:drawableEnd="@drawable/ic_action_button2"
-        android:drawableStart="@drawable/ic_action_button"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/title"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="225dp"
-        android:background="#965E5D5D"
-        android:textColor="@color/colorWhite"
-        android:textSize="17sp"
-        android:typeface="monospace"
-        android:visibility="invisible"
-        android:text="@string/recipe_button3_name" />
-
-    <Button
-        android:id="@+id/button4"
-        android:drawableRight="@drawable/ic_action_button2"
-        android:drawableLeft="@drawable/ic_action_button"
-        android:drawableEnd="@drawable/ic_action_button2"
-        android:drawableStart="@drawable/ic_action_button"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/title"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="140dp"
-        android:background="#965E5D5D"
-        android:textColor="@color/colorWhite"
-        android:textSize="17sp"
-        android:typeface="monospace"
-        android:visibility="invisible"
-        android:text="@string/recipe_button1_name"
-        />
 
 
 </RelativeLayout>

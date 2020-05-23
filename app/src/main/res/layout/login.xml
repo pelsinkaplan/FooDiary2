@@ -31,7 +31,7 @@
         android:src="@drawable/logo" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/emailLog"
         android:layout_width="334dp"
         android:layout_height="45dp"
         android:layout_below="@+id/editProfile"
@@ -46,7 +46,7 @@
         android:typeface="monospace" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/passwordLog"
         android:layout_width="334dp"
         android:layout_height="45dp"
         android:layout_below="@+id/logo"
@@ -64,7 +64,7 @@
         android:id="@+id/login"
         android:layout_width="126dp"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/password"
+        android:layout_alignTop="@+id/passwordLog"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
         android:background="@android:color/holo_green_dark"
@@ -74,7 +74,7 @@
         android:typeface="monospace" />
 
     <TextView
-        android:id="@+id/register"
+        android:id="@+id/registerLog"
         android:layout_width="68dp"
         android:layout_height="33dp"
         android:layout_alignTop="@+id/login"

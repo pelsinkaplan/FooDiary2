@@ -7,9 +7,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Recipe.RecipeMain"></activity>
         <activity android:name=".Panel.LoginPanel">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +20,30 @@
         </activity>
         <activity
             android:name=".Panel.RegisterPanel"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Panel.EditProfilePanel"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Panel.HomePanel"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Panel.IngredientPanel"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Panel.RecipeCategoryPanel"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Panel.SecondRecipeCategoryPanel"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Panel.RecipeMainPanel"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Panel.RecipePanel"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Panel.StockPanel"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Panel.ProfilePanel"

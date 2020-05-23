@@ -1,13 +1,10 @@
 package com.example.foodiary.Panel;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.foodiary.Controller.MainManager;
 import com.example.foodiary.R;
@@ -23,19 +20,16 @@ public class RegisterPanel extends MainManager {
     private String surname;
     private String email;
     private String password;
-    private AppCompatActivity act;
-    SharedPreferences pref;
-    SharedPreferences.Editor editor;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register);
-        registerButton = (Button) findViewById(R.id.register);
+        registerButton = (Button) findViewById(R.id.registerReg);
         backButton = (Button) findViewById(R.id.back);
-        emailEdit = (EditText) findViewById(R.id.email);
-        passwordEdit = (EditText) findViewById(R.id.password);
-        nameEdit = (EditText) findViewById(R.id.name);
-        surnameEdit = (EditText) findViewById(R.id.surname);
+        emailEdit = (EditText) findViewById(R.id.emailReg);
+        passwordEdit = (EditText) findViewById(R.id.passwordReg);
+        nameEdit = (EditText) findViewById(R.id.nameReg);
+        surnameEdit = (EditText) findViewById(R.id.surnameReg);
 
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,7 +73,9 @@ public class RegisterPanel extends MainManager {
                 }
                 //if there is no error then go back login page
                 if (counter == 4) {
+                    //check db and if there is no user like that then add it to db
                     changeActivity(MainManager.getInstance().openLoginPanel());
+                    //if there is user like that stay register page
                 }
 
 

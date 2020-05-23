@@ -1,55 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="360dp"
-    android:layout_height="660dp"
-    android:background="@drawable/bg6">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    tools:context=".Panel.LoginPanel">
 
     <Button
-        android:layout_width="50dp"
-        android:layout_height="30dp"
-        android:layout_marginLeft="15dp"
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/back"
-        />
+        android:background="@drawable/back" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/home" />
 
     <TextView
         android:id="@+id/recipe_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
         android:text="Güllaç"
-        android:textSize="27dp"
         android:textColor="#FFFF"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="10dp"/>
+        android:textSize="28dp"
+        android:typeface="monospace" />
+
 
     <TextView
         android:id="@+id/ingredients"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/recipe_name"
+        android:layout_alignStart="@+id/make"
         android:layout_marginTop="30dp"
         android:text="Malzemeler :"
-        android:textSize="18dp"
         android:textColor="#FFFF"
-        android:layout_marginLeft="15dp"/>
-
+        android:textSize="18dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ingredients"
-        android:layout_marginTop="10dp"
+        android:layout_alignTop="@+id/ingredients"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="34dp"
         android:text="10 yaprak güllaç"
-        android:textSize="15dp"
         android:textColor="#FFFF"
-        android:layout_marginLeft="15dp"/>
+        android:textSize="15dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ingredients"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:text="1,5 litre süt"
         android:textSize="15dp"
@@ -60,6 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ingredients"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:text="2 su bardağı şeker"
         android:textSize="15dp"
@@ -70,6 +86,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ingredients"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
         android:text="Çekilmiş ceviz"
         android:textSize="15dp"
@@ -80,6 +97,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ingredients"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="90dp"
         android:text="2 yemek kaşığı gül suyu (isteğe göre)"
         android:textSize="15dp"
@@ -92,6 +110,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/recipe_name"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="190dp"
         android:text="Yapılışı :"
         android:textSize="18dp"
@@ -103,6 +122,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/make"
         android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
         android:text="Süt, şeker tencereye alarak ısıtın, şekerler tamamen erisin.Süt oda sıcaklığında ılınmaya bırakılır.Süt kaynar olursa tatlınız hamur olur o nedenle el yakmayacak şekilde olmalı sonra tatlıyı tepsiye döşüyoruz.
 Güllaç yaprağının parlak kısmı üste gelecek şekilde derince bir tepsiye koyuyoruz.Üzerine her yanı ıslanacak şekilde bir iki kepçe süt döküyoruz.
 Beş güllaç yaprağı için aynı işlemi tekrarlayalım ve 5. katı da ıslattıktan sonra bu kata ceviz serpelim ve üzerine diğer güllaç yapraklarını aynı şekilde ıslatarak serelim.

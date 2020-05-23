@@ -13,10 +13,10 @@
         android:background="@drawable/back" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/emailReg"
         android:layout_width="287dp"
         android:layout_height="40dp"
-        android:layout_alignTop="@+id/surname"
+        android:layout_alignTop="@+id/surnameReg"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="55dp"
         android:background="@android:drawable/gallery_thumb"
@@ -28,10 +28,10 @@
         android:typeface="monospace" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/passwordReg"
         android:layout_width="287dp"
         android:layout_height="40dp"
-        android:layout_alignTop="@+id/email"
+        android:layout_alignTop="@+id/emailReg"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="55dp"
         android:background="@android:drawable/gallery_thumb"
@@ -67,7 +67,7 @@
         android:background="@drawable/logo" />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/nameReg"
         android:layout_width="287dp"
         android:layout_height="40dp"
         android:layout_below="@+id/logo"
@@ -81,11 +81,11 @@
         android:typeface="monospace" />
 
     <EditText
-        android:id="@+id/surname"
+        android:id="@+id/surnameReg"
         android:layout_width="287dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
-        android:layout_alignTop="@id/name"
+        android:layout_alignTop="@id/nameReg"
         android:layout_marginTop="55dp"
         android:background="@android:drawable/gallery_thumb"
         android:hint=" Soyad"
@@ -96,15 +96,16 @@
         android:typeface="monospace" />
 
     <Button
-        android:id="@+id/register"
+        android:id="@+id/registerReg"
         android:layout_width="76dp"
         android:layout_height="28dp"
-        android:layout_alignTop="@+id/password"
+        android:layout_alignTop="@+id/passwordReg"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="62dp"
         android:background="@android:color/holo_green_dark"
         android:text="@string/register"
-        android:textColor="@android:color/background_light" />
+        android:textColor="@android:color/background_light"
+        android:typeface="monospace" />
 
 
 </RelativeLayout>

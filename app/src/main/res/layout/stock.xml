@@ -1,16 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="360dp"
-    android:layout_height="660dp"
-    android:background="@drawable/bg6">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    tools:context=".Panel.LoginPanel">
 
     <Button
-        android:layout_width="50dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/menu"
-        />
+        android:id="@+id/menu"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menu" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/home" />
     <TextView
         android:id="@+id/stock"
         android:layout_width="wrap_content"
@@ -18,8 +31,9 @@
         android:text="STOĞUM"
         android:textSize="28dp"
         android:textColor="#FFFF"
-        android:layout_marginTop="10dp"
-        android:layout_centerHorizontal="true"/>
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:typeface="monospace" />
 
 
     <ImageButton
@@ -27,15 +41,15 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_below="@+id/stock"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="50dp"
-        android:layout_marginLeft="30dp"
-        android:background="@drawable/veg3"
-        />
+        android:background="@drawable/veg3" />
 
     <Button
         android:layout_below="@+id/veg1"
         android:layout_alignStart="@+id/veg1"
-        android:id="@+id/button1"
+        android:id="@+id/veg2"
         android:layout_width="90dp"
         android:layout_height="30dp"
         android:background="#965E5D5D"
@@ -47,23 +61,22 @@
         android:typeface="monospace" />
 
     <ImageButton
-        android:id="@+id/fruit"
+        android:id="@+id/fruit1"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_alignStart="@+id/veg1"
         android:layout_below="@+id/stock"
-        android:layout_marginLeft="110dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:background="@drawable/fruit3"/>
 
     <Button
-        android:layout_below="@+id/fruit"
-        android:layout_alignStart="@+id/fruit"
+        android:id="@+id/fruit2"
+        android:layout_below="@+id/fruit1"
+        android:layout_alignStart="@+id/fruit1"
         android:layout_width="90dp"
         android:layout_height="30dp"
         android:background="#965E5D5D"
-        android:drawableLeft="@drawable/arrow1_foreground"
-        android:drawableRight="@drawable/arrow2_foreground"
+        android:layout_centerHorizontal="true"
         android:text="Meyveler"
         android:textColor="#FFFF"
         android:textSize="10dp"
@@ -75,13 +88,14 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_below="@+id/stock"
-        android:layout_alignStart="@+id/fruit"
-        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="true"
         android:layout_marginLeft="110dp"
-        android:background="@drawable/beef"
-        />
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/beef" />
 
     <Button
+        android:id="@+id/beef2"
         android:layout_below="@+id/beef1"
         android:layout_alignStart="@+id/beef1"
         android:layout_width="90dp"
@@ -95,19 +109,19 @@
         android:typeface="monospace" />
 
 
-
-
     <ImageButton
         android:id="@+id/legume1"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_alignStart="@+id/veg1"
         android:layout_below="@+id/veg1"
-
-        android:layout_marginTop="40dp"
-        android:background="@drawable/legume"/>
+        android:layout_alignStart="@+id/veg1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/legume" />
 
     <Button
+        android:id="@+id/legume2"
         android:layout_below="@+id/legume1"
         android:layout_alignStart="@+id/legume1"
         android:layout_width="90dp"
@@ -124,20 +138,19 @@
         android:id="@+id/milk1"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_alignStart="@+id/veg1"
         android:layout_below="@+id/veg1"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:background="@drawable/milk1"/>
 
     <Button
+        android:id="@+id/milk2"
         android:layout_below="@+id/milk1"
         android:layout_alignStart="@+id/milk1"
         android:layout_width="90dp"
         android:layout_height="30dp"
         android:background="#965E5D5D"
-        android:drawableLeft="@drawable/arrow1_foreground"
-        android:drawableRight="@drawable/arrow2_foreground"
+        android:layout_centerHorizontal="true"
         android:text="Süt Ürünleri"
         android:textColor="#FFFF"
         android:textSize="10dp"
@@ -147,13 +160,15 @@
         android:id="@+id/oil1"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_alignStart="@+id/milk1"
         android:layout_below="@+id/beef1"
+        android:layout_alignParentEnd="true"
         android:layout_marginLeft="110dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/oil"/>
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/oil" />
 
     <Button
+        android:id="@+id/oil2"
         android:layout_below="@+id/oil1"
         android:layout_alignStart="@+id/oil1"
         android:layout_width="90dp"
@@ -170,12 +185,14 @@
         android:id="@+id/breakfast1"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_alignStart="@+id/legume1"
         android:layout_below="@+id/legume1"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/breakfast"/>
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/breakfast" />
 
     <Button
+        android:id="@+id/breakfast2"
         android:layout_below="@+id/breakfast1"
         android:layout_alignStart="@+id/breakfast1"
         android:layout_width="90dp"
@@ -192,37 +209,39 @@
         android:id="@+id/flour1"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_alignStart="@+id/breakfast1"
-        android:layout_marginLeft="110dp"
+        android:layout_centerHorizontal="true"
         android:layout_below="@+id/legume1"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/flour"/>
 
     <Button
+        android:id="@+id/flour2"
         android:layout_below="@+id/flour1"
         android:layout_alignStart="@+id/flour1"
         android:layout_width="90dp"
         android:layout_height="30dp"
         android:background="#965E5D5D"
-        android:drawableLeft="@drawable/arrow1_foreground"
-        android:drawableRight="@drawable/arrow2_foreground"
+        android:layout_centerHorizontal="true"
         android:text="Unlu Mamüller"
         android:textColor="#FFFF"
         android:textSize="10dp"
         android:typeface="monospace" />
+
     <ImageButton
-        android:id="@+id/other"
+        android:id="@+id/other1"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:layout_alignStart="@+id/flour1"
-        android:layout_marginLeft="110dp"
         android:layout_below="@+id/legume1"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/other3"/>
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/other3" />
 
     <Button
+        android:id="@+id/other2"
         android:layout_below="@+id/flour1"
-        android:layout_alignStart="@+id/other"
+        android:layout_alignStart="@+id/other1"
         android:layout_width="90dp"
         android:layout_height="30dp"
         android:background="#965E5D5D"

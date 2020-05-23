@@ -1,0 +1,402 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    tools:context=".Panel.LoginPanel">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/home" />
+
+    <TextView
+        android:id="@+id/ingredientType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="SÜT ÜRÜNLERİ"
+        android:textColor="#FFFF"
+        android:textSize="28dp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/food1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="72dp"
+        android:text="Ürün"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="350dp"
+        android:layout_height="3dp"
+        android:layout_below="@+id/food1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/button_onoff_indicator_off" />
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="380dp"
+        android:layout_alignTop="@+id/line"
+        android:layout_alignBottom="@+id/amount"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="50dp">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ingredient1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Süt"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/amount1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="110dp"
+                android:text="1 lt"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/expiredate1"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="20dp"
+                android:text="01.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/ingredient2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Yoğurt"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/amount2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/amount1"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="50dp"
+                android:text="1 lt"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/expiredate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate1"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="50dp"
+                android:text="05.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/ingredient3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:text="Peynir"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/amount3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/amount2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="80dp"
+                android:text="150 gr"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="80dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="110dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="140dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="170dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="200dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="230dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="260dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="290dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="320dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="350dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="380dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="410dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+            <TextView
+                android:id="@+id/expiredate15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/expiredate2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="440dp"
+                android:text="18.07.2020"
+                android:textColor="#FFFF"
+                android:textSize="15dp"
+                android:typeface="monospace" />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="Miktar"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="40dp"
+        android:text="SKT"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/ingredient"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/ingredientType"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="490dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:hint="Ürün"
+        android:textAlignment="viewStart"
+        android:textSize="10dp"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/ingredientType"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="14dp"
+        android:layout_toStartOf="@+id/expiredate"
+        android:layout_toEndOf="@+id/ingredient"
+        android:background="@android:drawable/gallery_thumb"
+        android:hint="Miktar"
+        android:textAlignment="viewStart"
+        android:textSize="15dp"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/expiredate"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/ingredientType"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="60dp"
+        android:background="@android:drawable/gallery_thumb"
+        android:hint="SKT"
+        android:textAlignment="viewStart"
+        android:textSize="10dp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="80dp"
+        android:layout_toStartOf="@+id/amount"
+        android:background="@android:drawable/ic_menu_delete" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="500dp"
+        android:layout_toEndOf="@+id/amount"
+        android:background="@android:drawable/ic_menu_add" />
+
+
+</RelativeLayout>
