@@ -28,8 +28,8 @@
 
     <Button
         android:id="@+id/home"
-        android:layout_width="40dp"
-        android:layout_height="24dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="20dp"
@@ -42,8 +42,8 @@
         android:layout_height="140dp"
         android:layout_alignTop="@id/back"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="80dp"
         android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/ppicon" />
 
     <TextView
@@ -52,9 +52,9 @@
         android:layout_height="30dp"
         android:layout_below="@+id/imagePro"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="5dp"
         android:background="@android:drawable/divider_horizontal_dark"
-        android:text="@string/email1"
+        android:text="email@email.com"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         android:typeface="monospace" />
@@ -67,17 +67,16 @@
         android:layout_alignTop="@id/imagePro"
         android:layout_marginStart="160dp"
         android:layout_marginTop="25dp"
-        android:hint="@string/name1"
+        android:hint="İsim"
         android:textAlignment="viewStart"
-        android:textColor="?android:attr/textColorSecondaryInverse"
-        android:textColorHint="@android:color/primary_text_dark"
+        android:textColor="@android:color/background_light"
         android:textSize="16sp"
         android:typeface="monospace" />
 
     <TextView
         android:id="@+id/notifications"
         android:layout_width="150dp"
-        android:layout_height="43dp"
+        android:layout_height="35dp"
         android:layout_alignStart="@id/emailPro"
         android:layout_alignTop="@id/emailPro"
         android:layout_marginStart="0dp"
@@ -89,76 +88,22 @@
         android:textSize="16sp"
         android:typeface="monospace" />
 
-    <TextView
-        android:id="@+id/notification1"
-        android:layout_width="310dp"
-        android:layout_height="29dp"
-        android:layout_alignStart="@id/notificationButton1"
-        android:layout_alignTop="@id/notifications"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="35dp"
-        android:hint="Süt - skt yaklaşıyor!"
-        android:textColor="?android:attr/textColorSecondaryInverse"
-        android:textColorHint="@android:color/primary_text_dark"
-        android:textSize="16sp"
-        android:typeface="monospace" />
+    <ScrollView
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/notifications"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="50dp">
 
-    <Button
-        android:id="@+id/notificationButton1"
-        android:layout_width="29dp"
-        android:layout_height="29dp"
-        android:layout_alignStart="@id/emailPro"
-        android:layout_alignTop="@+id/notifications"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="33dp"
-        android:background="@android:drawable/presence_busy" />
+        <LinearLayout
+            android:id="@+id/notification_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/notification2"
-        android:layout_width="310dp"
-        android:layout_height="29dp"
-        android:layout_alignStart="@id/notificationButton2"
-        android:layout_alignTop="@id/notification1"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="32dp"
-        android:hint="Yoğurt - skt geçti!"
-        android:textColor="?android:attr/textColorSecondaryInverse"
-        android:textColorHint="@android:color/primary_text_dark"
-        android:textSize="16sp"
-        android:typeface="monospace" />
+        </LinearLayout>
+    </ScrollView>
 
-    <Button
-        android:id="@+id/save"
-        android:layout_width="29dp"
-        android:layout_height="29dp"
-        android:layout_below="@+id/notificationButton1"
-        android:layout_alignStart="@id/emailPro"
-        android:layout_marginTop="33dp"
-        android:background="@android:drawable/presence_busy" />
-
-    <TextView
-        android:id="@+id/notification3"
-        android:layout_width="310dp"
-        android:layout_height="29dp"
-        android:layout_alignStart="@id/save"
-        android:layout_alignTop="@id/notification2"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="32dp"
-        android:hint="Domates - kontrol edin!"
-        android:textColor="?android:attr/textColorSecondaryInverse"
-        android:textColorHint="@android:color/primary_text_dark"
-        android:textSize="16sp"
-        android:typeface="monospace" />
-
-    <Button
-        android:id="@+id/notificationButton2"
-        android:layout_width="29dp"
-        android:layout_height="29dp"
-        android:layout_alignStart="@id/emailPro"
-        android:layout_alignTop="@+id/notificationButton1"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="30dp"
-        android:background="@android:drawable/presence_busy" />
 
     <TextView
         android:id="@+id/surnamePro"
@@ -168,10 +113,9 @@
         android:layout_alignTop="@id/namePro"
         android:layout_marginStart="160dp"
         android:layout_marginTop="55dp"
-        android:hint="Çabuk"
+        android:hint="Soyad"
         android:textAlignment="viewStart"
-        android:textColor="?android:attr/textColorSecondaryInverse"
-        android:textColorHint="@android:color/primary_text_dark"
+        android:textColor="@android:color/background_light"
         android:textSize="16sp"
         android:typeface="monospace" />
 
@@ -183,7 +127,7 @@
         android:layout_alignBottom="@id/editProfile"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="63dp"
-        android:layout_marginBottom="-123dp"
+        android:layout_marginBottom="-93dp"
         android:background="@android:drawable/ic_menu_edit" />
 
 </RelativeLayout>

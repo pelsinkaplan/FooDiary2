@@ -8,57 +8,57 @@ import android.widget.Button;
 import com.example.foodiary.Controller.MainManager;
 import com.example.foodiary.R;
 
-public class SecondRecipeCategoryPanel extends MainManager {
-    private Button dessert1Button;
-    private Button dessert2Button;
-    private Button dessert3Button;
-    private Button dessert4Button;
-    private Button dessert5Button;
+public class RecipeSuggestionPanel extends MainManager {
+    private Button recipe1Button;
+    private Button recipe2Button;
+    private Button recipe3Button;
+    private Button recipe4Button;
+    private Button recipe5Button;
     private Button homeButton;
     private Button backButton;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.recipe_category_2);
+        setContentView(R.layout.recipe_suggestion);
 
-        dessert1Button = (Button) findViewById(R.id.firstrecipe);
-        dessert2Button = (Button) findViewById(R.id.secondrecipe);
-        dessert3Button = (Button) findViewById(R.id.thirdrecipe);
-        dessert4Button = (Button) findViewById(R.id.fourthrecipe);
-        dessert5Button = (Button) findViewById(R.id.fifthrecipe);
+        recipe1Button = (Button) findViewById(R.id.firstrecipe);
+        recipe2Button = (Button) findViewById(R.id.secondrecipe);
+        recipe3Button = (Button) findViewById(R.id.thirdrecipe);
+        recipe4Button = (Button) findViewById(R.id.fourthrecipe);
+        recipe5Button = (Button) findViewById(R.id.fifthrecipe);
         homeButton = (Button) findViewById(R.id.home);
         backButton = (Button) findViewById(R.id.back);
 
 
-        dessert1Button.setOnClickListener(new View.OnClickListener() {
+        recipe1Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 changeActivity(MainManager.getInstance().openRecipePanel());
             }
         });
 
-        dessert2Button.setOnClickListener(new View.OnClickListener() {
+        recipe2Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 changeActivity(MainManager.getInstance().openRecipePanel());
             }
         });
 
-        dessert3Button.setOnClickListener(new View.OnClickListener() {
+        recipe3Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 changeActivity(MainManager.getInstance().openRecipePanel());
             }
         });
 
-        dessert4Button.setOnClickListener(new View.OnClickListener() {
+        recipe4Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 changeActivity(MainManager.getInstance().openRecipePanel());
             }
         });
 
-        dessert5Button.setOnClickListener(new View.OnClickListener() {
+        recipe5Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 changeActivity(MainManager.getInstance().openRecipePanel());
@@ -74,7 +74,7 @@ public class SecondRecipeCategoryPanel extends MainManager {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
+                changeActivity(MainManager.getInstance().openHomePanel());
             }
         });
 

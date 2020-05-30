@@ -31,19 +31,10 @@
             android:name=".Panel.IngredientPanel"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".Panel.RecipeCategoryPanel"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity
-            android:name=".Panel.SecondRecipeCategoryPanel"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity
-            android:name=".Panel.RecipeMainPanel"
+            android:name=".Panel.RecipeSuggestionPanel"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Panel.RecipePanel"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity
-            android:name=".Panel.StockPanel"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Panel.ProfilePanel"

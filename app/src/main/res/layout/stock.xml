@@ -6,249 +6,179 @@
     tools:context=".Panel.LoginPanel">
 
     <Button
-        android:id="@+id/menu"
+        android:id="@+id/back"
         android:layout_width="40dp"
         android:layout_height="24dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/menu" />
+        android:background="@drawable/back" />
 
     <Button
         android:id="@+id/home"
-        android:layout_width="40dp"
-        android:layout_height="24dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
         android:background="@drawable/home" />
+
     <TextView
-        android:id="@+id/stock"
+        android:id="@+id/ingredientType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="STOĞUM"
-        android:textSize="28dp"
-        android:textColor="#FFFF"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:layout_centerHorizontal="true"
+        android:text="STOK"
+        android:textColor="#FFFF"
+        android:textSize="28dp"
         android:typeface="monospace" />
 
-
-    <ImageButton
-        android:id="@+id/veg1"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_below="@+id/stock"
+    <TextView
+        android:id="@+id/food1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/veg3" />
-
-    <Button
-        android:layout_below="@+id/veg1"
-        android:layout_alignStart="@+id/veg1"
-        android:id="@+id/veg2"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:background="#965E5D5D"
-        android:drawableLeft="@drawable/arrow1_foreground"
-        android:drawableRight="@drawable/arrow2_foreground"
-        android:text="Sebzeler"
+        android:layout_marginTop="72dp"
+        android:text="Ürün"
         android:textColor="#FFFF"
-        android:textSize="10dp"
+        android:textSize="20dp"
         android:typeface="monospace" />
 
-    <ImageButton
-        android:id="@+id/fruit1"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_below="@+id/stock"
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="350dp"
+        android:layout_height="3dp"
+        android:layout_below="@+id/food1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/fruit3"/>
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/button_onoff_indicator_off" />
 
-    <Button
-        android:id="@+id/fruit2"
-        android:layout_below="@+id/fruit1"
-        android:layout_alignStart="@+id/fruit1"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:background="#965E5D5D"
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_alignTop="@+id/line"
+        android:layout_marginStart="10dp">
+
+        <LinearLayout
+            android:id="@+id/ingredient_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ingredient_add"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/scrollView"
+        android:layout_marginTop="400dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ingredient_add_name"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/ingredient"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:drawable/gallery_thumb"
+                android:hint="Ürün"
+                android:textAlignment="viewStart"
+                android:textSize="8dp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ingredient_add_amount"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:drawable/gallery_thumb"
+                android:hint="Miktar"
+                android:textAlignment="viewStart"
+                android:textSize="8dp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ingredient_add_expiredate"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/expiredate"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:drawable/gallery_thumb"
+                android:hint="SKT"
+                android:textAlignment="viewStart"
+                android:textSize="8dp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ingredient_add_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/add" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Meyveler"
+        android:layout_marginTop="72dp"
+        android:text="Miktar"
         android:textColor="#FFFF"
-        android:textSize="10dp"
+        android:textSize="20dp"
         android:typeface="monospace" />
 
-
-    <ImageButton
-        android:id="@+id/beef1"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_below="@+id/stock"
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="40dp"
-        android:background="@drawable/beef" />
-
-    <Button
-        android:id="@+id/beef2"
-        android:layout_below="@+id/beef1"
-        android:layout_alignStart="@+id/beef1"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:background="#965E5D5D"
-        android:drawableLeft="@drawable/arrow1_foreground"
-        android:drawableRight="@drawable/arrow2_foreground"
-        android:text="Et Ürünleri"
+        android:text="SKT"
         android:textColor="#FFFF"
-        android:textSize="10dp"
+        android:textSize="20dp"
         android:typeface="monospace" />
 
 
-    <ImageButton
-        android:id="@+id/legume1"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_below="@+id/veg1"
-        android:layout_alignStart="@+id/veg1"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/legume" />
-
-    <Button
-        android:id="@+id/legume2"
-        android:layout_below="@+id/legume1"
-        android:layout_alignStart="@+id/legume1"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:background="#965E5D5D"
-        android:drawableLeft="@drawable/arrow1_foreground"
-        android:drawableRight="@drawable/arrow2_foreground"
-        android:text="Bakliyat"
-        android:textColor="#FFFF"
-        android:textSize="10dp"
-        android:typeface="monospace" />
-
-    <ImageButton
-        android:id="@+id/milk1"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_below="@+id/veg1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/milk1"/>
-
-    <Button
-        android:id="@+id/milk2"
-        android:layout_below="@+id/milk1"
-        android:layout_alignStart="@+id/milk1"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:background="#965E5D5D"
-        android:layout_centerHorizontal="true"
-        android:text="Süt Ürünleri"
-        android:textColor="#FFFF"
-        android:textSize="10dp"
-        android:typeface="monospace" />
-
-    <ImageButton
-        android:id="@+id/oil1"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_below="@+id/beef1"
-        android:layout_alignParentEnd="true"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="40dp"
-        android:background="@drawable/oil" />
-
-    <Button
-        android:id="@+id/oil2"
-        android:layout_below="@+id/oil1"
-        android:layout_alignStart="@+id/oil1"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:background="#965E5D5D"
-        android:drawableLeft="@drawable/arrow1_foreground"
-        android:drawableRight="@drawable/arrow2_foreground"
-        android:text="Yağlar"
-        android:textColor="#FFFF"
-        android:textSize="10dp"
-        android:typeface="monospace" />
-
-    <ImageButton
-        android:id="@+id/breakfast1"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_below="@+id/legume1"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/breakfast" />
-
-    <Button
-        android:id="@+id/breakfast2"
-        android:layout_below="@+id/breakfast1"
-        android:layout_alignStart="@+id/breakfast1"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:background="#965E5D5D"
-        android:drawableLeft="@drawable/arrow1_foreground"
-        android:drawableRight="@drawable/arrow2_foreground"
-        android:text="Kahvaltı Ürünleri"
-        android:textColor="#FFFF"
-        android:textSize="10dp"
-        android:typeface="monospace" />
-
-    <ImageButton
-        android:id="@+id/flour1"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/legume1"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/flour"/>
-
-    <Button
-        android:id="@+id/flour2"
-        android:layout_below="@+id/flour1"
-        android:layout_alignStart="@+id/flour1"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:background="#965E5D5D"
-        android:layout_centerHorizontal="true"
-        android:text="Unlu Mamüller"
-        android:textColor="#FFFF"
-        android:textSize="10dp"
-        android:typeface="monospace" />
-
-    <ImageButton
-        android:id="@+id/other1"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_below="@+id/legume1"
-        android:layout_alignParentEnd="true"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="40dp"
-        android:background="@drawable/other3" />
-
-    <Button
-        android:id="@+id/other2"
-        android:layout_below="@+id/flour1"
-        android:layout_alignStart="@+id/other1"
-        android:layout_width="90dp"
-        android:layout_height="30dp"
-        android:background="#965E5D5D"
-        android:drawableLeft="@drawable/arrow1_foreground"
-        android:drawableRight="@drawable/arrow2_foreground"
-        android:text="Diğer"
-        android:textColor="#FFFF"
-        android:textSize="10dp"
-        android:typeface="monospace" />
 </RelativeLayout>

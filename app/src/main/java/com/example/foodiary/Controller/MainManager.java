@@ -9,12 +9,12 @@ import com.example.foodiary.Panel.HomePanel;
 import com.example.foodiary.Panel.IngredientPanel;
 import com.example.foodiary.Panel.LoginPanel;
 import com.example.foodiary.Panel.ProfilePanel;
-import com.example.foodiary.Panel.RecipeCategoryPanel;
-import com.example.foodiary.Panel.RecipeMainPanel;
 import com.example.foodiary.Panel.RecipePanel;
 import com.example.foodiary.Panel.RegisterPanel;
-import com.example.foodiary.Panel.SecondRecipeCategoryPanel;
-import com.example.foodiary.Panel.StockPanel;
+import com.example.foodiary.Panel.RecipeSuggestionPanel;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainManager extends AppCompatActivity {
     private final static MainManager instance = new MainManager();
@@ -23,15 +23,6 @@ public class MainManager extends AppCompatActivity {
     private String currentUserSurname = "Cabuk";
     private String currentUserEmail = "";
     private String currentUserPassword = "123456";
-    private String IngredientCategory = "";
-
-    public String getIngredientCategory() {
-        return IngredientCategory;
-    }
-
-    public void setStockCategory(String IngredientCategory) {
-        this.IngredientCategory = IngredientCategory;
-    }
 
     public String getCurrentUserName() {
         return currentUserName;
@@ -39,6 +30,7 @@ public class MainManager extends AppCompatActivity {
 
     public void setCurrentUserName(String currentUserName) {
         this.currentUserName = currentUserName;
+        //database den de değiştir
     }
 
     public String getCurrentUserSurname() {
@@ -47,6 +39,7 @@ public class MainManager extends AppCompatActivity {
 
     public void setCurrentUserSurname(String currentUserSurname) {
         this.currentUserSurname = currentUserSurname;
+        //database den de değiştir
     }
 
 
@@ -64,6 +57,7 @@ public class MainManager extends AppCompatActivity {
 
     public void setCurrentUserPassword(String currentUserPassword) {
         this.currentUserPassword = currentUserPassword;
+        //database den de değiştir
     }
 
 
@@ -99,26 +93,41 @@ public class MainManager extends AppCompatActivity {
         return IngredientPanel.class;
     }
 
-    public Class openRecipeCategoryPanel() {
-        return RecipeCategoryPanel.class;
-    }
-
     public Class openSecondRecipeCategoryPanel() {
-        return SecondRecipeCategoryPanel.class;
-    }
-
-    public Class openRecipeMainPanel() {
-        return RecipeMainPanel.class;
+        return RecipeSuggestionPanel.class;
     }
 
     public Class openRecipePanel() {
         return RecipePanel.class;
     }
 
-    public Class openStockPanel() {
-        return StockPanel.class;
+
+    public String controlNameIngredient(String name) {
+        if (name.length() == 0) {
+            return "Lütfen ürünün adını girin!";
+        }
+        for (int i = 0; i < name.length(); i++) {
+            if ((int) (name.toUpperCase().charAt(i)) > 90 || (int) (name.toUpperCase().charAt(i)) < 65) {
+                return "Ürün adı sadece alfabetik karakterlerden oluşabilir!";
+            }
+        }
+        return "";
     }
 
+    public String controlExpireDateIngredient(String name) {
+        if (!((int) (name.charAt(0)) > 47 || (int) (name.charAt(0)) < 58 || (int) (name.charAt(1)) > 47 ||
+                (int) (name.charAt(1)) < 58 || (int) (name.charAt(3)) > 47 || (int) (name.charAt(3)) < 58 ||
+                (int) (name.charAt(4)) > 47 || (int) (name.charAt(4)) < 58 || (int) (name.charAt(6)) > 47 ||
+                (int) (name.charAt(6)) < 58 || (int) (name.charAt(7)) > 47 || (int) (name.charAt(7)) < 58 ||
+                (int) (name.charAt(8)) > 47 || (int) (name.charAt(8)) < 58 || (int) (name.charAt(9)) > 47 ||
+                (int) (name.charAt(9)) < 58))
+            return "Ürün son kullanma tarihi sadece sayısal karakterlerden oluşabilir!";
+        if (((int) (name.charAt(2)) != 46 || (int) (name.charAt(5)) != 46))
+            return "Lütfen tarihi 11.11.1111 formatına uygun giriniz!";
+        if (name.length() > 10)
+            return "Lütfen tarihi 11.11.1111 formatına uygun giriniz!";
+        return "";
+    }
 
     public String controlNameRegister(String name) {
         if (name.length() == 0) {
@@ -145,7 +154,7 @@ public class MainManager extends AppCompatActivity {
         }
         for (int i = 0; i < surname.length(); i++) {
             if ((int) (surname.toUpperCase().charAt(i)) > 90 || (int) (surname.toUpperCase().charAt(i)) < 65) {
-                return "İsim sadece alfabetik karakterlerden oluşabilir!";
+                return "Soyad sadece alfabetik karakterlerden oluşabilir!";
             }
         }
         return "";

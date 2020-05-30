@@ -17,8 +17,8 @@
 
     <Button
         android:id="@+id/home"
-        android:layout_width="40dp"
-        android:layout_height="24dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="20dp"
@@ -32,7 +32,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:text="Güllaç"
+        android:text="Tarif"
         android:textColor="#FFFF"
         android:textSize="28dp"
         android:typeface="monospace" />
@@ -50,68 +50,24 @@
         android:textSize="18dp" />
 
     <TextView
+        android:id="@+id/ingredient"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/ingredients"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="34dp"
-        android:text="10 yaprak güllaç"
+        android:text=" - "
         android:textColor="#FFFF"
         android:textSize="15dp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ingredients"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="1,5 litre süt"
-        android:textSize="15dp"
-        android:textColor="#FFFF"
-        android:layout_marginLeft="15dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ingredients"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:text="2 su bardağı şeker"
-        android:textSize="15dp"
-        android:textColor="#FFFF"
-        android:layout_marginLeft="15dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ingredients"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
-        android:text="Çekilmiş ceviz"
-        android:textSize="15dp"
-        android:textColor="#FFFF"
-        android:layout_marginLeft="15dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/ingredients"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="90dp"
-        android:text="2 yemek kaşığı gül suyu (isteğe göre)"
-        android:textSize="15dp"
-        android:textColor="#FFFF"
-        android:layout_marginLeft="15dp"/>
-
 
     <TextView
         android:id="@+id/make"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/recipe_name"
+        android:layout_below="@+id/ingredient"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="50dp"
         android:text="Yapılışı :"
         android:textSize="18dp"
         android:textColor="#FFFF"
@@ -121,17 +77,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/make"
-        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
-        android:text="Süt, şeker tencereye alarak ısıtın, şekerler tamamen erisin.Süt oda sıcaklığında ılınmaya bırakılır.Süt kaynar olursa tatlınız hamur olur o nedenle el yakmayacak şekilde olmalı sonra tatlıyı tepsiye döşüyoruz.
-Güllaç yaprağının parlak kısmı üste gelecek şekilde derince bir tepsiye koyuyoruz.Üzerine her yanı ıslanacak şekilde bir iki kepçe süt döküyoruz.
-Beş güllaç yaprağı için aynı işlemi tekrarlayalım ve 5. katı da ıslattıktan sonra bu kata ceviz serpelim ve üzerine diğer güllaç yapraklarını aynı şekilde ıslatarak serelim.
-Kalan şekerli sütten bir su bardağı kadar alalım.İçerisine 2 yemek kaşığı gül suyu ekleyip tatlının üzerine gezdirelim.Tatlıyı buz dolabında muhafaza edinizin.
-En az 2-3 saat dinlendirdikten sonra üzerini isteğe göre süsleyerek servis edebilirsiniz."
-        android:textSize="12dp"
-        android:textColor="#FFFF"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text=" - "
+        android:textColor="#FFFF"
+        android:textSize="12dp" />
 
 
 

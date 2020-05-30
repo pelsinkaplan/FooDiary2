@@ -71,7 +71,7 @@ public class HomePanel extends MainManager {
         menuButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openStockPanel());
+                changeActivity(MainManager.getInstance().openIngredientPanel());
             }
         });
 
