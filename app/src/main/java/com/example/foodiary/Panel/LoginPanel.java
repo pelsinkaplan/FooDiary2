@@ -44,12 +44,12 @@ public class LoginPanel extends MainManager {
             public void onClick(View v) {
                 email = emailEdit.getText().toString();
                 password = passwordEdit.getText().toString();
-                MainManager.getInstance().setCurrentUserEmail(email);
 
                 int counter = 0;
                 //email check if there is an error then print error message
                 if (MainManager.getInstance().controlEmailRegister(email).length() == 0) {
                     //check db else print error
+
                     counter++;
                 } else {
                     emailEdit.setError(MainManager.getInstance().controlEmailRegister(email));
@@ -57,13 +57,18 @@ public class LoginPanel extends MainManager {
                 //password check if there is an error then print error message
                 if (MainManager.getInstance().controlPasswordRegister(password).length() == 0) {
                     //check db else print error
+
                     counter++;
+
                 } else {
                     passwordEdit.setError(MainManager.getInstance().controlPasswordRegister(password));
                 }
                 //if there is no error then open home page
-                if (counter == 2)
+                if (counter == 2) {
+                    MainManager.getInstance().setCurrentUserEmail(email);
+                    MainManager.getInstance().setCurrentUserPassword(password);
                     changeActivity(MainManager.getInstance().openHomePanel());
+                }
             }
         });
 

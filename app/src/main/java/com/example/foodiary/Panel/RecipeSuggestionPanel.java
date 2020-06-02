@@ -1,69 +1,91 @@
 package com.example.foodiary.Panel;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TableRow;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.foodiary.Controller.MainManager;
 import com.example.foodiary.R;
 
 public class RecipeSuggestionPanel extends MainManager {
-    private Button recipe1Button;
-    private Button recipe2Button;
-    private Button recipe3Button;
-    private Button recipe4Button;
-    private Button recipe5Button;
+    private TextView category;
     private Button homeButton;
     private Button backButton;
+    private LinearLayout RecipeList;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recipe_suggestion);
 
-        recipe1Button = (Button) findViewById(R.id.firstrecipe);
-        recipe2Button = (Button) findViewById(R.id.secondrecipe);
-        recipe3Button = (Button) findViewById(R.id.thirdrecipe);
-        recipe4Button = (Button) findViewById(R.id.fourthrecipe);
-        recipe5Button = (Button) findViewById(R.id.fifthrecipe);
+        category = (TextView) findViewById(R.id.category);
         homeButton = (Button) findViewById(R.id.home);
         backButton = (Button) findViewById(R.id.back);
 
+        RecipeList = (LinearLayout) findViewById(R.id.ingredient_list);
+        final AppCompatActivity activity = this;
 
-        recipe1Button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openRecipePanel());
-            }
-        });
+        category.setText(MainManager.getInstance().getCurrentRecipeCategory());
 
-        recipe2Button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openRecipePanel());
-            }
-        });
 
-        recipe3Button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openRecipePanel());
-            }
-        });
+        for (int i = 0; i < MainManager.getInstance().getRecipeList().size(); i++) {
+            final LinearLayout layoutToAdd = new LinearLayout(activity);
+            layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
+            params.setMargins(0, 12, 0, 0);
+            layoutToAdd.setLayoutParams(params);
+            layoutToAdd.setWeightSum(2);
 
-        recipe4Button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openRecipePanel());
-            }
-        });
+            final ImageView recipeButton = new ImageView(activity);
+            recipeButton.setImageResource(R.drawable.arrow_white);
+            TableRow.LayoutParams imageProdParam = new TableRow.LayoutParams(40, 40);
+            imageProdParam.setMargins(0, 20, 10, 10);
+            recipeButton.setLayoutParams(imageProdParam);
+            layoutToAdd.addView(recipeButton);
 
-        recipe5Button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openRecipePanel());
-            }
-        });
+            TextView recipeName = new TextView(activity);
+            recipeName.setText(MainManager.getInstance().getRecipeList().get(i).get(0));
+            recipeName.setTextSize(15);
+            recipeName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
+            recipeName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
+            recipeName.setWidth(200);
+            TableRow.LayoutParams paramName = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT,
+                    TableRow.LayoutParams.WRAP_CONTENT, 1f);
+            paramName.setMargins(0, 20, 0, 20);
+            recipeName.setLayoutParams(paramName);
+            recipeName.setTextColor(Color.parseColor("#FFFFFF"));
+            layoutToAdd.addView(recipeName);
+
+            recipeButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    //                  MainManager.getInstance().setCurrentRecipeName(recipeList.get(i).get(0));
+                    //seçilen tefin adını allll *************************************************************************************
+                    //seçilen tarifin idsini alll *********************************************************
+                    changeActivity(MainManager.getInstance().openRecipePanel());
+                }
+            });
+
+            recipeName.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    //                  MainManager.getInstance().setCurrentRecipeName(recipeList.get(i).get(0));
+                    //seçilen tefin adını allll *************************************************************************************
+                    //seçilen tarifin idsini alll *********************************************************
+                    changeActivity(MainManager.getInstance().openRecipePanel());
+                }
+            });
+
+            RecipeList.addView(layoutToAdd);
+        }
 
         homeButton.setOnClickListener(new View.OnClickListener() {
             @Override

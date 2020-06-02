@@ -6,7 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.foodiary.Panel.EditProfilePanel;
 import com.example.foodiary.Panel.HomePanel;
-import com.example.foodiary.Panel.IngredientPanel;
+import com.example.foodiary.Panel.RecipeCategoryPanel;
+import com.example.foodiary.Panel.StockPanel;
 import com.example.foodiary.Panel.LoginPanel;
 import com.example.foodiary.Panel.ProfilePanel;
 import com.example.foodiary.Panel.RecipePanel;
@@ -14,6 +15,8 @@ import com.example.foodiary.Panel.RegisterPanel;
 import com.example.foodiary.Panel.RecipeSuggestionPanel;
 
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.List;
 
 public class MainManager extends AppCompatActivity {
@@ -23,6 +26,83 @@ public class MainManager extends AppCompatActivity {
     private String currentUserSurname = "Cabuk";
     private String currentUserEmail = "";
     private String currentUserPassword = "123456";
+    private String currentRecipeCategory = "";
+    private String currentRecipeName = "";
+    private int currentCategoryID = 0;
+
+    //recipeList categorye göre çekilir
+    private List<List<String>> recipeList = new ArrayList<List<String>>();
+    //user ilk girişte userListten çekilir ve current bilgiler değiştirilir. Userın stoğu stockListe atılır
+    private List<List<String>> userList = new ArrayList<List<String>>();
+    private List<List<String>> stockList = new ArrayList<List<String>>();
+    private List<String> pastExpireDate = new ArrayList<String>();
+    private List<String> approachingExpirationDate = new ArrayList<String>();
+
+    public List<String> getPastExpireDate() {
+        return pastExpireDate;
+    }
+
+    public void setPastExpireDate() {
+        date();
+    }
+
+    public List<String> getApproachingExpirationDate() {
+        return approachingExpirationDate;
+    }
+
+    public void setApproachingExpirationDate() {
+        date();
+    }
+
+
+    public List<List<String>> getRecipeList() {
+        return recipeList;
+    }
+
+
+    public List<List<String>> getUserList() {
+        return userList;
+    }
+
+    public void setUserList(List<List<String>> userList) {
+        this.userList = userList;
+    }
+
+    public List<List<String>> getStockList() {
+        return stockList;
+    }
+
+    public void setStockList(String ingredientName, String ingredientAmount, String ingredientExpireDate) {
+        List<String> tempList = new ArrayList<String>();
+        tempList.add(ingredientName);
+        tempList.add(ingredientAmount);
+        tempList.add(ingredientExpireDate);
+        stockList.add(tempList);
+    }
+
+    public String getCurrentRecipeName() {
+        return currentRecipeName;
+    }
+
+    public void setCurrentRecipeName(String currentRecipeName) {
+        this.currentRecipeName = currentRecipeName;
+    }
+
+    public int getCurrentCategoryID() {
+        return currentCategoryID;
+    }
+
+    public void setCurrentCategoryID(int currentCategoryID) {
+        this.currentCategoryID = currentCategoryID;
+    }
+
+    public String getCurrentRecipeCategory() {
+        return currentRecipeCategory;
+    }
+
+    public void setCurrentRecipeCategory(String currentRecipeCategory) {
+        this.currentRecipeCategory = currentRecipeCategory;
+    }
 
     public String getCurrentUserName() {
         return currentUserName;
@@ -30,7 +110,6 @@ public class MainManager extends AppCompatActivity {
 
     public void setCurrentUserName(String currentUserName) {
         this.currentUserName = currentUserName;
-        //database den de değiştir
     }
 
     public String getCurrentUserSurname() {
@@ -39,7 +118,6 @@ public class MainManager extends AppCompatActivity {
 
     public void setCurrentUserSurname(String currentUserSurname) {
         this.currentUserSurname = currentUserSurname;
-        //database den de değiştir
     }
 
 
@@ -90,15 +168,19 @@ public class MainManager extends AppCompatActivity {
     }
 
     public Class openIngredientPanel() {
-        return IngredientPanel.class;
+        return StockPanel.class;
     }
 
-    public Class openSecondRecipeCategoryPanel() {
+    public Class openRecipeSuggestionPage() {
         return RecipeSuggestionPanel.class;
     }
 
     public Class openRecipePanel() {
         return RecipePanel.class;
+    }
+
+    public Class openRecipeCaregoryPanel() {
+        return RecipeCategoryPanel.class;
     }
 
 
@@ -196,5 +278,26 @@ public class MainManager extends AppCompatActivity {
             return "Lütfen en az 6 karakterden oluşan bir şifre girin!";
         }
         return "";
+    }
+
+
+    public void date() {
+        for (int i = 0; i < stockList.size(); i++) {
+            Date expireDate = new GregorianCalendar(2020, Integer.parseInt(stockList.get(i).get(2).substring(3, 5)),
+                    Integer.parseInt(stockList.get(i).get(2).substring(0, 2)), 00, 00).getTime();
+            Date nowaDay = new Date();
+
+            long day = expireDate.getTime() - nowaDay.getTime();//iki tarih arasındaki fark
+
+            long remainderDay = day / (1000 * 60 * 60 * 24);
+
+            if (day < 0) {
+                pastExpireDate.add(stockList.get(i).get(0));
+            }
+
+            if (remainderDay > 0 && remainderDay < 5) {
+                approachingExpirationDate.add(stockList.get(i).get(0));
+            }
+        }
     }
 }

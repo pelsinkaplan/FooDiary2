@@ -4,11 +4,11 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:hardwareAccelerated="false"
         android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name=".Panel.LoginPanel">
@@ -21,23 +21,30 @@
         <activity
             android:name=".Panel.RegisterPanel"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity
-            android:name=".Panel.EditProfilePanel"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
         <activity
             android:name=".Panel.HomePanel"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+
         <activity
-            android:name=".Panel.IngredientPanel"
+            android:name=".Panel.StockPanel"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name=".Panel.ProfilePanel"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Panel.EditProfilePanel"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name=".Panel.RecipeCategoryPanel"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Panel.RecipeSuggestionPanel"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".Panel.RecipePanel"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity
-            android:name=".Panel.ProfilePanel"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 

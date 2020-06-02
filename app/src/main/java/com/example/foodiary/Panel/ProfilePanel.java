@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.MultiAutoCompleteTextView;
 import android.widget.TableRow;
 import android.widget.TextView;
 
@@ -15,10 +16,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.foodiary.Controller.MainManager;
 import com.example.foodiary.R;
 
-import org.w3c.dom.Text;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class ProfilePanel extends MainManager {
     private Button editButton;
@@ -29,8 +26,6 @@ public class ProfilePanel extends MainManager {
     private TextView surname;
     private TextView email;
     LinearLayout notificationList;
-    private List<String> pastExpireDate = new ArrayList<String>();
-    private List<String> approachingExpirationDate = new ArrayList<String>();
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,13 +44,9 @@ public class ProfilePanel extends MainManager {
 
         notificationList = (LinearLayout) findViewById(R.id.notification_list);
         final AppCompatActivity activity = this;
+        MainManager.getInstance().date();
 
-        pastExpireDate.add("Peynir");
-        pastExpireDate.add("Krema");
-        approachingExpirationDate.add("Şeker");
-        approachingExpirationDate.add("Helva");
-
-        for (int i = 0; i < pastExpireDate.size(); i++) {
+        for (int i = 0; i < MainManager.getInstance().getPastExpireDate().size(); i++) {
             final LinearLayout layoutToAdd = new LinearLayout(activity);
             layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
@@ -71,7 +62,7 @@ public class ProfilePanel extends MainManager {
             layoutToAdd.addView(deleteButton);
 
             TextView ingredientName = new TextView(activity);
-            ingredientName.setText(pastExpireDate.get(i) + " - skt geçti!");
+            ingredientName.setText(MainManager.getInstance().getPastExpireDate().get(i) + " - skt geçti!");
             ingredientName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
             ingredientName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
             ingredientName.setWidth(400);
@@ -96,7 +87,7 @@ public class ProfilePanel extends MainManager {
         }
 
 
-        for (int i = 0; i < approachingExpirationDate.size(); i++) {
+        for (int i = 0; i < MainManager.getInstance().getApproachingExpirationDate().size(); i++) {
             final LinearLayout layoutToAdd = new LinearLayout(activity);
             layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
@@ -112,7 +103,7 @@ public class ProfilePanel extends MainManager {
             layoutToAdd.addView(deleteButton);
 
             TextView ingredientName = new TextView(activity);
-            ingredientName.setText(approachingExpirationDate.get(i) + " - skt yaklaştı!");
+            ingredientName.setText(MainManager.getInstance().getApproachingExpirationDate().get(i) + " - skt yaklaştı!");
             ingredientName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
             ingredientName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
             ingredientName.setWidth(400);

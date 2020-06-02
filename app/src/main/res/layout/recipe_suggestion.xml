@@ -39,7 +39,7 @@
         android:background="@drawable/home" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/category"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView"
@@ -52,70 +52,22 @@
         android:textStyle="bold"
         android:typeface="monospace" />
 
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_alignTop="@+id/category"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp">
 
-    <Button
-        android:id="@+id/firstrecipe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView2"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="35dp"
-        android:background="@android:color/transparent"
-        android:drawableLeft="@drawable/arrow_white"
-        android:text=" - "
-        android:textColor="@android:color/white"
-        android:typeface="monospace" />
+        <LinearLayout
+            android:id="@+id/ingredient_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/secondrecipe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="48dp"
-        android:background="@android:color/transparent"
-        android:drawableLeft="@drawable/arrow_white"
-        android:text=" - "
-        android:textColor="@android:color/white"
-        android:typeface="monospace" />
+        </LinearLayout>
 
-    <Button
-        android:id="@+id/thirdrecipe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/secondrecipe"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="40dp"
-        android:background="@android:color/transparent"
-        android:drawableLeft="@drawable/arrow_white"
-        android:text=" - "
-        android:textColor="@android:color/white"
-        android:typeface="monospace" />
-
-    <Button
-        android:id="@+id/fourthrecipe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/secondrecipe"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="32dp"
-        android:background="@android:color/transparent"
-        android:drawableLeft="@drawable/arrow_white"
-        android:text=" - "
-        android:textColor="@android:color/white"
-        android:typeface="monospace" />
-
-    <Button
-        android:id="@+id/fifthrecipe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/fourthrecipe"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="40dp"
-        android:background="@android:color/transparent"
-        android:drawableLeft="@drawable/arrow_white"
-        android:text=" - "
-        android:textColor="@android:color/white"
-        android:typeface="monospace" />
+    </ScrollView>
 
 </RelativeLayout>

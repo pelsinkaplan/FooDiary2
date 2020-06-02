@@ -49,14 +49,14 @@ public class EditProfilePanel extends MainManager {
                 //name check if there is an error then print error message
                 if (MainManager.getInstance().controlNameRegister(name).length() == 0) {
                     counter++;
-                    MainManager.getInstance().setCurrentUserName(name);
+
                 } else {
                     nameEdit.setError(MainManager.getInstance().controlNameRegister(name));
                 }
                 //surname check if there is an error then print error message
                 if (MainManager.getInstance().controlSurnameRegister(surname).length() == 0) {
                     counter++;
-                    MainManager.getInstance().setCurrentUserSurname(surname);
+
                 } else {
                     surnameEdit.setError(MainManager.getInstance().controlSurnameRegister(surname));
                 }
@@ -72,13 +72,16 @@ public class EditProfilePanel extends MainManager {
                 //password check if there is an error then print error message
                 if (MainManager.getInstance().controlPasswordRegister(newPassword).length() == 0) {
                     counter++;
-                    MainManager.getInstance().setCurrentUserPassword(newPassword);
+
                 } else {
                     newPasswordEdit.setError(MainManager.getInstance().controlPasswordRegister(newPassword));
                 }
                 //if there is no error then go back login page
                 if (counter == 4) {
                     //tüm şartlar sağlandıysa db de değişiklik yapılır
+                    MainManager.getInstance().setCurrentUserName(name);
+                    MainManager.getInstance().setCurrentUserSurname(surname);
+                    MainManager.getInstance().setCurrentUserPassword(newPassword);
                     changeActivity(MainManager.getInstance().openProfilePanel());
                 }
             }

@@ -19,7 +19,7 @@ import com.example.foodiary.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IngredientPanel extends MainManager {
+public class StockPanel extends MainManager {
     private Button addButton;
     private Button homeButton;
     private Button backButton;
@@ -30,7 +30,6 @@ public class IngredientPanel extends MainManager {
     private String amount;
     private String expireDate;
     private LinearLayout IngredientList;
-    private List<List<String>> stockListColumn = new ArrayList<List<String>>();
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,17 +43,11 @@ public class IngredientPanel extends MainManager {
 
         homeButton = (Button) findViewById(R.id.home);
         backButton = (Button) findViewById(R.id.back);
-        ArrayList<String> tempList =  new ArrayList<String>();
-//        tempList.add("ingredient");
-//        tempList.add("amount");
-//        tempList.add("expireDate");
-//        stockListColumn.add(tempList);
-
 
         IngredientList = (LinearLayout) findViewById(R.id.ingredient_list);
         final AppCompatActivity activity = this;
 
-        for (int i = 0; i < stockListColumn.size(); i++) {
+        for (int i = 0; i < MainManager.getInstance().getStockList().size(); i++) {
             final LinearLayout layoutToAdd = new LinearLayout(activity);
             layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
@@ -70,7 +63,7 @@ public class IngredientPanel extends MainManager {
             layoutToAdd.addView(deleteButton);
 
             TextView ingredientName = new TextView(activity);
-            ingredientName.setText(stockListColumn.get(i).get(0));
+            ingredientName.setText(MainManager.getInstance().getStockList().get(i).get(0));
             ingredientName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
             ingredientName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
             ingredientName.setWidth(200);
@@ -81,7 +74,7 @@ public class IngredientPanel extends MainManager {
             layoutToAdd.addView(ingredientName);
 
             TextView ingredientAmount = new TextView(activity);
-            ingredientAmount.setText(stockListColumn.get(i).get(1));
+            ingredientAmount.setText(MainManager.getInstance().getStockList().get(i).get(1));
             TableRow.LayoutParams paramPrice = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f);
             ingredientAmount.setWidth(100);
             paramPrice.setMargins(0, 20, 0, 20);
@@ -91,7 +84,7 @@ public class IngredientPanel extends MainManager {
             layoutToAdd.addView(ingredientAmount);
 
             TextView ingredientExpireDate = new TextView(activity);
-            ingredientExpireDate.setText(stockListColumn.get(i).get(2));
+            ingredientExpireDate.setText(MainManager.getInstance().getStockList().get(i).get(2));
             TableRow.LayoutParams paramNote = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f);
             ingredientExpireDate.setWidth(200);
             paramNote.setMargins(0, 20, 0, 20);
@@ -104,9 +97,6 @@ public class IngredientPanel extends MainManager {
                 @Override
                 public void onClick(View v) {
                     int counter = 0;
-                    //ingredient kontrol edilecek database de var mı diye (mainmanagerda metod)
-                    //amount kontrol edilecek o kadar ürün var mı diye
-                    //en son hepsi girilince database den silinecek
                     IngredientList.removeView(layoutToAdd);
                 }
             });
@@ -123,20 +113,19 @@ public class IngredientPanel extends MainManager {
                 expireDate = expireDateEdit.getText().toString();
                 int counter = 0;
                 if (MainManager.getInstance().controlNameIngredient(ingredient).length() == 0) {
-                    //check db else print error
+
                     counter++;
                 } else {
                     ingredientEdit.setError(MainManager.getInstance().controlNameIngredient(ingredient));
                 }
                 //expire date  check if there is an error then print error message
                 if (MainManager.getInstance().controlExpireDateIngredient(expireDate).length() == 0) {
-                    //check db else print error
                     counter++;
                 } else {
                     expireDateEdit.setError(MainManager.getInstance().controlExpireDateIngredient(expireDate));
                 }
                 if (counter == 2) {
-
+                    MainManager.getInstance().setStockList(ingredient, amount, expireDate);
                     final LinearLayout layoutToAdd = new LinearLayout(activity);
                     layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
                     LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
@@ -185,9 +174,7 @@ public class IngredientPanel extends MainManager {
                         @Override
                         public void onClick(View v) {
                             int counter = 0;
-                            //ingredient kontrol edilecek database de var mı diye (mainmanagerda metod)
-                            //amount kontrol edilecek o kadar ürün var mı diye
-                            //en son hepsi girilince database den silinecek
+                           //arrayden silme işlemini yapppppppp ***********************************************************
                             IngredientList.removeView(layoutToAdd);
                         }
 
