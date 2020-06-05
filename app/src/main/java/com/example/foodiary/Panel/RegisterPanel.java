@@ -9,6 +9,9 @@ import android.widget.EditText;
 import com.example.foodiary.Controller.MainManager;
 import com.example.foodiary.R;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class RegisterPanel extends MainManager {
     private Button registerButton;
     private EditText emailEdit;
@@ -73,8 +76,23 @@ public class RegisterPanel extends MainManager {
                 }
                 //if there is no error then go back login page
                 if (counter == 4) {
-                    //check db and if there is no user like that then add it to db
-                    changeActivity(MainManager.getInstance().openLoginPanel());
+                    int user = 0;
+                    for (int i = 0; i < MainManager.getInstance().getUserList().size(); i++) {
+                        if (email.equals(MainManager.getInstance().getUserList().get(i).get(2))) {
+                            emailEdit.setError("Bu eposta adresi daha önce kullanılmış!");
+                            user = 1;
+                        }
+                    }
+                    if (user == 0) {
+                        List<String> tempList = new ArrayList<String>();
+                        tempList.add(name);
+                        tempList.add(surname);
+                        tempList.add(email);
+                        tempList.add(password);
+                        MainManager.getInstance().setUserList(tempList);
+                        changeActivity(MainManager.getInstance().openLoginPanel());
+                    }
+
                     //if there is user like that stay register page
                 }
 

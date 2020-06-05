@@ -47,6 +47,8 @@ public class StockPanel extends MainManager {
         IngredientList = (LinearLayout) findViewById(R.id.ingredient_list);
         final AppCompatActivity activity = this;
 
+
+
         for (int i = 0; i < MainManager.getInstance().getStockList().size(); i++) {
             final LinearLayout layoutToAdd = new LinearLayout(activity);
             layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
@@ -174,7 +176,7 @@ public class StockPanel extends MainManager {
                         @Override
                         public void onClick(View v) {
                             int counter = 0;
-                           //arrayden silme işlemini yapppppppp ***********************************************************
+                            //arrayden silme işlemini yapppppppp ***********************************************************
                             IngredientList.removeView(layoutToAdd);
                         }
 

@@ -50,7 +50,7 @@ public class RecipeCategoryPanel extends MainManager {
             public void onClick(View v) {
                 MainManager.getInstance().setCurrentCategoryID(0);
                 MainManager.getInstance().setCurrentRecipeCategory("Çorbalar");
-                changeActivity(MainManager.getInstance().openRecipeSuggestionPage());
+                changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
         soupButton2.setOnClickListener(new View.OnClickListener() {
@@ -58,7 +58,7 @@ public class RecipeCategoryPanel extends MainManager {
             public void onClick(View v) {
                 MainManager.getInstance().setCurrentCategoryID(0);
                 MainManager.getInstance().setCurrentRecipeCategory("Çorbalar");
-                changeActivity(MainManager.getInstance().openRecipeSuggestionPage());
+                changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
         mainCourseButton1.setOnClickListener(new View.OnClickListener() {
@@ -66,7 +66,7 @@ public class RecipeCategoryPanel extends MainManager {
             public void onClick(View v) {
                 MainManager.getInstance().setCurrentCategoryID(1);
                 MainManager.getInstance().setCurrentRecipeCategory("Ana Yemekler");
-                changeActivity(MainManager.getInstance().openRecipeSuggestionPage());
+                changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
         mainCourseButton2.setOnClickListener(new View.OnClickListener() {
@@ -74,7 +74,7 @@ public class RecipeCategoryPanel extends MainManager {
             public void onClick(View v) {
                 MainManager.getInstance().setCurrentCategoryID(1);
                 MainManager.getInstance().setCurrentRecipeCategory("Ana Yemekler");
-                changeActivity(MainManager.getInstance().openRecipeSuggestionPage());
+                changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
         ricepastaButton1.setOnClickListener(new View.OnClickListener() {
@@ -82,7 +82,7 @@ public class RecipeCategoryPanel extends MainManager {
             public void onClick(View v) {
                 MainManager.getInstance().setCurrentCategoryID(2);
                 MainManager.getInstance().setCurrentRecipeCategory("Pilavlar / Makarnalar");
-                changeActivity(MainManager.getInstance().openRecipeSuggestionPage());
+                changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
         ricepastaButton2.setOnClickListener(new View.OnClickListener() {
@@ -90,7 +90,7 @@ public class RecipeCategoryPanel extends MainManager {
             public void onClick(View v) {
                 MainManager.getInstance().setCurrentCategoryID(2);
                 MainManager.getInstance().setCurrentRecipeCategory("Pilavlar / Makarnalar");
-                changeActivity(MainManager.getInstance().openRecipeSuggestionPage());
+                changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
         saladButton1.setOnClickListener(new View.OnClickListener() {
@@ -98,7 +98,7 @@ public class RecipeCategoryPanel extends MainManager {
             public void onClick(View v) {
                 MainManager.getInstance().setCurrentCategoryID(3);
                 MainManager.getInstance().setCurrentRecipeCategory("Salatalar");
-                changeActivity(MainManager.getInstance().openRecipeSuggestionPage());
+                changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
         saladButton2.setOnClickListener(new View.OnClickListener() {
@@ -106,7 +106,7 @@ public class RecipeCategoryPanel extends MainManager {
             public void onClick(View v) {
                 MainManager.getInstance().setCurrentCategoryID(3);
                 MainManager.getInstance().setCurrentRecipeCategory("Salatalar");
-                changeActivity(MainManager.getInstance().openRecipeSuggestionPage());
+                changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
 
@@ -116,7 +116,7 @@ public class RecipeCategoryPanel extends MainManager {
             public void onClick(View v) {
                 MainManager.getInstance().setCurrentCategoryID(4);
                 MainManager.getInstance().setCurrentRecipeCategory("Tatlılar");
-                changeActivity(MainManager.getInstance().openRecipeSuggestionPage());
+                changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
         dessertButton2.setOnClickListener(new View.OnClickListener() {
@@ -124,7 +124,7 @@ public class RecipeCategoryPanel extends MainManager {
             public void onClick(View v) {
                 MainManager.getInstance().setCurrentCategoryID(4);
                 MainManager.getInstance().setCurrentRecipeCategory("Tatlılar");
-                changeActivity(MainManager.getInstance().openRecipeSuggestionPage());
+                changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
         pastryButton1.setOnClickListener(new View.OnClickListener() {
@@ -132,7 +132,7 @@ public class RecipeCategoryPanel extends MainManager {
             public void onClick(View v) {
                 MainManager.getInstance().setCurrentCategoryID(5);
                 MainManager.getInstance().setCurrentRecipeCategory("Hamurişi");
-                changeActivity(MainManager.getInstance().openRecipeSuggestionPage());
+                changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
         pastryButton2.setOnClickListener(new View.OnClickListener() {
@@ -140,7 +140,7 @@ public class RecipeCategoryPanel extends MainManager {
             public void onClick(View v) {
                 MainManager.getInstance().setCurrentCategoryID(6);
                 MainManager.getInstance().setCurrentRecipeCategory("Hamurişi");
-                changeActivity(MainManager.getInstance().openRecipeSuggestionPage());
+                changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
         homeButton.setOnClickListener(new View.OnClickListener() {

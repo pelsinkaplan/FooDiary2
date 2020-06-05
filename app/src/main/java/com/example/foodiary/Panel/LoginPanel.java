@@ -32,6 +32,8 @@ public class LoginPanel extends MainManager {
         emailEdit = (EditText) findViewById(R.id.emailLog);
         passwordEdit = (EditText) findViewById(R.id.passwordLog);
 
+        MainManager.getInstance().users();
+
 
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,27 +48,36 @@ public class LoginPanel extends MainManager {
                 password = passwordEdit.getText().toString();
 
                 int counter = 0;
+                int id = 0;
                 //email check if there is an error then print error message
                 if (MainManager.getInstance().controlEmailRegister(email).length() == 0) {
-                    //check db else print error
-
-                    counter++;
+                    for (int i = 0; i < MainManager.getInstance().getUserList().size(); i++) {
+                        if (MainManager.getInstance().getUserList().get(i).contains(email)) {
+                            id = i;
+                            counter++;
+                        }
+                    }
+                    if (counter == 0)
+                        emailEdit.setError("Sistemimize kayıtlı böyle bir eposta adresi bulunmamaktadır!");
                 } else {
                     emailEdit.setError(MainManager.getInstance().controlEmailRegister(email));
                 }
                 //password check if there is an error then print error message
                 if (MainManager.getInstance().controlPasswordRegister(password).length() == 0) {
-                    //check db else print error
-
-                    counter++;
-
+                    if (!password.equals(MainManager.getInstance().getUserList().get(id).get(3)))
+                        passwordEdit.setError("Şifrenizi yanlış girdiniz!");
+                    else
+                        counter++;
                 } else {
                     passwordEdit.setError(MainManager.getInstance().controlPasswordRegister(password));
                 }
                 //if there is no error then open home page
                 if (counter == 2) {
-                    MainManager.getInstance().setCurrentUserEmail(email);
-                    MainManager.getInstance().setCurrentUserPassword(password);
+                    MainManager.getInstance().setCurrentUserEmail(MainManager.getInstance().getUserList().get(id).get(2));
+                    MainManager.getInstance().setCurrentUserPassword(MainManager.getInstance().getUserList().get(id).get(3));
+                    MainManager.getInstance().setCurrentUserName(MainManager.getInstance().getUserList().get(id).get(0));
+                    MainManager.getInstance().setCurrentUserSurname(MainManager.getInstance().getUserList().get(id).get(1));
+                    MainManager.getInstance().setCurrentUserID(id);
                     changeActivity(MainManager.getInstance().openHomePanel());
                 }
             }

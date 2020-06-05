@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/menu"
+            android:title="Menü" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Ana Sayfa" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profil" />
+
+        <item
+            android:id="@+id/nav_stock"
+            android:icon="@drawable/stock"
+            android:title="Stok" />
+
+        <item
+            android:id="@+id/nav_recipe"
+            android:icon="@drawable/recipe"
+            android:title="Tarif" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/back"
+            android:title="Geri" />
+    </group>
+
+</menu>
