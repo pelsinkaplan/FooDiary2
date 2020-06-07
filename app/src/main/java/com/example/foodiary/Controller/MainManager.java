@@ -1,9 +1,6 @@
 package com.example.foodiary.Controller;
 
 import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.foodiary.Panel.EditProfilePanel;
 import com.example.foodiary.Panel.HomePanel;
 import com.example.foodiary.Panel.RecipeCategoryPanel;
@@ -13,6 +10,9 @@ import com.example.foodiary.Panel.ProfilePanel;
 import com.example.foodiary.Panel.RecipePanel;
 import com.example.foodiary.Panel.RegisterPanel;
 import com.example.foodiary.Panel.RecipeSuggestionPanel;
+import androidx.appcompat.app.AppCompatActivity;
+
+
 
 import java.util.ArrayList;
 import java.util.Date;
