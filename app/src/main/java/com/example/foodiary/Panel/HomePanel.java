@@ -17,7 +17,7 @@ import com.example.foodiary.Controller.MainManager;
 import com.example.foodiary.R;
 import com.google.android.material.navigation.NavigationView;
 
-public class HomePanel extends MainManager  {
+public class HomePanel extends MainManager implements NavigationView.OnNavigationItemSelectedListener {
     private TextView soupButton;
     private TextView mainFoodButton;
     private TextView legumesButton;
@@ -36,30 +36,24 @@ public class HomePanel extends MainManager  {
         searchButton = (Button) findViewById(R.id.search);
         searchEdit = (EditText) findViewById(R.id.searchBar);
 
-//        if (MainManager.getInstance().getCurrentUserID() == 0) {
-//            MainManager.getInstance().stockFirstUser();
-//        }
-
-        //bu kısımda db den random çekilen tariflerin adı alınarak gerekli yerlere konulacak
-
         soupButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openProfilePanel());
+                changeActivity(MainManager.getInstance().openRecipePanel());
             }
         });
 
         mainFoodButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openRecipeCaregoryPanel());
+                changeActivity(MainManager.getInstance().openRecipePanel());
             }
         });
 
         legumesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openIngredientPanel());
+                changeActivity(MainManager.getInstance().openRecipePanel());
             }
         });
 
@@ -90,18 +84,17 @@ public class HomePanel extends MainManager  {
         toggle.setDrawerIndicatorEnabled(true);
         toggle.syncState();
         navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
     }
 
-    //menü için kullanılacak sonradan
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch(menuItem.getItemId()) {
             case R.id.nav_home:
+                changeActivity(MainManager.getInstance().openHomePanel());
                 break;
             case R.id.nav_profile:
                 changeActivity(MainManager.getInstance().openProfilePanel());
-                break;
-            case R.id.nav_menu:
                 break;
             case R.id.nav_stock:
                 changeActivity(MainManager.getInstance().openIngredientPanel());

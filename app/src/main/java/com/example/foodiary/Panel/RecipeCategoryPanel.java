@@ -2,14 +2,21 @@ package com.example.foodiary.Panel;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.widget.Toolbar;
+import androidx.drawerlayout.widget.DrawerLayout;
+
 import com.example.foodiary.Controller.MainManager;
 import com.example.foodiary.R;
+import com.google.android.material.navigation.NavigationView;
 
-public class RecipeCategoryPanel extends MainManager {
+public class RecipeCategoryPanel extends MainManager implements NavigationView.OnNavigationItemSelectedListener {
     private ImageButton soupButton1;
     private ImageButton ricepastaButton1;
     private ImageButton dessertButton1;
@@ -22,12 +29,11 @@ public class RecipeCategoryPanel extends MainManager {
     private Button saladButton2;
     private Button mainCourseButton2;
     private Button pastryButton2;
-    private Button homeButton;
-    private Button menuButton;
+    NavigationView navigationView;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.recipe_category);
+        setContentView(R.layout.recipe_category_top);
         soupButton1 = (ImageButton) findViewById(R.id.soups1);
         ricepastaButton1 = (ImageButton) findViewById(R.id.ricepasta1);
         dessertButton1 = (ImageButton) findViewById(R.id.dessert1);
@@ -42,8 +48,6 @@ public class RecipeCategoryPanel extends MainManager {
         mainCourseButton2 = (Button) findViewById(R.id.maincourse2);
         pastryButton2 = (Button) findViewById(R.id.pastry2);
 
-        homeButton = (Button) findViewById(R.id.home);
-        menuButton = (Button) findViewById(R.id.menu);
 
         soupButton1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -143,22 +147,40 @@ public class RecipeCategoryPanel extends MainManager {
                 changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
-        homeButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openHomePanel());
-            }
-        });
-        menuButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
 
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.setDrawerIndicatorEnabled(true);
+        toggle.syncState();
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
     }
 
+    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+        switch(menuItem.getItemId()) {
+            case R.id.nav_home:
+                changeActivity(MainManager.getInstance().openHomePanel());
+                break;
+            case R.id.nav_profile:
+                changeActivity(MainManager.getInstance().openProfilePanel());
+                break;
+            case R.id.nav_stock:
+                changeActivity(MainManager.getInstance().openIngredientPanel());
+                break;
+            case R.id.nav_recipe:
+                changeActivity(MainManager.getInstance().openRecipeCaregoryPanel());
+                break;
+        }
+        return true;
+    }
     public void changeActivity(Class className) {
         startActivity(new Intent(this, className));
     }

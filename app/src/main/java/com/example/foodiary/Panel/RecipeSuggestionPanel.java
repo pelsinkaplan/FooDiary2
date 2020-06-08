@@ -29,7 +29,7 @@ public class RecipeSuggestionPanel extends MainManager {
         homeButton = (Button) findViewById(R.id.home);
         backButton = (Button) findViewById(R.id.back);
 
-        RecipeList = (LinearLayout) findViewById(R.id.ingredient_list);
+        RecipeList = (LinearLayout) findViewById(R.id.recipe_list_with_approach);
         final AppCompatActivity activity = this;
 
         category.setText(MainManager.getInstance().getCurrentRecipeCategory());
@@ -96,7 +96,7 @@ public class RecipeSuggestionPanel extends MainManager {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openHomePanel());
+                changeActivity(MainManager.getInstance().openRecipeCaregoryPanel());
             }
         });
 

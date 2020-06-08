@@ -3,6 +3,7 @@ package com.example.foodiary.Panel;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -11,13 +12,18 @@ import android.widget.MultiAutoCompleteTextView;
 import android.widget.TableRow;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.example.foodiary.Controller.MainManager;
 import com.example.foodiary.R;
+import com.google.android.material.navigation.NavigationView;
 
 
-public class ProfilePanel extends MainManager {
+public class ProfilePanel extends MainManager  implements NavigationView.OnNavigationItemSelectedListener {
     private Button editButton;
     private Button backButton;
     private Button homeButton;
@@ -25,12 +31,13 @@ public class ProfilePanel extends MainManager {
     private TextView name;
     private TextView surname;
     private TextView email;
+    NavigationView navigationView;
     LinearLayout notificationList;
 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.profile);
+        setContentView(R.layout.profile_top);
         editButton = (Button) findViewById(R.id.edit);
         backButton = (Button) findViewById(R.id.back);
         homeButton = (Button) findViewById(R.id.home);
@@ -75,10 +82,6 @@ public class ProfilePanel extends MainManager {
             deleteButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    int counter = 0;
-                    //ingredient kontrol edilecek database de var mı diye (mainmanagerda metod)
-                    //amount kontrol edilecek o kadar ürün var mı diye
-                    //en son hepsi girilince database den silinecek
                     notificationList.removeView(layoutToAdd);
                 }
             });
@@ -116,10 +119,6 @@ public class ProfilePanel extends MainManager {
             deleteButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    int counter = 0;
-                    //ingredient kontrol edilecek database de var mı diye (mainmanagerda metod)
-                    //amount kontrol edilecek o kadar ürün var mı diye
-                    //en son hepsi girilince database den silinecek
                     notificationList.removeView(layoutToAdd);
                 }
             });
@@ -127,19 +126,6 @@ public class ProfilePanel extends MainManager {
             notificationList.addView(layoutToAdd);
         }
 
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openHomePanel());
-            }
-        });
-
-        homeButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                changeActivity(MainManager.getInstance().openHomePanel());
-            }
-        });
 
         editButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -149,6 +135,37 @@ public class ProfilePanel extends MainManager {
         });
 
 
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.setDrawerIndicatorEnabled(true);
+        toggle.syncState();
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+    }
+
+    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+        switch(menuItem.getItemId()) {
+            case R.id.nav_home:
+                changeActivity(MainManager.getInstance().openHomePanel());
+                break;
+            case R.id.nav_profile:
+                changeActivity(MainManager.getInstance().openProfilePanel());
+                break;
+            case R.id.nav_stock:
+                changeActivity(MainManager.getInstance().openIngredientPanel());
+                break;
+            case R.id.nav_recipe:
+                changeActivity(MainManager.getInstance().openRecipeCaregoryPanel());
+                break;
+        }
+        return true;
     }
 
     public void changeActivity(Class className) {

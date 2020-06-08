@@ -3,6 +3,7 @@ package com.example.foodiary.Panel;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,15 +12,17 @@ import android.widget.LinearLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.example.foodiary.Controller.MainManager;
 import com.example.foodiary.R;
+import com.google.android.material.navigation.NavigationView;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class StockPanel extends MainManager {
+public class StockPanel extends MainManager implements NavigationView.OnNavigationItemSelectedListener {
     private Button addButton;
     private Button homeButton;
     private Button backButton;
@@ -30,10 +33,11 @@ public class StockPanel extends MainManager {
     private String amount;
     private String expireDate;
     private LinearLayout IngredientList;
+    NavigationView navigationView;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stock);
+        setContentView(R.layout.stock_top);
 
         addButton = (Button) findViewById(R.id.add);
 
@@ -44,7 +48,7 @@ public class StockPanel extends MainManager {
         homeButton = (Button) findViewById(R.id.home);
         backButton = (Button) findViewById(R.id.back);
 
-        IngredientList = (LinearLayout) findViewById(R.id.ingredient_list);
+        IngredientList = (LinearLayout) findViewById(R.id.recipe_list_with_approach);
         final AppCompatActivity activity = this;
 
 
@@ -190,22 +194,38 @@ public class StockPanel extends MainManager {
         });
 
 
-        homeButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.setDrawerIndicatorEnabled(true);
+        toggle.syncState();
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+    }
+
+    //menü için kullanılacak sonradan
+    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+        switch(menuItem.getItemId()) {
+            case R.id.nav_home:
                 changeActivity(MainManager.getInstance().openHomePanel());
-
-            }
-        });
-
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
-
-
+                break;
+            case R.id.nav_profile:
+                changeActivity(MainManager.getInstance().openProfilePanel());
+                break;
+            case R.id.nav_stock:
+                changeActivity(MainManager.getInstance().openIngredientPanel());
+                break;
+            case R.id.nav_recipe:
+                changeActivity(MainManager.getInstance().openRecipeCaregoryPanel());
+                break;
+        }
+        return true;
     }
 
     public void changeActivity(Class className) {

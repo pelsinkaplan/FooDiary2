@@ -6,7 +6,7 @@
     tools:context=".Panel.LoginPanel">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/category"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -39,12 +39,12 @@
         android:background="@drawable/home" />
 
     <TextView
-        android:id="@+id/category"
+        android:id="@+id/recipes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:gravity="center_vertical"
         android:text="TARİFLER"
         android:textColor="@android:color/white"
@@ -52,16 +52,81 @@
         android:textStyle="bold"
         android:typeface="monospace" />
 
+    <TextView
+        android:id="@+id/recipes_with_approach_expire_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/recipes"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:text="SKT'ye göre Tarfiler"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:id="@+id/line1"
+        android:layout_width="350dp"
+        android:layout_height="3dp"
+        android:layout_below="@+id/recipes_with_approach_expire_date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/button_onoff_indicator_off" />
+
+    <ImageView
+        android:id="@+id/line2"
+        android:layout_width="350dp"
+        android:layout_height="3dp"
+        android:layout_below="@+id/recipes_with_stock"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@android:drawable/button_onoff_indicator_off" />
+
+
+    <TextView
+        android:id="@+id/recipes_with_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="SKT'ye göre Tarfiler"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="380dp"
-        android:layout_height="380dp"
-        android:layout_alignTop="@+id/category"
+        android:layout_height="150dp"
+        android:layout_below="@+id/recipes_with_approach_expire_date"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="10dp">
 
         <LinearLayout
-            android:id="@+id/ingredient_list"
+            android:id="@+id/recipe_list_with_approach"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/recipes_with_stock"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/recipe_list_with_stock"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">

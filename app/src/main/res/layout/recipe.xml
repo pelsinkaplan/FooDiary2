@@ -49,41 +49,55 @@
         android:textColor="#FFFF"
         android:textSize="18dp" />
 
-    <TextView
-        android:id="@+id/ingredient"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/ingredients"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="34dp"
-        android:text=" - "
-        android:textColor="#FFFF"
-        android:textSize="15dp" />
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="380dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/ingredients"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:id="@+id/recipes_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
     <TextView
         android:id="@+id/make"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ingredient"
+        android:layout_below="@+id/scrollView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:text="Yapılışı :"
-        android:textSize="18dp"
-        android:textColor="#FFFF"
-        android:layout_marginLeft="15dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/make"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        android:text=" - "
+        android:text="Yapılışı :"
         android:textColor="#FFFF"
-        android:textSize="12dp" />
+        android:textSize="18dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/make"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/recipes_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
 
 
