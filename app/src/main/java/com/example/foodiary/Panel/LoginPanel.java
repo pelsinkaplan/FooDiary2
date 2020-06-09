@@ -13,6 +13,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.foodiary.Controller.MainManager;
 import com.example.foodiary.R;
 
+import org.json.simple.parser.ParseException;
+
+import java.io.IOException;
+
 public class LoginPanel extends MainManager {
     private Button loginButton;
     private TextView registerButton;
@@ -32,7 +36,13 @@ public class LoginPanel extends MainManager {
         emailEdit = (EditText) findViewById(R.id.emailLog);
         passwordEdit = (EditText) findViewById(R.id.passwordLog);
 
-        MainManager.getInstance().users();
+        try {
+            MainManager.getInstance().usersAndDatabase();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
 
 
         registerButton.setOnClickListener(new View.OnClickListener() {

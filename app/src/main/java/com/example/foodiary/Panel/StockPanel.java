@@ -54,63 +54,64 @@ public class StockPanel extends MainManager implements NavigationView.OnNavigati
         final AppCompatActivity activity = this;
 
 
-
-        for (int i = 0; i < MainManager.getInstance().getStockList().size(); i++) {
-            final LinearLayout layoutToAdd = new LinearLayout(activity);
-            layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
-            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
-            params.setMargins(0, 12, 0, 0);
-            layoutToAdd.setLayoutParams(params);
-            layoutToAdd.setWeightSum(2);
-
-            final ImageView deleteButton = new ImageView(activity);
-            deleteButton.setImageResource(R.drawable.remove);
-            TableRow.LayoutParams imageProdParam = new TableRow.LayoutParams(40, 40);
-            imageProdParam.setMargins(0, 20, 10, 10);
-            deleteButton.setLayoutParams(imageProdParam);
-            layoutToAdd.addView(deleteButton);
-
-            TextView ingredientName = new TextView(activity);
-            ingredientName.setText(MainManager.getInstance().getStockList().get(i).get(0));
-            ingredientName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
-            ingredientName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
-            ingredientName.setWidth(200);
-            TableRow.LayoutParams paramName = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f);
-            paramName.setMargins(0, 20, 0, 20);
-            ingredientName.setLayoutParams(paramName);
-            ingredientName.setTextColor(Color.parseColor("#FFFFFF"));
-            layoutToAdd.addView(ingredientName);
-
-            TextView ingredientAmount = new TextView(activity);
-            ingredientAmount.setText(MainManager.getInstance().getStockList().get(i).get(1));
-            TableRow.LayoutParams paramPrice = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f);
-            ingredientAmount.setWidth(100);
-            paramPrice.setMargins(0, 20, 0, 20);
-            ingredientAmount.setLayoutParams(paramPrice);
-            ingredientAmount.setTextColor(Color.parseColor("#FFFFFF"));
-            ingredientAmount.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
-            layoutToAdd.addView(ingredientAmount);
-
-            TextView ingredientExpireDate = new TextView(activity);
-            ingredientExpireDate.setText(MainManager.getInstance().getStockList().get(i).get(2));
-            TableRow.LayoutParams paramNote = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f);
-            ingredientExpireDate.setWidth(200);
-            paramNote.setMargins(0, 20, 0, 20);
-            ingredientExpireDate.setLayoutParams(paramNote);
-            ingredientExpireDate.setTextColor(Color.parseColor("#FFFFFF"));
-            ingredientExpireDate.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
-            layoutToAdd.addView(ingredientExpireDate);
-
-            deleteButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    int counter = 0;
-                    IngredientList.removeView(layoutToAdd);
-                }
-            });
-
-            IngredientList.addView(layoutToAdd);
-        }
+//
+//        for (int i = 0; i < MainManager.getInstance().getStockList().size(); i++) {
+//            final LinearLayout layoutToAdd = new LinearLayout(activity);
+//            layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
+//            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
+//            params.setMargins(0, 12, 0, 0);
+//            layoutToAdd.setLayoutParams(params);
+//            layoutToAdd.setWeightSum(2);
+//
+//            final ImageView deleteButton = new ImageView(activity);
+//            deleteButton.setImageResource(R.drawable.remove);
+//            TableRow.LayoutParams imageProdParam = new TableRow.LayoutParams(40, 40);
+//            imageProdParam.setMargins(0, 20, 10, 10);
+//            deleteButton.setLayoutParams(imageProdParam);
+//            layoutToAdd.addView(deleteButton);
+//
+//            TextView ingredientName = new TextView(activity);
+//            //burda currentUserdan obje üzerinden onun stoğuna gidilecek oradan stoktaki ürün alınacak
+//            ingredientName.setText(MainManager.getInstance().getStockList().get(i).get(0));
+//            ingredientName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
+//            ingredientName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
+//            ingredientName.setWidth(200);
+//            TableRow.LayoutParams paramName = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f);
+//            paramName.setMargins(0, 20, 0, 20);
+//            ingredientName.setLayoutParams(paramName);
+//            ingredientName.setTextColor(Color.parseColor("#FFFFFF"));
+//            layoutToAdd.addView(ingredientName);
+//
+//            TextView ingredientAmount = new TextView(activity);
+//            ingredientAmount.setText(MainManager.getInstance().getStockList().get(i).get(1));
+//            TableRow.LayoutParams paramPrice = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f);
+//            ingredientAmount.setWidth(100);
+//            paramPrice.setMargins(0, 20, 0, 20);
+//            ingredientAmount.setLayoutParams(paramPrice);
+//            ingredientAmount.setTextColor(Color.parseColor("#FFFFFF"));
+//            ingredientAmount.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
+//            layoutToAdd.addView(ingredientAmount);
+//
+//            TextView ingredientExpireDate = new TextView(activity);
+//            ingredientExpireDate.setText(MainManager.getInstance().getStockList().get(i).get(2));
+//            TableRow.LayoutParams paramNote = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f);
+//            ingredientExpireDate.setWidth(200);
+//            paramNote.setMargins(0, 20, 0, 20);
+//            ingredientExpireDate.setLayoutParams(paramNote);
+//            ingredientExpireDate.setTextColor(Color.parseColor("#FFFFFF"));
+//            ingredientExpireDate.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
+//            layoutToAdd.addView(ingredientExpireDate);
+//
+//            deleteButton.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    int counter = 0;
+//                    IngredientList.removeView(layoutToAdd);
+//                }
+//            });
+//
+//            IngredientList.addView(layoutToAdd);
+//        }
 
 
         addButton.setOnClickListener(new View.OnClickListener() {

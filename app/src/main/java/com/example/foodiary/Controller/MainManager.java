@@ -1,8 +1,8 @@
 package com.example.foodiary.Controller;
-
 import android.os.Bundle;
-
 import com.example.foodiary.DatabaseGetter.DatabaseGetter;
+import com.example.foodiary.DatabaseGetter.Main;
+import com.example.foodiary.DatabaseGetter.Recipe;
 import com.example.foodiary.DatabaseGetter.User;
 import com.example.foodiary.Panel.EditProfilePanel;
 import com.example.foodiary.Panel.HomePanel;
@@ -15,10 +15,14 @@ import com.example.foodiary.Panel.RegisterPanel;
 import com.example.foodiary.Panel.RecipeSuggestionPanel;
 import androidx.appcompat.app.AppCompatActivity;
 
+import org.json.simple.parser.ParseException;
+
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
+
 
 public class MainManager extends AppCompatActivity {
     DatabaseGetter db = new DatabaseGetter();
@@ -29,37 +33,38 @@ public class MainManager extends AppCompatActivity {
     private String currentUserSurname = "";
     private String currentUserEmail = "";
     private String currentUserPassword = "";
-    private int currentUserID = 0;
     private String currentRecipeCategory = "";
     private String currentRecipeName = "";
     private int currentCategoryID = 0;
+    private static int currentRecipeID;
     private static User currentUser;
+    private static ArrayList<String> categoryRecipeNames =new ArrayList<String>();//Category recipelarını gösterir
+    private static ArrayList<String> productNameOfCurrentRecipe = new ArrayList<>();//recipeların hangi üründe olduğu
+    private static ArrayList<Integer> recipeIndexInProduct = new ArrayList<Integer>();//recipeın hangi indexde odluğu
     //recipeList categorye göre çekilir
+
+    private static Recipe currentRecipe;
 
     //user ilk girişte userListten çekilir ve current bilgiler değiştirilir. Userın stoğu stockListe atılır
 
-    private List<User> userList = new ArrayList<User>();
-    private List<String> pastExpireDate = new ArrayList<String>();
-    private List<String> approachingExpirationDate = new ArrayList<String>();
-    private List<List<String>> stockList = new ArrayList<List<String>>();
+    private List<User> userList = new ArrayList<User>();//userlar burada hala
 
 
+    public void getRecipe(){ //kanki bu metod ile current recipeı oluşturmuş oluyoruz
+        currentRecipeID = 7;
+        Main.setInformations();
+        currentRecipe = db.getRecipe(productNameOfCurrentRecipe.get(currentRecipeID),recipeIndexInProduct.get(currentRecipeID));
+        Main.setRecipeInformations();
+    }
 
-    public void users() {
+    //Bu metodda da user ve database oluşturuluyor önce bu metod sonra get recipe çağrılmalı
+    public void usersAndDatabase() throws IOException, ParseException {
         db.createUsersandStock();
-        userList = db.returnUserList();
-        currentUser = userList.get(0);
+        userList = db.returnUserList();//burda userliste kullanıcıları atıyor
+        db.createDatabase();//database oluşturuyor recipelar için
+        currentUser = userList.get(0); //current usera temp değer verdim onu da loginde id den alıcaz
     }
 
-
-    public List<String> getPastExpireDate() {
-        return pastExpireDate;
-    }
-
-
-    public List<String> getApproachingExpirationDate() {
-        return approachingExpirationDate;
-    }
 
     public String getCurrentRecipeName() {
         return currentRecipeName;
@@ -278,13 +283,6 @@ public class MainManager extends AppCompatActivity {
         this.recipeList = recipeList;
     }
 
-    public List<List<String>> getStockList() {
-        return stockList;
-    }
-
-    public void setStockList(List<List<String>> stockList) {
-        this.stockList = stockList;
-    }
     public static User getCurrentUser() {
         return currentUser;
     }

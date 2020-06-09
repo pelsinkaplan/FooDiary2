@@ -53,78 +53,81 @@ public class ProfilePanel extends MainManager  implements NavigationView.OnNavig
         final AppCompatActivity activity = this;
         //MainManager.getInstance().date();
 
-        for (int i = 0; i < MainManager.getInstance().getPastExpireDate().size(); i++) {
-            final LinearLayout layoutToAdd = new LinearLayout(activity);
-            layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
-            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
-            params.setMargins(0, 12, 0, 0);
-            layoutToAdd.setLayoutParams(params);
-            layoutToAdd.setWeightSum(2);
+        //Kanki buraları commente aldım kod çalışssın diye burda currentUser objesinin
+        //expire date arraylisti vardı ya ordan for ile iterate edicen
 
-            final ImageView deleteButton = new ImageView(activity);
-            deleteButton.setImageResource(R.drawable.remove);
-            TableRow.LayoutParams imageProdParam = new TableRow.LayoutParams(40, 40);
-            imageProdParam.setMargins(0, 20, 10, 10);
-            deleteButton.setLayoutParams(imageProdParam);
-            layoutToAdd.addView(deleteButton);
+//        for (int i = 0; i < MainManager.getInstance().getPastExpireDate().size(); i++) {
+//            final LinearLayout layoutToAdd = new LinearLayout(activity);
+//            layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
+//            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
+//            params.setMargins(0, 12, 0, 0);
+//            layoutToAdd.setLayoutParams(params);
+//            layoutToAdd.setWeightSum(2);
+//
+//            final ImageView deleteButton = new ImageView(activity);
+//            deleteButton.setImageResource(R.drawable.remove);
+//            TableRow.LayoutParams imageProdParam = new TableRow.LayoutParams(40, 40);
+//            imageProdParam.setMargins(0, 20, 10, 10);
+//            deleteButton.setLayoutParams(imageProdParam);
+//            layoutToAdd.addView(deleteButton);
+//
+//            TextView ingredientName = new TextView(activity);
+//            ingredientName.setText(MainManager.getInstance().getPastExpireDate().get(i) + " - skt geçti!");
+//            ingredientName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
+//            ingredientName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
+//            ingredientName.setWidth(400);
+//            TableRow.LayoutParams paramName = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f);
+//            paramName.setMargins(0, 20, 0, 20);
+//            ingredientName.setLayoutParams(paramName);
+//            ingredientName.setTextColor(Color.parseColor("#FFFFFF"));
+//            layoutToAdd.addView(ingredientName);
+//
+//            deleteButton.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    notificationList.removeView(layoutToAdd);
+//                }
+//            });
+//
+//            notificationList.addView(layoutToAdd);
+//        }
 
-            TextView ingredientName = new TextView(activity);
-            ingredientName.setText(MainManager.getInstance().getPastExpireDate().get(i) + " - skt geçti!");
-            ingredientName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
-            ingredientName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
-            ingredientName.setWidth(400);
-            TableRow.LayoutParams paramName = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f);
-            paramName.setMargins(0, 20, 0, 20);
-            ingredientName.setLayoutParams(paramName);
-            ingredientName.setTextColor(Color.parseColor("#FFFFFF"));
-            layoutToAdd.addView(ingredientName);
 
-            deleteButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    notificationList.removeView(layoutToAdd);
-                }
-            });
-
-            notificationList.addView(layoutToAdd);
-        }
-
-
-        for (int i = 0; i < MainManager.getInstance().getApproachingExpirationDate().size(); i++) {
-            final LinearLayout layoutToAdd = new LinearLayout(activity);
-            layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
-            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
-            params.setMargins(0, 12, 0, 0);
-            layoutToAdd.setLayoutParams(params);
-            layoutToAdd.setWeightSum(2);
-
-            final ImageView deleteButton = new ImageView(activity);
-            deleteButton.setImageResource(R.drawable.remove);
-            TableRow.LayoutParams imageProdParam = new TableRow.LayoutParams(40, 40);
-            imageProdParam.setMargins(0, 20, 10, 10);
-            deleteButton.setLayoutParams(imageProdParam);
-            layoutToAdd.addView(deleteButton);
-
-            TextView ingredientName = new TextView(activity);
-            ingredientName.setText(MainManager.getInstance().getApproachingExpirationDate().get(i) + " - skt yaklaştı!");
-            ingredientName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
-            ingredientName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
-            ingredientName.setWidth(400);
-            TableRow.LayoutParams paramName = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f);
-            paramName.setMargins(0, 20, 0, 20);
-            ingredientName.setLayoutParams(paramName);
-            ingredientName.setTextColor(Color.parseColor("#FFFFFF"));
-            layoutToAdd.addView(ingredientName);
-
-            deleteButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    notificationList.removeView(layoutToAdd);
-                }
-            });
-
-            notificationList.addView(layoutToAdd);
-        }
+//        for (int i = 0; i < MainManager.getInstance().getApproachingExpirationDate().size(); i++) {
+//            final LinearLayout layoutToAdd = new LinearLayout(activity);
+//            layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
+//            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
+//            params.setMargins(0, 12, 0, 0);
+//            layoutToAdd.setLayoutParams(params);
+//            layoutToAdd.setWeightSum(2);
+//
+//            final ImageView deleteButton = new ImageView(activity);
+//            deleteButton.setImageResource(R.drawable.remove);
+//            TableRow.LayoutParams imageProdParam = new TableRow.LayoutParams(40, 40);
+//            imageProdParam.setMargins(0, 20, 10, 10);
+//            deleteButton.setLayoutParams(imageProdParam);
+//            layoutToAdd.addView(deleteButton);
+//
+//            TextView ingredientName = new TextView(activity);
+//            ingredientName.setText(MainManager.getInstance().getApproachingExpirationDate().get(i) + " - skt yaklaştı!");
+//            ingredientName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
+//            ingredientName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
+//            ingredientName.setWidth(400);
+//            TableRow.LayoutParams paramName = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 1f);
+//            paramName.setMargins(0, 20, 0, 20);
+//            ingredientName.setLayoutParams(paramName);
+//            ingredientName.setTextColor(Color.parseColor("#FFFFFF"));
+//            layoutToAdd.addView(ingredientName);
+//
+//            deleteButton.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    notificationList.removeView(layoutToAdd);
+//                }
+//            });
+//
+//            notificationList.addView(layoutToAdd);
+//        }
 
 
         editButton.setOnClickListener(new View.OnClickListener() {
