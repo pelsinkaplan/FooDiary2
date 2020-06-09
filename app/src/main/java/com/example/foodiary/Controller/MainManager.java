@@ -1,6 +1,9 @@
 package com.example.foodiary.Controller;
 
 import android.os.Bundle;
+
+import com.example.foodiary.DatabaseGetter.DatabaseGetter;
+import com.example.foodiary.DatabaseGetter.User;
 import com.example.foodiary.Panel.EditProfilePanel;
 import com.example.foodiary.Panel.HomePanel;
 import com.example.foodiary.Panel.RecipeCategoryPanel;
@@ -12,16 +15,16 @@ import com.example.foodiary.Panel.RegisterPanel;
 import com.example.foodiary.Panel.RecipeSuggestionPanel;
 import androidx.appcompat.app.AppCompatActivity;
 
-
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 
 public class MainManager extends AppCompatActivity {
+    DatabaseGetter db = new DatabaseGetter();
     private final static MainManager instance = new MainManager();
     //password, name ve surname db den çekilecek (defaultları)
+    private List<List<String>> recipeList = new ArrayList<List<String>>();
     private String currentUserName = "";
     private String currentUserSurname = "";
     private String currentUserEmail = "";
@@ -30,135 +33,32 @@ public class MainManager extends AppCompatActivity {
     private String currentRecipeCategory = "";
     private String currentRecipeName = "";
     private int currentCategoryID = 0;
+    private static User currentUser;
     //recipeList categorye göre çekilir
-    private List<List<String>> recipeList = new ArrayList<List<String>>();
+
     //user ilk girişte userListten çekilir ve current bilgiler değiştirilir. Userın stoğu stockListe atılır
-    private List<List<String>> userList = new ArrayList<List<String>>();
-    private List<List<String>> stockList = new ArrayList<List<String>>();
+
+    private List<User> userList = new ArrayList<User>();
     private List<String> pastExpireDate = new ArrayList<String>();
     private List<String> approachingExpirationDate = new ArrayList<String>();
+    private List<List<String>> stockList = new ArrayList<List<String>>();
 
-    public int getCurrentUserID() {
-        return currentUserID;
-    }
 
-    public void setCurrentUserID(int currentUserID) {
-        this.currentUserID = currentUserID;
-    }
 
     public void users() {
-        List<String> tempList1 = new ArrayList<String>();
-        List<String> tempList2 = new ArrayList<String>();
-        List<String> tempList3 = new ArrayList<String>();
-        List<String> tempList4 = new ArrayList<String>();
-        tempList1.add("Seda");
-        tempList1.add("Aslan");
-        tempList1.add("sedaaslan@gmail.com");
-        tempList1.add("sedaaslan");
-        userList.add(tempList1);
-
-        tempList2.add("Mehmet");
-        tempList2.add("Kara");
-        tempList2.add("mehmetkara@gmail.com");
-        tempList2.add("mehmetkara");
-        userList.add(tempList2);
-
-        tempList3.add("Buse");
-        tempList3.add("Ayhan");
-        tempList3.add("buseayhan@gmail.com");
-        tempList3.add("buseayhan");
-        userList.add(tempList3);
-
-        tempList4.add("Zeynep");
-        tempList4.add("Korkmaz");
-        tempList4.add("zeynepkorkmaz@gmail.com");
-        tempList4.add("zeynepkorkmaz");
-        userList.add(tempList4);
+        db.createUsersandStock();
+        userList = db.returnUserList();
+        currentUser = userList.get(0);
     }
 
-//    public void stockFirstUser() {
-//        List<String> tempList1 = new ArrayList<String>();
-//        List<String> tempList2 = new ArrayList<String>();
-//        List<String> tempList3 = new ArrayList<String>();
-//        List<String> tempList4 = new ArrayList<String>();
-//        List<String> tempList5 = new ArrayList<String>();
-//        List<String> tempList6 = new ArrayList<String>();
-//        List<String> tempList7 = new ArrayList<String>();
-//        List<String> tempList8 = new ArrayList<String>();
-//        tempList1.add("Kakao");
-//        tempList1.add("125 gr");
-//        tempList1.add("08.06.2020");
-//        tempList2.add("Makarna");
-//        tempList2.add("250 gr");
-//        tempList2.add("30.01.2021");
-//        tempList3.add("Patates");
-//        tempList3.add("3 kg");
-//        tempList3.add(" ");
-//        tempList4.add("Et");
-//        tempList4.add("2 kg");
-//        tempList4.add(" ");
-//        tempList5.add("Un");
-//        tempList5.add("5 kg");
-//        tempList5.add("10.12.2020");
-//        tempList6.add("Muz");
-//        tempList6.add("2 kg");
-//        tempList6.add(" ");
-//        tempList7.add("Mantar");
-//        tempList7.add("1 kg");
-//        tempList7.add(" ");
-//        tempList8.add("Tavuk");
-//        tempList8.add("2 kg");
-//        tempList8.add(" ");
-//        stockList.add(tempList1);
-//        stockList.add(tempList2);
-//        stockList.add(tempList3);
-//        stockList.add(tempList4);
-//        stockList.add(tempList5);
-//        stockList.add(tempList6);
-//        stockList.add(tempList7);
-//        stockList.add(tempList8);
-//    }
 
     public List<String> getPastExpireDate() {
         return pastExpireDate;
     }
 
-    public void setPastExpireDate() {
-        date();
-    }
 
     public List<String> getApproachingExpirationDate() {
         return approachingExpirationDate;
-    }
-
-    public void setApproachingExpirationDate() {
-        date();
-    }
-
-
-    public List<List<String>> getRecipeList() {
-        return recipeList;
-    }
-
-
-    public List<List<String>> getUserList() {
-        return userList;
-    }
-
-    public void setUserList(List<String> newUserList) {
-        userList.add(newUserList);
-    }
-
-    public List<List<String>> getStockList() {
-        return stockList;
-    }
-
-    public void setStockList(String ingredientName, String ingredientAmount, String ingredientExpireDate) {
-        List<String> tempList = new ArrayList<String>();
-        tempList.add(ingredientName);
-        tempList.add(ingredientAmount);
-        tempList.add(ingredientExpireDate);
-        stockList.add(tempList);
     }
 
     public String getCurrentRecipeName() {
@@ -224,9 +124,7 @@ public class MainManager extends AppCompatActivity {
         super.onCreate(savedInstanceState);
     }
 
-    public static MainManager getInstance() {
-        return instance;
-    }
+
 
     public Class openLoginPanel() {
         return LoginPanel.class;
@@ -264,7 +162,7 @@ public class MainManager extends AppCompatActivity {
         return RecipeCategoryPanel.class;
     }
 
-
+    //Ürün ekleme
     public String controlNameIngredient(String name) {
         if (name.length() == 0) {
             return "Lütfen ürünün adını girin!";
@@ -292,6 +190,7 @@ public class MainManager extends AppCompatActivity {
         return "";
     }
 
+    //Registration Control
     public String controlNameRegister(String name) {
         if (name.length() == 0) {
             return "Lütfen isminizi girin!";
@@ -361,28 +260,37 @@ public class MainManager extends AppCompatActivity {
         return "";
     }
 
-    //tarih hesaplamada sıkıntı var sorun nerede bulamadım!!!!!!!!!!!!
 
-    public void date() {
-        for (int i = 0; i < stockList.size(); i++) {
-            if (stockList.get(i).get(2).length() > 4) {
-                Date expireDate = new GregorianCalendar(Integer.parseInt(stockList.get(i).get(2).substring(6)), Integer.parseInt(stockList.get(i).get(2).substring(3, 5)),
-                        Integer.parseInt(stockList.get(i).get(2).substring(0, 2)), 00, 00).getTime();
-                Date nowaDay = new Date();
-
-                long day = expireDate.getTime() - nowaDay.getTime();//iki tarih arasındaki fark
-
-                long remainderDay = day / (1000 * 60 * 60 * 24);
-
-                if (day < 0) {
-                    pastExpireDate.add(stockList.get(i).get(0));
-                }
-
-                if (remainderDay > 0 && remainderDay < 5) {
-                    approachingExpirationDate.add(stockList.get(i).get(0));
-                }
-            }
-
-        }
+    //Getter and Setters
+    public static MainManager getInstance() {
+        return instance;
     }
+
+    public List<User> getUserList() {
+        return userList;
+    }
+
+    public List<List<String>> getRecipeList() {
+        return recipeList;
+    }
+
+    public void setRecipeList(List<List<String>> recipeList) {
+        this.recipeList = recipeList;
+    }
+
+    public List<List<String>> getStockList() {
+        return stockList;
+    }
+
+    public void setStockList(List<List<String>> stockList) {
+        this.stockList = stockList;
+    }
+    public static User getCurrentUser() {
+        return currentUser;
+    }
+
+    public static void setCurrentUser(User currentUser) {
+        MainManager.currentUser = currentUser;
+    }
+
 }

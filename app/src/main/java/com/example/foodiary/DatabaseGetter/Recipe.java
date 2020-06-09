@@ -7,6 +7,7 @@ public class Recipe
     private String name;
     private String img;
     private String description;
+    private int ID;
     private ArrayList<String> ingredients;
     
     public Recipe(final String name, final String img, final String description) {

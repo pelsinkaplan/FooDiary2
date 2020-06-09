@@ -19,6 +19,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.example.foodiary.Controller.MainManager;
+import com.example.foodiary.DatabaseGetter.Product;
+import com.example.foodiary.DatabaseGetter.StockProduct;
 import com.example.foodiary.R;
 import com.google.android.material.navigation.NavigationView;
 
@@ -119,7 +121,6 @@ public class StockPanel extends MainManager implements NavigationView.OnNavigati
                 expireDate = expireDateEdit.getText().toString();
                 int counter = 0;
                 if (MainManager.getInstance().controlNameIngredient(ingredient).length() == 0) {
-
                     counter++;
                 } else {
                     ingredientEdit.setError(MainManager.getInstance().controlNameIngredient(ingredient));
@@ -131,7 +132,10 @@ public class StockPanel extends MainManager implements NavigationView.OnNavigati
                     expireDateEdit.setError(MainManager.getInstance().controlExpireDateIngredient(expireDate));
                 }
                 if (counter == 2) {
-                    MainManager.getInstance().setStockList(ingredient, amount, expireDate);
+                    int expireDate2 = calculateExpiredate(expireDate);
+                    StockProduct p = new StockProduct(ingredient,expireDate2,amount);
+                    MainManager.getCurrentUser().setStock(p);
+
                     final LinearLayout layoutToAdd = new LinearLayout(activity);
                     layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
                     LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
@@ -193,7 +197,6 @@ public class StockPanel extends MainManager implements NavigationView.OnNavigati
             }
         });
 
-
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
@@ -207,6 +210,22 @@ public class StockPanel extends MainManager implements NavigationView.OnNavigati
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+    }
+    public static int calculateExpiredate(String s){//tarihi . ya göre bölerek çıkan integer değeri döndürür
+        String array[] = s.split("\\.");
+        String a="";
+        int intb=0;
+
+        for (int i = array.length-1; i >=0 ; i--) {
+            a += array[i];
+        }
+        try {
+            intb = Integer.parseInt(a);
+        }
+        catch(NumberFormatException e){
+            intb =4;
+        }
+        return intb;
     }
 
     //menü için kullanılacak sonradan

@@ -52,7 +52,7 @@ public class LoginPanel extends MainManager {
                 //email check if there is an error then print error message
                 if (MainManager.getInstance().controlEmailRegister(email).length() == 0) {
                     for (int i = 0; i < MainManager.getInstance().getUserList().size(); i++) {
-                        if (MainManager.getInstance().getUserList().get(i).contains(email)) {
+                        if (MainManager.getInstance().getUserList().get(i).getMail().contains(email)) {
                             id = i;
                             counter++;
                         }
@@ -64,7 +64,7 @@ public class LoginPanel extends MainManager {
                 }
                 //password check if there is an error then print error message
                 if (MainManager.getInstance().controlPasswordRegister(password).length() == 0) {
-                    if (!password.equals(MainManager.getInstance().getUserList().get(id).get(3)))
+                    if (!password.equals(MainManager.getInstance().getUserList().get(id).getPassword()))
                         passwordEdit.setError("Şifrenizi yanlış girdiniz!");
                     else
                         counter++;
@@ -73,11 +73,10 @@ public class LoginPanel extends MainManager {
                 }
                 //if there is no error then open home page
                 if (counter == 2) {
-                    MainManager.getInstance().setCurrentUserEmail(MainManager.getInstance().getUserList().get(id).get(2));
-                    MainManager.getInstance().setCurrentUserPassword(MainManager.getInstance().getUserList().get(id).get(3));
-                    MainManager.getInstance().setCurrentUserName(MainManager.getInstance().getUserList().get(id).get(0));
-                    MainManager.getInstance().setCurrentUserSurname(MainManager.getInstance().getUserList().get(id).get(1));
-                    MainManager.getInstance().setCurrentUserID(id);
+                    MainManager.getInstance().setCurrentUserEmail(MainManager.getInstance().getUserList().get(id).getMail());
+                    MainManager.getInstance().setCurrentUserPassword(MainManager.getInstance().getUserList().get(id).getPassword());
+                    MainManager.getInstance().setCurrentUserName(MainManager.getInstance().getUserList().get(id).getUsername());
+                    MainManager.getInstance().setCurrentUserSurname(MainManager.getInstance().getUserList().get(id).getSurname());
                     changeActivity(MainManager.getInstance().openHomePanel());
                 }
             }

@@ -78,22 +78,15 @@ public class RegisterPanel extends MainManager {
                 if (counter == 4) {
                     int user = 0;
                     for (int i = 0; i < MainManager.getInstance().getUserList().size(); i++) {
-                        if (email.equals(MainManager.getInstance().getUserList().get(i).get(2))) {
+                        if (email.equals(MainManager.getInstance().getUserList().get(i).getMail())) {
                             emailEdit.setError("Bu eposta adresi daha önce kullanılmış!");
                             user = 1;
                         }
                     }
                     if (user == 0) {
-                        List<String> tempList = new ArrayList<String>();
-                        tempList.add(name);
-                        tempList.add(surname);
-                        tempList.add(email);
-                        tempList.add(password);
-                        MainManager.getInstance().setUserList(tempList);
-                        changeActivity(MainManager.getInstance().openLoginPanel());
+
                     }
 
-                    //if there is user like that stay register page
                 }
 
 

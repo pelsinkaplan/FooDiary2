@@ -51,7 +51,7 @@ public class ProfilePanel extends MainManager  implements NavigationView.OnNavig
 
         notificationList = (LinearLayout) findViewById(R.id.notification_list);
         final AppCompatActivity activity = this;
-        MainManager.getInstance().date();
+        //MainManager.getInstance().date();
 
         for (int i = 0; i < MainManager.getInstance().getPastExpireDate().size(); i++) {
             final LinearLayout layoutToAdd = new LinearLayout(activity);
