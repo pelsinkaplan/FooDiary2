@@ -1,8 +1,11 @@
 package com.example.foodiary.Controller;
 
+import android.content.Context;
+import android.content.res.Resources;
 import android.os.Bundle;
 
 import com.example.foodiary.DatabaseGetter.DatabaseGetter;
+import com.example.foodiary.DatabaseGetter.Product;
 import com.example.foodiary.DatabaseGetter.Main;
 import com.example.foodiary.DatabaseGetter.Recipe;
 import com.example.foodiary.DatabaseGetter.User;
@@ -24,7 +27,9 @@ import org.json.simple.parser.ParseException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Scanner;
 
 public class MainManager extends AppCompatActivity {
     DatabaseGetter db = new DatabaseGetter();
@@ -37,7 +42,9 @@ public class MainManager extends AppCompatActivity {
     private String currentUserPassword = "";
     private String currentRecipeCategory = "";
     private String currentRecipeName = "";
-    private int currentCategoryID = 0;
+    private String currentDescription="";
+    private ArrayList<String> currentIngredients = new ArrayList<>();
+    private static int currentCategoryID = 0;
     private int pastPage = 0; // if 0 recipesuggestion, if 1 homepage
     private String searchedRecipe = "";
     private static int currentRecipeID;
@@ -52,7 +59,6 @@ public class MainManager extends AppCompatActivity {
     private static ArrayList<String> recipeNames = new ArrayList<String>();//Category recipelarını gösterir
     private static ArrayList<String> recipeIngredients = new ArrayList<>();//recipeların hangi üründe olduğu
     private static ArrayList<String> recipeDescriptions = new ArrayList<String>();//recipeın hangi indexde odluğu
-
 
     public ArrayList<String> getRecipeNames() {
         return recipeNames;
@@ -78,26 +84,16 @@ public class MainManager extends AppCompatActivity {
         MainManager.recipeDescriptions = recipeDescriptions;
     }
 
-    public  String getJson(String filename) throws IOException {
-        //Context context = null;
-        String json  = null ;
 
-        try{
-            InputStream inputStream = getAssets().open("tatlilar.json");;
-            int size = inputStream.available();
-
-            byte[] buffer = new byte[size];
-            inputStream.read(buffer);
-            inputStream.close();
-            json = new String(buffer,"UTF-8");
+    public void getJson2(){
+        Resources res = getResources();
+        InputStream is = res.openRawResource(R.raw.a);
+        Scanner sc = new Scanner(is);
+        StringBuilder builder = new StringBuilder();
+        while (sc.hasNextLine()){
+            builder.append(sc.nextLine());
         }
-        catch (IOException ex ){
-            ex.printStackTrace();
-            return null;
-        }
-        return json;
     }
-
 
     public void recipes() {
         recipeNames.add("Sebzeli Patlıcan Dolması");
@@ -169,9 +165,9 @@ public class MainManager extends AppCompatActivity {
 
     public void getRecipe() { //kanki bu metod ile current recipeı oluşturmuş oluyoruz
         currentRecipeID = 7;
-        Main.setInformations();
+        setInformations();
         currentRecipe = db.getRecipe(productNameOfCurrentRecipe.get(currentRecipeID), recipeIndexInProduct.get(currentRecipeID));
-        Main.setRecipeInformations();
+        setRecipeInformations();
     }
 
     //Bu metodda da user ve database oluşturuluyor önce bu metod sonra get recipe çağrılmalı
@@ -182,9 +178,38 @@ public class MainManager extends AppCompatActivity {
     }
 
     public void createDatabase() throws IOException, ParseException {
-        db.createDatabase();//database oluşturuyor recipelar için
+        db.createDatabase(this);//database oluşturuyor recipelar için
     }
 
+    public  void setInformations(){
+        HashMap<String,Product> category = db.getCategoryRecipes(currentCategoryID);
+        showFoodRecipesInCategoryPage(category,currentUser);
+    }
+
+    public static void showFoodRecipesInCategoryPage(HashMap<String, Product> category, User user){
+        for (int i = 0; i <user.getApproachingExpirationDate().size() ; i++) {
+            if(category.containsKey(user.getApproachingExpirationDate().get(i))){//Son kullanma tarihi yaklaşan ürünlere
+                //bak eğer stoktaki yiyeceklerden listemde varsa bastır
+                Product p = category.get(user.getApproachingExpirationDate().get(i));
+                for (int j = 0; j <p.getProduct_recipes().size() ; j++) {
+                    String recipeName = p.getProduct_recipes().get(j).getName();//recipeların isimlerini göster
+                    categoryRecipeNames.add(recipeName);
+                    productNameOfCurrentRecipe.add(p.getProduct_name());
+                    recipeIndexInProduct.add(j);
+                    System.out.println(recipeName);
+                }
+            }
+        }
+    }
+
+    public  void setRecipeInformations(){
+        currentRecipeName = currentRecipe.getName();
+        currentDescription = currentRecipe.getDescription();
+        currentIngredients = currentRecipe.getIngredients();
+        System.out.println(currentRecipeName);
+        System.out.println(currentDescription);
+        System.out.println(currentIngredients);
+    }
 
     public String getCurrentRecipeName() {
         return currentRecipeName;

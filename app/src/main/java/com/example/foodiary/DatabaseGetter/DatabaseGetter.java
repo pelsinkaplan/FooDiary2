@@ -1,5 +1,7 @@
 package com.example.foodiary.DatabaseGetter;
 
+import android.content.Context;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.foodiary.R;
@@ -83,11 +85,30 @@ public class DatabaseGetter
         return null;
     }
 
+    public  String getJson(Context context, String fileName) throws IOException {
+        //Context context = null;
+        String json  = null ;
 
+        try{
+            InputStream inputStream = context.getAssets().open(fileName);;
+            int size = inputStream.available();
 
-    public void createDatabase() throws IOException, ParseException {
+            byte[] buffer = new byte[size];
+            inputStream.read(buffer);
+            inputStream.close();
+            json = new String(buffer,"UTF-8");
+        }
+        catch (IOException ex ){
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
+    }
+
+    public void createDatabase(Context context) throws IOException, ParseException {
         final JSONParser jsonParser = new JSONParser();
-        final JSONObject jsonObject = (JSONObject)jsonParser.parse((Reader)new FileReader("src/main/java/com/example/foodiary/files/tatlilar.json"));
+        String json = getJson(context,"tatlilar.json");
+        final JSONObject jsonObject = (JSONObject)jsonParser.parse(json);
         deserts.put("kakao",iterateJson("kakao", jsonObject));
         deserts.put("muz",iterateJson("muz", jsonObject));
         deserts.put("cikolata",iterateJson("cikolata", jsonObject));
@@ -98,7 +119,9 @@ public class DatabaseGetter
         deserts.put("un",iterateJson("un", jsonObject));
         deserts.put("armut",iterateJson("armut", jsonObject));
         System.out.println("**********************************");
-        final JSONObject jsonObject2 = (JSONObject)jsonParser.parse((Reader)new FileReader("src/main/java/com/example/foodiary/files/anayemekler.json"));
+
+        json = getJson(context,"anayemekler.json");
+        final JSONObject jsonObject2 = (JSONObject)jsonParser.parse(json);
         mainDish.put("sogan",iterateJson("sogan", jsonObject2));
         mainDish.put("tereyag",iterateJson("tereyag", jsonObject2));
         mainDish.put("nohut",iterateJson("nohut", jsonObject2));
@@ -116,7 +139,9 @@ public class DatabaseGetter
         mainDish.put("kıyma",iterateJson("kıyma", jsonObject2));
         mainDish.put("yumurta",iterateJson("yumurta", jsonObject2));
         System.out.println("**********************************");
-        final JSONObject jsonObject3 = (JSONObject)jsonParser.parse((Reader)new FileReader("src/main/java/com/example/foodiary/files/hamur.json"));
+
+        json = getJson(context,"hamur.json");
+        final JSONObject jsonObject3 = (JSONObject)jsonParser.parse(json);
         pastry.put("karnabahar",iterateJson("karnabahar", jsonObject3));
         pastry.put("mantar",iterateJson("mantar", jsonObject3));
         pastry.put("domates",iterateJson("domates", jsonObject3));
@@ -126,7 +151,9 @@ public class DatabaseGetter
         pastry.put("pırasa",iterateJson("pırasa", jsonObject3));
         pastry.put("un",iterateJson("un", jsonObject3));
         System.out.println("*********************************");
-        final JSONObject jsonObject4 = (JSONObject)jsonParser.parse((Reader)new FileReader("src/main/java/com/example/foodiary/files/corbalar.json"));
+
+        json = getJson(context,"corbalar.json");
+        final JSONObject jsonObject4 = (JSONObject)jsonParser.parse(json);
         soups.put("krema",iterateJson("krema", jsonObject4));
         soups.put("tavuk",iterateJson("tavuk", jsonObject4));
         soups.put("tereyag",iterateJson("tereyag", jsonObject4));
@@ -135,7 +162,9 @@ public class DatabaseGetter
         soups.put("kıyma",iterateJson("kıyma", jsonObject4));
         soups.put("balık", iterateJson("balık", jsonObject4));
         System.out.println("*********************************");
-        final JSONObject jsonObject5 = (JSONObject)jsonParser.parse((Reader)new FileReader("src/main/java/com/example/foodiary/files/makarna_pilav.json"));
+
+        json = getJson(context,"makarna_pilav.json");
+        final JSONObject jsonObject5 = (JSONObject)jsonParser.parse(json);
         riceMakaroni.put("pirinç",iterateJson("pirinç", jsonObject5));
         riceMakaroni.put("patlıcan",iterateJson("patlıcan", jsonObject5));
         riceMakaroni.put("et",iterateJson("et", jsonObject5));
@@ -146,7 +175,9 @@ public class DatabaseGetter
         riceMakaroni.put("mantar",iterateJson("mantar", jsonObject5));
         riceMakaroni.put("kabak",iterateJson("kabak", jsonObject5));
         System.out.println("*********************************");
-        final JSONObject jsonObject6 = (JSONObject)jsonParser.parse((Reader)new FileReader("src/main/java/com/example/foodiary/files/salatalar.json"));
+
+        json = getJson(context,"salatalar.json");
+        final JSONObject jsonObject6 = (JSONObject)jsonParser.parse(json);
         salads.put("kereviz",iterateJson("kereviz", jsonObject6));
         salads.put("börülce",iterateJson("börülce", jsonObject6));
         salads.put("makarna",iterateJson("makarna", jsonObject6));

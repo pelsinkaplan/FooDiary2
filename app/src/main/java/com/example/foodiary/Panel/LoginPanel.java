@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.foodiary.Controller.MainManager;
+import com.example.foodiary.DatabaseGetter.DatabaseGetter;
 import com.example.foodiary.R;
 
 import org.json.simple.parser.ParseException;
@@ -41,9 +42,16 @@ public class LoginPanel extends MainManager {
         /*********************************************************
          * Bu try catchde hata çıkıyo
          */
+//        try {
+//            MainManager.getInstance().getJson("tatlilar.json");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
         try {
-            MainManager.getInstance().getJson("tatlilar.json");
+            createDatabase();
         } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
             e.printStackTrace();
         }
 

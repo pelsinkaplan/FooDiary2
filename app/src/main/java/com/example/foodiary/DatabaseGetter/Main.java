@@ -30,14 +30,14 @@ public class Main {
     static DatabaseGetter db;
 
     public static void main(String[] args) throws IOException, ParseException {
-        db = new DatabaseGetter();
-        db.createUsersandStock();
-        db.createDatabase();
-        currentUser = DatabaseGetter.allUsers.get(0);
-        currentRecipeID = 7;
-        setInformations();
-        currentRecipe = db.getRecipe(productNameOfCurrentRecipe.get(currentRecipeID),recipeIndexInProduct.get(currentRecipeID));
-        setRecipeInformations();
+//        db = new DatabaseGetter();
+//        db.createUsersandStock();
+//        db.createDatabase();
+//        currentUser = DatabaseGetter.allUsers.get(0);
+//        currentRecipeID = 7;
+//        setInformations();
+//        currentRecipe = db.getRecipe(productNameOfCurrentRecipe.get(currentRecipeID),recipeIndexInProduct.get(currentRecipeID));
+//        setRecipeInformations();
     }
     public static void setRecipeInformations(){
         currentRecipeName = currentRecipe.getName();

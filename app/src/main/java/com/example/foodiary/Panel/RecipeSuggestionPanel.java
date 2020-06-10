@@ -35,7 +35,7 @@ public class RecipeSuggestionPanel extends MainManager {
 
         category.setText(MainManager.getInstance().getCurrentRecipeCategory());
         MainManager.getInstance().recipes();
-//        MainManager.getInstance().getRecipe();
+        MainManager.getInstance().getRecipe();
         RecipeList.removeAllViews();
 
         for (int i = 0; i < MainManager.getInstance().getRecipeNames().size(); i++) {
