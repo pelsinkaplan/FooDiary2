@@ -1,5 +1,9 @@
 package com.example.foodiary.DatabaseGetter;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.foodiary.R;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -7,6 +11,7 @@ import org.json.simple.parser.ParseException;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.Reader;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -25,24 +30,25 @@ public class DatabaseGetter
     public ArrayList<User> returnUserList(){
         return allUsers;
     }
+
     public void createUsersandStock(){
 
-         User user1 = new User("Seda","Aslan","sedaaslan","sedaaslan@gmail.com","sedaaslan");
-         User user2 = new User("Mehmet"," Kara","mehmetkara","mehmetkara@gmail.com","mehmetkara");
-         User user3 = new User("Buse"," Ayhan","buseayhan","buseayhan@gmail.com","mehmetkara");
-         allUsers.add(user1);
-         allUsers.add(user2);
-         allUsers.add(user3);
-         StockProduct p3 = new StockProduct("nohut",20200610,"1 kilo");
-         StockProduct p1 = new StockProduct("muz",20200608,"3 tane");
-         StockProduct p2 = new StockProduct("un",20200609,"1 kilo");
+        User user1 = new User("Seda","Aslan","sedaaslan","sedaaslan@gmail.com","sedaaslan");
+        User user2 = new User("Mehmet"," Kara","mehmetkara","mehmetkara@gmail.com","mehmetkara");
+        User user3 = new User("Buse"," Ayhan","buseayhan","buseayhan@gmail.com","mehmetkara");
+        allUsers.add(user1);
+        allUsers.add(user2);
+        allUsers.add(user3);
+        StockProduct p3 = new StockProduct("nohut",20200610,"1 kilo");
+        StockProduct p1 = new StockProduct("muz",20200608,"3 tane");
+        StockProduct p2 = new StockProduct("un",20200609,"1 kilo");
         StockProduct p4 = new StockProduct("tereyag",20200609,"1 kilo");
 
         user1.addToStock(p1);
-         user2.addToStock(p2);
-         user1.addToStock(p3);
-         user1.setApproachingExpirationDate(p3.getName());
-         user1.setApproachingExpirationDate(p4.getName());
+        user2.addToStock(p2);
+        user1.addToStock(p3);
+        user1.setApproachingExpirationDate(p3.getName());
+        user1.setApproachingExpirationDate(p4.getName());
 
 
     }
@@ -76,6 +82,7 @@ public class DatabaseGetter
         }
         return null;
     }
+
 
 
     public void createDatabase() throws IOException, ParseException {
@@ -148,7 +155,7 @@ public class DatabaseGetter
         salads.put("maydanoz",iterateJson("maydanoz", jsonObject6));
         System.out.println("*********************************");
     }
-    
+
     public static void parseArray(final JSONObject rec, final Product category) {
         final String name = rec.get((Object)"name").toString();
         final String img = rec.get((Object)"img").toString();
@@ -161,7 +168,7 @@ public class DatabaseGetter
         category.setProduct_recipes(recipe);
     }
 
-    
+
     public static Product iterateJson(final String productName, final JSONObject jsonObject) {
         final JSONObject a = (JSONObject)jsonObject.get((Object)productName);
         final JSONArray recipes = (JSONArray)a.get((Object)"recipes");
@@ -175,6 +182,6 @@ public class DatabaseGetter
         allProducts.put(productName, product1);
         return product1;
     }
-    
+
 
 }

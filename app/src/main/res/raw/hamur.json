@@ -1,0 +1,574 @@
+{
+"karnabahar":{
+"recipes":[{
+    "name": "\nSebzeli karnabahar pizza\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/sebzeli-karnabahar-pizza-5ed8c40a-c3d9-4959-a6e3-4290dc4ce399.jpg",
+    "ingredients": [
+      "1 küçük karnabahar",
+      "2 yumurta",
+      "2 diş sarımsak",
+      "2 su bardağı rendelenmiş mozarella peyniri",
+      "1 yemek kaşığı zeytinyağı",
+      "Tuz",
+      "Karabiber",
+      "Fesleğen "
+    ],
+    "description": "Karnabaharı un kıvamına gelinceye kadar rondodan geçirin ve geniş bir karıştırma kabına alın. Yumurtalar, ezdiğiniz sarımsak, rendelenmiş mozarella peynirinin yarısı, zeytinyağı, tuz ve baharatları ilave edip yoğurun. Harcı dört eşit parçaya ayırın.Parçaları yağlı kağıt serili fırın tepsisine ince yuvarlaklar şeklinde yayın. Önceden ısıtılmış 200 derece fırında üzeri kızarıncaya kadar 20-25 dakika pişirin. Üzeri için, yeşil biber ve kırmızı soğanı jülyen, mantarları ince doğrayın. Domatesleri küp doğrayıp bir kaseye alın. Salçaları ilave edip karıştırın ve blenderdan geçirin. Karnabahar tabanını fırından alın. Üzerine kalan mozarella peyniri, domates sos ve doğradığınız sebzeleri ilave edip tekrar fırına verin. Fırının derecesini 180 dereceye düşürüp sebzeli karnabahar pizzayı 10-15 dakika daha pişirin. Dilimleyip sıcak servis yapın."
+  }]
+},
+"mantar":{
+"recipes":[{
+    "name": "\nSoğanlı çörek\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/soganli_corek-0489f16b-6bc1-4b2d-9f5b-8e997cf48405.jpg",
+    "ingredients": [
+      " 2+ 1/4 su bardağı un",
+      "1 yumurta",
+      "Yarım su bardağı tam buğday unu",
+      "1 paket kabartma tozu",
+      "1 tatlı kaşığı tuz",
+      "200 ml krema",
+      "4 yemek kaşığı tereyağı",
+	"5 soğan",
+	"1 paket mantar"
+    ],
+    "description": "Mantarları ve soğanı yarım ay şeklinde dilimleyin. Zeytinyağını ısıtın. Soğanı ilave edip biraz soteleyin. Mantarı ve ince kıydığınız biberiyeyi ekleyip hafif soteleyin. Tuz ve karabiberi ekleyip ocaktan alın ve soğumaya bırakın. Derin bir kaba unları, kabartma tozunu ve tuzu ekleyip karıştırın. Tavla zarı büyüklüğünde doğradığınız tereyağını, yumurtayı ve kremayı ilave edip ele yapışmayan bir hamur elde edinceye kadar yoğurun. Mantarlı soğanlı harcı ekleyip karıştırın. Hamurun üzerine biraz un serpip merdane yardımıyla açın. Çay bardağı yardımıyla mini daireler çıkarın.Yağlı kağıt serili tepsiye dizin. Üzerine fırça ile krema sürün. Yuvarlak olarak doğradığınız soğan dilimi ve biberiyeyi ekleyin. Önceden ısıtılmış 170-180 derece fırında pembeleşinceye kadar pişirin. Servis yapın. Afiyet olsun."
+  },{
+    "name": "\nMantarlı ve soğanlı çıtır pizza\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/mantarli_ve_soganli_citir_pizza-5d8ac52f-e143-4303-a45f-11a860b918d7.jpg",
+    "ingredients": [
+      " 3 su bardağı un",
+      "11 gr kuru hamur mayası",
+      "1 çay bardağı ayçiçeği yağı",
+      "1 çay bardağı ılık süt",
+      "1 tatlı kaşığı toz şeker",
+      "Yeterince ılık su",
+"mantar",
+      "Tuz"
+    ],
+    "description": "Unu derin bir kaba alın. Üzerine tuz, toz şeker ve mayayı ekleyip karıştırın. Ortasını havuz şeklinde açtıktan sonra ayçiçeği yağı ve sütü ekleyin. Yumuşak bir hamur elde edinceye kadar yavaş yavaş ılık suyu ekleyin. Üzerine nemli bir bez örterek 45 dakika mayalanması için bekletin.Bir tavada zeytinyağını ısıtın. Halka doğradığınız soğanları karamelize oluncaya kadar soteleyin.Mayalanan hamuru ikiye bölün. Un serptiğiniz tezgahta merdane yardımıyla çok kalın olmayacak şekilde açın. Üzerine rendelenmiş kaşar peyniri serpin. Soğan halkalarını yerleştirin. İnce dilimlediğiniz mantarları ve mısırları ilave edin. Tuz, karabiber serpiştirin. Önceden ısıtılmış 170 dereceye ayarlanmış fırında 20 dakika pişirin.Fırından alıp üzerine ince kıyılmış fesleğen ve rendelenmiş kaşar peyniri serpip tekrar fırına verin. Peynirler eriyip hafif pembeleşinceye kadar pişirin. Diğer hamuru da aynı şekilde hazırlayın. Sıcak servis yapın. Afiyet olsun."
+  },{
+    "name": "\nTavuklu ve mantarlı pizza\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tavuklu_ve_mantarli_pizza-c82139ec-771e-43a3-856b-aa379bd198e9.jpg",
+    "ingredients": [
+      "4 domates",
+      "1 çay kaşığı acı sos",
+      "1 çorba kaşığı domates salçası",
+      "1 soğan",
+      "4 sarımsak",
+      "3 çorba kaşığı zeytinyağı",
+      "1 tavuk göğüs eti",
+      "7 mantar",
+      "20 yeşil kokteyl zeytin",
+      "50 gr dil peyniri",
+      "1 çay bardağı konserve tane mısır",
+      "1 su bardağı rendelenmiş kaşar peyniri"
+    ],
+    "description": "Ev yapımı pizza hamuru tarifine buradan ulaşabilirsiniz.Klasik pizza hamurunu hazırlayın. Soğan ve sarımsakları soyup kıyın. Domatesleri soyup rendeleyin. Soğan ve sarımsağı zeytinyağında pembeleştirin. Domates, domates salçası ve acı sosu ilave edip 5 dakika pişirin. Tavuk etini haşlayıp küp küp kesin. Mantarları temizleyip dilimleyin. Kokteyl zeytinleri dilimleyin. Dil peynirini küçük küçük kesip kaşarpeynirle harmanlayın.Hamurları fırın tepsisine yerleştirin. Üzerlerine domates sosunu sürüp peynirin yarısını serpin. Tavuk, mantar, zeytin ve mısırı paylaştırın. Peyniri serpiştirin. 180 derece fırında 15-20 dakika pişirin. Servis yapın."
+  }]
+},
+"domates":{
+"recipes":[{
+    "name": "\nDomatesli krep böreği\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/domatesli-krep-boregi-07081553-0937-4c22-9eb2-ac4048121ade.jpg",
+    "ingredients": [
+      "2 su bardağı un ",
+      "2 su bardağı süt",
+      "2 yumurta",
+      "30 gr tereyağı  ",
+      "1 tutam tuz",
+	"4 domates"
+    ],
+    "description": "Un, süt, yumurtalar, 1 kaşık tereyağı ve 1 tutam tuzu mikserle çırpın. Teflon tavayı tereyağı ile hafifçe yağlayın. 1 kepçe kadar krep hamuru döküp bir tarafı kızarıncaya kadar pişirin. Spatula ile ters çevirip diğer tarafını pişirin. Malzeme bitene kadar krepleri aynı şekilde hazırlayın.Maydanozu temizleyip kıyın. Labne peynir, krem peynir, maydanoz ve beyaz peyniri bir kapta karıştırın. Domatesleri küp şeklinde doğrayıp süzgeçe alın ve suyunu iyice süzdürün. Kreplerden birini servis tabağına alın. Üzerine peynirli karışımın yarısını ilave edip domateslerin yarısını serpiştirin. İkinci kat krebi yayıp kalan peynirli karışımı ve domatesleri ekleyin. Üzerini kalan kreple kapatın. Dilimleyerek servis yapın."
+  },{
+    "name": "\nDomatesli mini börek\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/domatesli-mini-borek-ff03406c-785e-443e-96d2-69b88327323e.jpg",
+    "ingredients": [
+      "300 gr kiraz domates",
+      "4 dal maydanoz ",
+      "2 dal frenk soğanı",
+      "1 diş sarımsak",
+      "1 çay bardağı zeytinyağı ",
+      "150 gr mozzarella",
+      "200 gr un",
+      "15 gr toz maya ",
+      "30 gr tereyağı"
+    ],
+    "description": "Maydanoz ve frenk soğanlarını kıyın. Kiraz domateslerin kabuklarını soyun. Sarımsağı soyup ezin. Hazırladığınız malzemeleri çukur bir kaba alın. Tuz, karabiber ve zeytinyağını ilave edip 1 saat marine edin.Toz maya, un, oda ısısında yumuşatılmış tereyağı ve tuzu hamur yoğurma kabına alıp karıştırın. Hamur yumuşak ise biraz daha un ekleyebilirsiniz. Pütürsüz bir hamur elde edene kadar yoğurun.Üzerini temiz bir bezle örtüp 30 dakika mayalanmaya bırakın. Hamuru yumurta büyüklüğünde bezelere ayırın. Unlanmış merdane ile 10 cm çapında yuvarlak hamurlar hazırlayın. Sıvı yağı tavada kızdırıp hamurları kızartın.Böreklerin üzerlerine domatesleri paylaştırıp marinat sosunu gezdirerek dökün. Mozzarellayı doğrayıp domateslerin arasına yerleştirin. Önceden ısıtılmış 180 dereceye ayarlı fırında 1-2 dakika bekletip servis yapın.Börekleri gün sohbetlerinde veya misafir ağırlarken servis edecekseniz, nefis rus salatası ile birlikte sunum hazırlayabilirsiniz. Afiyet olsun."
+  },{
+    "name": "\nMayasız Pizza Hamuru\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/mayasiz-pizza-hamuru-91cf812a-0018-4589-85d3-6cbc7187f34e.jpg",
+    "ingredients": [
+      "5 yemek kaşığı yoğurt",
+      "5 yemek kaşığı zeytinyağı",
+      "1 adet yumurta",
+      "1/2 çay bardağı süt",
+      "3/4 su bardağı su",
+      "3 su bardağı un",
+      "1 çay kaşığı tuz",
+      "1 çay kaşığı toz şeker",
+      "1 paket kabartma tozu",
+      "5 domates"
+    ],
+    "description": "İlk olarak boş bir kabın içerisine yumurtayı kırın ve güzelce çırpın.Üzerine süt, yoğurt, şeker, zeytinyağı ve tuzu ekleyerek çırpma işlemine devam edin.Ardından suyun yarısını karışımın içerisine dökün. Kabartma tozunu da karışıma ekledikten sonra, unu yavaş yavaş ekleyin ve karıştırma işlemine devam edin.Hamurun kıvamına göre su ve un takviyesi yapabilirsiniz.Hamur cıvık bir kıvama geldiğinde üzerini kapatın ve 10 dakika dinlendirin.Son olarak hamuru tekrar karıştırın ve yağlanmış fırın tepsisine yayın.Elinizi zeytinyağına batırın ve hamuru elinizle açın. Üzerine sos ve istediğiniz malzemeleri ekleyerek önceden ısıtılmış fırında 15 dakika pişirin."
+  }]},
+"peynir":{
+"recipes":[{
+    "name": "\nTereyağlı peynirli poğaça\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tereyagli-peynirli-pogaca-756c6ab8-856c-4d61-8f34-2fcb9dc02d9f.jpg",
+    "ingredients": [
+      "220 g Tereyağı",
+      "1 çay bardağı süt",
+      "1 yumurta",
+      "1 paket kabartma tozu",
+      "1 tatlı kaşığı tuz",
+      "1 tatlı kaşığı toz şeker",
+      "4-4.5 su bardağı un",
+      "200 g beyaz peynir ve kaşar peyniri karışımı",
+      "Dereotu (İnce kıyılmış)"
+    ],
+    "description": "Hamuru için; süt, tereyağı, kabartma tozu, yumurta, tuz ve toz şeker derin bir kap içerisine alın.Malzemeleri bir süre çırptıktan sonra üzerine unu azar azar ilave ederek karıştırın. Ele yapışmayan yumuşak bir hamur elde edene kadar yoğurun.Başka bir kapta peynirleri rendeleyip dereotunu ekleyin ve hamurun içine ilave edin. Hamur ve peynirler özdeşleşene kadar yoğurun. Hazırladığınız hamurdan ceviz büyüklüğünde parçalar alıp elinizde yuvarlayın ve yağlı kağıt serili fırın tepsisine aralıklı olarak dizin. Üzerlerine yumurta sarısı sürüp, çörek otu ve susam serperek, önceden ısıtılmış 180 derece fırında pişirin.Kalabalık sofralarda tereyağlı poğaçayı poğaçayı, yanına çok yakışan ev yapımı şeftalili kek  veya rum böreği ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },{
+    "name": "\nHellim peynirli tırtıl poğaça\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/hellim-peynirli-tirtil-pogaca-08361e65-bc86-45b9-ac18-5094ad5f0649.jpg",
+    "ingredients": [
+      "250 g margarin",
+      "1 paket instant maya",
+      "1 çay bardağı ılık süt",
+      "2 yumurta (Birinin sarısı üzerine sürülecek)",
+      "1 tatlı kaşığı tuz",
+      "1 yemek kaşığı toz şeker",
+      "4 su bardağı un",
+	"Hellim peyniri"
+    ],
+    "description": "Hamur yoğurma kabına ılık sütü, şekeri ve instant mayayı aktarıp karıştırın. Oda ısısında yumuşamış margarini, 1 yumurta ile 1 yumurtanın akını, tuzu ve unun yarısını ekleyip yoğurmaya başlayın. Kalan unu kontrollü bir şekilde ekleyerek pürüzsüz, yumuşak kıvamlı bir hamur elde edinceye kadar yoğurun. Hamurun üzerini bir bezle örtün. Oda ısısında 45 dakika bekleterek mayalandırın.Mayalanan hamuru yeniden yoğurun. Hamurdan 20 eşit beze hazırlayın. Her hamur bezesini tezgahın üzerinde parmak uçlarınızla bastırarak açın. İçine birer parça hellim peyniri dilimi yerleştirip rulo şeklinde yuvarlayın. Mutfak ipiyle üzerinde çizgi olacak şekilde bağlayın. Hazırladığınız tırtıl poğaçaları yağlı kağıt serili fırın tepsisine aralıklı olarak dizin. Üzerlerine yumurta sarısı sürüp susam serpin ve oda ısısında yarım saat daha mayalandırın. Önceden ısıtılmış 185 dereceye ayarlı fırında, 25-30 dakika pişirip ılık olarak servis yapın."
+  },{
+    "name": "\nOtlu ve peynirli poğaça\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/otlu-ve-peynirli-pogaca-c41681b2-d5a9-481d-91ea-e83d559879fd.jpg",
+    "ingredients": [
+      "500 g un",
+      "200 g margarin",
+      "100 g tereyağı",
+      "1 demet dereotu (İnce kıyılmış)",
+      "1 tatlı kaşığı kabartma tozu ",
+      "5 g yaş maya ",
+      "2 adet yumurta",
+      "1/2 çay bardağı ılık süt ",
+      "1 tatlı kaşığı toz şeker ",
+      "1 çay kaşığı tuz  ",
+      "150 g lor peyniri ",
+      "100 g süzme taze peynir ",
+      "1 su bardağı iri dövülmüş ceviz içi"
+    ],
+    "description": "İlk olarak yaş mayayı ılık süt ve şekerle birlikte karıştırıp 15 dakika bekletin. Unu bir yoğurma kabına eleyin. Ortasını havuz gibi açın ve mayalı karışım ile kabartma tozunu ilave edip yoğurmaya başlayın. Oda sıcaklığında yumuşamış tereyağı ve margarini, yumurtaları ve peynirleri ekleyip iyice yoğurun. En son kıyılmış dereotunu ilave edip tekrar yoğurun.Hamurdan, her biri 40’ar gram olacak şekilde parçalar elde edin (Büyüklüğünü istediğiniz gibi ayarlayabilirsiniz).Her hamur parçasını avucunuzda yuvarlayıp yağlı kağıt serili fırın tepsisine aralıklı olarak dizin.Poğaça hamurlarını oda sıcaklığında mayalanması için yarım saat bekletin. En son üst kısımlarına yumurta sarısı sürün ve ay çekirdeği içi serpin.Önceden ısıtılmış 180 derece fırında 25-30 dakika pişirin.Otlu ve peynirli poğaçayı, çayın yanına çok yakışan fındıklı kek ile birlikte servis edebilirsiniz Şimdiden afiyet olsun. "
+  },{
+    "name": "\nPeynirli pastane poğaçası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/patatesli-ve-peynirli-pastane-pogacasi-53104476-b758-4725-9f58-98626a1a5be1.jpg",
+    "ingredients": [
+      "1 su bardağı ılık su ",
+      "2 yemek kaşığı yoğurt",
+      "2 yemek kaşığı toz şeker",
+      "1 tatlı kaşığı tuz ",
+      "2 adet yumurta ",
+      "1 paket instant kuru maya  ",
+      "550-600 g un ",
+      "200 g tereyağı",
+      "2 yemek kaşığı sıvı yağ "
+    ],
+    "description": "Ilık suyu hamur yoğurma kabına alın. Yoğurdu, şekeri, tuzu, 1 tam yumurta ile 1 yumurtanın akını ve instant mayayı ilave edip çatalla çırpın.Unun yarısını, oda ısısında yumuşamış tereyağı ile sıvı yağı ekleyip tüm malzemeyi birbirine yedirin.Kalan unu da kontrollü bir şeklide ekleyerek pürüzsüz, ele yapışmayan yumuşak kıvamlı bir hamur elde edinceye kadar yoğurmaya devam edin.Hamuru toparlayıp üzerini nemli bir bezle örtün. Oda ısısında mayalanması için 45 dakika bekletin.İç harcı için haşlanmış patatesi rendeleyin. Kalan malzemeyi ilave edip karıştırın. Peynirlerin tuzu az ise biraz tuz ekleyebilirsiniz.Dinlenen hamurdan 20 eşit beze hazırlayın. Her bezeyi tezgahın üzerinde, elinizle bastırarak çay tabağından biraz daha büyük olacak şekilde açın.Hamurların orta kısmını parmak uçlarınızla bastırarak inceltin fakat hamurların kenarları daha kalın kalmalı.Hamurların ortasına iç malzemesinden paylaştırın ve ikiye katlayıp, tam ortasına oklava yardımı ile bastırın. Yağlanmış fırın tepsisine aralıklı olarak dizin.Hamurların üst kısımlarına ayırdığınız yumurta sarısını sürüp susam serpin. Bu şekilde oda ısısında 20 dakika daha mayalandırın. Önceden ısıtılmış 190 derece fırında, 30-35 dakika pişirin.Patatesli ve peynirli pastane poğaçasını, havuçlu tarçınlı kek ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },{
+    "name": "\nPeynirli pizza\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/peynirli-pizza-d1f9e31e-c941-4dba-94ce-1d86271556fe.jpg",
+    "ingredients": [
+      " 1 ekmek hamuru",
+	"3 biber",
+	"2 domates",
+	"1 kalıp beyaz peynir"
+
+    ],
+    "description": "Unlanmış tezgahta hamuru 25 cm çapında açın. Yağlanmış tepsiye yerleştirin. Domatesleri rendeleyin. Kekik, defne yaprağı ve rendelenmiş sarımsağı ilave ederek orta ateşte 20 dakika pişirin. Ayrı bir yerde mantarları ince doğrayıp zeytinyağında soteleyin. Tuz ve karabiberi ekleyin. Hamurun üzerine hazırladığınız domates sosunu yayın. Kenarlarını zeytinyağı ile hafifçe yağlayın. Mantarları, taze kekiği, kaşar peynirini yerleştirin. Beyaz peyniri küp şeklinde doğrayarak ekleyin. Kırmızı soğanı piyaz doğrayıp dizin.Biberlerin çekirdeklerini temizleyip küp şeklinde doğrayarak en üste ekleyin. 200 dereceye ayarlı fırında 25 dakika pişirin. Fesleğen yaprakları ve taze çekilmiş karabiber serperek servis yapın."
+  },{
+    "name": "\nTavada pratik pizza\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tavada-pratik-pizza-11ec6455-3fdc-46d7-a93c-ca601c33fa67.jpg",
+    "ingredients": [
+      "1 su bardağı yoğurt ",
+      "1 su bardağı un ",
+      "1 yumurta ",
+      "1 çay kaşığı kabartma tozu ",
+      "1 çay bardağı süt ",
+      "1 yemek kaşığı acuka veya salça ",
+      "Yarım çay kaşığı tuz",
+      "2 yemek kaşığı zeytinyağı ",
+      "10 mantar ",
+      "1 kırmızı soğan ",
+      "3 yaprak pazı ",
+      "1 yemek kaşığı sıvı yağ ",
+      "1 su bardağı rendelenmiş mozzarella peyniri ",
+      "1 avuç kıyılmış maydanoz"
+    ],
+    "description": "Pazı yapraklarını irice doğradıktan sonra 1 yemek kaşığı sıvı yağda 10 dakika kavurun. Ocaktan alın. Bir kapta elenmiş unu ve tuzu harmanlayın. Sütü, yoğurdu ve kabartma tozunu ekleyip karıştırın. Elde ettiğiniz boza kıvamındaki karışımı yağlanmış büyük boy kare bir tavaya döküp iyice yayın. Orta ateşte, 5 dakika pişirdikten sonra 1 tatlı kaşığı su ile sulandırılmış salçayı veya acukayı yayın.Üzerine rendelenmiş mozzarella peynirinin yarısını yayın. Dilimlenmiş mantarları, halka halka doğradığınız kırmızı soğanı, yağda çevirdiğiniz pazı yapraklarını serpin. Tavanın kapağını kapatın. Orta-kısık ateşte 15 dakika pişirin. Servis tabağına alıp dilimleyerek servis yapın. Afiyet olsun.Dilerseniz, fırında pişirilen pratik pizza tarifini de deneyebilirsiniz."
+  },{
+    "name": "\nGömlek pizza\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/gomlek-pizza-dc569a22-7dd2-48e7-9151-d78717948fd8.jpg",
+    "ingredients": [
+      "2 adet ince lavaş ekmeği ",
+      "Dilimlenmiş çedar peyniri ",
+      "1 yemek kaşığı ketçap ",
+      "1 su bardağı rendelenmiş mozzarella peyniri ",
+      "15-20 dilim sucuk ",
+      "1 yemek kaşığı dilimlenmiş siyah zeytin"
+    ],
+    "description": "Lavaş ekmeğini yağlı kağıt üzerine serin. Ortasına önce fırça yardımı ile ketçap sürün, sonra da üzerine sucuk dilimlerini yerleştirin. En son rendelenmiş mozzarella peyniri ile dilimlenmiş zeytini serpin. Kenarlarından katlayıp kare şeklinde toparlayın ve ters çevirerek yağlı kağıdın üzerine yerleştirin. Bir lavaş ekmeği parçasını dikdörtgen şeklinde kesin ve fotoğrafta gördüğünüz gibi gömleğin yakasını oluşturarak tamamlayın. En son üzerine rendelenmiş mozzarella peyniri serpin. 200 dereceye ayarlı fırında, 10 dakika pişirdikten sonra fırından alın. Oda sıcaklığında biraz beklettikten sonra fotoğrafta gördüğünüz gibi çedar peynirini kesip yerleştirin. Bekletmeden dilimleyip servis yapın."
+  },{
+    "name": "\nMini tortilla pizza\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/mini-tortilla-pizza-ccaef1e5-6357-4aa5-a011-1c4ba81fddca.jpg",
+    "ingredients": [
+      "2 adet tortilla ekmeği ",
+      "1 tatlı kaşığı tereyağı ",
+      "2 yemek kaşığı rendelenmiş mozzarella peyniri",
+      "4 dilim pastırma ",
+      "6-7 adet çekirdeksiz siyah zeytin ",
+      "Bebek roka ",
+      "2 adet yumurta"
+    ],
+    "description": "Tortilla ekmeklerini tatlı tabağı büyüklüğünde kesin. Üzerlerine önce tereyağı sürün, sonra rendelenmiş mozzarella peyniri, zeytin, küp doğranmış pastırmalar serpin.Peynir ve pastırma karışımının ortasını havuz gibi açın. En son bu boşlukların içine birer yumurta kırın.Önceden ısıtılmış 180 dereceye ayarlı fırında, yumurtalar pişene kadar bekletin. Tortilla pizzalar piştikten sonra fırından alın, roka yapraklarını serpip servis yapın."
+  },{
+    "name": "\nFırında mini lavaş pizzalar\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/firinda-mini-lavas-pizzalar-2ba37e44-7bba-4d0b-a7e9-21bc4e4dc9fd.jpg",
+    "ingredients": [
+      "4 mini lavaş ekmeği",
+      "2 yemek kaşığı hazır acuka sos",
+      "2 yemek kaşığı hazır pesto sos",
+      "2 su bardağı rendelenmiş mozzarella peyniri",
+      "8 tatlı kaşığı krem peynir",
+      "8 dilim pastırma"
+    ],
+    "description": "Lavaş ekmeklerinden iki tanesine pesto sos, diğer ikisine de acuka sürün. Daha sonra lavaş ekmeklerin yarısına sırasıyla krem peynir sürün, rendelenmiş mozzarella peyniri ve parçalanmış pastırma yerleştirin. Boş kalan kısmı malzemelerin üzerine doğru yarım ay şeklinde kapatın. Yağlı kağıt serili fırın tepsisine kenarları bitişik olarak (Ekmekler pişerken içindekiler akmayacak) yerleştirin. Önceden ısıtılmış 200 derece fırında, 10 dakika pişirin."
+  }]
+},
+"ispanak":{
+"recipes":[{
+    "name": "\n Ispanaklı ve sucuklu pizza\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/ispanakli-ve-sucuklu-pizza-19f66c0d-9a04-45a3-9c95-0f4a175860b3.jpg",
+    "ingredients": [
+      "1 paket hazır pizza unu karışımı",
+      "Yarım kangal sucuk",
+      "2 su bardağı rendelenmiş mozzarella peyniri",
+      " 4 yeşil biber",
+      "2 kapya biber",
+      " 2 yemek kaşığı dilimlenmiş siyah zeytin",
+      "6 yaprak ıspanak"
+    ],
+    "description": "Pizza hamurunu paketteki tarife göre hazırlayın. Üzerini nemli bir bezle örtüp diğer malzemeleri hazırlayana dek bekletin.Sucuğu küp küp doğrayın, biberlerin çekirdeklerini temizleyip ince doğrayın. Kapya biberlerin iç çekirdeklerini temizleyip, küçük küpler halinde doğrayın. Ispanakları da kıyın. Geniş bir kabın içine rende mozzarellayı ve diğer tüm malzemeleri koyup harmanlayın.Dinlenmiş hamuru portakal büyüklüğünde bezelere ayırıp, merdane ile oval olacak şekilde ve orta incelikte açın.Sosu için gerekli malzemeleri küçük bir kasede karıştırın. Pizza hamurlarının üzerine bir fırça yardımıyla sosu sürün. Hazırladığınız üst malzemeyi eşit şekilde paylaştırın ve önceden ısıtılmış 200 derece fırında 20-25 dakika pis¸irin. Fırından çıkarıp 5 dakika dinlendirdikten sonra dilimleyerek servis yapın."
+  },{
+    "name": "\nÇoban böreği\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/coban_boregi-e2b4b6a0-ad3a-4f06-b740-8ec33d97b51a.jpg",
+    "ingredients": [
+      "1 tavuk budu",
+      "6 iri patates",
+      "3~4 dal maydanoz",
+      "500 gr ıspanak",
+      "2 pırasa",
+      "4 yumurta",
+      "100 gr sucuk (veya pastırma)",
+      "1 çorba kaşığı kurutulmuş domates",
+      "1 çay bardağı sıvıyağ",
+      "2 çorba kaşığı un",
+      "1 su bardağı rendelenmiş kaşar peyniri",
+      "3 çorba kaşığı çörekotu",
+      "Tuz",
+      " karabiber"
+    ],
+    "description": "Tavuk etini yumuşayana kadar haşlayıp süzün. Eti kemiklerinden ayırıp didikleyin. Patatesleri kabuğu ile hafif haşlayın. Süzün ve kabuklarını soyup rendeleyin. Maydanozu temizleyip kıyın. Sucuğu soyup ince doğrayın. Pırasaları temizleyip incecik doğrayın.\nIspanakları temizleyip yıkayın. Doğrayıp tavada suyunu tamamen çekene kadar soteleyin.Rendelenmiş patates, pırasa, yumurta, tavuk eti, sucuk, kurutulmuş domates, sıvıyağ, maydanoz, rendelenmiş peynir, tuz ve biberi bir kaba alıp karıştırın. 20 cm çapındaki derin kek kalıbını yağlı kağıtla kaplayın. Ispanaklı harcı döküp spatula ile düzelterek yayın.Önceden ısıtılmış 180 dereceye ayarlı fırında üzeri pembeleşene kadar pişirin. Servis tabağına alıp üzerini çörekotu ile süsleyin ve ılınmaya bırakın. Dilimleyip servis yapın.\r\n"
+  },{
+    "name": "\nIspanaklı tepsi böreği\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/ispanakli_tepsi_boregi-814acdf6-ff24-4e1a-899f-5033655ed6d8.jpg",
+    "ingredients": [
+      "500 gr ıspanak",
+      "4 yufka",
+      "2 soğan",
+      "150 gr beyazpeynir",
+      "1 su bardağı süt",
+      "Yarm su bardağı zeytinyağı",
+      "3 yumurta",
+      "1 çorba kaşığı çörek otu",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Öncelikle yumurtaları çukur bir kaba kırıp çırpın. Süt ve zeytinyağını ekleyip çırpmaya işlemine devam edin.Bu esnada ıspanakları sudan geçirin ve iyice temizledikten sonra doğrayın. Soğanları soyup ince ince kıyın.Bir kaşık zeytinyağını tavada kızdırıp soğan ve ıspanağı soteleyin. Tuz ve karabiberle tatlandırın. Soteleme işleminden sonra tavayı ocaktan alın. Ve karışımın içerisine ufalanmış peynir ilave edin.Fırın tepsisini yağlayıp yufkalardan birini kenarları dışa taşacak şekilde yerleştirin. Üzerini biraz sütlü karışımla ıslatıp ikinci kat yufkayı yayın. Islattığınız yufkanın üzerine ıspanaklı harcı ekleyip üçüncü yufkayı serin. Sütlü karışımla ıslatıp dördüncü yufkayı yayın. Üzerine kalan sütlü karışımı dökün ve çörek otunu serpin. Önceden ısıtılmış 180 dereceye ayarlı fırında yaklaşık 25-30 dakika pişirin.Özel günlerde sunabileceğiniz ıspanaklı tepsi böreğini, hafifliği ile bilinen mercimek köftesi ve zeytinyağlı yaprak sarma ile birlikte servis edebilirsiniz."
+  }]},
+"patates":{
+"recipes":[{
+    "name": "\nPatatesli poğaça\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/patatesli_pogaca-1e4e76b9-92d9-4863-8ae2-935d84f18400.jpg",
+    "ingredients": [
+      " 3 su bardağı un",
+      "1 paket kabartma tozu",
+      "1 yumurta",
+      "100 gr margarin",
+      "1 kahve fincanı sıvıyağ",
+      "1 çay bardağı yoğurt"
+    ],
+    "description": "Unu hamur yoğurma kabına eleyin. Kabartma tozunu ilave edip harmanlayın. Unun ortasını havuz gibi açıp 1 yumurta, oda ısısında yumuşatılmış margarin, sıvıyağ ve yoğurdu ekleyip pürüzsüz bir hamur yoğurun. Üzerini nemli bir bezle örtüp 30 dakika bekletin. İç malzeme için, patatesleri soyun. Dilimleyip geniş bir tencereye alın. Üzerini örtecek kadar su ilave edip haşlayın. Tencereyi ocaktan alıp patatesleri ezin. Peyniri ilave ederek iyice karıştırın. 3. Hamuru eşit büyüklükte bezelere ayırın. Bezeleri unlanmış tezgaha alıp elinizle şekil vererek çay tabağı büyüklüğünde açın.  Ortalarına patatesli harcı ekleyip top şekli verin. Poğaçaları önce yumurta sarısına sonra da susama bulayın. Yağlanmış fırın tepsisine aralıklı olarak dizin. Önceden ısıtılmış 170 dereceye ayarlı fırında 35 dakika pişirin.Patatesli poğaçayı tek başına sunmak yerine, makarna salatası ile muhteşem bir menü hazırlayabilirsiniz. Şimdiden afiyet olsun."
+  }, {
+    "name": "\nÇarşaf böreği\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/carsaf_boregi-e734c5a4-e16c-443b-9bd8-8a98eaba5277.jpg",
+    "ingredients": [
+      " 1 su bardağı ılık süt",
+      "Yarım su bardağı ılık su",
+      "1~2 yemek kaşığı ayçiçeği yağı",
+      "10 gr yaş maya",
+      "2 çay kaşığı tuz",
+      "2 çay kaşığı toz şeker",
+      "3.5 ~ 4 su bardağı un",
+      "5 patates"
+    ],
+    "description": "Mayayı küçük bir kapta toz şeker ve yarım bardak ılık su ile eritin. Süt, ayçiçeği yağı ve tuzu ilave edip, azar azar un ekleyerek yoğurun.Hamur toparlanınca unlanmış tezgaha alıp 5-10 dakika daha yoğurun ve 8 bezeye ayırın. Her bezeyi pasta tabağı büyüklüğünde açıp kenara alın ve üzerini tereyağı ve ayçiçeği yağı karışımıyla bolca yağlayıp, üst üste yerleştirin. 8 yufkalık grubu bütünüyle tutup ters çevirin. Böylece en üste gelen, ilk koyduğumuz yufkayı alıp, masanın ortasına koyun. Parmaklarınızla, yumuşak hareketlerle inceltin. İncecik açılan yufkanın uç kısmından biraz içe katlayıp, rendeleniş patatesi yerleştirin. Rulo şeklinde sarın ve ortadan başlayarak tepsiye yerleştirin. 30 dakika mayalanması için bekletin. Yağ karışımından artan 2-3 yemek kaşığı yağa 1 yumurta sarısı ilave edin. Fırçayla böreğin üzerine sürün. Öncede ısıtılmış 180-200 dereceye ayarlı fırında 30-35 dakika pişirin. Peynirli çarşaf böreğini misafir ağırlarken sunacaksanız; mercimek köftesi ve zeytinyağlı yaprak sarma ile birlikte servis ederek sofranızı renklendirebilirsiniz. Afiyet olsun."
+  }]},
+"sogan":{
+"recipes":[{
+    "name": "\nSoğanlı çörek\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/soganli_corek-0489f16b-6bc1-4b2d-9f5b-8e997cf48405.jpg",
+    "ingredients": [
+      " 2+ 1/4 su bardağı un",
+      "1 yumurta",
+      "Yarım su bardağı tam buğday unu",
+      "1 paket kabartma tozu",
+      "1 tatlı kaşığı tuz",
+      "200 ml krema",
+      "4 yemek kaşığı tereyağı",
+	"5 soğan",
+	"1 paket mantar"
+    ],
+    "description": "Mantarları ve soğanı yarım ay şeklinde dilimleyin. Zeytinyağını ısıtın. Soğanı ilave edip biraz soteleyin. Mantarı ve ince kıydığınız biberiyeyi ekleyip hafif soteleyin. Tuz ve karabiberi ekleyip ocaktan alın ve soğumaya bırakın. Derin bir kaba unları, kabartma tozunu ve tuzu ekleyip karıştırın. Tavla zarı büyüklüğünde doğradığınız tereyağını, yumurtayı ve kremayı ilave edip ele yapışmayan bir hamur elde edinceye kadar yoğurun. Mantarlı soğanlı harcı ekleyip karıştırın. Hamurun üzerine biraz un serpip merdane yardımıyla açın. Çay bardağı yardımıyla mini daireler çıkarın.Yağlı kağıt serili tepsiye dizin. Üzerine fırça ile krema sürün. Yuvarlak olarak doğradığınız soğan dilimi ve biberiyeyi ekleyin. Önceden ısıtılmış 170-180 derece fırında pembeleşinceye kadar pişirin. Servis yapın. Afiyet olsun."
+  },{
+    "name": "\nYanıç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yanic-0310e9d0-9b79-4bcc-8ee8-ae38bfb37c3f.jpg",
+    "ingredients": [
+      "1 kg ıspanak",
+      "3 adet kuru soğan (rendelenmiş)",
+      "300 gr yağsız kıyma",
+      "1 kg un",
+      "Su, tuz, karabiber",
+      "2 çorba kaşığı tereyağı"
+    ],
+    "description": "Ispanakları yıkayıp ince ince kıyın. Kaynar suda haşlayıp süzün. Sıkarak suyunu çıkarın. Tereyağını eritip rendelenmiş soğan, kıyma ve ıspanağı kavurun. Tuz, karabiber ekleyip karıştırın.Unu aldığı kadar su ile yoğurun. Kulak memesi yumuşaklığında bir hamur yapıp portakal iriliğinde parçalara ayırın.Hamur toplarının herbirini merdane ile düz tabak büyüklüğünde açın. İçine kıymalı karışımdan koyup gözleme şeklinde kapatın.Kızgın sacın üzerinde iki taraflı pişirin. Sacın üzerinden alır almaz iki tarafına hızlıca tereyağ sürüp sıcak olarak servis edin. Afiyet olsun."
+  },{
+    "name": "\nGirit’ten soğanlı susamlı börek\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/giritten-soganli-susamli-borek-9366fe68-f045-4256-9fe8-f220e246ac38.jpg",
+    "ingredients": [
+      "2+1/2 su bardağı un",
+      "1 su bardağı zeytinyağı",
+      "1 su bardağı yoğurt",
+	"3 sogan",
+	"1 yumurta",
+	"susam"
+    ],
+    "description": "Zeytinyağını bir tavaya alın ve soğanları piyazlık doğrayarak ilave edin. Orta ateşte iyice yumuşayana kadar kavurun.Unu, zeytinyağını ve yoğurdu derin bir kaba alarak yumuşak bir hamur elde edinceye kadar yoğurun. Hamuru iki eşit parçaya bölün. Böldüğünüz hamurun bir parçasını yağlanmış fırın tepsisine elinizle bastırarak yayın. Kavurduğunuz soğanları hamurun üzerine eşit bir şekilde yayın. Hamurun diğer parçasını da elinizle bastırarak açın ve soğanların üzerine kapatın. Yumurtayı çırparak böreğin üzerine iyice sürün. Bol susam serperek önceden ısıtılmış 170 derece fırında, üzeri kızarıncaya kadar pişirin. Dilimleyerek sıcak servis yapın."
+  }]
+},
+"pırasa":{
+"recipes":[{
+    "name": "\nKaşnika\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kasnika-aea27369-28f9-4dc8-8f58-608671e4ca8a.jpg",
+    "ingredients": [
+      "4 yumurta",
+      "1 paket kabartma tozu",
+      "2 yemek kaşığı yoğurt",
+      "Yarım su bardağı ayçiçeği yağı",
+      "3 su bardağı mısır unu",
+      "150 gr ufalanmış beyaz peynir",
+      "500 ml süt",
+      "3 pırasa",
+      "Tuz",
+      "Kekik"
+    ],
+    "description": "Pırasaları ince kıyın. Peyniri çatalla ezin. Derin bir kapta tüm malzemeyi karıştırıp çırpın. Hazırladığınız harcı yağlayıp unladığınız fırın tepsisine yayın. Önceden ısıtılmış 170 dereceye ayarlı fırında pişirin.Kürdanla pişip pişmediğini kontrol edin. Pişince fırından alın. Ilınınca dilimleyip servis yapın.Kaşnikanın üzerine pişirmeden önce kırmızı toz biber serpebilirsiniz."
+  },{
+    "name": "\nLaknur (Arnavut böreği)\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/laknur-arnavut-boregi-c4147c7d-d337-4774-a910-bf5399ce8830.jpg",
+    "ingredients": [
+      "400 g un",
+      "1 su bardağı su",
+      "1 yumurta",
+      "1 yemek kaşığı elma sirkesi",
+	"pırasa",
+      "Tuz"
+    ],
+    "description": "Malzemeler ile yumuşak bir hamur hazırlayıp, 15 dakika dinlendirin. Hamuru önce 2’ye ve iki parçayı da 8’er eşit bezeye ayırın. Her bir bezeyi pasta tabağı büyüklüğünde açın.Açtığınız hamurların aralarını 1 çay bardağı tereyağı ve 1 çay bardağı zeytinyağı karışımı ile 8 parçanın aralarını yağlayın. Diğer 8 parçanın aralarını da yağlayıp yarım saat dinlendirin.Pırasaları ufak ufak doğrayın, lor ile karıştırın. Tuz, karabiber ve pul biberi ekleyin. Yağlanmış tepsiye önce ilk 8 katlı bölümü yayın, hamurun kenarlarını yükseltin. İç harcını, hamurun tüm yüzeyini kaplayacak şekilde yayarak üzerine çok az un serpin, sonra ikinci 8’li parçadan oluşan bölümü harcın üzerine yerleştirin. Kenardaki hamurları iyice kapatarak üzerine kalan yağı sürün. Önceden ısıtılmış 180 derece fırında pişirin."
+  }, {
+    "name": "\nPırasa böreği\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/pirasa_boregi-215a1ed4-fde9-4b21-bb5d-1ba6487b3e47.jpg",
+    "ingredients": [
+      "750 gr pırasa",
+      "2 patates",
+      "1 yumurta",
+      "1 su bardağı rendelenmiş kaşar peyniri",
+      "Tuz",
+      "Karabiber",
+      "Kırmızı pul biber",
+      "Çörek otu"
+    ],
+    "description": "Pırasaları halka şeklinde doğrayın. Tencerede kaynar suda hafif diri kalacak şekilde haşlayın. Suyunu süzüp ılınmaya bırakın. Başka bir tencerede patatesleri haşlayın, rendeleyin ve derin bir kaseye alın. Patateslerin üzerine suyu iyice süzülmüş pırasaları ve rendelenmiş peyniri ekleyin. Yumurtayı kırın. Tuz, karabiber ve pul biberi de ekleyerek hepsini karıştırın.Karışımı yağlanmış cam bir fırın kabına aktarın. Üzerini kaşığın tersiyle düzeltin. Bolca çörek otu serpip önceden ısıtılmış 200 derece fırında yaklaşık 40 dakika pişirin. Üzeri kızarınca dilimleyerek sıcak servis yapın.Dilerseniz, klasik pırasa böreği tarifini de deneyebilirsiniz."
+  },{
+    "name": "\nÇoban böreği\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/coban_boregi-e2b4b6a0-ad3a-4f06-b740-8ec33d97b51a.jpg",
+    "ingredients": [
+      "1 tavuk budu",
+      "6 iri patates",
+      "3~4 dal maydanoz",
+      "500 gr ıspanak",
+      "2 pırasa",
+      "4 yumurta",
+      "100 gr sucuk (veya pastırma)",
+      "1 çorba kaşığı kurutulmuş domates",
+      "1 çay bardağı sıvıyağ",
+      "2 çorba kaşığı un",
+      "1 su bardağı rendelenmiş kaşar peyniri",
+      "3 çorba kaşığı çörekotu",
+      "Tuz",
+      " karabiber"
+    ],
+    "description": "Tavuk etini yumuşayana kadar haşlayıp süzün. Eti kemiklerinden ayırıp didikleyin. Patatesleri kabuğu ile hafif haşlayın. Süzün ve kabuklarını soyup rendeleyin. Maydanozu temizleyip kıyın. Sucuğu soyup ince doğrayın. Pırasaları temizleyip incecik doğrayın.\nIspanakları temizleyip yıkayın. Doğrayıp tavada suyunu tamamen çekene kadar soteleyin.Rendelenmiş patates, pırasa, yumurta, tavuk eti, sucuk, kurutulmuş domates, sıvıyağ, maydanoz, rendelenmiş peynir, tuz ve biberi bir kaba alıp karıştırın. 20 cm çapındaki derin kek kalıbını yağlı kağıtla kaplayın. Ispanaklı harcı döküp spatula ile düzelterek yayın.Önceden ısıtılmış 180 dereceye ayarlı fırında üzeri pembeleşene kadar pişirin. Servis tabağına alıp üzerini çörekotu ile süsleyin ve ılınmaya bırakın. Dilimleyip servis yapın.\r\n"
+  }, {
+    "name": "\nPırasalı kapalı pizza\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/pirasali-kapali-pizza-5530cdcc-f9b8-42ab-b559-c3a47d0499fe.jpg",
+    "ingredients": [
+      "2 su bardağı ılık su ",
+      "1 kahve fincanı zeytinyağı ",
+      "1 tatlı kaşığı kuru maya",
+      "21 g yaş maya ",
+      "1 tatlı kaşığı tuz ",
+      "1 tatlı kaşığı toz şeker ",
+      "4.5 su bardağı un "
+    ],
+    "description": "Hamur için yaş mayayı 1 bardak şekerli ılık suda 10 dakika bekletin. Unu hamur yoğurma kabında eleyin. Tuzu ve kuru mayayı ilave edip harmanlayın. Mayalı suyu ve kalan malzemeyi ekleyin. Pürüzsüz bir hamur elde edene kadar yoğurun. Üzerini örtüp ılık bir ortamda mayalanmaya bırakın. Pırasayı halka halka doğrayın. Ispanakları da irice doğrayın. Pırasayı sıvı yağda 5 dakika kavurun. Ocaktan alıp, ıspanakları, jülyen doğranmış kuru domatesleri ve rendelenmiş mozzarella peynirini ekleyin.Mayalanan hamuru mandalina büyüklüğünde bezelere ayırın. Her parçayı 1’er tatlı kaşığı kadar un serpilmiş tezgahın üzerinde yemek tabağı büyüklüğünde açın. Hamurun yarısına soğumuş iç malzemeden paylaştırın. İkiye katlayıp kenarlarını iyice bastırın.Kapalı pizza hamurlarını dilerseniz iyice ısıtılmış büyük boy tavada yağsız olarak her iki tarafını kızartarak pişirin.Dilerseniz 200 dereceye ayarlı fırında, 12-15 dakika pişirin. Fırından alın ve 5 dakika kadar beklettikten sonra servis yapın. Afiyet olsun."
+  },{
+    "name": "\nIspanaklı ve pırasalı kiş\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/ispanakli-ve-pirasali-kis-09ec9afa-7043-43b8-8ab3-f1c483c78906.jpg",
+    "ingredients": [
+      "1 sap pırasa",
+      "1/2 kg ıspanak (Ben dondurulmuş kullandım)",
+      "2 yumurta",
+      "150 ml krema",
+      "Çeri domates",
+      "Beyaz peynir",
+      "Tuz, karabiber",
+      "Zeytinyağı"
+    ],
+    "description": "İç harcı için; pırasayı incecik doğrayın. Tavaya azıcık zeytinyağı alıp öldürmeden azıcık kavurun. Ispanağı yıkayıp doğrayın ve pırasanın üzerine koyup sönene kadar, tam pişirmeden tavada şöyle bir çevirin. Başka bir kapta yumurtayı çırpıp kremayı ekleyin, tuz ve karabiberi ilave edin. Sonra ıspanaklı karışımı ekleyip karıştırın ve kenara alın. Kiş hamuru için; mutfak robotuna unu ve tereyağını alıp çalıştırın. Su, sirke ve tuzu ekleyip hamur robotta dönmeye başlayana kadar çalıştırın, toparlanınca alıp streçe sararak buzdolabına kaldırın. Dinlenen hamuru iki yağlı kağıt arasında yerleştireceğiniz kalıp büyüklüğünde açın. Üstteki kağıdı kaldırıp yağladığınız kalıba hamuru yerleştirin. Hamura çatalla delikler açın. Hazırladığınız harcı hamurun ortasına koyup üzerini çeri domates ve küp küp kesilmiş beyaz peynirle süsleyin. Önceden ısıtılmış 170 derece fırında 30 dakika pişirin."
+  }]
+},"un":{
+"recipes":[{
+    "name": "\nBiberiyeli tuzlu bisküvi\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/biberiyeli-tuzlu-biskuvi-7eaa3e64-b42e-4376-bdc3-9ca338dbf693.jpg",
+    "ingredients": [
+      "2 su bardağı un",
+      "1 tatlı kaşığı kabartma tozu",
+      "1 yemek kaşığı toz şeker",
+      "İri taneli tuz",
+      "Beyaz biber",
+      "4-5 yemek kaşığı zeytinyağı",
+      "Ilık su",
+      "1 su bardağı ince kıyılmış taze biberiye"
+    ],
+    "description": " Un, kabartma tozu, toz şeker, iri taneli tuz ve beyaz biberi geniş bir karıştırma kabında harmanlayın. Kulak memesi kıvamında bir hamur elde edecek şekilde zeytinyağı ve ılık su ilave edip tüm malzeme iyice özdeşleşinceye kadar yoğurun. İnce kıydığınız biberiyeyi ilave edip tekrar yoğurun ve hamuru unlanmış tezgah üzerine alın. Bir merdane yardımıyla ince açın. Yuvarlak bir kurabiye kalıbıyla parçalar kesip yağlı kağıt serili fırın tepsisine dizin. Üzerlerine bir fırça yardımıyla zeytinyağı sürün. Önceden ısıtılmış 180 derece fırında üzerleri kızarıncaya kadar yaklaşık 20-25 dakika pişirin. Soğuduktan sonra servis yapın."
+  },{
+    "name": "\nPatatesli mantikos\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/patatesli-mantikos-ead0abd6-5d5a-4d9e-9187-fac88fe01363.jpg",
+    "ingredients": [
+      "1 hazır ekmek hamuru",
+      "Yarım su bardağı su",
+      "Yarım su bardağı ayçiçek yağı",
+      "1 çay kaşığı karbonat",
+      "2,5-3 su bardağı un",
+      "Yarım demet maydanoz",
+      "2 haşlanmış patates"
+    ],
+    "description": "Su, ayçiçek yağı ve karbonatı küçük bir tencereye koyup orta ısılı ateşte ısıtın. Ekmek hamurunu yoğurma kabına alıp üzerine bu karışımı ekleyin ve yoğurun. Unu azar azar ekleyip yoğurarak çok yumuşak, ele yapışan bir hamur elde edin. İnce kıyılmış maydanozu ve ezdiğiniz patatesi ilave edip yoğurmaya devam edin.Elinizi ayçiçek yağına batırıp hamurdan ceviz büyüklüğünde parçalar koparın ve parçaları yuvarlayın. Yuvarladığınız mantikosları yağlı kağıt serdiğiniz tepsiye yerleştirin. Üzerlerine yumurta sarısı sürüp 20 dakika kadar tepside dinlendirin. Önceden ısıtılmış 200 derece fırında yaklaşık 25 dakika pişirin. Ilık servis yapın."
+  }, {
+    "name": "\nPizza hamuru\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/pizza_hamuru-7d64bed6-c7a2-4cc7-bac9-52f82416a4e9.jpg",
+    "ingredients": [
+      "5 yemek kaşığı yoğurt",
+      "5 yemek kaşığı zeytinyağı",
+      "1 adet yumurta",
+      "1/2 çay bardağı süt",
+      "3/4 su bardağı su",
+      "3 su bardağı un",
+      "1 çay kaşığı tuz",
+      "1 çay kaşığı toz şeker",
+      "1 paket kabartma tozu"
+    ],
+    "description": "İlk olarak boş bir kabın içerisine yumurtayı kırın ve güzelce çırpın.Üzerine süt, yoğurt, şeker, zeytinyağı ve tuzu ekleyerek çırpma işlemine devam edin.Ardından suyun yarısını karışımın içerisine dökün. Kabartma tozunu da karışıma ekledikten sonra, unu yavaş yavaş ekleyin ve karıştırma işlemine devam edin.Hamurun kıvamına göre su ve un takviyesi yapabilirsiniz.Hamur cıvık bir kıvama geldiğinde üzerini kapatın ve 10 dakika dinlendirin.Son olarak hamuru tekrar karıştırın ve yağlanmış fırın tepsisine yayın.Elinizi zeytinyağına batırın ve hamuru elinizle açın. Üzerine sos ve istediğiniz malzemeleri ekleyerek önceden ısıtılmış fırında 15 dakika pişirin."
+  },{
+    "name": "\nSebzeli pizza\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/sebzeli_pizza-9ef0f5d6-a36b-4691-839e-7bd404b0e4f6.jpg",
+    "ingredients": [
+      "1 patlıcan",
+      "2 yemek kaşığı zeytinyağı",
+      "1 su bardağı mısır unu",
+      "Yarım su bardağı patates unu",
+      "Yarım su bardağı soya unu",
+      "1 çay bardağı kabartma tozu",
+      "Yarım çay kaşığı tuz",
+      "50 gr tereyağı",
+      "Yarım su bardağı süt",
+      "2 domates",
+      "1 yemek kaşığı domates salçası",
+      "1 tatlı kaşığı kekik",
+      "2 yemek kaşığı taze fesleğen",
+      "2 yemek kaşığı zeytinyağı",
+      "115 gr mozzarella peyniri",
+      "Taze fesleğen yaprakları",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Patlıcanı ince dilimleyin. Üzerlerine yağ sürerek ızgarada pişirin. Soya unu, mısır unu, patates unu, kabartma tozu ve tuzu harmanlayın. Önce tereyağı, sonra süt ekleyip iyice yoğurun. Fırın tepsisine yağlı kağıt serin. 25 cm çapında açtığınız hamuru tepsiye yerleştirin. Salça, kekik, 2 yemek kaşığı zeytiyağı, tuz ve karabiberi küçük bir kasede iyice karıştırın. Karışımı hamurun üzerine sürün. Fesleğen yapraklarını ince doğrayarak domateslerin aralarına yerleştirin. Izgarada pişmiş patlıcan ve mozzarella dilimlerini yerleştirin. 200 dereceye ayarlı fırında 25 dakika pişirin. İnce kıyılmış fesleğen yapraklarıyla süsleyerek servis yapın. Afiyet olsun."
+  },{
+    "name": "\nÇikolatalı pizza\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/cikolatali_pizza-88f23bdf-912d-420d-ae59-a51e1003ae44.jpg",
+    "ingredients": [
+      " 3 su bardağı un",
+      "5 gr kuru maya",
+      "1 çay bardağı ayçiçeği yağı",
+      "1 çay bardağı ılık süt",
+      "1 tatlı kaşığı toz şeker",
+      "Yeterince ılık su",
+      "Tuz"
+    ],
+    "description": "Unu derin bir kaba aktarın. Üzerine bir tutam tuz, şeker ve mayayı ekleyip karıştırın. Ortasını havuz şeklinde açtıktan sonra ayçiçeği yağı ve sütü ekleyin. Yumuşak bir hamur elde edinceye kadar yavaş yavaş ılık suyu ekleyip yoğurun. Üzerine nemli bir bez kapatarak 45 dakika mayalanması için bekletin.Mayalanan hamuru ikiye bölüp yuvarlayın. Üzerine un serperek merdane yardımıyla çok kalın olmayacak şekilde açın. 30 cm tepsi ölçülerinde 2 adet pizza hamuru hazırlayın. Tepsiyi yağladıktan sonra hamurlarınızı yerleştirin. Önceden ısıtılmış 170 derecelik fırında 20 dakika pişirin.Fırından çıkardıktan sonra sıcakken çikolata kremasını pizzanın her tarafına sürün. Son olarak üzerine beyaz ve siyah damla çikolataları, file Antep fıstıklarını kenarlara doğru serpiştirin. Ilık servis yapın."
+  },{
+    "name": "\nBayat ekmek pizzası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/bayat-ekmek-pizzasi-dadc2675-f699-476a-a0df-9e89f3d5163a.jpg",
+    "ingredients": [
+      "1 adet somun bayat ekmek",
+      "2 çay bardağı süt",
+      "2 yumurta (Çırpılmış)",
+      "3-4 kaşık sıvı yağ",
+      "1/2 paket kabartma tozu",
+      "1 tatlı kaşığı pul biber",
+      "1 tatlı kaşığı kekik"
+    ],
+    "description": "Bayat ekmeği küçük küpler halinde kesin ve bir kaba koyup üzerine yumurta, süt, sıvı yağ, kabartma tozu, kekik ve pul biberi ekleyip iyice karıştırın (Karışımın fazla cıvık olmaması için sütü kontrollü şekilde ekleyin). Ekmeklerin yumuşaması için bir süre bekletin.Fırın tepsisine yağlı kağıt serip ekmeği boşaltın ve yayarak bastırın. Üzerine ketçap sürüp taze kaşar peynirinin yarısını serpin ve sırasıyla diğer malzemeleri yerleştirin.Hafif tuz serpin ve önceden ısıtılmış 180 derece fırında kızarana kadar pişirin. Fırından almadan önce kalan kaşar peynirini serpin ve eriyene kadar fırında tutun. Kaşar peyniri eridikten sonra fırından alın ve dilimleyerek sıcak servis yapın. Afiyet olsun."
+  },{
+    "name": "\nPizza napoli\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/pizza-napoli-e23de92d-9da9-4a9a-86ce-e3b28b94f317.jpg",
+    "ingredients": [
+      "3.5 su bardağı un",
+      "1.5 su bardağı ılık su",
+      "1 yemek kaşığı instant maya",
+      "1 tatlı kaşığı şeker",
+      "5 yemek kaşığı zeytinyağı",
+      "2 top mozzarella",
+      "7-8 çeri domates",
+      "2 yemek kaşığı kapari",
+      "1 orta boy ton balığı",
+      "1 yemek kaşığı domates salçası",
+      "5-6 yaprak taze fesleğen",
+      "2 çay kaşığı kekik",
+      "3 çay kaşığı tuz"
+    ],
+    "description": "Ilık suyu yoğurma kabına alın. Maya ve şekeri ekleyip 5 dakika bekletin. Tuz ve zeytinyağı ekleyin. Unu azar azar ve eleyerek ilave edip5 dakika yoğurun. Gerekirse un ekleyin. Üzerini örterek mayalanmaya bırakın.Mozzarella ve domatesler yuvarlak olacak şekilde kesin. Kaparilerin fazla tuzunu almak için bir süre suda bekletin.Pizza sosu için karıştırma kabına salça, yarım çay kaşığı tuz, 1 çay kaşığı kekik ve 3 yemek kaşığı zeytinyağını ekleyerek çırpın.Hamuru unlanmış tezgahta elinizle bastırarak yuvarlak ve ince şekilde açın. Hazırlanan sosu üzerine gezdirin. Önce yuvarlak mozzarellaları, daha sonra domates ve diğer malzemeleri pizza hamurunun üzerine yayın. Hazırladığınız pizzayı, önceden ısıtılmış 180 derece fırında 15 dakika kadar pişirin. Pizzayı fırından alıp kapari, fesleğen yaprakları, kekik ve zeytinyağıyla süsleyerek servis yapın."
+  }]
+}
+}

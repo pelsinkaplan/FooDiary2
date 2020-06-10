@@ -1,0 +1,1942 @@
+{
+"sogan":{
+"recipes":[{
+ "name": "\nErişteli yeşil mercimek\n",
+      "img": "https://lezzet.blob.core.windows.net/images-small-recipe/eristeli_yesil_mercimek-8f441a3f-9611-4c01-aa82-58168f3c1167.jpg",
+    "ingredients": [
+      "1 yemek kaşığı tereyağı",
+      "1 soğan",
+      "1 su bardağı haşlanmış yeşil mercimek",
+      "100 gr erişte",
+      "8 su bardağı su",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Kökeni Mezopotamya'ya dayanan yeşil mercimek; salata, çorba ve ana yemeklerin içerisinde kullanılır. Türkiye'de Güneydoğu Anadolu'da yetiştirilen bu besin, demir deposu olarak bilinir. Bu yüzden anemi ve kansızlığın giderilmesinde etkilidir. Bağışıklık sistemini güçlendirmek için, haftada bir kez tüketilmesi önerilir. Sinir sistemini düzenleyen yeşil mercimek; stres, uykusuzluk ve halsizlik gibi sorunların giderilmesinde de etkin bir rol oynar. Klasik tariften sıkılanlar için lezzetiyle herkesi kendine hayran bırakan erişteli yeşil mercimek tarifine başlayabiliriz.Tereyağını tencerede eritin. Soğanı ince doğrayıp tereyağında kavurun. Sıcak su, mercimek, tuz ve karabiberi soğana ilave edip 10 dakika pişirin. Erişteleri çorbaya ekleyip yumuşayıncaya kadar pişirin. Sıcak servis yapın.Erişteyi kaynayan suya atıp 10-12 dakika normal ateşte haşlayarak pilav gibi suyunu çektirirseniz besin değerini kaybetmez.\n"
+  }, {
+    "name": "\nYeşil patates püreli kuzu incik\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yesil-patates-pureli-kuzu-incik-56f5c92e-89af-4d56-ac1f-e3ca1402ff3c.jpg",
+    "ingredients": [
+      "4-5 adet kuzu incik",
+      "2 orta boy kuru soğan",
+      "1 baş sarımsak",
+      "Tuz",
+      "Karabiber",
+      "1 çay kaşığı kişniş tohumu",
+      "Taze kekik",
+      "Susam",
+      "Sıvı yağ"
+    ],
+    "description": "Büyük bir tavaya 2 yemek kaşığı sıvı yağ koyun. Kuzu inciklerin üzerine az tuz ve karabiber serpin. Alt ve üst kısmını tavada ikişer dakika mühürleyin. Mühürlenen incikleri kenara alın.Düdüklü tencerenin içerisine 1 yemek kaşığı sıvı yağ koyun. 1 baş sarımsağı iyice yıkayıp ortadan kesin ve yağın içerisine atın. Biraz kavurup üzerine piyazlık doğranan kuru soğanları atın ve çevirin. Soğanların üzerine önceden mühürlediğiniz incikleri yerleştirin ve taze kekikleri ilave edin. İnciklerin yarısına gelene dek sıcak su ilavesi yapın. Tuz, karabiber ve dövülmüş kişniş ile çeşnilendirin. Düdüklünün kapağını kapatın. 35-40 dakika orta ateşte pişirin.Pişen etleri bir fırın kabına alın. Üzerine minik tereyağı parçaları ekleyin. Susam serpin. Önceden ısıtılmış 200 derecelik fırında etlerin üzeri kızarana dek pişmeye bırakın."
+  },{
+    "name": "\nFırında kuzu gerdan\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/firinda_kuzu_gerdan-0d7a4f77-fe48-4e4d-9b2d-d146db9b6aa2.jpg",
+    "ingredients": [
+      "1 kg kuzu gerdan",
+      "5 yemek kaşığı tereyağı",
+      "Tuz",
+      "Kekik",
+      "Fesleğen",
+      "Rezene",
+      "10~12 diş sarımsak",
+      "20 arpacık soğan",
+      "-Patates garnitür",
+      "1 kg mini taze patates",
+      "Yarım çay bardağı zeytinyağı",
+      "Tuz",
+      "Karabiber",
+      "Kırmızı pul biber",
+      "Kekik"
+    ],
+    "description": "Kuzu gerdanları erittiğiniz tereyağında mühürleyip bir kaba alın. Tuz ve baharatlar ile tatlandırıp karıştırın. Bir fırın torbasına önce etleri sonra soyup bütün bıraktığınız arpacık soğanlar ve sarımsakları ekleyin. Torbanın ağzını kapatıp üzerine kürdanla birkaç delik açın. Önceden ısıtılmış 200 derece fırında 1.5 saat pişirin. Patatesleri kabuklarıyla birlikte iyice yıkayıp hafif haşlayın ve bir kaba alın. Zeytinyağı, tuz ve baharatları ekleyip karıştırın. Yapışmaz yüzeyli bir tavada ara sıra karıştırarak kapağı kapalı şekilde patatesler yumuşayana kadar pişirin. Kuzu gerdanın yanında servis yapın.\n\n"
+  }, {
+    "name": "\nOrman kebabı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/orman-kebabi-b36259be-25df-4289-a592-02e587569187.jpg",
+    "ingredients": [
+      "1 yemek kaşığı tereyağı",
+      "2 adet büyük boy soğan",
+      "4-5 diş sarımsak",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "2 adet kereviz sapı",
+      "2 adet patlıcan",
+      "2 adet büyük boy patates",
+      "2 adet büyük boy havuç",
+      "2 adet kırmızı kapya biber ",
+      "3-4 adet yeşil köy biberi",
+      "1 su bardağı bezelye",
+      "Tuz, karabiber",
+      "3 su bardağı et suyu",
+      "1 adet defne yaprağı"
+    ],
+    "description": "İlk olarak tencereyi ocakta ısıtmaya koyun. Etin üzerine un serpin ve kuzu etine yedirin. Unlamanın amacı çıtır olmasını sağlamak. Tencere ısındıktan sonra ayçiçeği yağını ve eti ilave edin. Et altın sarısı kıvamına gelene kadar pişirin. Bu sırada elinizdeki sebzeleri aşırı küçük olmayacak şekilde doğrayın. Et altın sarısı kıvamına geldikten sonra tabağa alın. Aynı tencerede biraz tereyağı erittikten soğanları ekleyin ve kavurun. Daha sonra sarımsakları doğrayıp ilave edin. Salçayı da erittikten sonra sebzeleri ekleyin. Sebzeler biraz yumuşadıktan sonra domatesleri ilave edin. Daha önce ayırdığımız etleri sebzelerle buluşturun. Tuz ve karabiberini ekleyin. 3 bardak et suyu ekleyin ve karıştırın. Bir adet defne yaprağı ekleyerek lezzet vermesini sağlayın. 45- 50 dakika pişmeye bırakın. Afiyet olsun."
+  },{
+    "name": "\nEtli patates\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_patates-be0f01a6-9cf1-4a37-97ca-0b0d952dc548.jpg",
+    "ingredients": [
+      " 1 kg patates",
+      "600 gr kuşbaşı dana eti",
+      "3 yemek kaşığı tereyağı",
+      "1 soğan",
+      "1 yemek kaşığı domates salçası",
+      "1 su bardağı et suyu",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "İlk olarak tereyağını eritin. Etleri ilave ederek kısık ateşte ara ara karıştırarak yumuşayıncaya kadar pişirin.Soğanı ince ince doğrayıp ekleyin. Et suyu, karabiber, salça ve tuz ilave ederek 20 dakika daha pişirin. Suyunu çekerse ılık su ilave edin.Patateslerin kabuklarını soyup elma dilim yapın. Ete ilave edin. Suyunu çekince fırın tepsisine alın.Üzerine dilimlenmiş domates ve biberleri yerleştirin. Pul biber serpiştirin ve fırına verin. 15 dakika daha pişirin.Etli patates yemeğini, yanına çok yakışan zeytinyağlı enginar ve patlıcan turşusu ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },{
+    "name": "\nFırında kuzu gerdan\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/firinda_kuzu_gerdan-0d7a4f77-fe48-4e4d-9b2d-d146db9b6aa2.jpg",
+    "ingredients": [
+      "1 kg kuzu gerdan",
+      "5 yemek kaşığı tereyağı",
+      "Tuz",
+      "Kekik",
+      "Fesleğen",
+      "Rezene",
+      "10~12 diş sarımsak",
+      "20 arpacık soğan",
+      "-Patates garnitür",
+      "1 kg mini taze patates",
+      "Yarım çay bardağı zeytinyağı",
+      "Tuz",
+      "Karabiber",
+      "Kırmızı pul biber",
+      "Kekik"
+    ],
+    "description": "Kuzu gerdanları erittiğiniz tereyağında mühürleyip bir kaba alın. Tuz ve baharatlar ile tatlandırıp karıştırın. Bir fırın torbasına önce etleri sonra soyup bütün bıraktığınız arpacık soğanlar ve sarımsakları ekleyin. Torbanın ağzını kapatıp üzerine kürdanla birkaç delik açın. Önceden ısıtılmış 200 derece fırında 1.5 saat pişirin. Patatesleri kabuklarıyla birlikte iyice yıkayıp hafif haşlayın ve bir kaba alın. Zeytinyağı, tuz ve baharatları ekleyip karıştırın. Yapışmaz yüzeyli bir tavada ara sıra karıştırarak kapağı kapalı şekilde patatesler yumuşayana kadar pişirin. Kuzu gerdanın yanında servis yapın.\n\n"
+  },{
+    "name": "\nNohutlu imam bayıldı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/nohutlu-imam-bayildi-e0568b28-998b-483a-9373-977a93ec4f9f.jpg",
+    "ingredients": [
+      "1 adet bostan patlıcanı ",
+      "1 adet sarı kabak",
+      "1 adet Girit kabağı",
+      "2 soğan",
+      "2 büyük Çanakkale domatesi",
+      "1/2 bağ maydanoz",
+      "2 diş sarımsak",
+      "2 adet kesme şeker",
+      "1 su bardağı haşlanmış nohut",
+      "2 kırmızı kapya biber"
+    ],
+    "description": "Bostan patlıcanlarını ve kabakları dilimledikten sonra yağlı kağıt serili fırın tepsisine dizin. Tuz ve zeytinyağı gezdirerek önceden ısıtılmış 200 derece fırında pişirin.Ayrı bir tencerede soğanı bir miktar zeytinyağı ile kavurun. Üzerine küp doğradığınız domatesi ekleyerek pişirin ve ocaktan almadan önce haşlanmış nohudu ilave edin. Birkaç dakika pişirip ocaktan alın.Fırında pişen sebzeleri sırasıyla bir servis tabağına dizin. Sebzeleri dizerken aralarına ve üzerine pişirdiğiniz domatesli sostan koyun. Hazırladığınız nohutlu imam bayıldıyı ılık ya da soğuk servis yapın."
+  },  
+  {
+    "name": "\nNohutlu zeytinyağlı kabak\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/nohutlu-zeytinyagli-kabak-1032684a-fbf6-4067-8bd6-28b6e3b122cc.jpg",
+    "ingredients": [
+      "1 soğan ",
+      "Yarım çay bardağı zeytinyağı ",
+      "1 tatlı kaşığı domates salçası ",
+      "Yarım kg kabak ",
+      "1 kırmızı biber ",
+      "2 havuç ",
+      "Tuz ",
+      "1 çay kaşığı toz şeker  ",
+      "Bir su bardağı sıcak su"
+    ],
+    "description": "İlk olarak soğanları küp küp doğrayın ve kabakları soyun. Daha sonra ince dilimler haline getirin. Daha sonra soğanları zeytinyağında pembeleşinceye kadar soteleyin.Üzerine salçayı ilave edip 1-2 dakika daha kavurun.Dilimlediğiniz kabakları, kırmızı biberi ve havuçları da tavanın içerisine ilave edin. Tuz, şeker ve sıcak su ekleyip kısık ateşte yumuşayıncaya kadar pişirin.Çatal ile yumuşaklığını kontrol ettikten sonra servis tabağına alabilirsiniz.Zeytinyağlı kabak yemeğini, yanına çok yakışan firik pilavı ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },
+  {
+    "name": "\nZeytinyağlı kabak çiçeği dolması\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/zeytinyagli-kabak-cicegi-dolmasi-e1d42168-4f03-4ba2-8b9c-993ac4001d74.jpg",
+    "ingredients": [
+      "25-20 adet kabak çiçeği",
+      "2 adet kuru soğan",
+      "1 çay bardağı zeytinyağı",
+      "1 adet domates",
+      "1.5 su bardağı pirinç",
+      "Yarım bardak sıcak su",
+      "Dereotu (bir demetin üçte biri kadar)",
+      "1 tatlı kaşığı kuru nane",
+      "1 çay kaşığı tuz",
+      "Yarım çay kaşığı karabiber"
+    ],
+    "description": "Kuru soğanları küp küp doğrayın. Ortadan bölünen ve uç kısımları alınmış domatesleri ince kısımla rendeleyin. Elinizdeki dereotu yapraklarını ipince olacak şekilde kıyın.Kabak çiçeklerinin uç kısımlarında bulunan yeşil kısımları yapraklara zarar vermemeye dikkat ederek çıkartın.Yapraklara zarar vermeden, çiçeklerin içerisindeki sarı kısımları alın.Zeytinyağının yarısını geniş bir tencereye döküp yağınız ısınınca kuru soğanları bu yağda renk alana kadar kavurun. Pirinçleri yıkayın ve soğanlarla kavurmaya devam edin.Rendelenmiş domateslerle beraber karabiber, tuz, kuru nane ve sıcak su ekleyerek düşük ateşte suyu çekilene kadar karıştırarak pişirin. Sosun oturması için kısa bir süre dinlendirdikten sonra kıyılmış dereotunu ekleyip iyice karıştırarak harmanlayın.Hazırladığınız dolma harcını çiçeklerin iç kısmına azar azar, çiçekleri zedelemeyecek seviyede doldurun. Çiçekleri, üstten içe doğru dikkatlice katlayıp katlanan yer altta kalacak şekilde tencereye dizin.Kalan zeytinyağını tenceredeki dolmaların üzerlerinde gezdirip, dolmaların yarısına gelecek şekilde ılık su ekleyin. Tencerenin kapağını kapatın ve kabak çiçeği dolmanızı kısık ateşte 30 dakika pişirin.Arzunuza göre limon dilimleriyle beraber ılık ya da soğuk olarak servis edebilirsiniz. Afiyet olsun."
+  }, {
+    "name": "\nBol domatesli taze fasulye\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/bol-domatesli-taze-fasulye-d74e8f75-ac79-490b-8158-d5573087e596.jpg",
+    "ingredients": [
+      "500 g taze fasulye (Kılçıkları temizlenmiş) ",
+      "1/2 çay bardağı sızma zeytinyağı ",
+      "1 adet kapya biber (Zar doğranmış) ",
+      "1 adet büyük boy beyaz soğan (İnce kıyılmış) ",
+      "2 diş sarımsak (İnce doğranmış) ",
+      "3-4 adet domates (İnce doğranmış) ",
+      "Tuz ",
+      "4-5 yaprak taze fesleğen ",
+      "1-2 dal maydanoz ",
+      "1 çay kaşığı rendelenmiş limon kabuğu"
+    ],
+    "description": "Geniş tabanlı bir tencerede yağın yarısını ısıtıp soğanı yumuşayana kadar kavurun. Doğranmış sarımsakla birlikte kapya biberi de ilave edin. 1-2 dakika kavurun. Domatesleri ilave edip kaynamaya bırakın. Sos kaynamaya başlayınca ısıyı düşürün. Bu arada sosu başka bir kaba ayırın. Taze fasulyeleri kalan zeytinyağı ile birlikte aynı tencerenin içinde 3-4 dakika kavurun. Ardından tencerenin içinde çok düzgün bir şekilde sıralayın. Fasulyelerin üzerine sosu eşit dağılacak şekilde gezdirin. Üzerini örtecek şekilde sıcak su dökün. Önce yüksek ateşte birkaç dakika kaynatın, sonra tencerenin kapağını kapatıp ateşi de iyice kısın. Kısık ateşte, yarım saat pişirin. Bol domatesli taze fasulyeyi ocaktan alınca üzerine kıyılmış yeşillik atın, rendelenmiş limon kabuğu serpin. Hemen tencerenin kapağını kapatın, oda sıcaklığında soğumaya bırakın."
+  }, {
+    "name": "\nZeytinyağlı taze fasulye\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/zeytinyagli_taze_fasulye-14d269df-3685-4300-83cb-1fa5992a1c23.jpg",
+    "ingredients": [
+      "1 kg taze fasulye",
+      "1 soğan",
+      "2 domates",
+      "1 yemek kaşığı salça",
+      "Yarım su bardağı zeytinyağı",
+      "1 tatlı kaşığı toz şeker",
+      "1 su bardağı sıcak su",
+      "Tuz"
+    ],
+    "description": "İlk olarak soğanı küp küp doğrayın ve domatesleri rendeleyin.Fasulyelerin kılçıklarını ayıklayın. Ayıkladığınız fasulyeleri bir kapta yıkayarak ikiye bölün ve bir kenarda bekletin.Pişirme işlemine başlamak için zeytinyağını tencerede ısıtın. Önceden doğranan soğanları yağ içerisine ekleyerek pembeleşinceye kadar kavurun. Salça ve tuzu da ilave edin. Ayıklanmış fasulyeleri de tencere içerisine ekleyin ve karıştırmaya devam edin. Daha iyi karışmasını sağlamak için tencerenin kapağını kapatıp sallayın. Rendelenmiş domatesleri de tencereye dökün ve yemeğiniz yumuşayana kadar pişirin.Son olarak sıcak su ve toz şekeri de karışıma ekleyerek harlı ateşte pişirin. Yemek olduğunda tencerede soğuması için biraz bekletin.Ana yemek olarak sunulan taze fasulyeyi, sebzeli bulgur pilavı ve cacık ile servis edebilirsiniz. Şimdiden afiyet olsun."
+  },{
+
+    "name": "\nBebek enginar\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/bebek-enginar-7f61aca4-28da-4301-8471-ddd4bbcdcd4f.jpg",
+    "ingredients": [
+      "1 adet limon ",
+      "10-12 adet bebek enginar ",
+      "1 adet beyaz soğan (İnce kıyılmış) ",
+      "3 yemek kaşığı sızma zeytinyağı ",
+      "1 adet havuç (Küp doğranmış) ",
+      "Taze çekilmiş tuz ve karabiber ",
+      "1 dal taze kekik ",
+      "2 diş sarımsak ",
+      "2 yemek kaşığı sirke ",
+      "1 su bardağı tavuk suyu"
+    ],
+    "description": "Büyük bir kaseyi su ile doldurun ve limon suyu ekleyip karıştırın. Temizlenmiş taze enginarları bu suyun içinde bekletin. Zeytinyağını geniş bir tencerede ısıtıp, kıyılmış soğanı yumuşayana kadar kavurun. Küp doğranmış havucu ekleyin. Birkaç dakika daha kavurun. İnce doğranmış sarımsakları, tuzu, karabiberi, kekik dalını ve sirkeyi ilave edin. Hızlıca karıştırın. Sıcak tavuk suyunu ekleyip kaynamaya bırakın. Su kaynayınca enginarları ilave edin. Tencerenin kapağını kapatın, ateşi kısın. Enginarlar yumuşayana kadar, yaklaşık 20 dakika pişirin."
+  },  {
+    "name": "\nSebzeli zeytinyağlı enginar\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/sebzeli_zeytinyagli_enginar-f12ccd3d-663c-4ae9-8170-550552da1409.jpg",
+    "ingredients": [
+      "5 enginar",
+      "2 soğan",
+      "2 havuç",
+      "2 patates",
+      "1 su bardağı bezelye",
+      "1 tatlı kaşığı toz şeker",
+      "1 su bardağı su",
+      "Yarım çay bardağı zeytinyağı",
+      "Tuz"
+    ],
+    "description": "Öncelikle soğanları ve havuçları küp küp doğrayın ve bir tavaya zeytinyağı ekleyin. Doğradığınız soğan ve havuçları pembeleşinceye kadar zeytinyağında soteleyin.pembeleşen soğanların üzerine toz şeker ekleyin. Bu esnada patates ve enginarları da küp şeklinde doğrayın.Doğranmış patatesleri ve enginarları sotenin içerisine ilave edin.Daha sonra soteye bezelyeyi ve suyu ekleyin. Tuzunu ayarladıktan sonra yarım saat enginarlar yumuşayıncaya kadar pişirin. Pişen enginarları servis tabağına alın. Üzerine zeytinyağı ve limon suyu gezdirin.Zeytinyağlı enginarı, yapımı oldukça pratik olan Ankara tava ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  }, {
+    "name": "\nMacar Gulaş\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/macar-gulas-514064e1-c6b6-4747-a878-2e2eb98261f8.jpg",
+    "ingredients": [
+      "600 gram kıyılmış soğan",
+      "2 adet defne yaprağı",
+      "1 tatlı kaşığı mercanköşk",
+      "5 diş sarımsak",
+      "2 yemek kaşığı kırmızı toz biber",
+      "1 yemek kaşığı taze maydanoz",
+      "2 çay kaşığı kırmızı pul biber",
+      "Küpler halinde kesilmiş 650 gram dana eti (veya kuzu eti)",
+      "250ml taze domates suyu",
+      "Tuz ve karabiber",
+      "Bira"
+    ],
+    "description": "Soğanı soyun ve orta boy küpler halinde doğrayın, kızarana kadar yağ içinde yavaşça çevirin ve yanmasına izin vermeyin. Eti orta boy küpler halinde dilimledikten sonra tuz ve karabiber ekleyin. Sığır etini tavaya alın ve etin her tarafı açık kahverengi olana kadar çevirin. Sonra domates püresini, bir süre sonra da tatlı kırmızı biberi ekleyin ve kırmızı biberi aşırı ısıtmamaya veya yakmamaya dikkat ederek karıştırın.Yemeği iyice karıştırdıktan sonra, tencereye bir şişe bira dökün. Sonra sarımsakları dilimleyin ve bir macun yapmak için tuzla birlikte ezin ve bunun yarısını tencereye ekleyin. Hepsini bir süre kaynatın, sonra ısıyı azaltın ve en az iki saat kısık ateşte pişirin. Malzemelerin durumunu düzenli olarak elle kontrol edin; et yumuşamaya ve dağılmaya başladığında, neredeyse servis yapmaya hazırsınız demektir.Doğranmış mercanköşk ile beraber sarımsak macununun diğer yarısını yemeğe ekleyin. Gerekirse duruma göre tuz ve karabiber oranını artırabilirsiniz. Sıcakken kaselere dökün ve rendelenmiş yaban turpu, ince dilimlenmiş kırmızı soğan, bütün acı biber ve maydanozla süsleyin. Buğulanmış pastırma köfte veya haşlanmış kalın hamur parçalarıyla servis yapın.Orijinal gulaş tarifi bir çorba ve güveç arasında bir kıvama sahip olmalıdır. Bazı güveçlerin aksine, gulaş çok fazla sebze içermez ve bol etlidir. Ancak pişirme işlemi sırasında et suyu kalınlaşır ve daha zengin bir sos kıvamına gelir. Mükemmel bir lezzet elde etmek için pişirme yönteminin doğru adımlar izlenerek uygulanması önemlidir."
+  } ,   {
+    "name": "\nEtli bezelye yemeği\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_bezelye_yemegi-dc720c3e-e5a2-4cae-99a7-93d8e9cf318a.jpg",
+    "ingredients": [
+      " 300 g kuşbaşı dana eti",
+      "300 g iç bezelye",
+      "5~6 kuru domates",
+      "2~3 kuru biber",
+      "1 soğan",
+      "2 diş sarımsak",
+      "1 tatlı kaşığı biber salçası",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Yemeklik doğradığınız soğan ve kuşbaşı dana etini zeytinyağında soteleyin. Etlerin renkleri dönmeye başlayınca salçayı ilave edip karıştırın. Üzerini bir parmak geçecek kadar su ilave edip kaynatın. Kaynadıktan sonra altını kısıp kapağı kapalı olarak 20 - 25 dakika pişirin. Ayıkladığınız bezelye, iri doğradığınız sarımsak, kuru domates ve kuru biberi ekleyip 15 dakika daha pişirin. Üzerini ince kıydığınız dereotu ile süsleyin.Etli bezelye yemeğini, pirinç pilavı ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },  {
+    "name": "\nFırında sebzeli pirzola\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/firinda-sebzeli-pirzola-0e4e7c57-120a-4ffa-ab31-09fdae9febf6.jpg",
+    "ingredients": [
+      "2 kg bütün kuzu pirzola",
+      "300 gr arpacık soğan",
+      "10 diş sarımsak",
+      "200 gr saplı kiraz domates",
+      "6 patates",
+      "1 su bardağı sıcak su",
+      "1 dal taze biberiye",
+      "4 çorba kaşığı zeytinyağı",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "İki parça kuzu pirzolayı bir tepsiye karşılıklı yerleştirin. Kemiklerin üzerindeki etleri keskin bir bıçağın ucu ile özenle temizleyip kemikleri karşılıklı olarak birbirine geçirin.Kemiklerin uç kısımlarını pişme esnasında yanmaması için alüminyum folyo ile sarın.Etin üzerine tuz ve karabiber serpip etli kısmın üzerine biberiye dallarını yerleştirin. Etleri pişme esnasında açılmaması için iple sarın.Eti yağlanmış fırın tepsisine yerleştirip üzerine zeytinyağını gezdirin. Tuz ve karabiber serpin. Soğan ve sarımsakları soyun. Patatesleri soyup parizyen kaşıkla top şeklinde kesin. Soğan ve patatesleri etin etrafına yerleştirin.Sıcak suyu ekleyin. Önceden ısıtılmış 200 dereceye ayarlı fırında 50 dakika pişirin.Pişme esnasında sık sık sosu kaşıkla alarak etin üzerine gezdirin. Domatesleri ilave edip 10 dakika daha pişirin. Eti sebze ve sosuyla birlikte servis tabağına alın. Kemiklerin ucundaki folyoyu çıkarın ve servis yapın."
+  },  {
+    "name": "\nKlasik güveç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/klasik_guvec-6c1814bb-3c54-45ae-9160-b011315262ca.jpg",
+    "ingredients": [
+      "1~1.5 kg kuzu kol eti (kemiksiz ve küçük doğranmış)",
+      "1 büyük boy soğan",
+      "5 yemek kaşığı zeytinyağı",
+      "8~10 diş sarımsak",
+      "2 sivri biber",
+      "1 büyük boy patates",
+      "4 orta boy domates",
+      "2 çay kaşığı tuz",
+      "2 çay kaşığı kırmızı pul biber",
+      "1 çay kaşığı kekik",
+      "1 çay kaşığı nane",
+      "1 su bardağı sıcak su",
+      "2 tatlı kaşığı domates salçası"
+    ],
+    "description": "Öncelikle bütün malzemeleri yıkayıp bir kenarda bekletin.Ardından yarım ay şeklinde doğradığınız soğanları ve etleri zeytinyağında kavurun. Tuz ve biberi ekleyip ocaktan alın.Kavurduğunuz soğanlı eti güveçlerin dibine yağıyla birlikte paylaştırın. Sarımsakları soyup ikiye bölün.Sivri biberleri temizleyip iri parçalar şeklinde doğrayın. Domatesleri soyup iri parçalara bölün. Patatesi soyup iri parçalar şeklinde doğrayın.Bu malzemeleri derin ve geniş bir kaba koyup karıştırın. Kalan tuz, biber, kekik, naneyi ve suda ezdiğiniz salçayı katıp tekrar karıştırın.Bu karışımı etlerin üzerine yayın. Güvecin ağzını kapakla ya da alüminyum folyoyla kapatın. Önceden 200 derecede ısıtılmış fırında en az 2 saat pişirin. Şimdiden afiyet olsun."
+  },
+  {
+    "name": "\nTerbiyeli kuzu incik\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/terbiyeli_kuzu_incik-a0fdc660-7bff-4d02-985f-73bf0d4657d2.jpg",
+    "ingredients": [
+      "4~6 kuzu incik",
+      "5 su bardağı su",
+      "3~4 yemek kaşığı zeytinyağı",
+      "3~4 diş sarımsak",
+      "10~12 arpacık soğan",
+      "4 taze patates",
+      "2 havuç",
+      "2 yumurta sarısı",
+      "Yarım limonun suyu",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Kuzu incikleri geniş bir tencerenin içine dizin.\r\nÜzerini örtecek kadar su ekleyin ve incikler yumuşayıncaya\r\nkadar yaklaşık 1–1 saat 15 dakika\r\npişirin. Kabukları soyulmuş soğanları ve bütün\r\nsarımsakları başka bir tencerede zeytinyağında\r\nkavurun. Küp doğradığınız patatesleri ve\r\n3 santim kalınlığında doğradığınız havuçları,\r\ntuz ve karabiberi ekleyin. İnciği pişirdiğiniz\r\net suyu ve incikleri ekleyip kaynamaya bırakın.\r\nKaynadıktan sonra ocağı kısın ve bütün\r\nmalzeme yumuşayana kadar pişirin. Yumurta\r\nsarıları, limon suyu ve biraz tuzu bir kasede\r\nçırpın. Etin suyundan azar azar karışıma ekleyerek\r\nkarıştırın ve ısılarını eşitleyin. Terbiyeyi\r\ntencereye yavaşça ekleyin. Bir taşım pişirip\r\nocağı kapatın. Üzerini taze çekilmiş karabiber\r\nve biberiye ile süsleyip servis yapın."
+  },
+  {
+    "name": "\nEtli patates\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_patates-be0f01a6-9cf1-4a37-97ca-0b0d952dc548.jpg",
+    "ingredients": [
+      " 1 kg patates",
+      "600 gr kuşbaşı dana eti",
+      "3 yemek kaşığı tereyağı",
+      "1 soğan",
+      "1 yemek kaşığı domates salçası",
+      "1 su bardağı et suyu",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "İlk olarak tereyağını eritin. Etleri ilave ederek kısık ateşte ara ara karıştırarak yumuşayıncaya kadar pişirin.Soğanı ince ince doğrayıp ekleyin. Et suyu, karabiber, salça ve tuz ilave ederek 20 dakika daha pişirin. Suyunu çekerse ılık su ilave edin.Patateslerin kabuklarını soyup elma dilim yapın. Ete ilave edin. Suyunu çekince fırın tepsisine alın.Üzerine dilimlenmiş domates ve biberleri yerleştirin. Pul biber serpiştirin ve fırına verin. 15 dakika daha pişirin.Etli patates yemeğini, yanına çok yakışan zeytinyağlı enginar ve patlıcan turşusu ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },   {
+    "name": "\nKağıt kebabı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kagit_kebabi-353101af-1c26-4c6c-8afd-2fc255187da4.jpg",
+    "ingredients": [
+      "500 gr kuşbaşı dana eti",
+      "2 havuç",
+      "2 patates",
+      "1 su bardağı bezelye",
+      "20 arpacık soğanı",
+      "4 yemek kaşığı zeytinyağı",
+      "1 yemek kaşığı domates salçası",
+      "2 domates",
+      "1 su bardağı su",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Maydanoz"
+    ],
+    "description": "Tencerede zeytinyağı, soğan ve etleri 3 dakika soteleyin. Salça ve su ekleyip kısık ateşte yumuşayıncaya kadar pişirin.Patates, domates ve havuçları küp şeklinde doğrayıp etlere ilave edin. Sebzeler yumuşayınca bezelye, tuz, karabiber ve kekik ekleyin ve 5 dakika daha pişirip ocaktan alın.Yağlı kağıtları 4 parça dikdörtgen şeklinde kesin. Yemeği kağıdın ortasına paylaştırıp kenarlarını ortasına doğru katlayın. Kenarlarını da katlayıp paket haline getirin ve kat yeri altta kalacak şekilde fırın tepsisine yerleştirin. Kağıtların üzerlerini ıslatıp 190 dereceye ayarlanmış fırında 30 dakika pişirip, maydanoz ile süsleyerek sıcak servis yapın."
+  },  {
+    "name": "\nEtli bezelye yemeği\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_bezelye_yemegi-dc720c3e-e5a2-4cae-99a7-93d8e9cf318a.jpg",
+    "ingredients": [
+      " 300 g kuşbaşı dana eti",
+      "300 g iç bezelye",
+      "5~6 kuru domates",
+      "2~3 kuru biber",
+      "1 soğan",
+      "2 diş sarımsak",
+      "1 tatlı kaşığı biber salçası",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Yemeklik doğradığınız soğan ve kuşbaşı dana etini zeytinyağında soteleyin. Etlerin renkleri dönmeye başlayınca salçayı ilave edip karıştırın. Üzerini bir parmak geçecek kadar su ilave edip kaynatın. Kaynadıktan sonra altını kısıp kapağı kapalı olarak 20 - 25 dakika pişirin. Ayıkladığınız bezelye, iri doğradığınız sarımsak, kuru domates ve kuru biberi ekleyip 15 dakika daha pişirin. Üzerini ince kıydığınız dereotu ile süsleyin.Etli bezelye yemeğini, pirinç pilavı ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },{
+    "name": "\nFırında kuzu gerdan\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/firinda_kuzu_gerdan-0d7a4f77-fe48-4e4d-9b2d-d146db9b6aa2.jpg",
+    "ingredients": [
+      "1 kg kuzu gerdan",
+      "5 yemek kaşığı tereyağı",
+      "Tuz",
+      "Kekik",
+      "Fesleğen",
+      "Rezene",
+      "10~12 diş sarımsak",
+      "20 arpacık soğan",
+      "-Patates garnitür",
+      "1 kg mini taze patates",
+      "Yarım çay bardağı zeytinyağı",
+      "Tuz",
+      "Karabiber",
+      "Kırmızı pul biber",
+      "Kekik"
+    ],
+    "description": "Kuzu gerdanları erittiğiniz tereyağında mühürleyip bir kaba alın. Tuz ve baharatlar ile tatlandırıp karıştırın. Bir fırın torbasına önce etleri sonra soyup bütün bıraktığınız arpacık soğanlar ve sarımsakları ekleyin. Torbanın ağzını kapatıp üzerine kürdanla birkaç delik açın. Önceden ısıtılmış 200 derece fırında 1.5 saat pişirin. Patatesleri kabuklarıyla birlikte iyice yıkayıp hafif haşlayın ve bir kaba alın. Zeytinyağı, tuz ve baharatları ekleyip karıştırın. Yapışmaz yüzeyli bir tavada ara sıra karıştırarak kapağı kapalı şekilde patatesler yumuşayana kadar pişirin. Kuzu gerdanın yanında servis yapın.\n\n"
+  },
+  {
+    "name": "\nOrman kebabı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/orman-kebabi-b36259be-25df-4289-a592-02e587569187.jpg",
+    "ingredients": [
+      "1 yemek kaşığı tereyağı",
+      "2 adet büyük boy soğan",
+      "4-5 diş sarımsak",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "2 adet kereviz sapı",
+      "2 adet patlıcan",
+      "2 adet büyük boy patates",
+      "2 adet büyük boy havuç",
+      "2 adet kırmızı kapya biber ",
+      "3-4 adet yeşil köy biberi",
+      "1 su bardağı bezelye",
+      "Tuz, karabiber",
+      "3 su bardağı et suyu",
+      "1 adet defne yaprağı"
+    ],
+    "description": "İlk olarak tencereyi ocakta ısıtmaya koyun. Etin üzerine un serpin ve kuzu etine yedirin. Unlamanın amacı çıtır olmasını sağlamak. Tencere ısındıktan sonra ayçiçeği yağını ve eti ilave edin. Et altın sarısı kıvamına gelene kadar pişirin. Bu sırada elinizdeki sebzeleri aşırı küçük olmayacak şekilde doğrayın. Et altın sarısı kıvamına geldikten sonra tabağa alın. Aynı tencerede biraz tereyağı erittikten soğanları ekleyin ve kavurun. Daha sonra sarımsakları doğrayıp ilave edin. Salçayı da erittikten sonra sebzeleri ekleyin. Sebzeler biraz yumuşadıktan sonra domatesleri ilave edin. Daha önce ayırdığımız etleri sebzelerle buluşturun. Tuz ve karabiberini ekleyin. 3 bardak et suyu ekleyin ve karıştırın. Bir adet defne yaprağı ekleyerek lezzet vermesini sağlayın. 45- 50 dakika pişmeye bırakın. Afiyet olsun."
+  },{
+    "name": "\nMevsim güveci\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/mevsim-guveci-1fb7666b-882a-4526-bd82-6e56324553e8.jpg",
+    "ingredients": [
+      "300 gr kuzu kuşbaşı",
+      "1 adet soğan ya da 2 adet pırasa",
+      "4-5 diş sarımsak",
+      "1 avuç ayıklanmış taze fasulye",
+      "2 adet orta boy enginar",
+      "1 adet kabak",
+      "3 adet sivri biber",
+      "3 adet domates",
+      "1 yemek kaşığı limon",
+      "1 çay kaşığı şeker",
+      "2 yemek kaşığı fındık yağı",
+      "Su",
+      "Tuz",
+      "1 adet yıldız anason",
+      "2 küçük ekmek",
+      "2 dilim kaşar peyniri"
+    ],
+    "description": "Buhar tencerenizde ayıklanmış taze fasulye ve enginarı 8 dakika pişirin.Etlerin yağlı tarafı altta kalacak şekilde bir çelik tencereye alın. Kesinlikle karıştırmadan etler tencerenin yüzeyini bırakana kadar 3-5 dakika pişirin. Tüm etler pişince kenara alarak limon suyunu ekleyin ve beklemeye bırakın. Aynı tencereye yarım bardak su ilave ederek doğradığınız bir adet kuru soğanı pişirin. Soğanın şeffaflaşmasına yakın 1 çay kaşığı şekeri ekleyerek karamelize edin. Soğanlar suyunu çekince 2 yemek kaşığı fındık yağı ilave edin ve sırasıyla sarımsak, domates, taze fasulye, enginar, kabak, biberleri kavurun. Etleri ilave ettikten sonra su ve tuzla birlikte yıldız anasonu koyarak 15 dakika pişirin. İçerisine kaşar koyduğunuz küçük ekmekleri 180 C ısıtılmış fırında kaşarlar yumuşayıp ekmeğe yapışana kadar 1,5 dakika ısıtın. Son olarak türlüyü içine doldurarak servis edin.Mevsim güvecini, kıl biber turşusu ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },{
+    "name": "\nAcı soslu baharatlı piliç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/aci-soslu-baharatli-pilic-85b9cad8-e64d-46af-961c-27cc1fa29351.jpg",
+    "ingredients": [
+      "4 dilim ızgara tavuk eti",
+      "2 domates",
+      "2 kırmızı soğan",
+      "1-2 dal taze nane",
+      "1-2 dal taze biberiye"
+    ],
+    "description": "Baharatlı marinat için tüm malzemeleri derin bir kapta iyice karıştırın. Tavuk etlerini bu karışıma ekleyip 1 saat bekletin. Acı sos için tüm malzemeleri mikserde iyice çırpın. Soğanların kabuklarını soyup halka şeklinde dilimleyin. Bir kaba alıp bir tutam tuz serpiştirin. Domatesleri yıkayıp kurulayın ve enine ikiye kesin.  Tavuk etleri ve sebzeleri mangalda pişirin. Soğanların bir kısmını servis tabağına alın. Üzerine tavuk etini yerleştirin. Acı sosu etin üzerine gezdirin. Domates ve soğan dilimlerini yerleştirip taze nane ve biberiye ile süsleyin.Acı soslu baharatlı pilici, börülce salatası ile birlikte servis edebilirsiniz. Afiyet olsun."
+  }, {
+    "name": "\nTavuk quesadilla\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tavuk-quesadilla-9281820c-5541-496f-8262-3e816d9519b5.jpg",
+    "ingredients": [
+      "4 adet lavaş ",
+      "2 adet tavuk göğüs eti",
+      "1 adet kırmızı biber (Jülyen kesilmiş)",
+      "1 adet sarı biber (Jülyen kesilmiş)",
+      "1 adet beyaz soğan (Jülyen kesilmiş)",
+      "2 su bardağı mozarella peyniri (Rendelenmiş)",
+      "2 yemek kaşığı zeytinyağı",
+      "Tuz, karabiber"
+    ],
+    "description": "Fırını 220 derecede ısıtın. Tepsiye yağlı kâğıt serin.Tavaya zeytinyağını koyun, orta ateşte tavuk göğüs etlerini önlü arkalı pişirin. Soğuyunca ince dilimler halinde kesin.Biberleri ve soğanı, tavukları pişirdiğiniz tavada renkleri dönüp yumuşayıncaya kadar pişirin. Tuz ve karabiber ekleyin. Bir adet lavaşa önce mozarella peynirini sonra dilimlediğiniz tavukları, üzerine biberleri ve tekrar biraz mozarella peyniri koyup üzerini başka bir lavaşla kapatın. (Lavaşın üzerine fırçayla zeytinyağı sürerseniz daha çıtır olacaktır.) Kalan iki adet lavaşı da aynı şekilde hazırlayın. Quesadilla’ları tepsiye dizin ve önceden ısıtılmış 175 derece fırında 7-8 dakika peynirler eriyinceye kadar fırınlayın. Dilerseniz yanında baharatlı patates cips servis edebilirsiniz. Afiyet olsun."
+  },
+  {
+    "name": "\nKöri Soslu Tavuk\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kori-soslu-tavuk-8ccf6838-cafe-411f-9fc2-e6fae46b1c50.jpg",
+    "ingredients": [
+      "100 ml sıvı krema (yarım kutu kadar) ",
+      "1 parça orta boy tavuk göğsü",
+      "1 avuç içi kadar arpacık soğan",
+      "1 çorba kaşığı parmesan peyniri (arzu etmezseniz kullanmayabilirsiniz) ",
+      "3 çorba kaşığı zeytinyağı ",
+      "1 çay kaşığı tuz",
+      "1 çay kaşığı köri sosu",
+      "1 tatlı kaşığı kırmızı biber (toz) ",
+      "1 tatlı kaşığı kekik",
+      "1 çay kaşığından az karabiber"
+    ],
+    "description": "Geniş bir kızartma tavasını ocakta kızdırın. Az miktarda yağ koyabilirsiniz. Tavuğu hazırlarken koyduğunuz yağ yeterli olur. Tavukları suyunu salmadan pişirin. Etlerin üst üste olmaması tavsiye edilir. Yağa temas etmeyen etler sulanır. Bu şekilde de tavuklar kuru kalabilir. Tavukları alt üst olarak çevirip iyice pişirin. Birkaç dakika sonra arpacık soğanlarını ilave edin. Tavuklar iyice pişip altın rengini aldığı zaman köri sosuyla beraber kremayı ekleyin. Tuzu da ilave etmeyi unutmayın. 2 3 dakika boyunca karıştırarak pişirin. Son olarak yemeğe hoş bir kıvam vermesi için parmesan ilave edebilirsiniz. Arzu etmezseniz kullanmayabilirsiniz. Sıcağıyla servis edebilirsiniz.Tarif az kişilik porsiyonlara uygundur. Kalabalık misafirlerde malzeme ölçülerini artırarak aynı lezzeti yakalayabilirsiniz. Körili tavuk yanına pirinç pilavı ya da patates köftesi yapabilirsiniz. Afiyet olsun.Kalori bakımından oldukça düşük olan körili tavuğu rahatlıkla tüketebilirsiniz.Daha fazla tarif için, pratik tavuk yemeklerine göz atın."
+},{
+    "name": "\nTavuk haşlama\n",
+    "img": "https://lezzet.blob.core.windows.net/images-static/defaultimages/general-default-small.jpg",
+    "ingredients": [
+      "1 ta­vuk",
+      "1 soğan",
+      "1 havuç",
+      "tuz",
+      " biber",
+      "3 tane patates",
+      "1/2 limon suyu"
+    ],
+    "description": "Tavuğu iyice tütsüleyin. Sonra musluk altına tutarak içini ve dışını su ile yıkayın. Bir tencereye tavuğu koyun soyulmuş havuç ile patatesleri orta boy parçalara bölerek soğanı da temizleyerek bir bütün olarak koyun. Çok az su ekleyerek tencereyi orta ateşte yakın. Su ısınınca tuz, karabiber,  limon suyu ekleyin. Tavuk yağlı ise kendi yağı ile pişirin, yağsız ise 1 çorba kaşığı yağ ekleyin.  Küçük ateşte 5-10 dakika daha pişirin.Tavuk yerine kırmızı et ile hazırlanan kuzu haşlama tarifine göz atmayı unutmayın.\n"
+  },
+{  "name": "\nPiliç topkapı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/pilic-topkapi-fb8f9971-9bba-4142-98c1-8924f3caee58.jpg",
+    "ingredients": [
+      "4 büyük tavuk budu",
+      "Yarım çay bardağı zeytinyağı",
+      "1 çay kaşığı karabiber",
+      "1 tatlı kaşığı kırmızı biber",
+      "Tuz"
+    ],
+    "description": "Geniş bir kabın içinde yarım çay bardağı zeytinyağını, 1 çay kaşığı karabiber, kırmızı biber ve tuz ile karıştırın. Kemiğinden ayrılmış ve açılmış tavuk butlarını yayvan bir kapta terbiye edin.Derin bir kapta pirinci 15-20 dakika suda bekletin. Bir tavaya zeytinyağı ekleyip 1 yemek kaşığı dolmalık fıstığı kavurun. Soğanları da küp küp doğrayıp, pembeleşinceye kadar kavurun.Önceden ıslattığınız pirincin suyunu süzüp tavaya ilave edin ve 5 dakika daha kavurun. Daha sonra karabiber, nane, yenibahar, kuş üzümü ve tuzu ekleyin.1 bardak su ekleyip ocağın altını kısın. Suyunu çekene kadar pişirin ve demlenmeye bırakın. 1 tane açılmış tavuk budunu, derisi aşağıya bakacak şekilde ısıya dayanıklı fırın kabına serin.İç pilavı 4’e bölün ve bir parçasını koyun.Tavuğu kenarlarından tutarak bohça şekline getirin ve kürdanlarla tutturun. Ters çevirip tepsiye yerleştirin.1 çay bardağı suyun içine yarım yemek kaşığı domates salçasını ekleyin. Yarım çay bardağı zeytinyağı da döküp karıştırın. Salçalı sosu tavukların üzerine dökün.Önceden ısıtılmış 200 derece fırında 30-35 dakika kadar pişirin. Sıcak servis yapın."
+  }, {
+    "name": "\nFırında bezelyeli tavuk güveç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small/firinda-bezelyeli-tavuk-guvec-0e895fd6-41ee-4645-9400-5a841c037536.jpg",
+    "ingredients": [
+      "500 g tavuk kalça eti (İri küp doğranmış)",
+      "1 adet büyük boy patates (İri küp doğranmış)",
+      "2 adet kapya biber (İri küp doğranmış)",
+      "1 adet büyük boy soğan (İri küp doğranmış)",
+      "1/2 su bardağı dondurulmuş bezelye",
+      "4 diş sarımsakSalçalı sos için",
+      "2 su bardağı ılık su",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "Tuz, karabiber, kırmızı toz biber, kuru kekik",
+      "1/2 çay bardağı sıvı yağSalçalı sos için",
+      "2 su bardağı ılık su",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "Tuz, karabiber, kırmızı toz biber, kuru kekik",
+      "1/2 çay bardağı sıvı yağ"
+    ],
+    "description": "Salçalı sos dışındaki yemeğin malzemesini geniş bir kapta harmanlayın.Salçalı sos için tüm malzemeyi çukur bir kapta karıştırın.Sebzeli tavuk karışımı ile salçalı sosu iyice karıştırın ve ısıya dayanıklı toprak kaplara paylaştırın.Kapların üzerlerini yağlı kağıtla kapatın.Önceden ısıtılmış 200 derece fırında 40 dakika pişirin."
+  }, {
+    "name": "\nPatlıcan kulesi\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/patlican_kulesi-f443c3f6-a8a1-4edb-b6fb-1fd8b6532617.jpg",
+    "ingredients": [
+      " 1 bostan patlıcanı",
+      "1 su bardağı un",
+       "2 kırmızı soğan",
+      "1 su bardağı galeta unu",
+      "Tuz",
+      "Karabiber",
+      "Kırmızı toz biber",
+      "1 çay kaşığı kimyon",
+      "2 yumurta"
+    ],
+    "description": "Patlıcanları kalın halka şeklinde dilimleyin ve acılarını çıkartmak için tuzlu suda 10 dakika bekletin. Un ve galeta ununu yayvan kaplara alın. Galeta ununun içine tuz ve baharatları ekleyip karıştırın. Yumurtaları ayrı bir kasede çırpın. Patlıcanları kağıt havlu ile kurulayın. Derin bir tavada ayçiçek yağını ısıtın. Patlıcan dilimlerini sırasıyla önce una, sonra çırpılmış yumurtaya ve baharatlı galeta ununa bulayın. Her iki yüzünü de kızartın. Kağıt havlu üzerine alıp fazla yağını çektirin. Patlıcanlı sos için ezdiğiniz sarımsak, közleniş patlıcan, süzme yoğurt ve ince kıydığınız maydanozu geniş bir kasede karıştırın. Domatesin kabuklarını soyup küp doğrayın ve bir kaseye alın. Yonca Rendelenmiş Domates, yemeklik doğradığınız kırmızı soğan, pesto sos ve sızma zeytinyağını ilave edin ve karıştırın. Servis tabağına bir dilim kızarmış patlıcanı alın, üzerine bir yemek kaşığı patlıcanlı sostan yayın. Üzerine ikinci kızarmış patlıcan dilimini yerleştirin. Üzerine tekrar patlıcanlı sostan yayın. En üste ve yanına hazırladığınız domatesli sosu gezdirip fesleğen yaprakları ile servis yapın. Afiyet olsun.\n\n"
+  },{
+    "name": "\nKarışık dolma\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/karisik_dolma-efabd3ed-8fe5-41e6-bd81-43660f2d4bf2.jpg",
+    "ingredients": [
+      " Domates",
+      "Patlıcan",
+      "Dolmalık biber",
+      "Kabak"
+    ],
+    "description": "Öncelikle domates ve biberleri yıkayıp baş kısımlarını kesin. Domatesleri alacalı bir şekilde soyun. Ortadan ikiye kestiğiniz kabak ve patlıcanların içlerini temizleyin.İç harcı için; tereyağı, yıkayıp süzdüğünüz pirinç, kıyma, rendelediğiniz soğan, su, salça, sumak ekşisi, tuz ve baharatları geniş bir kasede karıştırın. Hazırladığınız harcı sebzelerin içlerine paylaştırıp yayvan bir tencereye dizin. Üzerine, dolmaların yarısına gelecek kadar su ekleyip kısık ateşte 15-20 dakika pişirin. Sosu için salça, su, nar ekşisi ve ezdiğiniz sarımsağı bir kasede karıştırın. Dolmaları ocaktan almadan önce üzerine sosu gezdirin ve 10 dakika daha pişirin. Karışık dolmayı, cacık ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },
+ {
+    "name": "\nİmam bayıldı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/imam_bayildi-b9911d4c-b18e-491d-9fc8-092a96a8ec84.jpg",
+    "ingredients": [
+      " 8 orta boy patlıcan",
+      "4 soğan",
+      "12 diş sarımsak",
+      "3 domates",
+      "4 sivri biber",
+      "1 çay bardağı zeytinyağı",
+      "Tuz",
+      "Karabiber",
+      "2 kesme şeker",
+      "2 su bardağı sıcak su"
+    ],
+    "description": "Patlıcanların sap kısımlarını kesmeden\r\nalacalı soyun. Acısını almak için tuzlu suda\r\n10 dakika bekletin. Süzüp kağıt havlu ile\r\nkurulayın. Soğanları soyup piyazlık doğrayın.\r\nSarımsakları ayıklayın. Domatesleri\r\nsoyup küp doğrayın. Biberleri temizleyip\r\nortadan ikiye kesin ve ince doğrayın. Zeytinyağını\r\ntavada ısıtın. Soğan ve tuzu ilave edip\r\nsoteleyin. Sarımsak, domates, biber, şeker\r\nve karabiberi ekleyin. Kısık ateşte 10 dakika\r\npişirin. Ayçiçeği yağını bir tavada ısıtın. Isınan\r\nyağda patlıcanları iki taraflı hafif kızartın.\r\nKızaran patlıcanları kağıt havlu üzerine\r\nalıp fazla yağını çektirin.Patlıcanları yayvan\r\nbir tencereye aralıklı olarak yerleştirin.\r\nOrta kısımlarını bıçakla hafif kesip açın ve\r\nsoğanlı harcı paylaştırın. Tencerenin kenarından\r\n2 su bardağı sıcak su ekleyin. Kapağını\r\nkapatıp kısık ateşte 20 dakika suyunu\r\nçekene kadar pişirin. Domates sosu hazırlamak\r\niçin zeytinyağını tavada ısıtın. Rendelenmiş\r\ndomatesi ve salçayı ekleyip bir taşım\r\nkaynatın. Sosu bir servis tabağına alın.\r\nÜzerine patlıcanları yerleştirip ince kıyılmış\r\nmaydanoz serpin. Soğuk servis yapın.İmam bayıldının yanına ne gider diyorsanız, fırında baharatlı patates ile şık bir sunum hazırlayabilirsiniz. Afiyet olsun."
+  },{
+    "name": "\nYaz güveci\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yaz_guveci-0eef9d60-4f0e-4b81-99a4-d81e9684fec5.jpg",
+    "ingredients": [
+      "500 kuşbaşı kuzu eti",
+      "1 kırmızı soğan",
+      "7~8 arpacık soğan",
+      "1 kabak",
+      "1 patlıcan",
+      "10~12 taze fasulye",
+      "1 domates",
+      "2 domates",
+      "2 defne yaprağı",
+      "Zeytinyağı",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Kuşbaşı kuzu etlerini yapışmaz yüzeyli bir tavada mühürleyin. Kırmızı soğanı halka doğrayıp fırın güvecinizin tabanına dizin. Arpacık soğanlar, küp doğradığınız kabak, patlıcan, domates, ortadan ikiye kestiğiniz fasulyeler ve kuşbaşı kuzu etlerini geniş bir kasede karıştırıp güvece alın. Defne yapraklarını ilave edin ve güvecin üzerine zeytinyağı gezdirin. Tuz ve baharatlarla tatlandırıp önceden ısıtılmış 180 derece fırında iki saat pişirin. Sıcak servis yapın.\n\n"
+  },  {
+    "name": "\nSebzeli patlıcan dolması\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/sebzeli_patlican_dolmasi-aa6a1a36-18fe-43e6-b3f4-048c33c5e53b.jpg",
+    "ingredients": [
+      " 3 kırmızı kapya biberi",
+      "Yarım demet maydanoz",
+      "2 bostan patlıcanı",
+      "2 soğan",
+      "3 yemek kaşığı sızma zeytinyağı",
+      "1 yemek kaşığı biber salçası",
+      "1.5 su bardağı sıcak su"
+    ],
+    "description": "Patlıcanları yıkayıp sapları üzerinde kalacak şekilde uzunlamasına ortadan ikiye kesin. Kesik yerlerine bir fırça yardımıyla sızma zeytinyağı, sürüp önceden ısıtılmış 180 derece fırında 10 dakika pişirin. Pişen patlıcanların içlerini çıkartıp küp doğrayın. Yemeklik doğradığınız soğanı sızma zeytinyağında pembeleşinceye kadar soteleyin. Jülyen doğradığınız kırmızı biber, patlıcanlar ve biber salçasını ilave edin. Tuz ve baharatlarla tatlandırıp ocaktan alın. Harcı patlıcanların içlerine paylaştırıp bir fırın kabına alın. Sosu için, rendelenmiş domates, sızma zeytinyağı, salça ve tuzu geniş bir kasede karıştırıp patlıcanların üzerine gezdirin. Soslu patlıcanları önceden ısıtılmış 180 derece fırında 20 dakika pişirin. Sıcak servis yapın.\n\n"
+  },{
+    "name": "\nHünkar beğendi\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/hunkar-begendi-27ede261-f6c4-4f44-ada3-b3fb6b8dd72c.jpg",
+    "ingredients": [
+      "4 dolu yemek kaşığı (100 ml) yağ",
+      "2 adet soğan",
+      "1 kg kemiksiz kuşbaşı doğranmış kuzu but eti",
+      "2 diş sarımsak",
+      "1 adet dolmalık biber",
+      "2 adet domates",
+      "1 tatlı kaşığı domates salçası",
+      "3 tutam tuz",
+      "1 tutam karabiber",
+      "3 bardak su"
+    ],
+    "description": "İlk olarak sarımsakları ince ince kıyın ve biberleri irice kesin.Ardından soğanları küp küp doğrayın ve tavanın içerisinde yağı öldürünceye kadar döndürün.Soğanların üzerine etleri ilave edin. Orta ateşte suyunu bırakıp tekrar çekene kadar pişirin.Önce sarımsakları, sonra irice doğradığınız biberleri tencereye ekleyin. Domateslerin kabuklarını soyun, çekirdeklerini çıkartıp küp küp doğrayın, suyunu çeken etin üzerine ekleyin.Domates salçası, tuz, karabiber ve 3 bardak suyu da tencereye ilave edin ve iyice karıştırıp kaynadıktan sonra altını kısın.Tencerenin kapağını kapatıp 1 saat kadar pişirin.Beğendi kısmı için; tencereye yağı ve unu ekleyip, ağır ateşte altın rengine dönene kadar karıştırın ve ateşten alın.Patlıcanları kürdan ile delin ve direkt ateş üzerinde pişirin. Dışı iyice pişen patlıcanları, kabuklarını soyduktan sonra tenceredeki unlu karışıma atın.Tencerenin altını tekrar yakın, ağır ateşte karışımı ezerek hepsini birbirine iyice yedirin. Kaşarı, tuzu, rende muskatı ve ılık sütü ekleyip 2 dakika daha pişirin ve ateşten alın.Son olarak kenarda dinlenmeye bırakın. Servis tabağına önce beğendiyi, daha sonra etleri koyun."
+  },{
+    "name": "\nKıymalı karnabahar\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kiymali_karnabahar-31c88a06-b66e-45b1-bf52-0cc7d57b9990.jpg",
+    "ingredients": [
+      "500 gr karnabahar",
+      "150 gr kıyma",
+      "1 orta boy soğan",
+      "1 diş sarımsak",
+      "1 orta boy havuç",
+      "3 yemek kaşığı zeytinyağı",
+      "1 yemek kaşığı domates salçası",
+      "Tuz",
+      "Karabiber",
+      "2.5~3 su bardağı su"
+    ],
+    "description": "Karnabaharı küçük çiçeklere ayırıp yıkayın ve süzün. Soğanı ve sarımsağı kıyın.Havucu soyup halka şeklinde dilimleyin. Zeytinyağını tencereye aldıktan sonra soğanı ve sarımsağı ilave edip kavurun.Üzerine kıymayı ilave edin, suyunu çekene kadar kavurun ve salçayı ekleyin. Doğradığınız havucu, karnabaharları ve suyu ilave edin. Tuz ve biber ile tatlandırın. Kapağı kapalı olarak kısık ateşte karnabaharlar yumuşayıncaya kadar pişirin. Kıymalı karnabahar yemeğini, yanına çok yakışan haydari ile birlikte servis edebilirsiniz."
+  }
+]},
+"tereyag":{
+  "recipes":[{
+      "name": "\nErişteli yeşil mercimek\n",
+      "img": "https://lezzet.blob.core.windows.net/images-small-recipe/eristeli_yesil_mercimek-8f441a3f-9611-4c01-aa82-58168f3c1167.jpg",
+    "ingredients": [
+      "1 yemek kaşığı tereyağı",
+      "1 soğan",
+      "1 su bardağı haşlanmış yeşil mercimek",
+      "100 gr erişte",
+      "8 su bardağı su",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Kökeni Mezopotamya'ya dayanan yeşil mercimek; salata, çorba ve ana yemeklerin içerisinde kullanılır. Türkiye'de Güneydoğu Anadolu'da yetiştirilen bu besin, demir deposu olarak bilinir. Bu yüzden anemi ve kansızlığın giderilmesinde etkilidir. Bağışıklık sistemini güçlendirmek için, haftada bir kez tüketilmesi önerilir. Sinir sistemini düzenleyen yeşil mercimek; stres, uykusuzluk ve halsizlik gibi sorunların giderilmesinde de etkin bir rol oynar. Klasik tariften sıkılanlar için lezzetiyle herkesi kendine hayran bırakan erişteli yeşil mercimek tarifine başlayabiliriz.Tereyağını tencerede eritin. Soğanı ince doğrayıp tereyağında kavurun. Sıcak su, mercimek, tuz ve karabiberi soğana ilave edip 10 dakika pişirin. Erişteleri çorbaya ekleyip yumuşayıncaya kadar pişirin. Sıcak servis yapın.Erişteyi kaynayan suya atıp 10-12 dakika normal ateşte haşlayarak pilav gibi suyunu çektirirseniz besin değerini kaybetmez.\n"
+  },{
+    "name": "\nYeşil patates püreli kuzu incik\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yesil-patates-pureli-kuzu-incik-56f5c92e-89af-4d56-ac1f-e3ca1402ff3c.jpg",
+    "ingredients": [
+      "4-5 adet kuzu incik",
+      "2 orta boy kuru soğan",
+      "1 baş sarımsak",
+      "Tuz",
+      "Karabiber",
+      "1 çay kaşığı kişniş tohumu",
+      "Taze kekik",
+      "Susam",
+      "Sıvı yağ"
+    ],
+    "description": "Büyük bir tavaya 2 yemek kaşığı sıvı yağ koyun. Kuzu inciklerin üzerine az tuz ve karabiber serpin. Alt ve üst kısmını tavada ikişer dakika mühürleyin. Mühürlenen incikleri kenara alın.Düdüklü tencerenin içerisine 1 yemek kaşığı sıvı yağ koyun. 1 baş sarımsağı iyice yıkayıp ortadan kesin ve yağın içerisine atın. Biraz kavurup üzerine piyazlık doğranan kuru soğanları atın ve çevirin. Soğanların üzerine önceden mühürlediğiniz incikleri yerleştirin ve taze kekikleri ilave edin. İnciklerin yarısına gelene dek sıcak su ilavesi yapın. Tuz, karabiber ve dövülmüş kişniş ile çeşnilendirin. Düdüklünün kapağını kapatın. 35-40 dakika orta ateşte pişirin.Pişen etleri bir fırın kabına alın. Üzerine minik tereyağı parçaları ekleyin. Susam serpin. Önceden ısıtılmış 200 derecelik fırında etlerin üzeri kızarana dek pişmeye bırakın."
+  },{
+    "name": "\nEv yapımı iskender\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/ev-yapimi-iskender-33bd7089-fa36-4398-95f8-02c6463ea27c.jpg",
+    "ingredients": [
+      "400 g dana tranç",
+      "2 yemek kaşığı zeytinyağı",
+      "2 yemek kaşığı tereyağ",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Dana bonfile etini streç filme sarıp dondurucuya alın. Yaklaşık 1-1,5 saat buzlukta bekletin. Bıçakla ince dilimler kesebileceğiniz sertliğe geldiğinde eti buzluktan çıkarın.Keskin bir bıçak yardımıyla ince yaprak şeklinde dilimler kesin. Yapışmaz yüzeyli bir tencereye etleri alın ve suyunu salıp tekrar çekene kadar karıştırmadan kapağı kapalı olarak pişirin.Zeytinyağı ve tereyağını da tencereye ilave edip kızartın. Tuz ve karabiber ile tatlandırıp ocaktan alın.Sosu için zeytinyağı ve tereyağını bir sos tenceresine alıp ısıtın. Domates püresi ve sıcak suyu ekleyip kaynamaya bırakın. Kaynamaya başladığında tuzunu ilave edip karıştırın ve ocaktan alın.Yapışmaz yüzeyli bir tavada tereyağını eritin. Pideleri küp küp doğrayıp tavaya ekleyin ve hafif pembeleşene kadar kızartın.Ayçiçek yağını bir tavada ısıtın. Biberleri ve dörde böldüğünüz domatesleri yağda kızartıp hazırlayın.Servis tabağına önce hafif kızarttığınız pideleri yayın. Üzerine domates sosu gezdirin ve kızarttığınız etleri yerleştirin. Tereyağını eritip etlerin üzerine gezdirin. Yanında yoğurt, kızarttığınız domates ve biberleri yerleştirin."
+  }, {
+    "name": "\nFırında kuzu gerdan\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/firinda_kuzu_gerdan-0d7a4f77-fe48-4e4d-9b2d-d146db9b6aa2.jpg",
+    "ingredients": [
+      "1 kg kuzu gerdan",
+      "5 yemek kaşığı tereyağı",
+      "Tuz",
+      "Kekik",
+      "Fesleğen",
+      "Rezene",
+      "10~12 diş sarımsak",
+      "20 arpacık soğan",
+      "-Patates garnitür",
+      "1 kg mini taze patates",
+      "Yarım çay bardağı zeytinyağı",
+      "Tuz",
+      "Karabiber",
+      "Kırmızı pul biber",
+      "Kekik"
+    ],
+    "description": "Kuzu gerdanları erittiğiniz tereyağında mühürleyip bir kaba alın. Tuz ve baharatlar ile tatlandırıp karıştırın. Bir fırın torbasına önce etleri sonra soyup bütün bıraktığınız arpacık soğanlar ve sarımsakları ekleyin. Torbanın ağzını kapatıp üzerine kürdanla birkaç delik açın. Önceden ısıtılmış 200 derece fırında 1.5 saat pişirin. Patatesleri kabuklarıyla birlikte iyice yıkayıp hafif haşlayın ve bir kaba alın. Zeytinyağı, tuz ve baharatları ekleyip karıştırın. Yapışmaz yüzeyli bir tavada ara sıra karıştırarak kapağı kapalı şekilde patatesler yumuşayana kadar pişirin. Kuzu gerdanın yanında servis yapın.\n\n"
+  }, {
+    "name": "\nOrman kebabı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/orman-kebabi-b36259be-25df-4289-a592-02e587569187.jpg",
+    "ingredients": [
+      "1 yemek kaşığı tereyağı",
+      "2 adet büyük boy soğan",
+      "4-5 diş sarımsak",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "2 adet kereviz sapı",
+      "2 adet patlıcan",
+      "2 adet büyük boy patates",
+      "2 adet büyük boy havuç",
+      "2 adet kırmızı kapya biber ",
+      "3-4 adet yeşil köy biberi",
+      "1 su bardağı bezelye",
+      "Tuz, karabiber",
+      "3 su bardağı et suyu",
+      "1 adet defne yaprağı"
+    ],
+    "description": "İlk olarak tencereyi ocakta ısıtmaya koyun. Etin üzerine un serpin ve kuzu etine yedirin. Unlamanın amacı çıtır olmasını sağlamak. Tencere ısındıktan sonra ayçiçeği yağını ve eti ilave edin. Et altın sarısı kıvamına gelene kadar pişirin. Bu sırada elinizdeki sebzeleri aşırı küçük olmayacak şekilde doğrayın. Et altın sarısı kıvamına geldikten sonra tabağa alın. Aynı tencerede biraz tereyağı erittikten soğanları ekleyin ve kavurun. Daha sonra sarımsakları doğrayıp ilave edin. Salçayı da erittikten sonra sebzeleri ekleyin. Sebzeler biraz yumuşadıktan sonra domatesleri ilave edin. Daha önce ayırdığımız etleri sebzelerle buluşturun. Tuz ve karabiberini ekleyin. 3 bardak et suyu ekleyin ve karıştırın. Bir adet defne yaprağı ekleyerek lezzet vermesini sağlayın. 45- 50 dakika pişmeye bırakın. Afiyet olsun."
+  }, {
+    "name": "\nEtli patates\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_patates-be0f01a6-9cf1-4a37-97ca-0b0d952dc548.jpg",
+    "ingredients": [
+      " 1 kg patates",
+      "600 gr kuşbaşı dana eti",
+      "3 yemek kaşığı tereyağı",
+      "1 soğan",
+      "1 yemek kaşığı domates salçası",
+      "1 su bardağı et suyu",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "İlk olarak tereyağını eritin. Etleri ilave ederek kısık ateşte ara ara karıştırarak yumuşayıncaya kadar pişirin.Soğanı ince ince doğrayıp ekleyin. Et suyu, karabiber, salça ve tuz ilave ederek 20 dakika daha pişirin. Suyunu çekerse ılık su ilave edin.Patateslerin kabuklarını soyup elma dilim yapın. Ete ilave edin. Suyunu çekince fırın tepsisine alın.Üzerine dilimlenmiş domates ve biberleri yerleştirin. Pul biber serpiştirin ve fırına verin. 15 dakika daha pişirin.Etli patates yemeğini, yanına çok yakışan zeytinyağlı enginar ve patlıcan turşusu ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },{
+    "name": "\nFırında kuzu gerdan\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/firinda_kuzu_gerdan-0d7a4f77-fe48-4e4d-9b2d-d146db9b6aa2.jpg",
+    "ingredients": [
+      "1 kg kuzu gerdan",
+      "5 yemek kaşığı tereyağı",
+      "Tuz",
+      "Kekik",
+      "Fesleğen",
+      "Rezene",
+      "10~12 diş sarımsak",
+      "20 arpacık soğan",
+      "-Patates garnitür",
+      "1 kg mini taze patates",
+      "Yarım çay bardağı zeytinyağı",
+      "Tuz",
+      "Karabiber",
+      "Kırmızı pul biber",
+      "Kekik"
+    ],
+    "description": "Kuzu gerdanları erittiğiniz tereyağında mühürleyip bir kaba alın. Tuz ve baharatlar ile tatlandırıp karıştırın. Bir fırın torbasına önce etleri sonra soyup bütün bıraktığınız arpacık soğanlar ve sarımsakları ekleyin. Torbanın ağzını kapatıp üzerine kürdanla birkaç delik açın. Önceden ısıtılmış 200 derece fırında 1.5 saat pişirin. Patatesleri kabuklarıyla birlikte iyice yıkayıp hafif haşlayın ve bir kaba alın. Zeytinyağı, tuz ve baharatları ekleyip karıştırın. Yapışmaz yüzeyli bir tavada ara sıra karıştırarak kapağı kapalı şekilde patatesler yumuşayana kadar pişirin. Kuzu gerdanın yanında servis yapın.\n\n"
+  },
+{
+    "name": "\nKarışık dolma\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/karisik_dolma-efabd3ed-8fe5-41e6-bd81-43660f2d4bf2.jpg",
+    "ingredients": [
+      " Domates",
+      "Patlıcan",
+      "Dolmalık biber",
+      "Kabak"
+    ],
+    "description": "Öncelikle domates ve biberleri yıkayıp baş kısımlarını kesin. Domatesleri alacalı bir şekilde soyun. Ortadan ikiye kestiğiniz kabak ve patlıcanların içlerini temizleyin.İç harcı için; tereyağı, yıkayıp süzdüğünüz pirinç, kıyma, rendelediğiniz soğan, su, salça, sumak ekşisi, tuz ve baharatları geniş bir kasede karıştırın. Hazırladığınız harcı sebzelerin içlerine paylaştırıp yayvan bir tencereye dizin. Üzerine, dolmaların yarısına gelecek kadar su ekleyip kısık ateşte 15-20 dakika pişirin. Sosu için salça, su, nar ekşisi ve ezdiğiniz sarımsağı bir kasede karıştırın. Dolmaları ocaktan almadan önce üzerine sosu gezdirin ve 10 dakika daha pişirin. Karışık dolmayı, cacık ile birlikte servis edebilirsiniz. Afiyet olsun."
+  }]
+},
+"biber":{
+"recipes":[
+{
+    "name": "\nOrman kebabı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/orman-kebabi-b36259be-25df-4289-a592-02e587569187.jpg",
+    "ingredients": [
+      "1 yemek kaşığı tereyağı",
+      "2 adet büyük boy soğan",
+      "4-5 diş sarımsak",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "2 adet kereviz sapı",
+      "2 adet patlıcan",
+      "2 adet büyük boy patates",
+      "2 adet büyük boy havuç",
+      "2 adet kırmızı kapya biber ",
+      "3-4 adet yeşil köy biberi",
+      "1 su bardağı bezelye",
+      "Tuz, karabiber",
+      "3 su bardağı et suyu",
+      "1 adet defne yaprağı"
+    ],
+    "description": "İlk olarak tencereyi ocakta ısıtmaya koyun. Etin üzerine un serpin ve kuzu etine yedirin. Unlamanın amacı çıtır olmasını sağlamak. Tencere ısındıktan sonra ayçiçeği yağını ve eti ilave edin. Et altın sarısı kıvamına gelene kadar pişirin. Bu sırada elinizdeki sebzeleri aşırı küçük olmayacak şekilde doğrayın. Et altın sarısı kıvamına geldikten sonra tabağa alın. Aynı tencerede biraz tereyağı erittikten soğanları ekleyin ve kavurun. Daha sonra sarımsakları doğrayıp ilave edin. Salçayı da erittikten sonra sebzeleri ekleyin. Sebzeler biraz yumuşadıktan sonra domatesleri ilave edin. Daha önce ayırdığımız etleri sebzelerle buluşturun. Tuz ve karabiberini ekleyin. 3 bardak et suyu ekleyin ve karıştırın. Bir adet defne yaprağı ekleyerek lezzet vermesini sağlayın. 45- 50 dakika pişmeye bırakın. Afiyet olsun."
+  },{
+    "name": "\nNohutlu zeytinyağlı kabak\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/nohutlu-zeytinyagli-kabak-1032684a-fbf6-4067-8bd6-28b6e3b122cc.jpg",
+    "ingredients": [
+      "1 soğan ",
+      "Yarım çay bardağı zeytinyağı ",
+      "1 tatlı kaşığı domates salçası ",
+      "Yarım kg kabak ",
+      "1 kırmızı biber ",
+      "2 havuç ",
+      "Tuz ",
+      "1 çay kaşığı toz şeker  ",
+      "Bir su bardağı sıcak su"
+    ],
+    "description": "İlk olarak soğanları küp küp doğrayın ve kabakları soyun. Daha sonra ince dilimler haline getirin. Daha sonra soğanları zeytinyağında pembeleşinceye kadar soteleyin.Üzerine salçayı ilave edip 1-2 dakika daha kavurun.Dilimlediğiniz kabakları, kırmızı biberi ve havuçları da tavanın içerisine ilave edin. Tuz, şeker ve sıcak su ekleyip kısık ateşte yumuşayıncaya kadar pişirin.Çatal ile yumuşaklığını kontrol ettikten sonra servis tabağına alabilirsiniz.Zeytinyağlı kabak yemeğini, yanına çok yakışan firik pilavı ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  }, {
+    "name": "\nBol domatesli taze fasulye\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/bol-domatesli-taze-fasulye-d74e8f75-ac79-490b-8158-d5573087e596.jpg",
+    "ingredients": [
+      "500 g taze fasulye (Kılçıkları temizlenmiş) ",
+      "1/2 çay bardağı sızma zeytinyağı ",
+      "1 adet kapya biber (Zar doğranmış) ",
+      "1 adet büyük boy beyaz soğan (İnce kıyılmış) ",
+      "2 diş sarımsak (İnce doğranmış) ",
+      "3-4 adet domates (İnce doğranmış) ",
+      "Tuz ",
+      "4-5 yaprak taze fesleğen ",
+      "1-2 dal maydanoz ",
+      "1 çay kaşığı rendelenmiş limon kabuğu"
+    ],
+    "description": "Geniş tabanlı bir tencerede yağın yarısını ısıtıp soğanı yumuşayana kadar kavurun. Doğranmış sarımsakla birlikte kapya biberi de ilave edin. 1-2 dakika kavurun. Domatesleri ilave edip kaynamaya bırakın. Sos kaynamaya başlayınca ısıyı düşürün. Bu arada sosu başka bir kaba ayırın. Taze fasulyeleri kalan zeytinyağı ile birlikte aynı tencerenin içinde 3-4 dakika kavurun. Ardından tencerenin içinde çok düzgün bir şekilde sıralayın. Fasulyelerin üzerine sosu eşit dağılacak şekilde gezdirin. Üzerini örtecek şekilde sıcak su dökün. Önce yüksek ateşte birkaç dakika kaynatın, sonra tencerenin kapağını kapatıp ateşi de iyice kısın. Kısık ateşte, yarım saat pişirin. Bol domatesli taze fasulyeyi ocaktan alınca üzerine kıyılmış yeşillik atın, rendelenmiş limon kabuğu serpin. Hemen tencerenin kapağını kapatın, oda sıcaklığında soğumaya bırakın."
+  }, {
+    "name": "\nTavuk quesadilla\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tavuk-quesadilla-9281820c-5541-496f-8262-3e816d9519b5.jpg",
+    "ingredients": [
+      "4 adet lavaş ",
+      "2 adet tavuk göğüs eti",
+      "1 adet kırmızı biber (Jülyen kesilmiş)",
+      "1 adet sarı biber (Jülyen kesilmiş)",
+      "1 adet beyaz soğan (Jülyen kesilmiş)",
+      "2 su bardağı mozarella peyniri (Rendelenmiş)",
+      "2 yemek kaşığı zeytinyağı",
+      "Tuz, karabiber"
+    ],
+    "description": "Fırını 220 derecede ısıtın. Tepsiye yağlı kâğıt serin.Tavaya zeytinyağını koyun, orta ateşte tavuk göğüs etlerini önlü arkalı pişirin. Soğuyunca ince dilimler halinde kesin.Biberleri ve soğanı, tavukları pişirdiğiniz tavada renkleri dönüp yumuşayıncaya kadar pişirin. Tuz ve karabiber ekleyin. Bir adet lavaşa önce mozarella peynirini sonra dilimlediğiniz tavukları, üzerine biberleri ve tekrar biraz mozarella peyniri koyup üzerini başka bir lavaşla kapatın. (Lavaşın üzerine fırçayla zeytinyağı sürerseniz daha çıtır olacaktır.) Kalan iki adet lavaşı da aynı şekilde hazırlayın. Quesadilla’ları tepsiye dizin ve önceden ısıtılmış 175 derece fırında 7-8 dakika peynirler eriyinceye kadar fırınlayın. Dilerseniz yanında baharatlı patates cips servis edebilirsiniz. Afiyet olsun."
+  }, {
+    "name": "\nFırında bezelyeli tavuk güveç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small/firinda-bezelyeli-tavuk-guvec-0e895fd6-41ee-4645-9400-5a841c037536.jpg",
+    "ingredients": [
+      "500 g tavuk kalça eti (İri küp doğranmış)",
+      "1 adet büyük boy patates (İri küp doğranmış)",
+      "2 adet kapya biber (İri küp doğranmış)",
+      "1 adet büyük boy soğan (İri küp doğranmış)",
+      "1/2 su bardağı dondurulmuş bezelye",
+      "4 diş sarımsakSalçalı sos için",
+      "2 su bardağı ılık su",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "Tuz, karabiber, kırmızı toz biber, kuru kekik",
+      "1/2 çay bardağı sıvı yağSalçalı sos için",
+      "2 su bardağı ılık su",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "Tuz, karabiber, kırmızı toz biber, kuru kekik",
+      "1/2 çay bardağı sıvı yağ"
+    ],
+    "description": "Salçalı sos dışındaki yemeğin malzemesini geniş bir kapta harmanlayın.Salçalı sos için tüm malzemeyi çukur bir kapta karıştırın.Sebzeli tavuk karışımı ile salçalı sosu iyice karıştırın ve ısıya dayanıklı toprak kaplara paylaştırın.Kapların üzerlerini yağlı kağıtla kapatın.Önceden ısıtılmış 200 derece fırında 40 dakika pişirin."
+  }]
+},
+
+"nohut":{
+"recipes":[
+
+{
+    "name": "\nNohutlu imam bayıldı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/nohutlu-imam-bayildi-e0568b28-998b-483a-9373-977a93ec4f9f.jpg",
+    "ingredients": [
+      "1 adet bostan patlıcanı ",
+      "1 adet sarı kabak",
+      "1 adet Girit kabağı",
+      "2 soğan",
+      "2 büyük Çanakkale domatesi",
+      "1/2 bağ maydanoz",
+      "2 diş sarımsak",
+      "2 adet kesme şeker",
+      "1 su bardağı haşlanmış nohut",
+      "2 kırmızı kapya biber"
+    ],
+    "description": "Bostan patlıcanlarını ve kabakları dilimledikten sonra yağlı kağıt serili fırın tepsisine dizin. Tuz ve zeytinyağı gezdirerek önceden ısıtılmış 200 derece fırında pişirin.Ayrı bir tencerede soğanı bir miktar zeytinyağı ile kavurun. Üzerine küp doğradığınız domatesi ekleyerek pişirin ve ocaktan almadan önce haşlanmış nohudu ilave edin. Birkaç dakika pişirip ocaktan alın.Fırında pişen sebzeleri sırasıyla bir servis tabağına dizin. Sebzeleri dizerken aralarına ve üzerine pişirdiğiniz domatesli sostan koyun. Hazırladığınız nohutlu imam bayıldıyı ılık ya da soğuk servis yapın."
+  },   {
+    "name": "\nNohutlu zeytinyağlı kabak\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/nohutlu-zeytinyagli-kabak-1032684a-fbf6-4067-8bd6-28b6e3b122cc.jpg",
+    "ingredients": [
+      "1 soğan ",
+      "Yarım çay bardağı zeytinyağı ",
+      "1 tatlı kaşığı domates salçası ",
+      "Yarım kg kabak ",
+      "1 kırmızı biber ",
+      "2 havuç ",
+      "Tuz ",
+      "1 çay kaşığı toz şeker  ",
+      "Bir su bardağı sıcak su"
+    ],
+    "description": "İlk olarak soğanları küp küp doğrayın ve kabakları soyun. Daha sonra ince dilimler haline getirin. Daha sonra soğanları zeytinyağında pembeleşinceye kadar soteleyin.Üzerine salçayı ilave edip 1-2 dakika daha kavurun.Dilimlediğiniz kabakları, kırmızı biberi ve havuçları da tavanın içerisine ilave edin. Tuz, şeker ve sıcak su ekleyip kısık ateşte yumuşayıncaya kadar pişirin.Çatal ile yumuşaklığını kontrol ettikten sonra servis tabağına alabilirsiniz.Zeytinyağlı kabak yemeğini, yanına çok yakışan firik pilavı ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  }]
+},
+"nane":{
+"recipes":[
+{
+    "name": "\nZeytinyağlı kabak çiçeği dolması\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/zeytinyagli-kabak-cicegi-dolmasi-e1d42168-4f03-4ba2-8b9c-993ac4001d74.jpg",
+    "ingredients": [
+      "25-20 adet kabak çiçeği",
+      "2 adet kuru soğan",
+      "1 çay bardağı zeytinyağı",
+      "1 adet domates",
+      "1.5 su bardağı pirinç",
+      "Yarım bardak sıcak su",
+      "Dereotu (bir demetin üçte biri kadar)",
+      "1 tatlı kaşığı kuru nane",
+      "1 çay kaşığı tuz",
+      "Yarım çay kaşığı karabiber"
+    ],
+    "description": "Kuru soğanları küp küp doğrayın. Ortadan bölünen ve uç kısımları alınmış domatesleri ince kısımla rendeleyin. Elinizdeki dereotu yapraklarını ipince olacak şekilde kıyın.Kabak çiçeklerinin uç kısımlarında bulunan yeşil kısımları yapraklara zarar vermemeye dikkat ederek çıkartın.Yapraklara zarar vermeden, çiçeklerin içerisindeki sarı kısımları alın.Zeytinyağının yarısını geniş bir tencereye döküp yağınız ısınınca kuru soğanları bu yağda renk alana kadar kavurun. Pirinçleri yıkayın ve soğanlarla kavurmaya devam edin.Rendelenmiş domateslerle beraber karabiber, tuz, kuru nane ve sıcak su ekleyerek düşük ateşte suyu çekilene kadar karıştırarak pişirin. Sosun oturması için kısa bir süre dinlendirdikten sonra kıyılmış dereotunu ekleyip iyice karıştırarak harmanlayın.Hazırladığınız dolma harcını çiçeklerin iç kısmına azar azar, çiçekleri zedelemeyecek seviyede doldurun. Çiçekleri, üstten içe doğru dikkatlice katlayıp katlanan yer altta kalacak şekilde tencereye dizin.Kalan zeytinyağını tenceredeki dolmaların üzerlerinde gezdirip, dolmaların yarısına gelecek şekilde ılık su ekleyin. Tencerenin kapağını kapatın ve kabak çiçeği dolmanızı kısık ateşte 30 dakika pişirin.Arzunuza göre limon dilimleriyle beraber ılık ya da soğuk olarak servis edebilirsiniz. Afiyet olsun."
+  }, {
+    "name": "\nKlasik güveç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/klasik_guvec-6c1814bb-3c54-45ae-9160-b011315262ca.jpg",
+    "ingredients": [
+      "1~1.5 kg kuzu kol eti (kemiksiz ve küçük doğranmış)",
+      "1 büyük boy soğan",
+      "5 yemek kaşığı zeytinyağı",
+      "8~10 diş sarımsak",
+      "2 sivri biber",
+      "1 büyük boy patates",
+      "4 orta boy domates",
+      "2 çay kaşığı tuz",
+      "2 çay kaşığı kırmızı pul biber",
+      "1 çay kaşığı kekik",
+      "1 çay kaşığı nane",
+      "1 su bardağı sıcak su",
+      "2 tatlı kaşığı domates salçası"
+    ],
+    "description": "Öncelikle bütün malzemeleri yıkayıp bir kenarda bekletin.Ardından yarım ay şeklinde doğradığınız soğanları ve etleri zeytinyağında kavurun. Tuz ve biberi ekleyip ocaktan alın.Kavurduğunuz soğanlı eti güveçlerin dibine yağıyla birlikte paylaştırın. Sarımsakları soyup ikiye bölün.Sivri biberleri temizleyip iri parçalar şeklinde doğrayın. Domatesleri soyup iri parçalara bölün. Patatesi soyup iri parçalar şeklinde doğrayın.Bu malzemeleri derin ve geniş bir kaba koyup karıştırın. Kalan tuz, biber, kekik, naneyi ve suda ezdiğiniz salçayı katıp tekrar karıştırın.Bu karışımı etlerin üzerine yayın. Güvecin ağzını kapakla ya da alüminyum folyoyla kapatın. Önceden 200 derecede ısıtılmış fırında en az 2 saat pişirin. Şimdiden afiyet olsun."
+  },{
+    "name": "\nAcı soslu baharatlı piliç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/aci-soslu-baharatli-pilic-85b9cad8-e64d-46af-961c-27cc1fa29351.jpg",
+    "ingredients": [
+      "4 dilim ızgara tavuk eti",
+      "2 domates",
+      "2 kırmızı soğan",
+      "1-2 dal taze nane",
+      "1-2 dal taze biberiye"
+    ],
+    "description": "Baharatlı marinat için tüm malzemeleri derin bir kapta iyice karıştırın. Tavuk etlerini bu karışıma ekleyip 1 saat bekletin. Acı sos için tüm malzemeleri mikserde iyice çırpın. Soğanların kabuklarını soyup halka şeklinde dilimleyin. Bir kaba alıp bir tutam tuz serpiştirin. Domatesleri yıkayıp kurulayın ve enine ikiye kesin.  Tavuk etleri ve sebzeleri mangalda pişirin. Soğanların bir kısmını servis tabağına alın. Üzerine tavuk etini yerleştirin. Acı sosu etin üzerine gezdirin. Domates ve soğan dilimlerini yerleştirip taze nane ve biberiye ile süsleyin.Acı soslu baharatlı pilici, börülce salatası ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },{  "name": "\nPiliç topkapı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/pilic-topkapi-fb8f9971-9bba-4142-98c1-8924f3caee58.jpg",
+    "ingredients": [
+      "4 büyük tavuk budu",
+      "Yarım çay bardağı zeytinyağı",
+      "1 çay kaşığı karabiber",
+      "1 tatlı kaşığı kırmızı biber",
+      "Tuz"
+    ],
+    "description": "Geniş bir kabın içinde yarım çay bardağı zeytinyağını, 1 çay kaşığı karabiber, kırmızı biber ve tuz ile karıştırın. Kemiğinden ayrılmış ve açılmış tavuk butlarını yayvan bir kapta terbiye edin.Derin bir kapta pirinci 15-20 dakika suda bekletin. Bir tavaya zeytinyağı ekleyip 1 yemek kaşığı dolmalık fıstığı kavurun. Soğanları da küp küp doğrayıp, pembeleşinceye kadar kavurun.Önceden ıslattığınız pirincin suyunu süzüp tavaya ilave edin ve 5 dakika daha kavurun. Daha sonra karabiber, nane, yenibahar, kuş üzümü ve tuzu ekleyin.1 bardak su ekleyip ocağın altını kısın. Suyunu çekene kadar pişirin ve demlenmeye bırakın. 1 tane açılmış tavuk budunu, derisi aşağıya bakacak şekilde ısıya dayanıklı fırın kabına serin.İç pilavı 4’e bölün ve bir parçasını koyun.Tavuğu kenarlarından tutarak bohça şekline getirin ve kürdanlarla tutturun. Ters çevirip tepsiye yerleştirin.1 çay bardağı suyun içine yarım yemek kaşığı domates salçasını ekleyin. Yarım çay bardağı zeytinyağı da döküp karıştırın. Salçalı sosu tavukların üzerine dökün.Önceden ısıtılmış 200 derece fırında 30-35 dakika kadar pişirin. Sıcak servis yapın."
+  }]
+},
+"fasulye":{
+  "recipes":[
+  {
+    "name": "\nBol domatesli taze fasulye\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/bol-domatesli-taze-fasulye-d74e8f75-ac79-490b-8158-d5573087e596.jpg",
+    "ingredients": [
+      "500 g taze fasulye (Kılçıkları temizlenmiş) ",
+      "1/2 çay bardağı sızma zeytinyağı ",
+      "1 adet kapya biber (Zar doğranmış) ",
+      "1 adet büyük boy beyaz soğan (İnce kıyılmış) ",
+      "2 diş sarımsak (İnce doğranmış) ",
+      "3-4 adet domates (İnce doğranmış) ",
+      "Tuz ",
+      "4-5 yaprak taze fesleğen ",
+      "1-2 dal maydanoz ",
+      "1 çay kaşığı rendelenmiş limon kabuğu"
+    ],
+    "description": "Geniş tabanlı bir tencerede yağın yarısını ısıtıp soğanı yumuşayana kadar kavurun. Doğranmış sarımsakla birlikte kapya biberi de ilave edin. 1-2 dakika kavurun. Domatesleri ilave edip kaynamaya bırakın. Sos kaynamaya başlayınca ısıyı düşürün. Bu arada sosu başka bir kaba ayırın. Taze fasulyeleri kalan zeytinyağı ile birlikte aynı tencerenin içinde 3-4 dakika kavurun. Ardından tencerenin içinde çok düzgün bir şekilde sıralayın. Fasulyelerin üzerine sosu eşit dağılacak şekilde gezdirin. Üzerini örtecek şekilde sıcak su dökün. Önce yüksek ateşte birkaç dakika kaynatın, sonra tencerenin kapağını kapatıp ateşi de iyice kısın. Kısık ateşte, yarım saat pişirin. Bol domatesli taze fasulyeyi ocaktan alınca üzerine kıyılmış yeşillik atın, rendelenmiş limon kabuğu serpin. Hemen tencerenin kapağını kapatın, oda sıcaklığında soğumaya bırakın."
+  }, {
+    "name": "\nZeytinyağlı taze fasulye\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/zeytinyagli_taze_fasulye-14d269df-3685-4300-83cb-1fa5992a1c23.jpg",
+    "ingredients": [
+      "1 kg taze fasulye",
+      "1 soğan",
+      "2 domates",
+      "1 yemek kaşığı salça",
+      "Yarım su bardağı zeytinyağı",
+      "1 tatlı kaşığı toz şeker",
+      "1 su bardağı sıcak su",
+      "Tuz"
+    ],
+    "description": "İlk olarak soğanı küp küp doğrayın ve domatesleri rendeleyin.Fasulyelerin kılçıklarını ayıklayın. Ayıkladığınız fasulyeleri bir kapta yıkayarak ikiye bölün ve bir kenarda bekletin.Pişirme işlemine başlamak için zeytinyağını tencerede ısıtın. Önceden doğranan soğanları yağ içerisine ekleyerek pembeleşinceye kadar kavurun. Salça ve tuzu da ilave edin. Ayıklanmış fasulyeleri de tencere içerisine ekleyin ve karıştırmaya devam edin. Daha iyi karışmasını sağlamak için tencerenin kapağını kapatıp sallayın. Rendelenmiş domatesleri de tencereye dökün ve yemeğiniz yumuşayana kadar pişirin.Son olarak sıcak su ve toz şekeri de karışıma ekleyerek harlı ateşte pişirin. Yemek olduğunda tencerede soğuması için biraz bekletin.Ana yemek olarak sunulan taze fasulyeyi, sebzeli bulgur pilavı ve cacık ile servis edebilirsiniz. Şimdiden afiyet olsun."
+  }]},
+
+"enginar": {
+"recipes":[
+{
+
+    "name": "\nBebek enginar\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/bebek-enginar-7f61aca4-28da-4301-8471-ddd4bbcdcd4f.jpg",
+    "ingredients": [
+      "1 adet limon ",
+      "10-12 adet bebek enginar ",
+      "1 adet beyaz soğan (İnce kıyılmış) ",
+      "3 yemek kaşığı sızma zeytinyağı ",
+      "1 adet havuç (Küp doğranmış) ",
+      "Taze çekilmiş tuz ve karabiber ",
+      "1 dal taze kekik ",
+      "2 diş sarımsak ",
+      "2 yemek kaşığı sirke ",
+      "1 su bardağı tavuk suyu"
+    ],
+    "description": "Büyük bir kaseyi su ile doldurun ve limon suyu ekleyip karıştırın. Temizlenmiş taze enginarları bu suyun içinde bekletin. Zeytinyağını geniş bir tencerede ısıtıp, kıyılmış soğanı yumuşayana kadar kavurun. Küp doğranmış havucu ekleyin. Birkaç dakika daha kavurun. İnce doğranmış sarımsakları, tuzu, karabiberi, kekik dalını ve sirkeyi ilave edin. Hızlıca karıştırın. Sıcak tavuk suyunu ekleyip kaynamaya bırakın. Su kaynayınca enginarları ilave edin. Tencerenin kapağını kapatın, ateşi kısın. Enginarlar yumuşayana kadar, yaklaşık 20 dakika pişirin."
+  },  {
+    "name": "\nSebzeli zeytinyağlı enginar\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/sebzeli_zeytinyagli_enginar-f12ccd3d-663c-4ae9-8170-550552da1409.jpg",
+    "ingredients": [
+      "5 enginar",
+      "2 soğan",
+      "2 havuç",
+      "2 patates",
+      "1 su bardağı bezelye",
+      "1 tatlı kaşığı toz şeker",
+      "1 su bardağı su",
+      "Yarım çay bardağı zeytinyağı",
+      "Tuz"
+    ],
+    "description": "Öncelikle soğanları ve havuçları küp küp doğrayın ve bir tavaya zeytinyağı ekleyin. Doğradığınız soğan ve havuçları pembeleşinceye kadar zeytinyağında soteleyin.pembeleşen soğanların üzerine toz şeker ekleyin. Bu esnada patates ve enginarları da küp şeklinde doğrayın.Doğranmış patatesleri ve enginarları sotenin içerisine ilave edin.Daha sonra soteye bezelyeyi ve suyu ekleyin. Tuzunu ayarladıktan sonra yarım saat enginarlar yumuşayıncaya kadar pişirin. Pişen enginarları servis tabağına alın. Üzerine zeytinyağı ve limon suyu gezdirin.Zeytinyağlı enginarı, yapımı oldukça pratik olan Ankara tava ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  }]},
+"kabak":{
+"recipes":[
+ {
+    "name": "\nKarışık dolma\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/karisik_dolma-efabd3ed-8fe5-41e6-bd81-43660f2d4bf2.jpg",
+    "ingredients": [
+      " Domates",
+      "Patlıcan",
+      "Dolmalık biber",
+      "Kabak"
+    ],
+    "description": "Öncelikle domates ve biberleri yıkayıp baş kısımlarını kesin. Domatesleri alacalı bir şekilde soyun. Ortadan ikiye kestiğiniz kabak ve patlıcanların içlerini temizleyin.İç harcı için; tereyağı, yıkayıp süzdüğünüz pirinç, kıyma, rendelediğiniz soğan, su, salça, sumak ekşisi, tuz ve baharatları geniş bir kasede karıştırın. Hazırladığınız harcı sebzelerin içlerine paylaştırıp yayvan bir tencereye dizin. Üzerine, dolmaların yarısına gelecek kadar su ekleyip kısık ateşte 15-20 dakika pişirin. Sosu için salça, su, nar ekşisi ve ezdiğiniz sarımsağı bir kasede karıştırın. Dolmaları ocaktan almadan önce üzerine sosu gezdirin ve 10 dakika daha pişirin. Karışık dolmayı, cacık ile birlikte servis edebilirsiniz. Afiyet olsun."
+  }, {
+    "name": "\nNohutlu imam bayıldı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/nohutlu-imam-bayildi-e0568b28-998b-483a-9373-977a93ec4f9f.jpg",
+    "ingredients": [
+      "1 adet bostan patlıcanı ",
+      "1 adet sarı kabak",
+      "1 adet Girit kabağı",
+      "2 soğan",
+      "2 büyük Çanakkale domatesi",
+      "1/2 bağ maydanoz",
+      "2 diş sarımsak",
+      "2 adet kesme şeker",
+      "1 su bardağı haşlanmış nohut",
+      "2 kırmızı kapya biber"
+    ],
+    "description": "Bostan patlıcanlarını ve kabakları dilimledikten sonra yağlı kağıt serili fırın tepsisine dizin. Tuz ve zeytinyağı gezdirerek önceden ısıtılmış 200 derece fırında pişirin.Ayrı bir tencerede soğanı bir miktar zeytinyağı ile kavurun. Üzerine küp doğradığınız domatesi ekleyerek pişirin ve ocaktan almadan önce haşlanmış nohudu ilave edin. Birkaç dakika pişirip ocaktan alın.Fırında pişen sebzeleri sırasıyla bir servis tabağına dizin. Sebzeleri dizerken aralarına ve üzerine pişirdiğiniz domatesli sostan koyun. Hazırladığınız nohutlu imam bayıldıyı ılık ya da soğuk servis yapın."
+  }, {
+    "name": "\nNohutlu zeytinyağlı kabak\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/nohutlu-zeytinyagli-kabak-1032684a-fbf6-4067-8bd6-28b6e3b122cc.jpg",
+    "ingredients": [
+      "1 soğan ",
+      "Yarım çay bardağı zeytinyağı ",
+      "1 tatlı kaşığı domates salçası ",
+      "Yarım kg kabak ",
+      "1 kırmızı biber ",
+      "2 havuç ",
+      "Tuz ",
+      "1 çay kaşığı toz şeker  ",
+      "Bir su bardağı sıcak su"
+    ],
+    "description": "İlk olarak soğanları küp küp doğrayın ve kabakları soyun. Daha sonra ince dilimler haline getirin. Daha sonra soğanları zeytinyağında pembeleşinceye kadar soteleyin.Üzerine salçayı ilave edip 1-2 dakika daha kavurun.Dilimlediğiniz kabakları, kırmızı biberi ve havuçları da tavanın içerisine ilave edin. Tuz, şeker ve sıcak su ekleyip kısık ateşte yumuşayıncaya kadar pişirin.Çatal ile yumuşaklığını kontrol ettikten sonra servis tabağına alabilirsiniz.Zeytinyağlı kabak yemeğini, yanına çok yakışan firik pilavı ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  }, {
+    "name": "\nZeytinyağlı kabak çiçeği dolması\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/zeytinyagli-kabak-cicegi-dolmasi-e1d42168-4f03-4ba2-8b9c-993ac4001d74.jpg",
+    "ingredients": [
+      "25-20 adet kabak çiçeği",
+      "2 adet kuru soğan",
+      "1 çay bardağı zeytinyağı",
+      "1 adet domates",
+      "1.5 su bardağı pirinç",
+      "Yarım bardak sıcak su",
+      "Dereotu (bir demetin üçte biri kadar)",
+      "1 tatlı kaşığı kuru nane",
+      "1 çay kaşığı tuz",
+      "Yarım çay kaşığı karabiber"
+    ],
+    "description": "Kuru soğanları küp küp doğrayın. Ortadan bölünen ve uç kısımları alınmış domatesleri ince kısımla rendeleyin. Elinizdeki dereotu yapraklarını ipince olacak şekilde kıyın.Kabak çiçeklerinin uç kısımlarında bulunan yeşil kısımları yapraklara zarar vermemeye dikkat ederek çıkartın.Yapraklara zarar vermeden, çiçeklerin içerisindeki sarı kısımları alın.Zeytinyağının yarısını geniş bir tencereye döküp yağınız ısınınca kuru soğanları bu yağda renk alana kadar kavurun. Pirinçleri yıkayın ve soğanlarla kavurmaya devam edin.Rendelenmiş domateslerle beraber karabiber, tuz, kuru nane ve sıcak su ekleyerek düşük ateşte suyu çekilene kadar karıştırarak pişirin. Sosun oturması için kısa bir süre dinlendirdikten sonra kıyılmış dereotunu ekleyip iyice karıştırarak harmanlayın.Hazırladığınız dolma harcını çiçeklerin iç kısmına azar azar, çiçekleri zedelemeyecek seviyede doldurun. Çiçekleri, üstten içe doğru dikkatlice katlayıp katlanan yer altta kalacak şekilde tencereye dizin.Kalan zeytinyağını tenceredeki dolmaların üzerlerinde gezdirip, dolmaların yarısına gelecek şekilde ılık su ekleyin. Tencerenin kapağını kapatın ve kabak çiçeği dolmanızı kısık ateşte 30 dakika pişirin.Arzunuza göre limon dilimleriyle beraber ılık ya da soğuk olarak servis edebilirsiniz. Afiyet olsun."
+  }]
+},
+"mantar":{
+   "recipes": [{
+    "name": "\nSoya soslu karışık sebze sote\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/soya_soslu_karisik_sebze_sote-d8ba25f3-d334-47b2-90de-a56a8b5f6ee8.jpg",
+    "ingredients": [
+      "200 gr brokoli",
+      "200 gr karnabahar",
+      "200 gr mantar",
+      "1 kabak",
+      "2 kırmızı biber",
+      "2 sivri biber",
+      "1 pırasa",
+      "2 yemek kaşığı soya sos",
+      "2 yemek kaşığı zeytinyağı",
+      "1 çay kaşığı kekik",
+      "1 diş sarımsak",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Brokoli ve karnabaharı yıkadıktan sonra küçük çiçeklere ayırın. Mantarları yarım ay şeklinde doğrayın. Kabak, kırmız biber, sivri biber ve pırasayı ince jülyen şeklinde doğrayın. Zeytinyağını tavaya alıp ısıtın. Üzerine pırasayı ve yemeklik olarak doğradığınız sarımsağı ekleyip kısık ateşte soteleyin. Daha sonra sırayla kırmızı ve sivri biberi, brokoli ve karnabaharı ilave edip biberler çok az yumuşayana kadar soteleyin. Mantar ve kabağı da ilave ettikten sonra 1-2 dakika pişirin. Karışık sebze soteyi ocaktan almaya yakın soya sosunu, karabiberi ve kekiği ilave edip 1 dakika daha pişirin. Ocaktan alıp sıcak olarak servis yapın."
+  },{
+    "name": "\nDereotlu ve kremalı tavuk\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/dereotlu-ve-kremali-tavuk-e5ef20f1-633c-42e5-8a03-8b202cc2aeac.jpg",
+    "ingredients": [
+      "500 g tavuk kalça eti",
+      "10 adet mantar (İkiye kesilmiş)",
+      "2 yemek kaşığı zeytinyağı",
+      "Yarım demet dereotu (Kıyılmış)",
+      "1 kutu krema (200 ml)",
+      "Tuz"
+    ],
+    "description": "Tavuk etlerini ceviz büyüklüğünde doğrayıp zeytinyağı ile birlikte tavada, sürekli karıştırarak kavurun. Mantarları ekleyip kavurmaya devam edin.Tavuk eti pişince tuzunu ve kimyonunu ilave edip birkaç kez çevirin. Ayrı bir kapta kremanın içine kıyılmış dereotunu ilave edip karıştırın.Pişen tavuk etini ocaktan almadan 3 dakika önce kremasını ilave edin. 3 dakika daha kısık ateşte pişirip ocaktan alın."
+  }]
+},
+
+"krema":{
+"recipes":[
+{
+    "name": "\nDereotlu ve kremalı tavuk\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/dereotlu-ve-kremali-tavuk-e5ef20f1-633c-42e5-8a03-8b202cc2aeac.jpg",
+    "ingredients": [
+      "500 g tavuk kalça eti",
+      "10 adet mantar (İkiye kesilmiş)",
+      "2 yemek kaşığı zeytinyağı",
+      "Yarım demet dereotu (Kıyılmış)",
+      "1 kutu krema (200 ml)",
+      "Tuz"
+    ],
+    "description": "Tavuk etlerini ceviz büyüklüğünde doğrayıp zeytinyağı ile birlikte tavada, sürekli karıştırarak kavurun. Mantarları ekleyip kavurmaya devam edin.Tavuk eti pişince tuzunu ve kimyonunu ilave edip birkaç kez çevirin. Ayrı bir kapta kremanın içine kıyılmış dereotunu ilave edip karıştırın.Pişen tavuk etini ocaktan almadan 3 dakika önce kremasını ilave edin. 3 dakika daha kısık ateşte pişirip ocaktan alın."
+  }]
+},"patates":{
+"recipes":[
+
+{
+    "name": "\nYeşil patates püreli kuzu incik\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yesil-patates-pureli-kuzu-incik-56f5c92e-89af-4d56-ac1f-e3ca1402ff3c.jpg",
+    "ingredients": [
+      "4-5 adet kuzu incik",
+      "2 orta boy kuru soğan",
+      "1 baş sarımsak",
+      "Tuz",
+      "Karabiber",
+      "1 çay kaşığı kişniş tohumu",
+      "Taze kekik",
+      "Susam",
+      "Sıvı yağ"
+    ],
+    "description": "Büyük bir tavaya 2 yemek kaşığı sıvı yağ koyun. Kuzu inciklerin üzerine az tuz ve karabiber serpin. Alt ve üst kısmını tavada ikişer dakika mühürleyin. Mühürlenen incikleri kenara alın.Düdüklü tencerenin içerisine 1 yemek kaşığı sıvı yağ koyun. 1 baş sarımsağı iyice yıkayıp ortadan kesin ve yağın içerisine atın. Biraz kavurup üzerine piyazlık doğranan kuru soğanları atın ve çevirin. Soğanların üzerine önceden mühürlediğiniz incikleri yerleştirin ve taze kekikleri ilave edin. İnciklerin yarısına gelene dek sıcak su ilavesi yapın. Tuz, karabiber ve dövülmüş kişniş ile çeşnilendirin. Düdüklünün kapağını kapatın. 35-40 dakika orta ateşte pişirin.Pişen etleri bir fırın kabına alın. Üzerine minik tereyağı parçaları ekleyin. Susam serpin. Önceden ısıtılmış 200 derecelik fırında etlerin üzeri kızarana dek pişmeye bırakın."
+  },{
+    "name": "\nEtli patates\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_patates-be0f01a6-9cf1-4a37-97ca-0b0d952dc548.jpg",
+    "ingredients": [
+      " 1 kg patates",
+      "600 gr kuşbaşı dana eti",
+      "3 yemek kaşığı tereyağı",
+      "1 soğan",
+      "1 yemek kaşığı domates salçası",
+      "1 su bardağı et suyu",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "İlk olarak tereyağını eritin. Etleri ilave ederek kısık ateşte ara ara karıştırarak yumuşayıncaya kadar pişirin.Soğanı ince ince doğrayıp ekleyin. Et suyu, karabiber, salça ve tuz ilave ederek 20 dakika daha pişirin. Suyunu çekerse ılık su ilave edin.Patateslerin kabuklarını soyup elma dilim yapın. Ete ilave edin. Suyunu çekince fırın tepsisine alın.Üzerine dilimlenmiş domates ve biberleri yerleştirin. Pul biber serpiştirin ve fırına verin. 15 dakika daha pişirin.Etli patates yemeğini, yanına çok yakışan zeytinyağlı enginar ve patlıcan turşusu ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  }, {
+    "name": "\nSebzeli zeytinyağlı enginar\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/sebzeli_zeytinyagli_enginar-f12ccd3d-663c-4ae9-8170-550552da1409.jpg",
+    "ingredients": [
+      "5 enginar",
+      "2 soğan",
+      "2 havuç",
+      "2 patates",
+      "1 su bardağı bezelye",
+      "1 tatlı kaşığı toz şeker",
+      "1 su bardağı su",
+      "Yarım çay bardağı zeytinyağı",
+      "Tuz"
+    ],
+    "description": "Öncelikle soğanları ve havuçları küp küp doğrayın ve bir tavaya zeytinyağı ekleyin. Doğradığınız soğan ve havuçları pembeleşinceye kadar zeytinyağında soteleyin.pembeleşen soğanların üzerine toz şeker ekleyin. Bu esnada patates ve enginarları da küp şeklinde doğrayın.Doğranmış patatesleri ve enginarları sotenin içerisine ilave edin.Daha sonra soteye bezelyeyi ve suyu ekleyin. Tuzunu ayarladıktan sonra yarım saat enginarlar yumuşayıncaya kadar pişirin. Pişen enginarları servis tabağına alın. Üzerine zeytinyağı ve limon suyu gezdirin.Zeytinyağlı enginarı, yapımı oldukça pratik olan Ankara tava ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },{
+    "name": "\nTavuk quesadilla\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tavuk-quesadilla-9281820c-5541-496f-8262-3e816d9519b5.jpg",
+    "ingredients": [
+      "4 adet lavaş ",
+      "2 adet tavuk göğüs eti",
+      "1 adet kırmızı biber (Jülyen kesilmiş)",
+      "1 adet sarı biber (Jülyen kesilmiş)",
+      "1 adet beyaz soğan (Jülyen kesilmiş)",
+      "2 su bardağı mozarella peyniri (Rendelenmiş)",
+      "2 yemek kaşığı zeytinyağı",
+      "Tuz, karabiber"
+    ],
+    "description": "Fırını 220 derecede ısıtın. Tepsiye yağlı kâğıt serin.Tavaya zeytinyağını koyun, orta ateşte tavuk göğüs etlerini önlü arkalı pişirin. Soğuyunca ince dilimler halinde kesin.Biberleri ve soğanı, tavukları pişirdiğiniz tavada renkleri dönüp yumuşayıncaya kadar pişirin. Tuz ve karabiber ekleyin. Bir adet lavaşa önce mozarella peynirini sonra dilimlediğiniz tavukları, üzerine biberleri ve tekrar biraz mozarella peyniri koyup üzerini başka bir lavaşla kapatın. (Lavaşın üzerine fırçayla zeytinyağı sürerseniz daha çıtır olacaktır.) Kalan iki adet lavaşı da aynı şekilde hazırlayın. Quesadilla’ları tepsiye dizin ve önceden ısıtılmış 175 derece fırında 7-8 dakika peynirler eriyinceye kadar fırınlayın. Dilerseniz yanında baharatlı patates cips servis edebilirsiniz. Afiyet olsun."
+  },{
+    "name": "\nFırında bezelyeli tavuk güveç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small/firinda-bezelyeli-tavuk-guvec-0e895fd6-41ee-4645-9400-5a841c037536.jpg",
+    "ingredients": [
+      "500 g tavuk kalça eti (İri küp doğranmış)",
+      "1 adet büyük boy patates (İri küp doğranmış)",
+      "2 adet kapya biber (İri küp doğranmış)",
+      "1 adet büyük boy soğan (İri küp doğranmış)",
+      "1/2 su bardağı dondurulmuş bezelye",
+      "4 diş sarımsakSalçalı sos için",
+      "2 su bardağı ılık su",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "Tuz, karabiber, kırmızı toz biber, kuru kekik",
+      "1/2 çay bardağı sıvı yağSalçalı sos için",
+      "2 su bardağı ılık su",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "Tuz, karabiber, kırmızı toz biber, kuru kekik",
+      "1/2 çay bardağı sıvı yağ"
+    ],
+    "description": "Salçalı sos dışındaki yemeğin malzemesini geniş bir kapta harmanlayın.Salçalı sos için tüm malzemeyi çukur bir kapta karıştırın.Sebzeli tavuk karışımı ile salçalı sosu iyice karıştırın ve ısıya dayanıklı toprak kaplara paylaştırın.Kapların üzerlerini yağlı kağıtla kapatın.Önceden ısıtılmış 200 derece fırında 40 dakika pişirin."
+  },  {
+    "name": "\nYeşil patates püreli kuzu incik\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yesil-patates-pureli-kuzu-incik-56f5c92e-89af-4d56-ac1f-e3ca1402ff3c.jpg",
+    "ingredients": [
+      "4-5 adet kuzu incik",
+      "2 orta boy kuru soğan",
+      "1 baş sarımsak",
+      "Tuz",
+      "Karabiber",
+      "1 çay kaşığı kişniş tohumu",
+      "Taze kekik",
+      "Susam",
+      "Sıvı yağ"
+    ],
+    "description": "Büyük bir tavaya 2 yemek kaşığı sıvı yağ koyun. Kuzu inciklerin üzerine az tuz ve karabiber serpin. Alt ve üst kısmını tavada ikişer dakika mühürleyin. Mühürlenen incikleri kenara alın.Düdüklü tencerenin içerisine 1 yemek kaşığı sıvı yağ koyun. 1 baş sarımsağı iyice yıkayıp ortadan kesin ve yağın içerisine atın. Biraz kavurup üzerine piyazlık doğranan kuru soğanları atın ve çevirin. Soğanların üzerine önceden mühürlediğiniz incikleri yerleştirin ve taze kekikleri ilave edin. İnciklerin yarısına gelene dek sıcak su ilavesi yapın. Tuz, karabiber ve dövülmüş kişniş ile çeşnilendirin. Düdüklünün kapağını kapatın. 35-40 dakika orta ateşte pişirin.Pişen etleri bir fırın kabına alın. Üzerine minik tereyağı parçaları ekleyin. Susam serpin. Önceden ısıtılmış 200 derecelik fırında etlerin üzeri kızarana dek pişmeye bırakın."
+  },{
+    "name": "\nFırında bezelyeli tavuk güveç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small/firinda-bezelyeli-tavuk-guvec-0e895fd6-41ee-4645-9400-5a841c037536.jpg",
+    "ingredients": [
+      "500 g tavuk kalça eti (İri küp doğranmış)",
+      "1 adet büyük boy patates (İri küp doğranmış)",
+      "2 adet kapya biber (İri küp doğranmış)",
+      "1 adet büyük boy soğan (İri küp doğranmış)",
+      "1/2 su bardağı dondurulmuş bezelye",
+      "4 diş sarımsakSalçalı sos için",
+      "2 su bardağı ılık su",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "Tuz, karabiber, kırmızı toz biber, kuru kekik",
+      "1/2 çay bardağı sıvı yağSalçalı sos için",
+      "2 su bardağı ılık su",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "Tuz, karabiber, kırmızı toz biber, kuru kekik",
+      "1/2 çay bardağı sıvı yağ"
+    ],
+    "description": "Salçalı sos dışındaki yemeğin malzemesini geniş bir kapta harmanlayın.Salçalı sos için tüm malzemeyi çukur bir kapta karıştırın.Sebzeli tavuk karışımı ile salçalı sosu iyice karıştırın ve ısıya dayanıklı toprak kaplara paylaştırın.Kapların üzerlerini yağlı kağıtla kapatın.Önceden ısıtılmış 200 derece fırında 40 dakika pişirin."
+  }
+]},
+"tavuk":{
+"recipes":[{
+  
+    "name": "\nDereotlu ve kremalı tavuk\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/dereotlu-ve-kremali-tavuk-e5ef20f1-633c-42e5-8a03-8b202cc2aeac.jpg",
+    "ingredients": [
+      "500 g tavuk kalça eti",
+      "10 adet mantar (İkiye kesilmiş)",
+      "2 yemek kaşığı zeytinyağı",
+      "Yarım demet dereotu (Kıyılmış)",
+      "1 kutu krema (200 ml)",
+      "Tuz"
+    ],
+    "description": "Tavuk etlerini ceviz büyüklüğünde doğrayıp zeytinyağı ile birlikte tavada, sürekli karıştırarak kavurun. Mantarları ekleyip kavurmaya devam edin.Tavuk eti pişince tuzunu ve kimyonunu ilave edip birkaç kez çevirin. Ayrı bir kapta kremanın içine kıyılmış dereotunu ilave edip karıştırın.Pişen tavuk etini ocaktan almadan 3 dakika önce kremasını ilave edin. 3 dakika daha kısık ateşte pişirip ocaktan alın."
+  },{
+    "name": "\nAcı soslu baharatlı piliç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/aci-soslu-baharatli-pilic-85b9cad8-e64d-46af-961c-27cc1fa29351.jpg",
+    "ingredients": [
+      "4 dilim ızgara tavuk eti",
+      "2 domates",
+      "2 kırmızı soğan",
+      "1-2 dal taze nane",
+      "1-2 dal taze biberiye"
+    ],
+    "description": "Baharatlı marinat için tüm malzemeleri derin bir kapta iyice karıştırın. Tavuk etlerini bu karışıma ekleyip 1 saat bekletin. Acı sos için tüm malzemeleri mikserde iyice çırpın. Soğanların kabuklarını soyup halka şeklinde dilimleyin. Bir kaba alıp bir tutam tuz serpiştirin. Domatesleri yıkayıp kurulayın ve enine ikiye kesin.  Tavuk etleri ve sebzeleri mangalda pişirin. Soğanların bir kısmını servis tabağına alın. Üzerine tavuk etini yerleştirin. Acı sosu etin üzerine gezdirin. Domates ve soğan dilimlerini yerleştirip taze nane ve biberiye ile süsleyin.Acı soslu baharatlı pilici, börülce salatası ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },
+ 
+  {
+    "name": "\nTavuk quesadilla\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tavuk-quesadilla-9281820c-5541-496f-8262-3e816d9519b5.jpg",
+    "ingredients": [
+      "4 adet lavaş ",
+      "2 adet tavuk göğüs eti",
+      "1 adet kırmızı biber (Jülyen kesilmiş)",
+      "1 adet sarı biber (Jülyen kesilmiş)",
+      "1 adet beyaz soğan (Jülyen kesilmiş)",
+      "2 su bardağı mozarella peyniri (Rendelenmiş)",
+      "2 yemek kaşığı zeytinyağı",
+      "Tuz, karabiber"
+    ],
+    "description": "Fırını 220 derecede ısıtın. Tepsiye yağlı kâğıt serin.Tavaya zeytinyağını koyun, orta ateşte tavuk göğüs etlerini önlü arkalı pişirin. Soğuyunca ince dilimler halinde kesin.Biberleri ve soğanı, tavukları pişirdiğiniz tavada renkleri dönüp yumuşayıncaya kadar pişirin. Tuz ve karabiber ekleyin. Bir adet lavaşa önce mozarella peynirini sonra dilimlediğiniz tavukları, üzerine biberleri ve tekrar biraz mozarella peyniri koyup üzerini başka bir lavaşla kapatın. (Lavaşın üzerine fırçayla zeytinyağı sürerseniz daha çıtır olacaktır.) Kalan iki adet lavaşı da aynı şekilde hazırlayın. Quesadilla’ları tepsiye dizin ve önceden ısıtılmış 175 derece fırında 7-8 dakika peynirler eriyinceye kadar fırınlayın. Dilerseniz yanında baharatlı patates cips servis edebilirsiniz. Afiyet olsun."
+  },
+  {
+    "name": "\nKöri Soslu Tavuk\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kori-soslu-tavuk-8ccf6838-cafe-411f-9fc2-e6fae46b1c50.jpg",
+    "ingredients": [
+      "100 ml sıvı krema (yarım kutu kadar) ",
+      "1 parça orta boy tavuk göğsü",
+      "1 avuç içi kadar arpacık soğan",
+      "1 çorba kaşığı parmesan peyniri (arzu etmezseniz kullanmayabilirsiniz) ",
+      "3 çorba kaşığı zeytinyağı ",
+      "1 çay kaşığı tuz",
+      "1 çay kaşığı köri sosu",
+      "1 tatlı kaşığı kırmızı biber (toz) ",
+      "1 tatlı kaşığı kekik",
+      "1 çay kaşığından az karabiber"
+    ],
+    "description": "Geniş bir kızartma tavasını ocakta kızdırın. Az miktarda yağ koyabilirsiniz. Tavuğu hazırlarken koyduğunuz yağ yeterli olur. Tavukları suyunu salmadan pişirin. Etlerin üst üste olmaması tavsiye edilir. Yağa temas etmeyen etler sulanır. Bu şekilde de tavuklar kuru kalabilir. Tavukları alt üst olarak çevirip iyice pişirin. Birkaç dakika sonra arpacık soğanlarını ilave edin. Tavuklar iyice pişip altın rengini aldığı zaman köri sosuyla beraber kremayı ekleyin. Tuzu da ilave etmeyi unutmayın. 2 3 dakika boyunca karıştırarak pişirin. Son olarak yemeğe hoş bir kıvam vermesi için parmesan ilave edebilirsiniz. Arzu etmezseniz kullanmayabilirsiniz. Sıcağıyla servis edebilirsiniz.Tarif az kişilik porsiyonlara uygundur. Kalabalık misafirlerde malzeme ölçülerini artırarak aynı lezzeti yakalayabilirsiniz. Körili tavuk yanına pirinç pilavı ya da patates köftesi yapabilirsiniz. Afiyet olsun.Kalori bakımından oldukça düşük olan körili tavuğu rahatlıkla tüketebilirsiniz.Daha fazla tarif için, pratik tavuk yemeklerine göz atın."
+},
+ {
+    "name": "\nFırında patatesli tavuk eti\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/firinda_patatesli_tavuk_eti-d8f16767-cbc1-4e33-b3be-d0b9bf412ced.jpg",
+    "ingredients": [
+      "1 kg tavuk but",
+      "1 kg tavuk kanat",
+      "4 patates",
+      "3 diş ezilmiş sarımsak",
+      "Kekik",
+      "Kırmızı pul biber",
+      "Kimyon",
+      "Karabiber",
+      "1 yemek kaşığı biber salçası",
+      "Yarım çay bardağı zeytinyağı",
+      "Tuz"
+    ],
+    "description": "İlk olarak patateslerin kabuklarını soyup elma dilimi şeklinde kesin.Sos için, derin bir kap içerisine salça, baharat, zeytinyağı, ezilmiş sarımsak ve tuz ekleyin.  Tavukları ve patatesleri bu sosa ilave edip harmanlayın. 2-3 dakika boyunca patatesleri sos içinde bekletin. Fırın tepsisine yağlı kağıt serin. Tavukları ve patatesleri tepsiye alıp 200 dereceye ayarlı fırında pişirin. Patatesli tavuk etini, pirinç pilavı ve ezme salata ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },
+  {
+    "name": "\nFırında kalça but kızartma\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/firinda_kalca_but_kizartma-7e235d07-eecc-4f21-b843-579329dd143d.jpg",
+    "ingredients": [
+      " 4 kalça but",
+      "1 tatlı kaşığı domates salçası",
+      "1 tatlı kaşığı yoğurt",
+      "1 tatlı kaşığı kırmızı pul biber",
+      "1 çay bardağı zeytinyağı"
+    ],
+    "description": "Bir kapta domates salçası, yoğurt, pul biber ve zeytinyağını iyice karıştırın. Tavuk butlarını iyice sosa bulayın. Yağlı kağıt serili fırın tepsisine yerleştirip önceden ısıtılmış 220 dereceye ayarlanmış fırında 15 dakika pişirin. Tavuk butların diğer tarafını çevirip 15 dakika daha pişirin. Mevsim yeşilliklerini, ikiye bölünmüş kiraz domatesleri bir kapta karıştırın. Zeytinyağı, limon suyu ve tuzla iyice harmanlayıp tavuk butların yanında servis yapın. "
+  },
+  {
+    "name": "\nSebzeli tavuk sarma\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/sebzeli_tavuk_sarma-d9fd9722-f165-403b-a857-74a3d6a2b9a6.jpg",
+    "ingredients": [
+      " 4 büyük dilim fileto tavuk göğüs eti (dövülmüş)",
+      "2 kırmızıbiber",
+      "2 sarı biber",
+      "2 kabak",
+      "250 gr ince dilimlenmiş kaşar peyniri",
+      "2 diş sarımsak"
+    ],
+    "description": "Sarı biberle kırmızıbiberleri ince şerit doğrayın. Kabakların kabuğunu kazıyıp uzunlamasına yarıya bölüp ortasındaki çekirdekli kısmı çıkarın. Kalanını yine ince şerit halinde doğrayın.Tavuk filetoları tezgaha alın. Üzerlerine tuz ve karabiber serpin. İnce dilimlediğiniz sarımsakları paylaştırın. Ortalarına hazırladığınız sebze harcını yerleştirin. Kaşar peyniri dilimlerini yerleştirin. Rulo şeklinde sıkıca sarıp kenarlarını kürdan ile tutturun.Üzeri için kaseye galeta ununu, ezilmiş sarımsağı, ince kıyılmış maydanozu, tuzu, karabiber, biberiyeyi ve pul biberi ekleyip iyice karıştırın. Tavuk eti rulolarını harca bulayıp önceden ısıtılmış 170-180 derecelik fırında yağlı kağıt üzerinde kızarıncaya kadar pişirin. Sıcak servis yapın."
+  },
+  {
+    "name": "\nTavuk haşlama\n",
+    "img": "https://lezzet.blob.core.windows.net/images-static/defaultimages/general-default-small.jpg",
+    "ingredients": [
+      "1 ta­vuk",
+      "1 soğan",
+      "1 havuç",
+      "tuz",
+      " biber",
+      "3 tane patates",
+      "1/2 limon suyu"
+    ],
+    "description": "Tavuğu iyice tütsüleyin. Sonra musluk altına tutarak içini ve dışını su ile yıkayın. Bir tencereye tavuğu koyun soyulmuş havuç ile patatesleri orta boy parçalara bölerek soğanı da temizleyerek bir bütün olarak koyun. Çok az su ekleyerek tencereyi orta ateşte yakın. Su ısınınca tuz, karabiber,  limon suyu ekleyin. Tavuk yağlı ise kendi yağı ile pişirin, yağsız ise 1 çorba kaşığı yağ ekleyin.  Küçük ateşte 5-10 dakika daha pişirin.Tavuk yerine kırmızı et ile hazırlanan kuzu haşlama tarifine göz atmayı unutmayın.\n"
+  },
+{  "name": "\nPiliç topkapı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/pilic-topkapi-fb8f9971-9bba-4142-98c1-8924f3caee58.jpg",
+    "ingredients": [
+      "4 büyük tavuk budu",
+      "Yarım çay bardağı zeytinyağı",
+      "1 çay kaşığı karabiber",
+      "1 tatlı kaşığı kırmızı biber",
+      "Tuz"
+    ],
+    "description": "Geniş bir kabın içinde yarım çay bardağı zeytinyağını, 1 çay kaşığı karabiber, kırmızı biber ve tuz ile karıştırın. Kemiğinden ayrılmış ve açılmış tavuk butlarını yayvan bir kapta terbiye edin.Derin bir kapta pirinci 15-20 dakika suda bekletin. Bir tavaya zeytinyağı ekleyip 1 yemek kaşığı dolmalık fıstığı kavurun. Soğanları da küp küp doğrayıp, pembeleşinceye kadar kavurun.Önceden ıslattığınız pirincin suyunu süzüp tavaya ilave edin ve 5 dakika daha kavurun. Daha sonra karabiber, nane, yenibahar, kuş üzümü ve tuzu ekleyin.1 bardak su ekleyip ocağın altını kısın. Suyunu çekene kadar pişirin ve demlenmeye bırakın. 1 tane açılmış tavuk budunu, derisi aşağıya bakacak şekilde ısıya dayanıklı fırın kabına serin.İç pilavı 4’e bölün ve bir parçasını koyun.Tavuğu kenarlarından tutarak bohça şekline getirin ve kürdanlarla tutturun. Ters çevirip tepsiye yerleştirin.1 çay bardağı suyun içine yarım yemek kaşığı domates salçasını ekleyin. Yarım çay bardağı zeytinyağı da döküp karıştırın. Salçalı sosu tavukların üzerine dökün.Önceden ısıtılmış 200 derece fırında 30-35 dakika kadar pişirin. Sıcak servis yapın."
+  },
+   {
+    "name": "\nSusamlı tatlı tavuk\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/susamli-tatli-tavuk-a7f77669-72dc-4cb5-b6fc-820e515f6325.jpg",
+    "ingredients": [
+      "500 g tavuk eti (Derisiz ve küp doğranmış)",
+      "2 yemek kaşığı kavrulmuş susam",
+      "1 yemek kaşığı çörek otu ",
+      "2 dal taze kişniş "
+    ],
+    "description": "Tavuk etini marine etmek için tüm malzemeyi bir kasede karıştırın. Tavuk etlerini bu sosun içinde iyice karıştırın. Üzerini kapatıp buzdolabında 15 dakika kadar bekletin. Sosu için tüm malzemeyi sos tenceresine alın. Önce yüksek ateşte kaynatın, sonra ateşi kısın. 10 dakika kadar bu şekilde, arada bir karıştırarak kaynatmaya devam edin. Buzdolabında marine ettiğiniz tavuk etlerini çıkartın ve oda sıcaklığında 10 dakika kadar bekletin. Yağı kızdırın ve tavuk etlerini kızartın. Fazla yağının süzülmesi için kağıt havlu üzerine çıkartın. Tavuk etlerini servis tabağına alın, üzerine sosunu dökün. En son yağsız olarak kavrulmuş susam ve çörek otunu ekleyin, taze kişnişleri serpin. Karıştırıp, yanında yeşil soslu kabaklı makarna ile servis yapın."
+  },
+  {
+    "name": "\nYoğurt soslu ve patatesli tavuk külbastı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yogurt-soslu-ve-patatesli-tavuk-kulbasti-e29252c8-8a90-4f06-a712-6bf37b0ccfec.jpg",
+    "ingredients": [
+      "500 g tavuk külbastı",
+      "5 adet taze patates",
+      "200 g süzme yoğurt",
+      "1 tatlı kaşığı pul biber",
+      "1 tatlı kaşığı kuru nane",
+      "1 tatlı kaşığı kuru kekik",
+      "1/2 çay bardağı sıvı yağ",
+      "1 diş sarımsak (Havanda ezilmiş)"
+    ],
+    "description": "Yoğurdu, tuzu, baharatı ve sıvı yağı bir kasede iyice karıştırın. Havanda ezilmiş sarımsakları ekleyin. Tekrar karıştırın.Patatesleri yıkayıp kabuğuyla birlikte ince ince dilimleyin.Tavuk etlerini ve dilimlediğiniz patatesleri büyük bir kasede soslayın ve hazırladığınız sosu fırın tepisisine dizin.200 dereceye ayarlı fırında, 40 dakika pişirin."
+  },
+  {
+    "name": "\nFırında bezelyeli tavuk güveç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small/firinda-bezelyeli-tavuk-guvec-0e895fd6-41ee-4645-9400-5a841c037536.jpg",
+    "ingredients": [
+      "500 g tavuk kalça eti (İri küp doğranmış)",
+      "1 adet büyük boy patates (İri küp doğranmış)",
+      "2 adet kapya biber (İri küp doğranmış)",
+      "1 adet büyük boy soğan (İri küp doğranmış)",
+      "1/2 su bardağı dondurulmuş bezelye",
+      "4 diş sarımsakSalçalı sos için",
+      "2 su bardağı ılık su",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "Tuz, karabiber, kırmızı toz biber, kuru kekik",
+      "1/2 çay bardağı sıvı yağSalçalı sos için",
+      "2 su bardağı ılık su",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "Tuz, karabiber, kırmızı toz biber, kuru kekik",
+      "1/2 çay bardağı sıvı yağ"
+    ],
+    "description": "Salçalı sos dışındaki yemeğin malzemesini geniş bir kapta harmanlayın.Salçalı sos için tüm malzemeyi çukur bir kapta karıştırın.Sebzeli tavuk karışımı ile salçalı sosu iyice karıştırın ve ısıya dayanıklı toprak kaplara paylaştırın.Kapların üzerlerini yağlı kağıtla kapatın.Önceden ısıtılmış 200 derece fırında 40 dakika pişirin."
+  }
+]},
+ "yogurt":{
+"recipes":[ {
+    "name": "\nAcılı ayran\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/acili-ayran-136ab256-0513-4503-a212-b086cab72f3f.jpg",
+    "ingredients": [
+      "1 su bardağı süzme yoğurt",
+      "1 su bardağı yoğurt",
+      "Su",
+      "Yarım çay bardağı acı turşu suyu"
+    ],
+    "description": "Yoğurtları bir kaseye alın. Pürüzsüz bir kıvam elde edinceye kadar mikser yardımıyla çırpın. Suyu ilave edip çırpmaya devam edin. Ayran istediğiniz kıvama geldiğinde acı turşu suyunu ekleyip tekrar karıştırın.Servis bardaklarına paylaştırın. Üzerlerini nane yaprakları ile süsleyerek servis yapın."
+  }, {
+    "name": "\nNaneli kuru cacık\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/naneli-kuru-cacik-d808c84c-1a3d-488a-a3fd-2878210e6e6c.jpg",
+    "ingredients": [
+      "2 su bardağı süzme yoğurt",
+      "Yarım su bardağı yoğurt",
+      "4-5 dal nane",
+      "2 salatalık"
+    ],
+    "description": "Süzme yoğurt ve yoğurdu bir kaseye alın. Pürüzsüz bir kıvam elde edinceye kadar bir çırpıcı ile çırpın. İnce kıydığınız nane, ezdiğiniz sarımsaklar ve iri doğradığınız salatalıkları ilave edip karıştırın.Kuru cacığı bir servis tabağına yayın. Üzerine zeytinyağı gezdirip kuru nane serperek servis yapın."
+  },   {
+    "name": "\nYoğurt soslu ve patatesli tavuk külbastı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yogurt-soslu-ve-patatesli-tavuk-kulbasti-e29252c8-8a90-4f06-a712-6bf37b0ccfec.jpg",
+    "ingredients": [
+      "500 g tavuk külbastı",
+      "5 adet taze patates",
+      "200 g süzme yoğurt",
+      "1 tatlı kaşığı pul biber",
+      "1 tatlı kaşığı kuru nane",
+      "1 tatlı kaşığı kuru kekik",
+      "1/2 çay bardağı sıvı yağ",
+      "1 diş sarımsak (Havanda ezilmiş)"
+    ],
+    "description": "Yoğurdu, tuzu, baharatı ve sıvı yağı bir kasede iyice karıştırın. Havanda ezilmiş sarımsakları ekleyin. Tekrar karıştırın.Patatesleri yıkayıp kabuğuyla birlikte ince ince dilimleyin.Tavuk etlerini ve dilimlediğiniz patatesleri büyük bir kasede soslayın ve hazırladığınız sosu fırın tepisisine dizin.200 dereceye ayarlı fırında, 40 dakika pişirin."
+  }, {
+    "name": "\nFırında kalça but kızartma\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/firinda_kalca_but_kizartma-7e235d07-eecc-4f21-b843-579329dd143d.jpg",
+    "ingredients": [
+      " 4 kalça but",
+      "1 tatlı kaşığı domates salçası",
+      "1 tatlı kaşığı yoğurt",
+      "1 tatlı kaşığı kırmızı pul biber",
+      "1 çay bardağı zeytinyağı"
+    ],
+    "description": "Bir kapta domates salçası, yoğurt, pul biber ve zeytinyağını iyice karıştırın. Tavuk butlarını iyice sosa bulayın. Yağlı kağıt serili fırın tepsisine yerleştirip önceden ısıtılmış 220 dereceye ayarlanmış fırında 15 dakika pişirin. Tavuk butların diğer tarafını çevirip 15 dakika daha pişirin. Mevsim yeşilliklerini, ikiye bölünmüş kiraz domatesleri bir kapta karıştırın. Zeytinyağı, limon suyu ve tuzla iyice harmanlayıp tavuk butların yanında servis yapın. "
+  }, {
+    "name": "\nPatlıcan kulesi\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/patlican_kulesi-f443c3f6-a8a1-4edb-b6fb-1fd8b6532617.jpg",
+    "ingredients": [
+      " 1 bostan patlıcanı",
+      "1 su bardağı un",
+       "2 kırmızı soğan",
+      "1 su bardağı galeta unu",
+      "Tuz",
+      "Karabiber",
+      "Kırmızı toz biber",
+      "1 çay kaşığı kimyon",
+      "2 yumurta"
+    ],
+    "description": "Patlıcanları kalın halka şeklinde dilimleyin ve acılarını çıkartmak için tuzlu suda 10 dakika bekletin. Un ve galeta ununu yayvan kaplara alın. Galeta ununun içine tuz ve baharatları ekleyip karıştırın. Yumurtaları ayrı bir kasede çırpın. Patlıcanları kağıt havlu ile kurulayın. Derin bir tavada ayçiçek yağını ısıtın. Patlıcan dilimlerini sırasıyla önce una, sonra çırpılmış yumurtaya ve baharatlı galeta ununa bulayın. Her iki yüzünü de kızartın. Kağıt havlu üzerine alıp fazla yağını çektirin. Patlıcanlı sos için ezdiğiniz sarımsak, közleniş patlıcan, süzme yoğurt ve ince kıydığınız maydanozu geniş bir kasede karıştırın. Domatesin kabuklarını soyup küp doğrayın ve bir kaseye alın. Yonca Rendelenmiş Domates, yemeklik doğradığınız kırmızı soğan, pesto sos ve sızma zeytinyağını ilave edin ve karıştırın. Servis tabağına bir dilim kızarmış patlıcanı alın, üzerine bir yemek kaşığı patlıcanlı sostan yayın. Üzerine ikinci kızarmış patlıcan dilimini yerleştirin. Üzerine tekrar patlıcanlı sostan yayın. En üste ve yanına hazırladığınız domatesli sosu gezdirip fesleğen yaprakları ile servis yapın. Afiyet olsun.\n\n"
+  }]},
+"patlican":{
+"recipes":[{
+ "name": "\nPatlıcan kebabı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/patlican_kebap-f3de03d4-4bb9-4b2a-b30a-c0ced6d59320.jpg",
+    "ingredients": [
+      " 3 bostan patlıcanı",
+      "3 domates",
+      "1 su bardağı rendelenmiş",
+      "Kaşar peyniri"
+    ],
+    "description": "Davetlerinizde hazırladığınız tariflerle farklılık yaratın. Köfte için gerekli tüm malzemeyi derin bir kapta yoğurun. Streç filme sarıp buzdolabında 45 dakika dinlendirin. Patlıcanları alacalı soyup 1 parmak kalınlığında daire şeklinde dilimleyin ve limonlu tuzlu suda 30 dakika bekletin. Köfteleri patlıcan büyüklüğünde daire şeklinde hazırlayın. Yağı tavada ısıtın. Sırayla önce patlıcanları ardından köfteleri hafif kızartın. Domatesleri de patlıcan gibi 1 parmak kalınlığında dilimleyin. Fırın tepsisine 1 dilim patlıcan, üzerine köfte, 1 dilim domates yerleştirin. Üzerine rendelenmiş kaşar peyniri serpin. Kalan malzemelere de aynı işlemi uygulayın. Domatesli sos için gerekli malzemeleri bir kasede karıştırın ve fırın kabına aktarın. Fırın tepsisini önceden ısıttığınız 180 dereceye ayarlı fırında kızarıncaya kadar pişirin. Sıcak servis yapın."
+  },    {
+    "name": "\nKarışık dolma\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/karisik_dolma-efabd3ed-8fe5-41e6-bd81-43660f2d4bf2.jpg",
+    "ingredients": [
+      " Domates",
+      "Patlıcan",
+      "Dolmalık biber",
+      "Kabak"
+    ],
+    "description": "Öncelikle domates ve biberleri yıkayıp baş kısımlarını kesin. Domatesleri alacalı bir şekilde soyun. Ortadan ikiye kestiğiniz kabak ve patlıcanların içlerini temizleyin.İç harcı için; tereyağı, yıkayıp süzdüğünüz pirinç, kıyma, rendelediğiniz soğan, su, salça, sumak ekşisi, tuz ve baharatları geniş bir kasede karıştırın. Hazırladığınız harcı sebzelerin içlerine paylaştırıp yayvan bir tencereye dizin. Üzerine, dolmaların yarısına gelecek kadar su ekleyip kısık ateşte 15-20 dakika pişirin. Sosu için salça, su, nar ekşisi ve ezdiğiniz sarımsağı bir kasede karıştırın. Dolmaları ocaktan almadan önce üzerine sosu gezdirin ve 10 dakika daha pişirin. Karışık dolmayı, cacık ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },
+ {
+    "name": "\nİmam bayıldı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/imam_bayildi-b9911d4c-b18e-491d-9fc8-092a96a8ec84.jpg",
+    "ingredients": [
+      " 8 orta boy patlıcan",
+      "4 soğan",
+      "12 diş sarımsak",
+      "3 domates",
+      "4 sivri biber",
+      "1 çay bardağı zeytinyağı",
+      "Tuz",
+      "Karabiber",
+      "2 kesme şeker",
+      "2 su bardağı sıcak su"
+    ],
+    "description": "Patlıcanların sap kısımlarını kesmeden\r\nalacalı soyun. Acısını almak için tuzlu suda\r\n10 dakika bekletin. Süzüp kağıt havlu ile\r\nkurulayın. Soğanları soyup piyazlık doğrayın.\r\nSarımsakları ayıklayın. Domatesleri\r\nsoyup küp doğrayın. Biberleri temizleyip\r\nortadan ikiye kesin ve ince doğrayın. Zeytinyağını\r\ntavada ısıtın. Soğan ve tuzu ilave edip\r\nsoteleyin. Sarımsak, domates, biber, şeker\r\nve karabiberi ekleyin. Kısık ateşte 10 dakika\r\npişirin. Ayçiçeği yağını bir tavada ısıtın. Isınan\r\nyağda patlıcanları iki taraflı hafif kızartın.\r\nKızaran patlıcanları kağıt havlu üzerine\r\nalıp fazla yağını çektirin.Patlıcanları yayvan\r\nbir tencereye aralıklı olarak yerleştirin.\r\nOrta kısımlarını bıçakla hafif kesip açın ve\r\nsoğanlı harcı paylaştırın. Tencerenin kenarından\r\n2 su bardağı sıcak su ekleyin. Kapağını\r\nkapatıp kısık ateşte 20 dakika suyunu\r\nçekene kadar pişirin. Domates sosu hazırlamak\r\niçin zeytinyağını tavada ısıtın. Rendelenmiş\r\ndomatesi ve salçayı ekleyip bir taşım\r\nkaynatın. Sosu bir servis tabağına alın.\r\nÜzerine patlıcanları yerleştirip ince kıyılmış\r\nmaydanoz serpin. Soğuk servis yapın.İmam bayıldının yanına ne gider diyorsanız, fırında baharatlı patates ile şık bir sunum hazırlayabilirsiniz. Afiyet olsun."
+  },{
+    "name": "\nYaz güveci\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yaz_guveci-0eef9d60-4f0e-4b81-99a4-d81e9684fec5.jpg",
+    "ingredients": [
+      "500 kuşbaşı kuzu eti",
+      "1 kırmızı soğan",
+      "7~8 arpacık soğan",
+      "1 kabak",
+      "1 patlıcan",
+      "10~12 taze fasulye",
+      "1 domates",
+      "2 domates",
+      "2 defne yaprağı",
+      "Zeytinyağı",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Kuşbaşı kuzu etlerini yapışmaz yüzeyli bir tavada mühürleyin. Kırmızı soğanı halka doğrayıp fırın güvecinizin tabanına dizin. Arpacık soğanlar, küp doğradığınız kabak, patlıcan, domates, ortadan ikiye kestiğiniz fasulyeler ve kuşbaşı kuzu etlerini geniş bir kasede karıştırıp güvece alın. Defne yapraklarını ilave edin ve güvecin üzerine zeytinyağı gezdirin. Tuz ve baharatlarla tatlandırıp önceden ısıtılmış 180 derece fırında iki saat pişirin. Sıcak servis yapın.\n\n"
+  },
+  {
+    "name": "\nSebzeli patlıcan dolması\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/sebzeli_patlican_dolmasi-aa6a1a36-18fe-43e6-b3f4-048c33c5e53b.jpg",
+    "ingredients": [
+      " 3 kırmızı kapya biberi",
+      "Yarım demet maydanoz",
+      "2 bostan patlıcanı",
+      "2 soğan",
+      "3 yemek kaşığı sızma zeytinyağı",
+      "1 yemek kaşığı biber salçası",
+      "1.5 su bardağı sıcak su"
+    ],
+    "description": "Patlıcanları yıkayıp sapları üzerinde kalacak şekilde uzunlamasına ortadan ikiye kesin. Kesik yerlerine bir fırça yardımıyla sızma zeytinyağı, sürüp önceden ısıtılmış 180 derece fırında 10 dakika pişirin. Pişen patlıcanların içlerini çıkartıp küp doğrayın. Yemeklik doğradığınız soğanı sızma zeytinyağında pembeleşinceye kadar soteleyin. Jülyen doğradığınız kırmızı biber, patlıcanlar ve biber salçasını ilave edin. Tuz ve baharatlarla tatlandırıp ocaktan alın. Harcı patlıcanların içlerine paylaştırıp bir fırın kabına alın. Sosu için, rendelenmiş domates, sızma zeytinyağı, salça ve tuzu geniş bir kasede karıştırıp patlıcanların üzerine gezdirin. Soslu patlıcanları önceden ısıtılmış 180 derece fırında 20 dakika pişirin. Sıcak servis yapın.\n\n"
+  }]
+},
+
+"et":{
+"recipes":[
+  {
+    "name": "\nMacar Gulaş\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/macar-gulas-514064e1-c6b6-4747-a878-2e2eb98261f8.jpg",
+    "ingredients": [
+      "600 gram kıyılmış soğan",
+      "2 adet defne yaprağı",
+      "1 tatlı kaşığı mercanköşk",
+      "5 diş sarımsak",
+      "2 yemek kaşığı kırmızı toz biber",
+      "1 yemek kaşığı taze maydanoz",
+      "2 çay kaşığı kırmızı pul biber",
+      "Küpler halinde kesilmiş 650 gram dana eti (veya kuzu eti)",
+      "250ml taze domates suyu",
+      "Tuz ve karabiber",
+      "Bira"
+    ],
+    "description": "Soğanı soyun ve orta boy küpler halinde doğrayın, kızarana kadar yağ içinde yavaşça çevirin ve yanmasına izin vermeyin. Eti orta boy küpler halinde dilimledikten sonra tuz ve karabiber ekleyin. Sığır etini tavaya alın ve etin her tarafı açık kahverengi olana kadar çevirin. Sonra domates püresini, bir süre sonra da tatlı kırmızı biberi ekleyin ve kırmızı biberi aşırı ısıtmamaya veya yakmamaya dikkat ederek karıştırın.Yemeği iyice karıştırdıktan sonra, tencereye bir şişe bira dökün. Sonra sarımsakları dilimleyin ve bir macun yapmak için tuzla birlikte ezin ve bunun yarısını tencereye ekleyin. Hepsini bir süre kaynatın, sonra ısıyı azaltın ve en az iki saat kısık ateşte pişirin. Malzemelerin durumunu düzenli olarak elle kontrol edin; et yumuşamaya ve dağılmaya başladığında, neredeyse servis yapmaya hazırsınız demektir.Doğranmış mercanköşk ile beraber sarımsak macununun diğer yarısını yemeğe ekleyin. Gerekirse duruma göre tuz ve karabiber oranını artırabilirsiniz. Sıcakken kaselere dökün ve rendelenmiş yaban turpu, ince dilimlenmiş kırmızı soğan, bütün acı biber ve maydanozla süsleyin. Buğulanmış pastırma köfte veya haşlanmış kalın hamur parçalarıyla servis yapın.Orijinal gulaş tarifi bir çorba ve güveç arasında bir kıvama sahip olmalıdır. Bazı güveçlerin aksine, gulaş çok fazla sebze içermez ve bol etlidir. Ancak pişirme işlemi sırasında et suyu kalınlaşır ve daha zengin bir sos kıvamına gelir. Mükemmel bir lezzet elde etmek için pişirme yönteminin doğru adımlar izlenerek uygulanması önemlidir."
+  } ,   {
+    "name": "\nEtli bezelye yemeği\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_bezelye_yemegi-dc720c3e-e5a2-4cae-99a7-93d8e9cf318a.jpg",
+    "ingredients": [
+      " 300 g kuşbaşı dana eti",
+      "300 g iç bezelye",
+      "5~6 kuru domates",
+      "2~3 kuru biber",
+      "1 soğan",
+      "2 diş sarımsak",
+      "1 tatlı kaşığı biber salçası",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Yemeklik doğradığınız soğan ve kuşbaşı dana etini zeytinyağında soteleyin. Etlerin renkleri dönmeye başlayınca salçayı ilave edip karıştırın. Üzerini bir parmak geçecek kadar su ilave edip kaynatın. Kaynadıktan sonra altını kısıp kapağı kapalı olarak 20 - 25 dakika pişirin. Ayıkladığınız bezelye, iri doğradığınız sarımsak, kuru domates ve kuru biberi ekleyip 15 dakika daha pişirin. Üzerini ince kıydığınız dereotu ile süsleyin.Etli bezelye yemeğini, pirinç pilavı ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },  {
+    "name": "\nFırında sebzeli pirzola\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/firinda-sebzeli-pirzola-0e4e7c57-120a-4ffa-ab31-09fdae9febf6.jpg",
+    "ingredients": [
+      "2 kg bütün kuzu pirzola",
+      "300 gr arpacık soğan",
+      "10 diş sarımsak",
+      "200 gr saplı kiraz domates",
+      "6 patates",
+      "1 su bardağı sıcak su",
+      "1 dal taze biberiye",
+      "4 çorba kaşığı zeytinyağı",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "İki parça kuzu pirzolayı bir tepsiye karşılıklı yerleştirin. Kemiklerin üzerindeki etleri keskin bir bıçağın ucu ile özenle temizleyip kemikleri karşılıklı olarak birbirine geçirin.Kemiklerin uç kısımlarını pişme esnasında yanmaması için alüminyum folyo ile sarın.Etin üzerine tuz ve karabiber serpip etli kısmın üzerine biberiye dallarını yerleştirin. Etleri pişme esnasında açılmaması için iple sarın.Eti yağlanmış fırın tepsisine yerleştirip üzerine zeytinyağını gezdirin. Tuz ve karabiber serpin. Soğan ve sarımsakları soyun. Patatesleri soyup parizyen kaşıkla top şeklinde kesin. Soğan ve patatesleri etin etrafına yerleştirin.Sıcak suyu ekleyin. Önceden ısıtılmış 200 dereceye ayarlı fırında 50 dakika pişirin.Pişme esnasında sık sık sosu kaşıkla alarak etin üzerine gezdirin. Domatesleri ilave edip 10 dakika daha pişirin. Eti sebze ve sosuyla birlikte servis tabağına alın. Kemiklerin ucundaki folyoyu çıkarın ve servis yapın."
+  },{
+    "name": "\nEv yapımı iskender\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/ev-yapimi-iskender-33bd7089-fa36-4398-95f8-02c6463ea27c.jpg",
+    "ingredients": [
+      "400 g dana tranç",
+      "2 yemek kaşığı zeytinyağı",
+      "2 yemek kaşığı tereyağ",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Dana bonfile etini streç filme sarıp dondurucuya alın. Yaklaşık 1-1,5 saat buzlukta bekletin. Bıçakla ince dilimler kesebileceğiniz sertliğe geldiğinde eti buzluktan çıkarın.Keskin bir bıçak yardımıyla ince yaprak şeklinde dilimler kesin. Yapışmaz yüzeyli bir tencereye etleri alın ve suyunu salıp tekrar çekene kadar karıştırmadan kapağı kapalı olarak pişirin.Zeytinyağı ve tereyağını da tencereye ilave edip kızartın. Tuz ve karabiber ile tatlandırıp ocaktan alın.Sosu için zeytinyağı ve tereyağını bir sos tenceresine alıp ısıtın. Domates püresi ve sıcak suyu ekleyip kaynamaya bırakın. Kaynamaya başladığında tuzunu ilave edip karıştırın ve ocaktan alın.Yapışmaz yüzeyli bir tavada tereyağını eritin. Pideleri küp küp doğrayıp tavaya ekleyin ve hafif pembeleşene kadar kızartın.Ayçiçek yağını bir tavada ısıtın. Biberleri ve dörde böldüğünüz domatesleri yağda kızartıp hazırlayın.Servis tabağına önce hafif kızarttığınız pideleri yayın. Üzerine domates sosu gezdirin ve kızarttığınız etleri yerleştirin. Tereyağını eritip etlerin üzerine gezdirin. Yanında yoğurt, kızarttığınız domates ve biberleri yerleştirin."
+  },   {
+    "name": "\nKlasik güveç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/klasik_guvec-6c1814bb-3c54-45ae-9160-b011315262ca.jpg",
+    "ingredients": [
+      "1~1.5 kg kuzu kol eti (kemiksiz ve küçük doğranmış)",
+      "1 büyük boy soğan",
+      "5 yemek kaşığı zeytinyağı",
+      "8~10 diş sarımsak",
+      "2 sivri biber",
+      "1 büyük boy patates",
+      "4 orta boy domates",
+      "2 çay kaşığı tuz",
+      "2 çay kaşığı kırmızı pul biber",
+      "1 çay kaşığı kekik",
+      "1 çay kaşığı nane",
+      "1 su bardağı sıcak su",
+      "2 tatlı kaşığı domates salçası"
+    ],
+    "description": "Öncelikle bütün malzemeleri yıkayıp bir kenarda bekletin.Ardından yarım ay şeklinde doğradığınız soğanları ve etleri zeytinyağında kavurun. Tuz ve biberi ekleyip ocaktan alın.Kavurduğunuz soğanlı eti güveçlerin dibine yağıyla birlikte paylaştırın. Sarımsakları soyup ikiye bölün.Sivri biberleri temizleyip iri parçalar şeklinde doğrayın. Domatesleri soyup iri parçalara bölün. Patatesi soyup iri parçalar şeklinde doğrayın.Bu malzemeleri derin ve geniş bir kaba koyup karıştırın. Kalan tuz, biber, kekik, naneyi ve suda ezdiğiniz salçayı katıp tekrar karıştırın.Bu karışımı etlerin üzerine yayın. Güvecin ağzını kapakla ya da alüminyum folyoyla kapatın. Önceden 200 derecede ısıtılmış fırında en az 2 saat pişirin. Şimdiden afiyet olsun."
+  },
+  {
+    "name": "\nTerbiyeli kuzu incik\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/terbiyeli_kuzu_incik-a0fdc660-7bff-4d02-985f-73bf0d4657d2.jpg",
+    "ingredients": [
+      "4~6 kuzu incik",
+      "5 su bardağı su",
+      "3~4 yemek kaşığı zeytinyağı",
+      "3~4 diş sarımsak",
+      "10~12 arpacık soğan",
+      "4 taze patates",
+      "2 havuç",
+      "2 yumurta sarısı",
+      "Yarım limonun suyu",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Kuzu incikleri geniş bir tencerenin içine dizin.\r\nÜzerini örtecek kadar su ekleyin ve incikler yumuşayıncaya\r\nkadar yaklaşık 1–1 saat 15 dakika\r\npişirin. Kabukları soyulmuş soğanları ve bütün\r\nsarımsakları başka bir tencerede zeytinyağında\r\nkavurun. Küp doğradığınız patatesleri ve\r\n3 santim kalınlığında doğradığınız havuçları,\r\ntuz ve karabiberi ekleyin. İnciği pişirdiğiniz\r\net suyu ve incikleri ekleyip kaynamaya bırakın.\r\nKaynadıktan sonra ocağı kısın ve bütün\r\nmalzeme yumuşayana kadar pişirin. Yumurta\r\nsarıları, limon suyu ve biraz tuzu bir kasede\r\nçırpın. Etin suyundan azar azar karışıma ekleyerek\r\nkarıştırın ve ısılarını eşitleyin. Terbiyeyi\r\ntencereye yavaşça ekleyin. Bir taşım pişirip\r\nocağı kapatın. Üzerini taze çekilmiş karabiber\r\nve biberiye ile süsleyip servis yapın."
+  },
+  {
+    "name": "\nEtli patates\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_patates-be0f01a6-9cf1-4a37-97ca-0b0d952dc548.jpg",
+    "ingredients": [
+      " 1 kg patates",
+      "600 gr kuşbaşı dana eti",
+      "3 yemek kaşığı tereyağı",
+      "1 soğan",
+      "1 yemek kaşığı domates salçası",
+      "1 su bardağı et suyu",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "İlk olarak tereyağını eritin. Etleri ilave ederek kısık ateşte ara ara karıştırarak yumuşayıncaya kadar pişirin.Soğanı ince ince doğrayıp ekleyin. Et suyu, karabiber, salça ve tuz ilave ederek 20 dakika daha pişirin. Suyunu çekerse ılık su ilave edin.Patateslerin kabuklarını soyup elma dilim yapın. Ete ilave edin. Suyunu çekince fırın tepsisine alın.Üzerine dilimlenmiş domates ve biberleri yerleştirin. Pul biber serpiştirin ve fırına verin. 15 dakika daha pişirin.Etli patates yemeğini, yanına çok yakışan zeytinyağlı enginar ve patlıcan turşusu ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },   {
+    "name": "\nKağıt kebabı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kagit_kebabi-353101af-1c26-4c6c-8afd-2fc255187da4.jpg",
+    "ingredients": [
+      "500 gr kuşbaşı dana eti",
+      "2 havuç",
+      "2 patates",
+      "1 su bardağı bezelye",
+      "20 arpacık soğanı",
+      "4 yemek kaşığı zeytinyağı",
+      "1 yemek kaşığı domates salçası",
+      "2 domates",
+      "1 su bardağı su",
+      "Tuz",
+      "Karabiber",
+      "Kekik",
+      "Maydanoz"
+    ],
+    "description": "Tencerede zeytinyağı, soğan ve etleri 3 dakika soteleyin. Salça ve su ekleyip kısık ateşte yumuşayıncaya kadar pişirin.Patates, domates ve havuçları küp şeklinde doğrayıp etlere ilave edin. Sebzeler yumuşayınca bezelye, tuz, karabiber ve kekik ekleyin ve 5 dakika daha pişirip ocaktan alın.Yağlı kağıtları 4 parça dikdörtgen şeklinde kesin. Yemeği kağıdın ortasına paylaştırıp kenarlarını ortasına doğru katlayın. Kenarlarını da katlayıp paket haline getirin ve kat yeri altta kalacak şekilde fırın tepsisine yerleştirin. Kağıtların üzerlerini ıslatıp 190 dereceye ayarlanmış fırında 30 dakika pişirip, maydanoz ile süsleyerek sıcak servis yapın."
+  },  {
+    "name": "\nEtli bezelye yemeği\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_bezelye_yemegi-dc720c3e-e5a2-4cae-99a7-93d8e9cf318a.jpg",
+    "ingredients": [
+      " 300 g kuşbaşı dana eti",
+      "300 g iç bezelye",
+      "5~6 kuru domates",
+      "2~3 kuru biber",
+      "1 soğan",
+      "2 diş sarımsak",
+      "1 tatlı kaşığı biber salçası",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Yemeklik doğradığınız soğan ve kuşbaşı dana etini zeytinyağında soteleyin. Etlerin renkleri dönmeye başlayınca salçayı ilave edip karıştırın. Üzerini bir parmak geçecek kadar su ilave edip kaynatın. Kaynadıktan sonra altını kısıp kapağı kapalı olarak 20 - 25 dakika pişirin. Ayıkladığınız bezelye, iri doğradığınız sarımsak, kuru domates ve kuru biberi ekleyip 15 dakika daha pişirin. Üzerini ince kıydığınız dereotu ile süsleyin.Etli bezelye yemeğini, pirinç pilavı ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },{
+    "name": "\nFırında kuzu gerdan\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/firinda_kuzu_gerdan-0d7a4f77-fe48-4e4d-9b2d-d146db9b6aa2.jpg",
+    "ingredients": [
+      "1 kg kuzu gerdan",
+      "5 yemek kaşığı tereyağı",
+      "Tuz",
+      "Kekik",
+      "Fesleğen",
+      "Rezene",
+      "10~12 diş sarımsak",
+      "20 arpacık soğan",
+      "-Patates garnitür",
+      "1 kg mini taze patates",
+      "Yarım çay bardağı zeytinyağı",
+      "Tuz",
+      "Karabiber",
+      "Kırmızı pul biber",
+      "Kekik"
+    ],
+    "description": "Kuzu gerdanları erittiğiniz tereyağında mühürleyip bir kaba alın. Tuz ve baharatlar ile tatlandırıp karıştırın. Bir fırın torbasına önce etleri sonra soyup bütün bıraktığınız arpacık soğanlar ve sarımsakları ekleyin. Torbanın ağzını kapatıp üzerine kürdanla birkaç delik açın. Önceden ısıtılmış 200 derece fırında 1.5 saat pişirin. Patatesleri kabuklarıyla birlikte iyice yıkayıp hafif haşlayın ve bir kaba alın. Zeytinyağı, tuz ve baharatları ekleyip karıştırın. Yapışmaz yüzeyli bir tavada ara sıra karıştırarak kapağı kapalı şekilde patatesler yumuşayana kadar pişirin. Kuzu gerdanın yanında servis yapın.\n\n"
+  },
+  {
+    "name": "\nOrman kebabı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/orman-kebabi-b36259be-25df-4289-a592-02e587569187.jpg",
+    "ingredients": [
+      "1 yemek kaşığı tereyağı",
+      "2 adet büyük boy soğan",
+      "4-5 diş sarımsak",
+      "1 yemek kaşığı biber salçası",
+      "1 yemek kaşığı domates salçası",
+      "2 adet kereviz sapı",
+      "2 adet patlıcan",
+      "2 adet büyük boy patates",
+      "2 adet büyük boy havuç",
+      "2 adet kırmızı kapya biber ",
+      "3-4 adet yeşil köy biberi",
+      "1 su bardağı bezelye",
+      "Tuz, karabiber",
+      "3 su bardağı et suyu",
+      "1 adet defne yaprağı"
+    ],
+    "description": "İlk olarak tencereyi ocakta ısıtmaya koyun. Etin üzerine un serpin ve kuzu etine yedirin. Unlamanın amacı çıtır olmasını sağlamak. Tencere ısındıktan sonra ayçiçeği yağını ve eti ilave edin. Et altın sarısı kıvamına gelene kadar pişirin. Bu sırada elinizdeki sebzeleri aşırı küçük olmayacak şekilde doğrayın. Et altın sarısı kıvamına geldikten sonra tabağa alın. Aynı tencerede biraz tereyağı erittikten soğanları ekleyin ve kavurun. Daha sonra sarımsakları doğrayıp ilave edin. Salçayı da erittikten sonra sebzeleri ekleyin. Sebzeler biraz yumuşadıktan sonra domatesleri ilave edin. Daha önce ayırdığımız etleri sebzelerle buluşturun. Tuz ve karabiberini ekleyin. 3 bardak et suyu ekleyin ve karıştırın. Bir adet defne yaprağı ekleyerek lezzet vermesini sağlayın. 45- 50 dakika pişmeye bırakın. Afiyet olsun."
+  },
+  {
+    "name": "\nRamazan Kebabı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/ramazan-kebabi-64bad225-e1ad-4a25-b0ac-46ba35cd868b.jpg",
+    "ingredients": [
+      "2 adet kebaplık pide",
+      "1 kg kuşbaşı dana eti",
+      "1 demet ince kıyılmış maydanoz",
+      "1 su bardağı su",
+      "3 yemek kaşığı sıvı yağ",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "İlk olarak kuşbaşı dana etini geniş bir tencereye alın ve suyunu çekene kadar kavurun.Etler kavrulduktan sonra üzerini geçecek şekilde su ekleyin ve birkaç kez karıştırın.Karışımın üzerine tuz ve karabiber ekledikten sonra orta ateşte pişmeye bırakın.Bu esnada kebaplık pideleri kare şeklinde kesin ve küçük parçalar haline getirin.Et piştikten sonra, suyunu başka bir kabın içerisine süzün. Kestiğiniz pideleri servis tepsisine alın ve ılık et suyunu pidelerin üzerinde gezdirin.Ardından pidelerin üzerine süzdüğünüz etleri ekleyin. 5 dakika daha fırında ısıttıktan sonra, etlerin üzerine ince kıyılmış maydanozları ekleyin. Afiyet olsun."
+  } , {
+    "name": "\nMevsim güveci\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/mevsim-guveci-1fb7666b-882a-4526-bd82-6e56324553e8.jpg",
+    "ingredients": [
+      "300 gr kuzu kuşbaşı",
+      "1 adet soğan ya da 2 adet pırasa",
+      "4-5 diş sarımsak",
+      "1 avuç ayıklanmış taze fasulye",
+      "2 adet orta boy enginar",
+      "1 adet kabak",
+      "3 adet sivri biber",
+      "3 adet domates",
+      "1 yemek kaşığı limon",
+      "1 çay kaşığı şeker",
+      "2 yemek kaşığı fındık yağı",
+      "Su",
+      "Tuz",
+      "1 adet yıldız anason",
+      "2 küçük ekmek",
+      "2 dilim kaşar peyniri"
+    ],
+    "description": "Buhar tencerenizde ayıklanmış taze fasulye ve enginarı 8 dakika pişirin.Etlerin yağlı tarafı altta kalacak şekilde bir çelik tencereye alın. Kesinlikle karıştırmadan etler tencerenin yüzeyini bırakana kadar 3-5 dakika pişirin. Tüm etler pişince kenara alarak limon suyunu ekleyin ve beklemeye bırakın. Aynı tencereye yarım bardak su ilave ederek doğradığınız bir adet kuru soğanı pişirin. Soğanın şeffaflaşmasına yakın 1 çay kaşığı şekeri ekleyerek karamelize edin. Soğanlar suyunu çekince 2 yemek kaşığı fındık yağı ilave edin ve sırasıyla sarımsak, domates, taze fasulye, enginar, kabak, biberleri kavurun. Etleri ilave ettikten sonra su ve tuzla birlikte yıldız anasonu koyarak 15 dakika pişirin. İçerisine kaşar koyduğunuz küçük ekmekleri 180 C ısıtılmış fırında kaşarlar yumuşayıp ekmeğe yapışana kadar 1,5 dakika ısıtın. Son olarak türlüyü içine doldurarak servis edin.Mevsim güvecini, kıl biber turşusu ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  }]
+},
+
+  "sut" : {
+    "recipes": [
+  {
+    "name": "\nHünkar beğendi\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/hunkar-begendi-27ede261-f6c4-4f44-ada3-b3fb6b8dd72c.jpg",
+    "ingredients": [
+      "4 dolu yemek kaşığı (100 ml) yağ",
+      "2 adet soğan",
+      "1 kg kemiksiz kuşbaşı doğranmış kuzu but eti",
+      "2 diş sarımsak",
+      "1 adet dolmalık biber",
+      "2 adet domates",
+      "1 tatlı kaşığı domates salçası",
+      "3 tutam tuz",
+      "1 tutam karabiber",
+      "3 bardak su"
+    ],
+    "description": "İlk olarak sarımsakları ince ince kıyın ve biberleri irice kesin.Ardından soğanları küp küp doğrayın ve tavanın içerisinde yağı öldürünceye kadar döndürün.Soğanların üzerine etleri ilave edin. Orta ateşte suyunu bırakıp tekrar çekene kadar pişirin.Önce sarımsakları, sonra irice doğradığınız biberleri tencereye ekleyin. Domateslerin kabuklarını soyun, çekirdeklerini çıkartıp küp küp doğrayın, suyunu çeken etin üzerine ekleyin.Domates salçası, tuz, karabiber ve 3 bardak suyu da tencereye ilave edin ve iyice karıştırıp kaynadıktan sonra altını kısın.Tencerenin kapağını kapatıp 1 saat kadar pişirin.Beğendi kısmı için; tencereye yağı ve unu ekleyip, ağır ateşte altın rengine dönene kadar karıştırın ve ateşten alın.Patlıcanları kürdan ile delin ve direkt ateş üzerinde pişirin. Dışı iyice pişen patlıcanları, kabuklarını soyduktan sonra tenceredeki unlu karışıma atın.Tencerenin altını tekrar yakın, ağır ateşte karışımı ezerek hepsini birbirine iyice yedirin. Kaşarı, tuzu, rende muskatı ve ılık sütü ekleyip 2 dakika daha pişirin ve ateşten alın.Son olarak kenarda dinlenmeye bırakın. Servis tabağına önce beğendiyi, daha sonra etleri koyun."
+  }] 
+}, 
+"domates":{
+"recipes":[
+{
+    "name": "\nBol domatesli taze fasulye\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/bol-domatesli-taze-fasulye-d74e8f75-ac79-490b-8158-d5573087e596.jpg",
+    "ingredients": [
+      "500 g taze fasulye (Kılçıkları temizlenmiş) ",
+      "1/2 çay bardağı sızma zeytinyağı ",
+      "1 adet kapya biber (Zar doğranmış) ",
+      "1 adet büyük boy beyaz soğan (İnce kıyılmış) ",
+      "2 diş sarımsak (İnce doğranmış) ",
+      "3-4 adet domates (İnce doğranmış) ",
+      "Tuz ",
+      "4-5 yaprak taze fesleğen ",
+      "1-2 dal maydanoz ",
+      "1 çay kaşığı rendelenmiş limon kabuğu"
+    ],
+    "description": "Geniş tabanlı bir tencerede yağın yarısını ısıtıp soğanı yumuşayana kadar kavurun. Doğranmış sarımsakla birlikte kapya biberi de ilave edin. 1-2 dakika kavurun. Domatesleri ilave edip kaynamaya bırakın. Sos kaynamaya başlayınca ısıyı düşürün. Bu arada sosu başka bir kaba ayırın. Taze fasulyeleri kalan zeytinyağı ile birlikte aynı tencerenin içinde 3-4 dakika kavurun. Ardından tencerenin içinde çok düzgün bir şekilde sıralayın. Fasulyelerin üzerine sosu eşit dağılacak şekilde gezdirin. Üzerini örtecek şekilde sıcak su dökün. Önce yüksek ateşte birkaç dakika kaynatın, sonra tencerenin kapağını kapatıp ateşi de iyice kısın. Kısık ateşte, yarım saat pişirin. Bol domatesli taze fasulyeyi ocaktan alınca üzerine kıyılmış yeşillik atın, rendelenmiş limon kabuğu serpin. Hemen tencerenin kapağını kapatın, oda sıcaklığında soğumaya bırakın."
+  },{
+    "name": "\nMacar Gulaş\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/macar-gulas-514064e1-c6b6-4747-a878-2e2eb98261f8.jpg",
+    "ingredients": [
+      "600 gram kıyılmış soğan",
+      "2 adet defne yaprağı",
+      "1 tatlı kaşığı mercanköşk",
+      "5 diş sarımsak",
+      "2 yemek kaşığı kırmızı toz biber",
+      "1 yemek kaşığı taze maydanoz",
+      "2 çay kaşığı kırmızı pul biber",
+      "Küpler halinde kesilmiş 650 gram dana eti (veya kuzu eti)",
+      "250ml taze domates suyu",
+      "Tuz ve karabiber",
+      "Bira"
+    ],
+    "description": "Soğanı soyun ve orta boy küpler halinde doğrayın, kızarana kadar yağ içinde yavaşça çevirin ve yanmasına izin vermeyin. Eti orta boy küpler halinde dilimledikten sonra tuz ve karabiber ekleyin. Sığır etini tavaya alın ve etin her tarafı açık kahverengi olana kadar çevirin. Sonra domates püresini, bir süre sonra da tatlı kırmızı biberi ekleyin ve kırmızı biberi aşırı ısıtmamaya veya yakmamaya dikkat ederek karıştırın.Yemeği iyice karıştırdıktan sonra, tencereye bir şişe bira dökün. Sonra sarımsakları dilimleyin ve bir macun yapmak için tuzla birlikte ezin ve bunun yarısını tencereye ekleyin. Hepsini bir süre kaynatın, sonra ısıyı azaltın ve en az iki saat kısık ateşte pişirin. Malzemelerin durumunu düzenli olarak elle kontrol edin; et yumuşamaya ve dağılmaya başladığında, neredeyse servis yapmaya hazırsınız demektir.Doğranmış mercanköşk ile beraber sarımsak macununun diğer yarısını yemeğe ekleyin. Gerekirse duruma göre tuz ve karabiber oranını artırabilirsiniz. Sıcakken kaselere dökün ve rendelenmiş yaban turpu, ince dilimlenmiş kırmızı soğan, bütün acı biber ve maydanozla süsleyin. Buğulanmış pastırma köfte veya haşlanmış kalın hamur parçalarıyla servis yapın.Orijinal gulaş tarifi bir çorba ve güveç arasında bir kıvama sahip olmalıdır. Bazı güveçlerin aksine, gulaş çok fazla sebze içermez ve bol etlidir. Ancak pişirme işlemi sırasında et suyu kalınlaşır ve daha zengin bir sos kıvamına gelir. Mükemmel bir lezzet elde etmek için pişirme yönteminin doğru adımlar izlenerek uygulanması önemlidir."
+  } , {
+    "name": "\nKarışık dolma\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/karisik_dolma-efabd3ed-8fe5-41e6-bd81-43660f2d4bf2.jpg",
+    "ingredients": [
+      " Domates",
+      "Patlıcan",
+      "Dolmalık biber",
+      "Kabak"
+    ],
+    "description": "Öncelikle domates ve biberleri yıkayıp baş kısımlarını kesin. Domatesleri alacalı bir şekilde soyun. Ortadan ikiye kestiğiniz kabak ve patlıcanların içlerini temizleyin.İç harcı için; tereyağı, yıkayıp süzdüğünüz pirinç, kıyma, rendelediğiniz soğan, su, salça, sumak ekşisi, tuz ve baharatları geniş bir kasede karıştırın. Hazırladığınız harcı sebzelerin içlerine paylaştırıp yayvan bir tencereye dizin. Üzerine, dolmaların yarısına gelecek kadar su ekleyip kısık ateşte 15-20 dakika pişirin. Sosu için salça, su, nar ekşisi ve ezdiğiniz sarımsağı bir kasede karıştırın. Dolmaları ocaktan almadan önce üzerine sosu gezdirin ve 10 dakika daha pişirin. Karışık dolmayı, cacık ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },{
+    "name": "\nAcı soslu baharatlı piliç\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/aci-soslu-baharatli-pilic-85b9cad8-e64d-46af-961c-27cc1fa29351.jpg",
+    "ingredients": [
+      "4 dilim ızgara tavuk eti",
+      "2 domates",
+      "2 kırmızı soğan",
+      "1-2 dal taze nane",
+      "1-2 dal taze biberiye"
+    ],
+    "description": "Baharatlı marinat için tüm malzemeleri derin bir kapta iyice karıştırın. Tavuk etlerini bu karışıma ekleyip 1 saat bekletin. Acı sos için tüm malzemeleri mikserde iyice çırpın. Soğanların kabuklarını soyup halka şeklinde dilimleyin. Bir kaba alıp bir tutam tuz serpiştirin. Domatesleri yıkayıp kurulayın ve enine ikiye kesin.  Tavuk etleri ve sebzeleri mangalda pişirin. Soğanların bir kısmını servis tabağına alın. Üzerine tavuk etini yerleştirin. Acı sosu etin üzerine gezdirin. Domates ve soğan dilimlerini yerleştirip taze nane ve biberiye ile süsleyin.Acı soslu baharatlı pilici, börülce salatası ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },
+{
+ "name": "\nPatlıcan kebabı\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/patlican_kebap-f3de03d4-4bb9-4b2a-b30a-c0ced6d59320.jpg",
+    "ingredients": [
+      " 3 bostan patlıcanı",
+      "3 domates",
+      "1 su bardağı rendelenmiş",
+      "Kaşar peyniri"
+    ],
+    "description": "Davetlerinizde hazırladığınız tariflerle farklılık yaratın. Köfte için gerekli tüm malzemeyi derin bir kapta yoğurun. Streç filme sarıp buzdolabında 45 dakika dinlendirin. Patlıcanları alacalı soyup 1 parmak kalınlığında daire şeklinde dilimleyin ve limonlu tuzlu suda 30 dakika bekletin. Köfteleri patlıcan büyüklüğünde daire şeklinde hazırlayın. Yağı tavada ısıtın. Sırayla önce patlıcanları ardından köfteleri hafif kızartın. Domatesleri de patlıcan gibi 1 parmak kalınlığında dilimleyin. Fırın tepsisine 1 dilim patlıcan, üzerine köfte, 1 dilim domates yerleştirin. Üzerine rendelenmiş kaşar peyniri serpin. Kalan malzemelere de aynı işlemi uygulayın. Domatesli sos için gerekli malzemeleri bir kasede karıştırın ve fırın kabına aktarın. Fırın tepsisini önceden ısıttığınız 180 dereceye ayarlı fırında kızarıncaya kadar pişirin. Sıcak servis yapın."
+  },  
+ {
+    "name": "\nEv yapımı iskender\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/ev-yapimi-iskender-33bd7089-fa36-4398-95f8-02c6463ea27c.jpg",
+    "ingredients": [
+      "400 g dana tranç",
+      "2 yemek kaşığı zeytinyağı",
+      "2 yemek kaşığı tereyağ",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Dana bonfile etini streç filme sarıp dondurucuya alın. Yaklaşık 1-1,5 saat buzlukta bekletin. Bıçakla ince dilimler kesebileceğiniz sertliğe geldiğinde eti buzluktan çıkarın.Keskin bir bıçak yardımıyla ince yaprak şeklinde dilimler kesin. Yapışmaz yüzeyli bir tencereye etleri alın ve suyunu salıp tekrar çekene kadar karıştırmadan kapağı kapalı olarak pişirin.Zeytinyağı ve tereyağını da tencereye ilave edip kızartın. Tuz ve karabiber ile tatlandırıp ocaktan alın.Sosu için zeytinyağı ve tereyağını bir sos tenceresine alıp ısıtın. Domates püresi ve sıcak suyu ekleyip kaynamaya bırakın. Kaynamaya başladığında tuzunu ilave edip karıştırın ve ocaktan alın.Yapışmaz yüzeyli bir tavada tereyağını eritin. Pideleri küp küp doğrayıp tavaya ekleyin ve hafif pembeleşene kadar kızartın.Ayçiçek yağını bir tavada ısıtın. Biberleri ve dörde böldüğünüz domatesleri yağda kızartıp hazırlayın.Servis tabağına önce hafif kızarttığınız pideleri yayın. Üzerine domates sosu gezdirin ve kızarttığınız etleri yerleştirin. Tereyağını eritip etlerin üzerine gezdirin. Yanında yoğurt, kızarttığınız domates ve biberleri yerleştirin."
+  }]
+},
+"kıyma":{
+"recipes":[
+{
+    "name": "\nKarışık dolma\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/karisik_dolma-efabd3ed-8fe5-41e6-bd81-43660f2d4bf2.jpg",
+    "ingredients": [
+      " Domates",
+      "Patlıcan",
+      "Dolmalık biber",
+      "Kabak"
+    ],
+    "description": "Öncelikle domates ve biberleri yıkayıp baş kısımlarını kesin. Domatesleri alacalı bir şekilde soyun. Ortadan ikiye kestiğiniz kabak ve patlıcanların içlerini temizleyin.İç harcı için; tereyağı, yıkayıp süzdüğünüz pirinç, kıyma, rendelediğiniz soğan, su, salça, sumak ekşisi, tuz ve baharatları geniş bir kasede karıştırın. Hazırladığınız harcı sebzelerin içlerine paylaştırıp yayvan bir tencereye dizin. Üzerine, dolmaların yarısına gelecek kadar su ekleyip kısık ateşte 15-20 dakika pişirin. Sosu için salça, su, nar ekşisi ve ezdiğiniz sarımsağı bir kasede karıştırın. Dolmaları ocaktan almadan önce üzerine sosu gezdirin ve 10 dakika daha pişirin. Karışık dolmayı, cacık ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },{
+    "name": "\nKıymalı karnabahar\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kiymali_karnabahar-31c88a06-b66e-45b1-bf52-0cc7d57b9990.jpg",
+    "ingredients": [
+      "500 gr karnabahar",
+      "150 gr kıyma",
+      "1 orta boy soğan",
+      "1 diş sarımsak",
+      "1 orta boy havuç",
+      "3 yemek kaşığı zeytinyağı",
+      "1 yemek kaşığı domates salçası",
+      "Tuz",
+      "Karabiber",
+      "2.5~3 su bardağı su"
+    ],
+    "description": "Karnabaharı küçük çiçeklere ayırıp yıkayın ve süzün. Soğanı ve sarımsağı kıyın.Havucu soyup halka şeklinde dilimleyin. Zeytinyağını tencereye aldıktan sonra soğanı ve sarımsağı ilave edip kavurun.Üzerine kıymayı ilave edin, suyunu çekene kadar kavurun ve salçayı ekleyin. Doğradığınız havucu, karnabaharları ve suyu ilave edin. Tuz ve biber ile tatlandırın. Kapağı kapalı olarak kısık ateşte karnabaharlar yumuşayıncaya kadar pişirin. Kıymalı karnabahar yemeğini, yanına çok yakışan haydari ile birlikte servis edebilirsiniz."
+  }]
+},
+"yumurta":{
+"recipes":[
+{
+    "name": "\nTerbiyeli kuzu incik\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/terbiyeli_kuzu_incik-a0fdc660-7bff-4d02-985f-73bf0d4657d2.jpg",
+    "ingredients": [
+      "4~6 kuzu incik",
+      "5 su bardağı su",
+      "3~4 yemek kaşığı zeytinyağı",
+      "3~4 diş sarımsak",
+      "10~12 arpacık soğan",
+      "4 taze patates",
+      "2 havuç",
+      "2 yumurta sarısı",
+      "Yarım limonun suyu",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Kuzu incikleri geniş bir tencerenin içine dizin.\r\nÜzerini örtecek kadar su ekleyin ve incikler yumuşayıncaya\r\nkadar yaklaşık 1–1 saat 15 dakika\r\npişirin. Kabukları soyulmuş soğanları ve bütün\r\nsarımsakları başka bir tencerede zeytinyağında\r\nkavurun. Küp doğradığınız patatesleri ve\r\n3 santim kalınlığında doğradığınız havuçları,\r\ntuz ve karabiberi ekleyin. İnciği pişirdiğiniz\r\net suyu ve incikleri ekleyip kaynamaya bırakın.\r\nKaynadıktan sonra ocağı kısın ve bütün\r\nmalzeme yumuşayana kadar pişirin. Yumurta\r\nsarıları, limon suyu ve biraz tuzu bir kasede\r\nçırpın. Etin suyundan azar azar karışıma ekleyerek\r\nkarıştırın ve ısılarını eşitleyin. Terbiyeyi\r\ntencereye yavaşça ekleyin. Bir taşım pişirip\r\nocağı kapatın. Üzerini taze çekilmiş karabiber\r\nve biberiye ile süsleyip servis yapın."
+  }, {
+    "name": "\nPatlıcan kulesi\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/patlican_kulesi-f443c3f6-a8a1-4edb-b6fb-1fd8b6532617.jpg",
+    "ingredients": [
+      " 1 bostan patlıcanı",
+      "1 su bardağı un",
+       "2 kırmızı soğan",
+      "1 su bardağı galeta unu",
+      "Tuz",
+      "Karabiber",
+      "Kırmızı toz biber",
+      "1 çay kaşığı kimyon",
+      "2 yumurta"
+    ],
+    "description": "Patlıcanları kalın halka şeklinde dilimleyin ve acılarını çıkartmak için tuzlu suda 10 dakika bekletin. Un ve galeta ununu yayvan kaplara alın. Galeta ununun içine tuz ve baharatları ekleyip karıştırın. Yumurtaları ayrı bir kasede çırpın. Patlıcanları kağıt havlu ile kurulayın. Derin bir tavada ayçiçek yağını ısıtın. Patlıcan dilimlerini sırasıyla önce una, sonra çırpılmış yumurtaya ve baharatlı galeta ununa bulayın. Her iki yüzünü de kızartın. Kağıt havlu üzerine alıp fazla yağını çektirin. Patlıcanlı sos için ezdiğiniz sarımsak, közleniş patlıcan, süzme yoğurt ve ince kıydığınız maydanozu geniş bir kasede karıştırın. Domatesin kabuklarını soyup küp doğrayın ve bir kaseye alın. Yonca Rendelenmiş Domates, yemeklik doğradığınız kırmızı soğan, pesto sos ve sızma zeytinyağını ilave edin ve karıştırın. Servis tabağına bir dilim kızarmış patlıcanı alın, üzerine bir yemek kaşığı patlıcanlı sostan yayın. Üzerine ikinci kızarmış patlıcan dilimini yerleştirin. Üzerine tekrar patlıcanlı sostan yayın. En üste ve yanına hazırladığınız domatesli sosu gezdirip fesleğen yaprakları ile servis yapın. Afiyet olsun.\n\n"
+ }]}
+
+}

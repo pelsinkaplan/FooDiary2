@@ -1,0 +1,305 @@
+{
+"patates":{
+	"recipes":[{
+    "name": "\nPatates salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small/patates-salatasi-2278fae4-e20d-4d2e-a5d7-d39df2a43f0a.jpg",
+    "ingredients": [
+      " 1 su bardağı bahçe bezelyesi",
+      "3 patates",
+      "Roka yaprakları"
+    ],
+    "description": "Patatesleri orta boy küp şeklinde doğrayıp haşlayın. Bezelyeleri, bir kaseye alıp üzerine sıcak su ekleyip 10 dakika bekletin. Patates ve bezelyeleri bir kasede harmanlayıp servis tabağına alın. Sos için bütün malzemeleri karıştırıp salatanın üzerine gezdirin. Roka yapraklarını üzerine yerleştirip servis yapın. Afiyet olsun.Dilerseniz, klasik patates salatası tarifini de deneyebilirsiniz."
+  },
+  {
+    "name": "\nRus salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/rus-salatasi-8024cb37-9299-4027-84e0-c216785ee68a.jpg",
+    "ingredients": [
+      "700 gr patates",
+      "2 yemek kaşığı tereyağı",
+      "150 gr kaşar peyniri",
+      "Karabiber",
+      "Tuz"
+    ],
+    "description": "Patatesleri soyup, ikiye kesin. Bir tencereye az su ekleyip, tuz ilave edin ve patatesler yumuşayana kadar pişirin. Patatesleri haşladıktan sonra suyunu süzün. İçine tereyağ, kaşar peyniri ve karabiber atıp tencerenin kapağını kapatın. Tüm malzemeler eridikten sonra iyice ezin. Rus salatası için, salatalık turşusunu küp küp doğrayın. Derin bir kapta tüm malzemeyi karıştırın. Patates püresini tabağa alın. Üzerine hazırladığınız Rus salatasını ekleyin. Mısır, ketçap ve mayonez ile süsleyip sıcak olarak servis yapın. Afiyet olsun."
+  }]
+},
+
+"kereviz":{
+	"recipes":[
+{
+    "name": "\nCevizli kereviz salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/cevizli-kereviz-salatasi-9dc8de65-f320-4153-8441-f3a152e5d20a.jpg",
+    "ingredients": [
+      "2 kereviz",
+      "1 yemek kaşığı zeytinyağı",
+      "3 su bardağı süzme yoğurt",
+      "1 yemek kaşığı mayonez",
+      "2 diş sarımsak",
+      "Tuz",
+      "Karabiber",
+      "1 su bardağı ince çekilmiş ceviz içi "
+    ],
+    "description": "Tarife başlamadan önce kerevizleri bol su ile durulayın ve rendeleyin.Rendelediğiniz kerevizi zeytinyağında 6-7 dakika soteleyin. Ocaktan alıp soğumaya bırakın.Süzme yoğurdu geniş bir karıştırma kabına alın. Mayonez, ezilmiş sarımsak, tuz ve karabiberi ilave edip hafifçe çırpın. Soğuyan kerevizlere, ince çekilmiş ceviz içini ilave edip karıştırın. Salatayı bir servis tabağına alın. Üzerini bütün ceviz içi parçaları ve kıyılmış maydanoz ile süsleyin.Cevizli kereviz salatasını, fırında tavuk ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  }]
+},
+
+"börülce":{
+	"recipes":[
+{
+    "name": "\nKuru börülce salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kuru-borulce-salatasi-b802b276-3f3b-43af-b6ff-97ef695ac4a0.jpg",
+    "ingredients": [
+      "250 g kuru börülce",
+      "1/2 demet maydanoz",
+      "4 taze soğan",
+      "1/4 demet dereotu",
+      "1 kırmızı dolmalık biber",
+      "1 yeşil dolmalık biber",
+      "3-5 kornişon turşu"
+    ],
+    "description": "Kuru börülceleri haşlayıp süzün. Biber ve turşuları küp küp doğrayın.Dereotu, maydanoz ve soğanı ince kıyın. Tüm malzemeleri geniş bir kapta harmanlayın.Sosu için; zeytinyağı, limon suyu, sumak ve tuzu karıştırıp salataya ekleyin.Kuru börülce salatasını, klasik köfte ve cacık ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  }]
+},
+
+"makarna":{
+	"recipes":[
+{
+    "name": "\nMakarna salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/makarna_salatasi-c5b3c228-5f36-436e-b23a-330f7e7d4a4e.jpg",
+    "ingredients": [
+      "1 paket Çin makarnası",
+      "1 salçalık kırmızı biber",
+      "1 sivri biber",
+      "50 gr taze soya filizi",
+      "1 havuç",
+      "1 çay kaşığı susam yağı",
+      "6 çorba kaşığı soya sosu"
+    ],
+    "description": "Lezzet'in yemek tarifleri gibi salata tarifleri de çok ilgi görüyor...\n\r\nSos için susam yağı ve soya sosunu bir kasede karıştırın.Kırmızı biber, sivribiber ve havucu temizleyip jülyen doğrayın.Makarnayı diri kıvamda haşlayıp süzün. Suyunu ayrı bir tencereye ayırın. Jülyen kesilmiş sebzeleri 3 dakika kadar bu suda haşlayıp süzün ve soğuk sudan geçirin.Haşlanmış makarna, sebzeler, soya filizi ve sosu derin bir kapta karıştırın. Servis tabağına alıp bekletmeden servis yapın.Klasik makarna salatası tarifine buradan ulaşabilirsiniz."
+  }]
+},
+
+"kırmızı lahana":{
+	"recipes":[
+{
+    "name": "\nYoğurtlu ve mayonezli kırmızı lahana salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yogurtlu_ve_mayonezli_kirmizi_lahana_salatasi-b0974b44-6abf-4bf7-9290-30441096bc77.jpg",
+    "ingredients": [
+      "Yarım kırmızı lahana",
+      "3 yemek kaşığı zeytinyağı",
+      "1 su bardağı süzme yoğurt",
+      "2 diş sarımsak",
+      "1 yemek kaşığı mayonez"
+    ],
+    "description": "Yarım kırmızı lahanayı bıçakla kıyın. Zeytinyağını tavada ısıtıp lahanayı ekleyin ve birkaç dakika soteleyin.Tavayı ocaktan alıp soğutun. Sarımsakların kabuğunu soyup kıyın ve ekleyin.Süzme yoğurt ve mayonezi ilave edip karıştırın. Üzerini kıyılmış maydanoz ve dereotu ile süsleyin.Yoğurtlu mor lahana salatasını, ızgara köftenin yanında servis edebilirsiniz. Şimdiden afiyet olsun."
+  },
+  {
+    "name": "\nMor lahana salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/mor-lahana-salatasi-d2cb8946-05fd-49e2-94e9-aff5b128e04f.jpg",
+    "ingredients": [
+      "1 küçük mor lahana",
+      "2 dal tale soğan",
+      "50 gr ceviz içi",
+      "3 çorba kaşığı sızma zeytinyağı",
+      "1 çorba kaşığı limon suyu",
+      "1 tatlı kaşığı nar ekşisi",
+      "Birkaç nane yaprağı",
+      "Tuz"
+    ],
+    "description": "Kırmızı lahananın dış yapraklarını temizleyip ortadan ikiye kesin ve incecik doğrayın. Üzerine tuz serpip lahanaları elinizle ovarak yumuşatın. Akan suyun altında tuzunu giderinceye kadar yıkayıp elinizle sıkarak süzün. Taze soğanları temizleyip doğrayın.Sızma zeytinyağı, limon suyu, nar ekşisi ve tuzu bir kaba alıp karıştırın. Lahanayı salata tabağına alıp taze soğanı ekleyin. Harmanlayıp üzerine cevizleri serpiştirin. Sosu gezdirip nane yapraklarıyla süsleyip servis yapın.Mor lahana salatasını sade veya hamsi buğulama ile birlikte servis edebilirsiniz. Afiyet olsun."
+  }]
+},
+
+"tavuk":{
+	"recipes":[
+{
+    "name": "\nTavuk salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tavuk_salatasi-acd89487-36a6-4014-9078-1f41aeb0d741.jpg",
+    "ingredients": [
+      "2 haşlanmış tavuk budu",
+      "1 su bardağı arpa şehriye",
+      "6~7 konserve mantar",
+      "1 çay bardağı ceviz",
+      "2 közlenmiş kırmızıbiber",
+      "Yarım su bardağı mısır",
+      "1/3 demet maydanoz",
+      "4~5 dal dereotu",
+      "3~4 taze soğan",
+      "Yarım çay bardağı zeytinyağı",
+      "2 yemek kaşığı limon suyu",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Tavuk etli sağlıklı salata tarifini listenize eklemeyi unutmayın. Tencereye yeteri kadar su alıp kaynatın. 1 su bardağı arpa şehriyeyi ekleyip haşlayın. Daha sonra suyunu süzün.Derin bir kasenin içine arpa şehriyeyi, didiklediğiniz tavuk budunu, ince dilimlediğimizi mantarı, közlenmiş biberi, doğranmış taze soğanı, ince kıydığınız maydanozu ve dereotunu ekleyip karıştırın.Üzerine limon suyunu, zeytinyağını, tuzu ve karabiberi ekleyip iyice karıştırın. Buzdolabında 30 dakika dinlendirdikten sonra dilerseniz ceviz ile süsleyip servis yapın.Nefis tavuk salatası tarifine buradan ulaşabilirsiniz."
+  },
+  {
+    "name": "\nTavuklu kabak salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tavuklu-kabak-salatasi-0af733fe-01c6-42ea-9f8c-5f687b849046.jpg",
+    "ingredients": [
+      "1 kg kabak ",
+      "1 adet orta boy kırmızı pancar ",
+      "1 parça tavuk göğüs eti ",
+      "2 adet karanfil ",
+      "2 yemek kaşığı süzme yoğurt ",
+      "2 yemek kaşığı mayonez ",
+      "1/2 demet dereotu",
+      "1/2 demet nane ",
+      "1 çay bardağı ince bulgur ",
+      "5 adet küçük boy kornişon turşu ",
+      "1/2 çay bardağı zeytinyağı ",
+      "3 diş sarımsak ",
+      "1 su bardağı iri çekilmiş ceviz içi ",
+      "Tuz, karabiber"
+    ],
+    "description": "Tavuk göğüs etini, dörde bölünmüş kırmızı pancarı, karanfil taneleri eklenmiş suda haşlayıp suyunu süzün. İnce ince didikleyin. Kabakları rendeleyip fazla suyunu sıkarak bir kaba alın. Pancarı da rendeleyin. Zeytinyağının yarısı ile kabakları yumuşayana kadar sote edin. Tuz, karabiber ekleyip karıştırın. İnce bulgurun üzerine ılık suyu gezdirerek dökün. Şişmesi için 15 dakika bekleyin. Ayrı bir kasede yoğurdu, mayonezi, rendelenmiş pancarı ve havanda ezilmiş sarımsakları karıştırın. Didiklediğiniz tavuk etlerini, ince kıyılmış kornişon turşuyu, sarımsaklı sosu, ince bulguru, iri çekilmiş ceviz içini, kıyılmış yeşillikleri ve kalan zeytinyağını iyice karıştırın. Hazırladığınız tavuklu kabak salatayı şekilli bir kalıba veya kek kalıbına bastırarak yerleştirin. Daha sonra servis tabağına ters çevirerek servis yapın."
+  }]
+},
+
+"domates":{
+	"recipes":[
+{
+    "name": "\nSöğüş Salata\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/sogus-salata-4005891d-6e59-4645-a9eb-f28cb7846d63.jpg",
+    "ingredients": [
+      "1 adet iri domates",
+      "5-6 adet sivri biber",
+      "2 adet salatalık",
+      "Yarım limon",
+      "Yarım çay bardağı zeytinyağı",
+      "1 çay kaşığı tuz",
+      "Çıtır Ekmek (İsteğe göre)"
+    ],
+    "description": "İlk olarak domates ve salataların kabuklarını soyun.Ardından biberleri yıkayın ve uç kısımlarını kesin.Tüm malzemeleri iri iri doğrayın ve geniş bir kap içerisine ekleyin.Çıtır ekmek kullanmak istiyorsanız, bayatlamış ekmekleri fırında ısıtıp küçük parçalar halinde salataya ekleyebilirsiniz.Son olarak tuz, kekik ve zeytinyağını salataya ilave edin ve tüm malzemeleri karıştırın. Afiyet olsun."
+  },
+  {
+    "name": "\nCevizli kaşık salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/biberli-kasik-salatasi-aea9c846-563d-4f90-8dd4-084bcc356de5.jpg",
+    "ingredients": [
+      "1 adet soğan (Zar şeklinde doğranmış) ",
+      "1 adet jalapeno biber (İnce kıyılmış) ",
+      "1 limonun suyu  ",
+      "Yarım çay kaşığı tuz ",
+      "4 adet büyük boy domates (Zar doğranmış) ",
+      "4 adet kapya biber (Zar doğranmış) ",
+      "2 adet çarliston biber (Zar doğranmış) ",
+      "2-3 adet acı kıl biber (Zar doğranmış) ",
+      "1 adet sarı California biberi (Zar doğranmış) ",
+      "1/2 demet taze kişniş (İnce kıyılmış) ",
+      "1 çay bardağı ceviz içi (Çok ince çekilmiş) ",
+      "Sızma zeytinyağı "
+    ],
+    "description": ""
+  },
+  {
+    "name": "\nKırmızı domatesli panzanella salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kirmizi-domatesli-panzanella-salatasi-da0d17bc-26ea-4228-876e-ca295309f448.jpg",
+    "ingredients": [
+      "3 adet iri kırmızı domates",
+      "1 dilim kızarmış ekmek (Küp doğranmış)",
+      "1/2 kırmızı soğan (Yarım ay şeklinde doğranmış)",
+      "1 adet yeşil biber (Küp doğranmış)",
+      "2 dal kişniş",
+      "1 adet Arnavut biberi (Dilimlenmiş)",
+      "1 yemek kaşığı limon suyu ",
+      "2 yemek kaşığı zeytinyağı"
+    ],
+    "description": "Domatesleri sıcak suya koyun, 3 dakika kadar bekleyip çıkartın. Soyun ve blender’dan geçirin. İnce telli bir süzgeç ile süzün. Limon ve zeytinyağı ile karıştırıp az tuz ekleyin. Servis edeceğiniz kaseye alın. Üzerlerine fotoğrafta gördüğünüz gibi tüm malzemeleri yerleştirin."
+  }]
+},
+
+"biber":{
+	"recipes":[
+{
+    "name": "\nCevizli kaşık salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/biberli-kasik-salatasi-aea9c846-563d-4f90-8dd4-084bcc356de5.jpg",
+    "ingredients": [
+      "1 adet soğan (Zar şeklinde doğranmış) ",
+      "1 adet jalapeno biber (İnce kıyılmış) ",
+      "1 limonun suyu  ",
+      "Yarım çay kaşığı tuz ",
+      "4 adet büyük boy domates (Zar doğranmış) ",
+      "4 adet kapya biber (Zar doğranmış) ",
+      "2 adet çarliston biber (Zar doğranmış) ",
+      "2-3 adet acı kıl biber (Zar doğranmış) ",
+      "1 adet sarı California biberi (Zar doğranmış) ",
+      "1/2 demet taze kişniş (İnce kıyılmış) ",
+      "1 çay bardağı ceviz içi (Çok ince çekilmiş) ",
+      "Sızma zeytinyağı "
+    ],
+    "description": ""
+  }]
+},
+
+"semizotu":{
+	"recipes":[
+{
+    "name": "\nÇilekli ve keçi peynirli semizotu salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/cilekli-ve-keci-peynirli-semizotu-salatasi-d6b3dfe8-096f-4ef7-92ff-3e46f4abb5b8.jpg",
+    "ingredients": [
+      "6 adet çilek",
+      "4 yemek kaşığı keçi peyniri",
+      "2 yemek kaşığı beyaz krem peynir",
+      "1 demet semizotu (Yıkanmış, ayıklanmış)",
+      "1 çay bardağı dövülmüş fındık"
+    ],
+    "description": "Keçi peyniri ile krem peyniri karıştırarak iyice ezin. Streç filme sararak sıkı bir rulo haline getirin ve buzdolabında 1 saat bekletin. Çilekleri iyice yıkayarak ince dilimler halinde doğrayın. Bir peçetenin üstüne alarak fazla suyunu çekmesini sağlayın.Sos için gerekli zeytinyağı, mayonez, sirke, limon ve tuzu bir kapta iyice karıştırın. Semizotu ve fındığı büyükçe bir salata kasesine alın ve hazırladığınız sos ile karıştırın. Beklettiğiniz peynir rulosunu da incecik dilimlediğiniz çileklerle kaplayın ve salatının yanına yerleştirerek servis yapın.Çilekli ve peynirli semizotu salatasını tek sunmak istemiyorsanız, İzmir köfte ile birlikte servis edebilirsiniz. Afiyet olsun."
+  }]
+},
+
+"bulgur":{
+	"recipes":[
+{
+    "name": "\nNohutlu bulgur salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/nohutlu-bulgur-salatasi-7924e9a1-af1b-4179-bc18-9f3ef971f789.jpg",
+    "ingredients": [
+      "1 su bardağı haşlanmış nohut",
+      "1 çay bardağı bulgur",
+      "1 çay bardağı su ",
+      "1 demet maydanoz",
+      "3-4 dal taze soğan",
+      "Yarım demet taze nane",
+      "2 domates",
+      "1 çorba kaşığı nar ekşisi  ",
+      "1 kahve fincanı zeytinyağı",
+      "Tuz, kırmızı toz biber "
+    ],
+    "description": "Bulguru iyice yıkayıp süzün. Süzülen bulguru bir kaba alıp üzerine 1 çay bardağı ılık su ekleyin. 10-15 dakika bulgurların şişmesi için bekletin. Taze otları temizleyip kıyın. Domatesleri soyup küp şeklinde doğrayın. Sos için, nar ekşisi, zeytinyağı, tuz ve biberi bir kapta karıştırın. Salata malzemelerini servis tabağına alın. Sosu ekleyip karıştırın. Taze nane yaprakları ile süsleyip ılık servis yapın."
+  }]
+},
+
+"nohut":{
+	"recipes":[
+{
+    "name": "\nNohutlu bulgur salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/nohutlu-bulgur-salatasi-7924e9a1-af1b-4179-bc18-9f3ef971f789.jpg",
+    "ingredients": [
+      "1 su bardağı haşlanmış nohut",
+      "1 çay bardağı bulgur",
+      "1 çay bardağı su ",
+      "1 demet maydanoz",
+      "3-4 dal taze soğan",
+      "Yarım demet taze nane",
+      "2 domates",
+      "1 çorba kaşığı nar ekşisi  ",
+      "1 kahve fincanı zeytinyağı",
+      "Tuz, kırmızı toz biber "
+    ],
+    "description": "Bulguru iyice yıkayıp süzün. Süzülen bulguru bir kaba alıp üzerine 1 çay bardağı ılık su ekleyin. 10-15 dakika bulgurların şişmesi için bekletin. Taze otları temizleyip kıyın. Domatesleri soyup küp şeklinde doğrayın. Sos için, nar ekşisi, zeytinyağı, tuz ve biberi bir kapta karıştırın. Salata malzemelerini servis tabağına alın. Sosu ekleyip karıştırın. Taze nane yaprakları ile süsleyip ılık servis yapın."
+  }]
+},
+
+"maydanoz":{
+	"recipes":[
+{
+    "name": "\nMaydanozlu pirinç salatası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/maydanozlu-pirinc-salatasi-fa1a5497-be3a-4069-a84d-5c1628c1b8d5.jpg",
+    "ingredients": [
+      "1 su bardağı pirinç",
+      "1 soğan ",
+      "3 sivri biber",
+      "Yarım demet maydanoz"
+    ],
+    "description": "Pirinci ayıklayıp bir tutam tuz ve 1 çorba kaşığı limonlu sıcak suda 15-20 dakika bekletin. Geniş bir tencere alıp üzerini örtecek kadar su ekleyin ve diri kıvamda haşlayın. Süzüp bir kenarda bekletin. Soğanı soyup piyazlık doğrayın. Biberleri temizleyip halka şeklinde doğrayın. Maydanozları temizleyip kıyın.  Sos için, tüm malzemeleri bir kapta iyice çırpın. Salata malzemeleri ile sosu servis kasesine alıp tahta kaşıkla karıştırın. Üzerine çekilmiş ceviz serpiştirin. Ilık ya da soğuk servis yapın. Maydanozlu pirinç salatasını, hasanpaşa köftesi ile birlikte servis edebilirsiniz. Afiyet olsun."
+  }
+]}
+}

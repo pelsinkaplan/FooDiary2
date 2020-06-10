@@ -37,14 +37,15 @@ public class LoginPanel extends MainManager {
         passwordEdit = (EditText) findViewById(R.id.passwordLog);
 
         MainManager.getInstance().usersAndDatabase();
+
+        /*********************************************************
+         * Bu try catchde hata çıkıyo
+         */
         try {
-            MainManager.getInstance().createDatabase();
+            MainManager.getInstance().getJson("tatlilar.json");
         } catch (IOException e) {
             e.printStackTrace();
-        } catch (ParseException e) {
-            e.printStackTrace();
         }
-
 
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override

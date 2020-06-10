@@ -1,0 +1,479 @@
+{
+"krema":{
+"recipes":[
+{
+    "name": "\nKöri Soslu Tavuk\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kori-soslu-tavuk-8ccf6838-cafe-411f-9fc2-e6fae46b1c50.jpg",
+    "ingredients": [
+      "100 ml sıvı krema (yarım kutu kadar) ",
+      "1 parça orta boy tavuk göğsü",
+      "1 avuç içi kadar arpacık soğan",
+      "1 çorba kaşığı parmesan peyniri (arzu etmezseniz kullanmayabilirsiniz) ",
+      "3 çorba kaşığı zeytinyağı ",
+      "1 çay kaşığı tuz",
+      "1 çay kaşığı köri sosu",
+      "1 tatlı kaşığı kırmızı biber (toz) ",
+      "1 tatlı kaşığı kekik",
+      "1 çay kaşığından az karabiber"
+    ],
+    "description": "Geniş bir kızartma tavasını ocakta kızdırın. Az miktarda yağ koyabilirsiniz. Tavuğu hazırlarken koyduğunuz yağ yeterli olur. Tavukları suyunu salmadan pişirin. Etlerin üst üste olmaması tavsiye edilir. Yağa temas etmeyen etler sulanır. Bu şekilde de tavuklar kuru kalabilir. Tavukları alt üst olarak çevirip iyice pişirin. Birkaç dakika sonra arpacık soğanlarını ilave edin. Tavuklar iyice pişip altın rengini aldığı zaman köri sosuyla beraber kremayı ekleyin. Tuzu da ilave etmeyi unutmayın. 2 3 dakika boyunca karıştırarak pişirin. Son olarak yemeğe hoş bir kıvam vermesi için parmesan ilave edebilirsiniz. Arzu etmezseniz kullanmayabilirsiniz. Sıcağıyla servis edebilirsiniz.Tarif az kişilik porsiyonlara uygundur. Kalabalık misafirlerde malzeme ölçülerini artırarak aynı lezzeti yakalayabilirsiniz. Körili tavuk yanına pirinç pilavı ya da patates köftesi yapabilirsiniz. Afiyet olsun.Kalori bakımından oldukça düşük olan körili tavuğu rahatlıkla tüketebilirsiniz.Daha fazla tarif için, pratik tavuk yemeklerine göz atın."
+
+}]
+},
+"tavuk":{
+"recipes":[{
+    "name": "\nKöri Soslu Tavuk\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kori-soslu-tavuk-8ccf6838-cafe-411f-9fc2-e6fae46b1c50.jpg",
+    "ingredients": [
+      "100 ml sıvı krema (yarım kutu kadar) ",
+      "1 parça orta boy tavuk göğsü",
+      "1 avuç içi kadar arpacık soğan",
+      "1 çorba kaşığı parmesan peyniri (arzu etmezseniz kullanmayabilirsiniz) ",
+      "3 çorba kaşığı zeytinyağı ",
+      "1 çay kaşığı tuz",
+      "1 çay kaşığı köri sosu",
+      "1 tatlı kaşığı kırmızı biber (toz) ",
+      "1 tatlı kaşığı kekik",
+      "1 çay kaşığından az karabiber"
+    ],
+    "description": "Geniş bir kızartma tavasını ocakta kızdırın. Az miktarda yağ koyabilirsiniz. Tavuğu hazırlarken koyduğunuz yağ yeterli olur. Tavukları suyunu salmadan pişirin. Etlerin üst üste olmaması tavsiye edilir. Yağa temas etmeyen etler sulanır. Bu şekilde de tavuklar kuru kalabilir. Tavukları alt üst olarak çevirip iyice pişirin. Birkaç dakika sonra arpacık soğanlarını ilave edin. Tavuklar iyice pişip altın rengini aldığı zaman köri sosuyla beraber kremayı ekleyin. Tuzu da ilave etmeyi unutmayın. 2 3 dakika boyunca karıştırarak pişirin. Son olarak yemeğe hoş bir kıvam vermesi için parmesan ilave edebilirsiniz. Arzu etmezseniz kullanmayabilirsiniz. Sıcağıyla servis edebilirsiniz.Tarif az kişilik porsiyonlara uygundur. Kalabalık misafirlerde malzeme ölçülerini artırarak aynı lezzeti yakalayabilirsiniz. Körili tavuk yanına pirinç pilavı ya da patates köftesi yapabilirsiniz. Afiyet olsun.Kalori bakımından oldukça düşük olan körili tavuğu rahatlıkla tüketebilirsiniz.Daha fazla tarif için, pratik tavuk yemeklerine göz atın."
+}, {
+    "name": "\nŞehriyeli Tavuk Çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/sehriyeli-tavuk-corbasi-859b8560-88fc-43c2-9a8c-69937529033a.jpg",
+    "ingredients": [
+      "1 tavuk göğsü veya 2 tavuk budu (ikisinden birini tercih edebilirsiniz)",
+      "Tavuk suyu (5 bardak)",
+      "Un (1 dolu yemek kaşığı)",
+      "Margarin veya tereyağı (1.5 yemek kaşığı)",
+      "Sıvı yağ ( 2 yemek kaşığı)",
+      "Tel şehriye (1.5 kahve fincanı)",
+      "Karabiber (servis sırasında)",
+      "Tuz"
+    ],
+    "description": "Yemeklerinizin yanına çok yakışacak, sıcacık ve mis gibi şehriyeli tavuk çorbası yapılışı oldukça kolaydır. Kullanacağınız tavuk etini göğüs veya but olarak tercih edebilirsiniz. Fakat kemikli bir tavuk eti seçmek daha yararlı olur. Böylece tavuğun lezzeti güzelce suyuna geçer. Tavuk etini tuzsuz bir şekilde haşlayarak işe başlayabilirsiniz. Suyu biraz fazla eklemelisiniz çünkü haşlanan sudan 5 bardak alarak çorba için kullanacaksınız. 1 litre su yeterli olur.Tavuk haşlandıktan sonra küçük parçalara ayırın ve ayrı bir tabağa koyun. Daha sonra, çorbanızı yapacağınız tencereyi ocağa yerleştirin. Margarin ve sıvı yağı ekleyin. Margarin eridikten sonra unu ekleyin. Topaklanmaması için iyice kavurun. Önceden ayırdığınız 5 bardak tavuk suyunu ve önceden küçük parçalara böldüğünüz tavukları ekleyin.Güzelce karıştırın ve kaynadıktan sonra şehriyeleri ekleyin.Şehriyeleri yaklaşık 10-15 dakika pişinceye kadar kaynatın. Tuz ekleyin ve çorbanız piştikten sonra tencerenin kapağını kapatarak dinlenmeye bırakın. Servis ederken üzerine biraz karabiber ekleyin.Mis gibi şehriyeli tavuk çorbanız hazır. Afiyet olsun!"
+  }
+]},
+"yoğurt":{
+"recipes":[
+ {
+    "name": "\nTutmaç Çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tutmac-corbasi-82ec9235-c32f-42f8-a6e3-cb30cbdf4390.jpg",
+    "ingredients": [
+      "1 kg yoğurt",
+      "500 gr un",
+      "1 çay bardağı haşlanmış nohut",
+      "1 çay bardağı erişte",
+      "200 gr kavurma",
+      "2 diş sarımsak",
+      "1 yemek kaşığı tereyağı",
+      "Nane",
+      "Tuz",
+      "Toz biber"
+    ],
+    "description": "Bingöl usulü tutmaç çorbasında, un ve tuz yoğrularak hamur haline getirin. Ardından hamuru kağıt inceliğinde açın ve küçük parçalar halinde kesin. Önceden hazırlanan yoğurdun içerisine bir miktar su katılarak kaynatın.Yoğurt 5 dakika kaynadıktan sonra kesilen erişteler yoğurdun içerisine atın..Ardından haşlanmış nohut ve küçük küçük doğranmış kavurma da çorbanın içerisine ilave edin.Çorba kaynayana kadar orta ateşte pişirilir. Bu esnada sosu için küçük bir tavaya sıvıyağı dökün.Yağ kızmaya başladığında içerisine toz biber ve nane ekleyerek karıştırın.Kaynayan çorbaları kaselere paylaştırın ve sosu üzerinde gezdirin. "
+  }
+]},
+"tereyag":{
+"recipes":[
+ {
+    "name": "\nYulaflı buğdaylı çorba\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yulafli-bugdayli-corba-4c3c35b4-73f1-43a3-afc1-749c03cff6a1.jpg",
+    "ingredients": [
+      "1 yemek kaşığı fındık yağı ",
+      "Yarım yemek kaşığı tereyağı ",
+      "3 diş sarımsak ",
+      "1 adet kuru soğan ",
+      "3 su bardağı su ",
+      "1 su bardağı tavuk suyu ",
+      "5 yemek kaşığı yulaf kırması ",
+      "1.5 yemek kaşığı aşurelik buğday ",
+      "1 su bardağı süt ",
+      "1 su bardağı yoğurt ",
+      "Pul biber",
+      "Biberiye, nane, kekik (İsteğe göre)"
+    ],
+    "description": "Buğdayı haşlayın ve bir kaseye alın.İnce kıyılmış sarımsak ve kuru soğanı, 1/4 su bardağı suda şeffaflaşıncaya kadar pişirin. Yağı ekleyin ve bir kez daha çevirin. Tavuk suyu ve suyu ekleyin. Yulafları ve haşlanmış buğdayı ilave edip pişirin.Süt ile yoğurdu terbiye ederek ekleyip pişirin. Üzerini tereyağlı kırmızıbiber, biberiye/nane/kekik ile süsleyebilirsiniz."
+  }, {
+    "name": "\nAnalı kızlı çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/anali-kizli-corbasi-bd8e5fd8-d630-4505-a847-9908d5f42a13.jpg",
+    "ingredients": [
+      "200 g yağsız koyun kıyması",
+      "2 adet soğan",
+      "1 tatlı kaşığı kırmızı pul biber",
+      "1 tatlı kaşığı biber salçası",
+      "100 g tereyağı",
+      " 1 yumurta",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Bir tencereye kıymayı koyun ve suyunu salıp çekene kadar kavurun. Suyunu çekmesine yakın küçük küçük doğradığınız soğanları ekleyin ve iyice suyunu çektirin. Sonra salçasını, tereyağı ve baharatlarını ekleyip iyice  kavurun. Kavrulan kıymayı tepsiye döküp soğutun.Dış harcı için; dana etini et dövme makinasında iyice dövün (Makineniz yoksa kasapta 3 kez çektirin). Bulgurunuzu geniş kenarlı bir tepsiye koyun. Üzerine yarım bardak su döküp karıştırın ve 5-10 dakika bekletin. Daha sonra yumurtayı kırın, irmiği, dövülmüş eti ekleyin ve yoğurmaya başlayın. Yoğururken salçaları ekleyin ve iyice özdeşleşene kadar yoğurun. Arada biraz su ekleyerek yoğurmaya devam edin. En son unu ve baharatları ekleyip, yumuşak bir köfte hamuru elde edinceye kadar yoğurun.Anaları için; ceviz büyüklüğünde parçalar kopartıp yuvarlayın, parmaklarınızın ucuyla yuvarladığınız hamurun içini oyun (Mümkün olduğunca ince yapın). İçine kavurduğunuz kıymadan 1.5 tatlı kaşığı kadar koyun ve hamuru yuvarlayıp kapatın. Kıyma harcınız bitene kadar bütün hamurdan köfte büyüklüğünde kıymalı toplar hazırlayıp bir tepside biriktirin. Daha sonra kalan köfte hamurundan nohut büyüklüğünde toplar (Kızlar) hazırlayıp onları da bir tepside biriktirin.Suyu için büyük bir tencereye tereyağını koyun, üstüne küçük yemeklik doğranmış soğanı ekleyin. Kavrulurken salçaları da ekleyip hafif kavurun. Daha sonra et suyunu ilave edip biraz kaynayınca nohutları, tuzu ve karabiberi ekleyin. En son limon suyunu ekleyin. Bunlar kaynarken yaptığınız ufak köfteleri (Kızlar), 5 dakika sonra da büyük köfteleri (Analar) ekleyin. Anaları suyun üstüne çıkınca çorbanın altını kapatın ve kuru naneyi ilave edip karıştırın. Sıcak servis yapın.Analı kızlı çorbasını, zeytinyağlı taze fasulye ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },{
+    "name": "\nEtli topalak çorbası (KONYA)\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_topalak_corbasi_konya-72864ced-b6ed-405d-a6c2-34e68904cde7.jpg",
+    "ingredients": [
+      "750 g kıyma",
+      "1 su bardağı ince bulgur",
+      "1 yumurta",
+      "Yarım demet maydanoz",
+      "1 yemek kaşığı un",
+      "Tuz",
+      "Karabiber",
+      "1 su bardağı nohut",
+      "1 yemek kaşığı tereyağı",
+      "1 yemek kaşığı domates salçası",
+      "1 tatlı kaşığı biber salçası",
+      "4 su bardağı et suyu"
+    ],
+    "description": "Kıyma, ince bulgur, yumurta, ince kıyılmış maydanoz, un, tuz ve karabiberi geniş bir kasede yoğurun.Misket büyüklüğünde parçalar koparıp yuvarlayarak köfteler hazırlayın. Bir gece öncesinden suda beklettiğiniz nohudu haşlayın.Suyunu süzdükten sonra kabuklarını soyun. Tereyağını bir tencereye alın ve salçaları ekleyip kokuları gidene kadar kavurun.Et suyunu ilave edip kaynatın. Köfte ve nohudu da katıp kısık ateşte köfteler yumuşayana kadar pişirin. Servis tabağına alıp üzerini maydanozla süsleyin.Etli topalak çorbasını, sebzeli bulgur pilavı ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },{
+"name": "\nKremalı mantar çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kremali_mantar_corbasi-bd970dc5-309b-46fa-b3d7-67ac8c36ce75.jpg",
+    "ingredients": [
+      " 500 g kültür mantarı",
+      "2 yemek kaşığı tereyağı",
+      "2 diş sarımsak",
+      "2 yemek kaşığı un",
+      "4 su bardağı su",
+      "200 ml krema",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "İlk olarak mantarları bol suda durulayın ve süzün. Ardından mantarları iri formda doğrayarak tereyağında 3-4 dakika soteleyin.İnce ince ezilmiş sarımsak ve unu, mantar soteye ilave edip unun rengi dönünceye kadar kavurun. Topaklanmaması için sürekli karıştırın ve azar azar suyu ilave edin. Tuz ve karabiber ve istediğiniz baharatlar ile tatlandırıp kaynatın. Son olarak koyulaşan çorbanın içerisine kremayı ilave edip kısık ateşte 7-8 dakika daha pişirin.Pişirme işleminden sonra çorbayı ocaktan alın. Üzerini ince ince kıydığınız dereotu ve maydanoz ile süsleyin.Kremalı mantar çorbasını, balık yemekleri ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },{
+    "name": "\nŞehriyeli Tavuk Çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/sehriyeli-tavuk-corbasi-859b8560-88fc-43c2-9a8c-69937529033a.jpg",
+    "ingredients": [
+      "1 tavuk göğsü veya 2 tavuk budu (ikisinden birini tercih edebilirsiniz)",
+      "Tavuk suyu (5 bardak)",
+      "Un (1 dolu yemek kaşığı)",
+      "Margarin veya tereyağı (1.5 yemek kaşığı)",
+      "Sıvı yağ ( 2 yemek kaşığı)",
+      "Tel şehriye (1.5 kahve fincanı)",
+      "Karabiber (servis sırasında)",
+      "Tuz"
+    ],
+    "description": "Yemeklerinizin yanına çok yakışacak, sıcacık ve mis gibi şehriyeli tavuk çorbası yapılışı oldukça kolaydır. Kullanacağınız tavuk etini göğüs veya but olarak tercih edebilirsiniz. Fakat kemikli bir tavuk eti seçmek daha yararlı olur. Böylece tavuğun lezzeti güzelce suyuna geçer. Tavuk etini tuzsuz bir şekilde haşlayarak işe başlayabilirsiniz. Suyu biraz fazla eklemelisiniz çünkü haşlanan sudan 5 bardak alarak çorba için kullanacaksınız. 1 litre su yeterli olur.Tavuk haşlandıktan sonra küçük parçalara ayırın ve ayrı bir tabağa koyun. Daha sonra, çorbanızı yapacağınız tencereyi ocağa yerleştirin. Margarin ve sıvı yağı ekleyin. Margarin eridikten sonra unu ekleyin. Topaklanmaması için iyice kavurun. Önceden ayırdığınız 5 bardak tavuk suyunu ve önceden küçük parçalara böldüğünüz tavukları ekleyin.Güzelce karıştırın ve kaynadıktan sonra şehriyeleri ekleyin.Şehriyeleri yaklaşık 10-15 dakika pişinceye kadar kaynatın. Tuz ekleyin ve çorbanız piştikten sonra tencerenin kapağını kapatarak dinlenmeye bırakın. Servis ederken üzerine biraz karabiber ekleyin.Mis gibi şehriyeli tavuk çorbanız hazır. Afiyet olsun!"
+  },{
+"name": "\nTutmaç Çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tutmac-corbasi-82ec9235-c32f-42f8-a6e3-cb30cbdf4390.jpg",
+    "ingredients": [
+      "1 kg yoğurt",
+      "500 gr un",
+      "1 çay bardağı haşlanmış nohut",
+      "1 çay bardağı erişte",
+      "200 gr kavurma",
+      "2 diş sarımsak",
+      "1 yemek kaşığı tereyağı",
+      "Nane",
+      "Tuz",
+      "Toz biber"
+    ],
+    "description": "Bingöl usulü tutmaç çorbasında, un ve tuz yoğrularak hamur haline getirin. Ardından hamuru kağıt inceliğinde açın ve küçük parçalar halinde kesin. Önceden hazırlanan yoğurdun içerisine bir miktar su katılarak kaynatın.Yoğurt 5 dakika kaynadıktan sonra kesilen erişteler yoğurdun içerisine atın..Ardından haşlanmış nohut ve küçük küçük doğranmış kavurma da çorbanın içerisine ilave edin.Çorba kaynayana kadar orta ateşte pişirilir. Bu esnada sosu için küçük bir tavaya sıvıyağı dökün.Yağ kızmaya başladığında içerisine toz biber ve nane ekleyerek karıştırın.Kaynayan çorbaları kaselere paylaştırın ve sosu üzerinde gezdirin. "
+  }
+]},
+"nohut":{
+"recipes":[
+{
+    "name": "\nEtli topalak çorbası (KONYA)\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_topalak_corbasi_konya-72864ced-b6ed-405d-a6c2-34e68904cde7.jpg",
+    "ingredients": [
+      "750 g kıyma",
+      "1 su bardağı ince bulgur",
+      "1 yumurta",
+      "Yarım demet maydanoz",
+      "1 yemek kaşığı un",
+      "Tuz",
+      "Karabiber",
+      "1 su bardağı nohut",
+      "1 yemek kaşığı tereyağı",
+      "1 yemek kaşığı domates salçası",
+      "1 tatlı kaşığı biber salçası",
+      "4 su bardağı et suyu"
+    ],
+    "description": "Kıyma, ince bulgur, yumurta, ince kıyılmış maydanoz, un, tuz ve karabiberi geniş bir kasede yoğurun.Misket büyüklüğünde parçalar koparıp yuvarlayarak köfteler hazırlayın. Bir gece öncesinden suda beklettiğiniz nohudu haşlayın.Suyunu süzdükten sonra kabuklarını soyun. Tereyağını bir tencereye alın ve salçaları ekleyip kokuları gidene kadar kavurun.Et suyunu ilave edip kaynatın. Köfte ve nohudu da katıp kısık ateşte köfteler yumuşayana kadar pişirin. Servis tabağına alıp üzerini maydanozla süsleyin.Etli topalak çorbasını, sebzeli bulgur pilavı ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },
+{
+ "name": "\nTutmaç Çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tutmac-corbasi-82ec9235-c32f-42f8-a6e3-cb30cbdf4390.jpg",
+    "ingredients": [
+      "1 kg yoğurt",
+      "500 gr un",
+      "1 çay bardağı haşlanmış nohut",
+      "1 çay bardağı erişte",
+      "200 gr kavurma",
+      "2 diş sarımsak",
+      "1 yemek kaşığı tereyağı",
+      "Nane",
+      "Tuz",
+      "Toz biber"
+    ],
+    "description": "Bingöl usulü tutmaç çorbasında, un ve tuz yoğrularak hamur haline getirin. Ardından hamuru kağıt inceliğinde açın ve küçük parçalar halinde kesin. Önceden hazırlanan yoğurdun içerisine bir miktar su katılarak kaynatın.Yoğurt 5 dakika kaynadıktan sonra kesilen erişteler yoğurdun içerisine atın..Ardından haşlanmış nohut ve küçük küçük doğranmış kavurma da çorbanın içerisine ilave edin.Çorba kaynayana kadar orta ateşte pişirilir. Bu esnada sosu için küçük bir tavaya sıvıyağı dökün.Yağ kızmaya başladığında içerisine toz biber ve nane ekleyerek karıştırın.Kaynayan çorbaları kaselere paylaştırın ve sosu üzerinde gezdirin. "
+  }
+]},
+"nane":{
+"recipes":[
+{
+    "name": "\nAnalı kızlı çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/anali-kizli-corbasi-bd8e5fd8-d630-4505-a847-9908d5f42a13.jpg",
+    "ingredients": [
+      "200 g yağsız koyun kıyması",
+      "2 adet soğan",
+      "1 tatlı kaşığı kırmızı pul biber",
+      "1 tatlı kaşığı biber salçası",
+      "100 g tereyağı",
+      "1 yumurta",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Bir tencereye kıymayı koyun ve suyunu salıp çekene kadar kavurun. Suyunu çekmesine yakın küçük küçük doğradığınız soğanları ekleyin ve iyice suyunu çektirin. Sonra salçasını, tereyağı ve baharatlarını ekleyip iyice  kavurun. Kavrulan kıymayı tepsiye döküp soğutun.Dış harcı için; dana etini et dövme makinasında iyice dövün (Makineniz yoksa kasapta 3 kez çektirin). Bulgurunuzu geniş kenarlı bir tepsiye koyun. Üzerine yarım bardak su döküp karıştırın ve 5-10 dakika bekletin. Daha sonra yumurtayı kırın, irmiği, dövülmüş eti ekleyin ve yoğurmaya başlayın. Yoğururken salçaları ekleyin ve iyice özdeşleşene kadar yoğurun. Arada biraz su ekleyerek yoğurmaya devam edin. En son unu ve baharatları ekleyip, yumuşak bir köfte hamuru elde edinceye kadar yoğurun.Anaları için; ceviz büyüklüğünde parçalar kopartıp yuvarlayın, parmaklarınızın ucuyla yuvarladığınız hamurun içini oyun (Mümkün olduğunca ince yapın). İçine kavurduğunuz kıymadan 1.5 tatlı kaşığı kadar koyun ve hamuru yuvarlayıp kapatın. Kıyma harcınız bitene kadar bütün hamurdan köfte büyüklüğünde kıymalı toplar hazırlayıp bir tepside biriktirin. Daha sonra kalan köfte hamurundan nohut büyüklüğünde toplar (Kızlar) hazırlayıp onları da bir tepside biriktirin.Suyu için büyük bir tencereye tereyağını koyun, üstüne küçük yemeklik doğranmış soğanı ekleyin. Kavrulurken salçaları da ekleyip hafif kavurun. Daha sonra et suyunu ilave edip biraz kaynayınca nohutları, tuzu ve karabiberi ekleyin. En son limon suyunu ekleyin. Bunlar kaynarken yaptığınız ufak köfteleri (Kızlar), 5 dakika sonra da büyük köfteleri (Analar) ekleyin. Anaları suyun üstüne çıkınca çorbanın altını kapatın ve kuru naneyi ilave edip karıştırın. Sıcak servis yapın.Analı kızlı çorbasını, zeytinyağlı taze fasulye ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },{
+    "name": "\nYulaflı buğdaylı çorba\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yulafli-bugdayli-corba-4c3c35b4-73f1-43a3-afc1-749c03cff6a1.jpg",
+    "ingredients": [
+      "1 yemek kaşığı fındık yağı ",
+      "Yarım yemek kaşığı tereyağı ",
+      "3 diş sarımsak ",
+      "1 adet kuru soğan ",
+      "3 su bardağı su ",
+      "1 su bardağı tavuk suyu ",
+      "5 yemek kaşığı yulaf kırması ",
+      "1.5 yemek kaşığı aşurelik buğday ",
+      "1 su bardağı süt ",
+      "1 su bardağı yoğurt ",
+      "Pul biber",
+      "Biberiye, nane, kekik (İsteğe göre)"
+    ],
+    "description": "Buğdayı haşlayın ve bir kaseye alın.İnce kıyılmış sarımsak ve kuru soğanı, 1/4 su bardağı suda şeffaflaşıncaya kadar pişirin. Yağı ekleyin ve bir kez daha çevirin. Tavuk suyu ve suyu ekleyin. Yulafları ve haşlanmış buğdayı ilave edip pişirin.Süt ile yoğurdu terbiye ederek ekleyip pişirin. Üzerini tereyağlı kırmızıbiber, biberiye/nane/kekik ile süsleyebilirsiniz."
+  },{
+"name": "\nTutmaç Çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/tutmac-corbasi-82ec9235-c32f-42f8-a6e3-cb30cbdf4390.jpg",
+    "ingredients": [
+      "1 kg yoğurt",
+      "500 gr un",
+      "1 çay bardağı haşlanmış nohut",
+      "1 çay bardağı erişte",
+      "200 gr kavurma",
+      "2 diş sarımsak",
+      "1 yemek kaşığı tereyağı",
+      "Nane",
+      "Tuz",
+      "Toz biber"
+    ],
+    "description": "Bingöl usulü tutmaç çorbasında, un ve tuz yoğrularak hamur haline getirin. Ardından hamuru kağıt inceliğinde açın ve küçük parçalar halinde kesin. Önceden hazırlanan yoğurdun içerisine bir miktar su katılarak kaynatın.Yoğurt 5 dakika kaynadıktan sonra kesilen erişteler yoğurdun içerisine atın..Ardından haşlanmış nohut ve küçük küçük doğranmış kavurma da çorbanın içerisine ilave edin.Çorba kaynayana kadar orta ateşte pişirilir. Bu esnada sosu için küçük bir tavaya sıvıyağı dökün.Yağ kızmaya başladığında içerisine toz biber ve nane ekleyerek karıştırın.Kaynayan çorbaları kaselere paylaştırın ve sosu üzerinde gezdirin. "
+  }
+]},
+"süt":{
+"recipes":[
+{
+    "name": "\nBayat ekmek çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/bayat-ekmek-corbasi-36c7ed35-22eb-4ca7-bc19-bfcecd2c413c.jpg",
+    "ingredients": [
+      "1/2 adet bayat ekmek",
+      "4 su bardağı et suyu",
+      "2 adet yumurta",
+      "4 yemek kaşığı zeytinyağı",
+      "3-4 dal maydanoz",
+      "Tuz, karabiber",
+      "1 tatlı kaşığı kuru nane",
+      "4 su bardağı süt"
+    ],
+    "description": "Et suyunu bir tencereye alın ve bayat ekmeği küp şeklinde doğrayıp içine ilave edin. Ekmekler dağılana kadar kaynatın. Zeytinyağını, tuzu, karabiberi ve naneyi ekleyip 10-15 dakika kısık ateşte pişirin.Ayrı bir kasede yumurtanın sarısını süt ile çırpıp çorbaya yavaş yavaş ekleyerek karıştırın. Birkaç taşım kaynatın ve ocaktan alın. Üzerine ince kıyılmış maydanoz serperek sıcak servis yapın."
+  },{
+    "name": "\nYulaflı buğdaylı çorba\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yulafli-bugdayli-corba-4c3c35b4-73f1-43a3-afc1-749c03cff6a1.jpg",
+    "ingredients": [
+      "1 yemek kaşığı fındık yağı ",
+      "Yarım yemek kaşığı tereyağı ",
+      "3 diş sarımsak ",
+      "1 adet kuru soğan ",
+      "3 su bardağı su ",
+      "1 su bardağı tavuk suyu ",
+      "5 yemek kaşığı yulaf kırması ",
+      "1.5 yemek kaşığı aşurelik buğday ",
+      "1 su bardağı süt ",
+      "1 su bardağı yoğurt ",
+      "Pul biber",
+      "Biberiye, nane, kekik (İsteğe göre)"
+    ],
+    "description": "Buğdayı haşlayın ve bir kaseye alın.İnce kıyılmış sarımsak ve kuru soğanı, 1/4 su bardağı suda şeffaflaşıncaya kadar pişirin. Yağı ekleyin ve bir kez daha çevirin. Tavuk suyu ve suyu ekleyin. Yulafları ve haşlanmış buğdayı ilave edip pişirin.Süt ile yoğurdu terbiye ederek ekleyip pişirin. Üzerini tereyağlı kırmızıbiber, biberiye/nane/kekik ile süsleyebilirsiniz."
+  }]},
+
+"kıyma":{
+"recipes":[
+{
+    "name": "\nAnalı kızlı çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/anali-kizli-corbasi-bd8e5fd8-d630-4505-a847-9908d5f42a13.jpg",
+    "ingredients": [
+      "200 g yağsız koyun kıyması",
+      "2 adet soğan",
+      "1 tatlı kaşığı kırmızı pul biber",
+      "1 tatlı kaşığı biber salçası",
+      "100 g tereyağı",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Bir tencereye kıymayı koyun ve suyunu salıp çekene kadar kavurun. Suyunu çekmesine yakın küçük küçük doğradığınız soğanları ekleyin ve iyice suyunu çektirin. Sonra salçasını, tereyağı ve baharatlarını ekleyip iyice  kavurun. Kavrulan kıymayı tepsiye döküp soğutun.Dış harcı için; dana etini et dövme makinasında iyice dövün (Makineniz yoksa kasapta 3 kez çektirin). Bulgurunuzu geniş kenarlı bir tepsiye koyun. Üzerine yarım bardak su döküp karıştırın ve 5-10 dakika bekletin. Daha sonra yumurtayı kırın, irmiği, dövülmüş eti ekleyin ve yoğurmaya başlayın. Yoğururken salçaları ekleyin ve iyice özdeşleşene kadar yoğurun. Arada biraz su ekleyerek yoğurmaya devam edin. En son unu ve baharatları ekleyip, yumuşak bir köfte hamuru elde edinceye kadar yoğurun.Anaları için; ceviz büyüklüğünde parçalar kopartıp yuvarlayın, parmaklarınızın ucuyla yuvarladığınız hamurun içini oyun (Mümkün olduğunca ince yapın). İçine kavurduğunuz kıymadan 1.5 tatlı kaşığı kadar koyun ve hamuru yuvarlayıp kapatın. Kıyma harcınız bitene kadar bütün hamurdan köfte büyüklüğünde kıymalı toplar hazırlayıp bir tepside biriktirin. Daha sonra kalan köfte hamurundan nohut büyüklüğünde toplar (Kızlar) hazırlayıp onları da bir tepside biriktirin.Suyu için büyük bir tencereye tereyağını koyun, üstüne küçük yemeklik doğranmış soğanı ekleyin. Kavrulurken salçaları da ekleyip hafif kavurun. Daha sonra et suyunu ilave edip biraz kaynayınca nohutları, tuzu ve karabiberi ekleyin. En son limon suyunu ekleyin. Bunlar kaynarken yaptığınız ufak köfteleri (Kızlar), 5 dakika sonra da büyük köfteleri (Analar) ekleyin. Anaları suyun üstüne çıkınca çorbanın altını kapatın ve kuru naneyi ilave edip karıştırın. Sıcak servis yapın.Analı kızlı çorbasını, zeytinyağlı taze fasulye ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },{
+    "name": "\nEtli topalak çorbası (KONYA)\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_topalak_corbasi_konya-72864ced-b6ed-405d-a6c2-34e68904cde7.jpg",
+    "ingredients": [
+      "750 g kıyma",
+      "1 su bardağı ince bulgur",
+      "1 yumurta",
+      "Yarım demet maydanoz",
+      "1 yemek kaşığı un",
+      "Tuz",
+      "Karabiber",
+      "1 su bardağı nohut",
+      "1 yemek kaşığı tereyağı",
+      "1 yemek kaşığı domates salçası",
+      "1 tatlı kaşığı biber salçası",
+      "4 su bardağı et suyu"
+    ],
+    "description": "Kıyma, ince bulgur, yumurta, ince kıyılmış maydanoz, un, tuz ve karabiberi geniş bir kasede yoğurun.Misket büyüklüğünde parçalar koparıp yuvarlayarak köfteler hazırlayın. Bir gece öncesinden suda beklettiğiniz nohudu haşlayın.Suyunu süzdükten sonra kabuklarını soyun. Tereyağını bir tencereye alın ve salçaları ekleyip kokuları gidene kadar kavurun.Et suyunu ilave edip kaynatın. Köfte ve nohudu da katıp kısık ateşte köfteler yumuşayana kadar pişirin. Servis tabağına alıp üzerini maydanozla süsleyin.Etli topalak çorbasını, sebzeli bulgur pilavı ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  }
+]},
+"yumurta":{
+"recipes":[
+{
+    "name": "\nEtli topalak çorbası (KONYA)\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/etli_topalak_corbasi_konya-72864ced-b6ed-405d-a6c2-34e68904cde7.jpg",
+    "ingredients": [
+      "750 g kıyma",
+      "1 su bardağı ince bulgur",
+      "1 yumurta",
+      "Yarım demet maydanoz",
+      "1 yemek kaşığı un",
+      "Tuz",
+      "Karabiber",
+      "1 su bardağı nohut",
+      "1 yemek kaşığı tereyağı",
+      "1 yemek kaşığı domates salçası",
+      "1 tatlı kaşığı biber salçası",
+      "4 su bardağı et suyu"
+    ],
+    "description": "Kıyma, ince bulgur, yumurta, ince kıyılmış maydanoz, un, tuz ve karabiberi geniş bir kasede yoğurun.Misket büyüklüğünde parçalar koparıp yuvarlayarak köfteler hazırlayın. Bir gece öncesinden suda beklettiğiniz nohudu haşlayın.Suyunu süzdükten sonra kabuklarını soyun. Tereyağını bir tencereye alın ve salçaları ekleyip kokuları gidene kadar kavurun.Et suyunu ilave edip kaynatın. Köfte ve nohudu da katıp kısık ateşte köfteler yumuşayana kadar pişirin. Servis tabağına alıp üzerini maydanozla süsleyin.Etli topalak çorbasını, sebzeli bulgur pilavı ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  },
+{
+    "name": "\nTerbiyeli palamut çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/terbiyelipalamut-corbasi-4f4f2012-d6d5-4334-a99a-cd76ec3294b6.jpg",
+    "ingredients": [
+      "6 su bardağı su ",
+      "2 palamut fileto",
+      "2 orta boy patates ",
+      "2 orta boy havuç",
+      "2 çorba kaşığı un ",
+      "1 yumurta sarısı",
+      "1 limonun suyu  ",
+      "Tuz, taze çekilmiş karabiber"
+    ],
+    "description": "Palamut filetoyu kuşbaşı iriliğinde doğrayın. Patates ve havuçları soyup küp küp doğrayın. Suyu tencereye alıp ısıtın. Balık, havuç ve patatesi ekleyip 10 dakika pişirin. Küçük bir kâsede unu çok az suyla ezin. Yeterince tuzla birlikte çorbaya ilave edip karıştırın. Sebzeler yumuşayıncaya kadar pişirin. Yumurta sarısı ve limon suyunu bir kâsede iyice çırpın. Çorbaya azar azar ve sürekli karıştırarak ilave edin. Tencereyi ocaktan indirip çorbayı kâselere paylaştırın. Taze çekilmiş karabiber serpip servis yapın.Terbiyeli palamut çorbasını, mısır ekmeği ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },{
+    "name": "\nAnalı kızlı çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/anali-kizli-corbasi-bd8e5fd8-d630-4505-a847-9908d5f42a13.jpg",
+    "ingredients": [
+      "200 g yağsız koyun kıyması",
+      "2 adet soğan",
+      "1 tatlı kaşığı kırmızı pul biber",
+      "1 tatlı kaşığı biber salçası",
+      "100 g tereyağı",
+      "1 yumurta",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Bir tencereye kıymayı koyun ve suyunu salıp çekene kadar kavurun. Suyunu çekmesine yakın küçük küçük doğradığınız soğanları ekleyin ve iyice suyunu çektirin. Sonra salçasını, tereyağı ve baharatlarını ekleyip iyice  kavurun. Kavrulan kıymayı tepsiye döküp soğutun.Dış harcı için; dana etini et dövme makinasında iyice dövün (Makineniz yoksa kasapta 3 kez çektirin). Bulgurunuzu geniş kenarlı bir tepsiye koyun. Üzerine yarım bardak su döküp karıştırın ve 5-10 dakika bekletin. Daha sonra yumurtayı kırın, irmiği, dövülmüş eti ekleyin ve yoğurmaya başlayın. Yoğururken salçaları ekleyin ve iyice özdeşleşene kadar yoğurun. Arada biraz su ekleyerek yoğurmaya devam edin. En son unu ve baharatları ekleyip, yumuşak bir köfte hamuru elde edinceye kadar yoğurun.Anaları için; ceviz büyüklüğünde parçalar kopartıp yuvarlayın, parmaklarınızın ucuyla yuvarladığınız hamurun içini oyun (Mümkün olduğunca ince yapın). İçine kavurduğunuz kıymadan 1.5 tatlı kaşığı kadar koyun ve hamuru yuvarlayıp kapatın. Kıyma harcınız bitene kadar bütün hamurdan köfte büyüklüğünde kıymalı toplar hazırlayıp bir tepside biriktirin. Daha sonra kalan köfte hamurundan nohut büyüklüğünde toplar (Kızlar) hazırlayıp onları da bir tepside biriktirin.Suyu için büyük bir tencereye tereyağını koyun, üstüne küçük yemeklik doğranmış soğanı ekleyin. Kavrulurken salçaları da ekleyip hafif kavurun. Daha sonra et suyunu ilave edip biraz kaynayınca nohutları, tuzu ve karabiberi ekleyin. En son limon suyunu ekleyin. Bunlar kaynarken yaptığınız ufak köfteleri (Kızlar), 5 dakika sonra da büyük köfteleri (Analar) ekleyin. Anaları suyun üstüne çıkınca çorbanın altını kapatın ve kuru naneyi ilave edip karıştırın. Sıcak servis yapın.Analı kızlı çorbasını, zeytinyağlı taze fasulye ile birlikte servis edebilirsiniz. Afiyet olsun."
+  }
+]},
+"mantar":{
+"recipes":[
+{
+"name": "\nKremalı mantar çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kremali_mantar_corbasi-bd970dc5-309b-46fa-b3d7-67ac8c36ce75.jpg",
+    "ingredients": [
+      " 500 g kültür mantarı",
+      "2 yemek kaşığı tereyağı",
+      "2 diş sarımsak",
+      "2 yemek kaşığı un",
+      "4 su bardağı su",
+      "200 ml krema",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "İlk olarak mantarları bol suda durulayın ve süzün. Ardından mantarları iri formda doğrayarak tereyağında 3-4 dakika soteleyin.İnce ince ezilmiş sarımsak ve unu, mantar soteye ilave edip unun rengi dönünceye kadar kavurun. Topaklanmaması için sürekli karıştırın ve azar azar suyu ilave edin. Tuz ve karabiber ve istediğiniz baharatlar ile tatlandırıp kaynatın. Son olarak koyulaşan çorbanın içerisine kremayı ilave edip kısık ateşte 7-8 dakika daha pişirin.Pişirme işleminden sonra çorbayı ocaktan alın. Üzerini ince ince kıydığınız dereotu ve maydanoz ile süsleyin.Kremalı mantar çorbasını, balık yemekleri ile birlikte servis edebilirsiniz. Şimdiden afiyet olsun."
+  }
+]},
+"soğan":{
+"recipes":[
+{
+    "name": "\nAnalı kızlı çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/anali-kizli-corbasi-bd8e5fd8-d630-4505-a847-9908d5f42a13.jpg",
+    "ingredients": [
+      "200 g yağsız koyun kıyması",
+      "2 adet soğan",
+      "1 tatlı kaşığı kırmızı pul biber",
+      "1 tatlı kaşığı biber salçası",
+      "100 g tereyağı",
+      "1 yumurta",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Bir tencereye kıymayı koyun ve suyunu salıp çekene kadar kavurun. Suyunu çekmesine yakın küçük küçük doğradığınız soğanları ekleyin ve iyice suyunu çektirin. Sonra salçasını, tereyağı ve baharatlarını ekleyip iyice  kavurun. Kavrulan kıymayı tepsiye döküp soğutun.Dış harcı için; dana etini et dövme makinasında iyice dövün (Makineniz yoksa kasapta 3 kez çektirin). Bulgurunuzu geniş kenarlı bir tepsiye koyun. Üzerine yarım bardak su döküp karıştırın ve 5-10 dakika bekletin. Daha sonra yumurtayı kırın, irmiği, dövülmüş eti ekleyin ve yoğurmaya başlayın. Yoğururken salçaları ekleyin ve iyice özdeşleşene kadar yoğurun. Arada biraz su ekleyerek yoğurmaya devam edin. En son unu ve baharatları ekleyip, yumuşak bir köfte hamuru elde edinceye kadar yoğurun.Anaları için; ceviz büyüklüğünde parçalar kopartıp yuvarlayın, parmaklarınızın ucuyla yuvarladığınız hamurun içini oyun (Mümkün olduğunca ince yapın). İçine kavurduğunuz kıymadan 1.5 tatlı kaşığı kadar koyun ve hamuru yuvarlayıp kapatın. Kıyma harcınız bitene kadar bütün hamurdan köfte büyüklüğünde kıymalı toplar hazırlayıp bir tepside biriktirin. Daha sonra kalan köfte hamurundan nohut büyüklüğünde toplar (Kızlar) hazırlayıp onları da bir tepside biriktirin.Suyu için büyük bir tencereye tereyağını koyun, üstüne küçük yemeklik doğranmış soğanı ekleyin. Kavrulurken salçaları da ekleyip hafif kavurun. Daha sonra et suyunu ilave edip biraz kaynayınca nohutları, tuzu ve karabiberi ekleyin. En son limon suyunu ekleyin. Bunlar kaynarken yaptığınız ufak köfteleri (Kızlar), 5 dakika sonra da büyük köfteleri (Analar) ekleyin. Anaları suyun üstüne çıkınca çorbanın altını kapatın ve kuru naneyi ilave edip karıştırın. Sıcak servis yapın.Analı kızlı çorbasını, zeytinyağlı taze fasulye ile birlikte servis edebilirsiniz. Afiyet olsun."
+  },
+{
+ "name": "\nErişteli yeşil mercimek\n",
+      "img": "https://lezzet.blob.core.windows.net/images-small-recipe/eristeli_yesil_mercimek-8f441a3f-9611-4c01-aa82-58168f3c1167.jpg",
+    "ingredients": [
+      "1 yemek kaşığı tereyağı",
+      "1 soğan",
+      "1 su bardağı haşlanmış yeşil mercimek",
+      "100 gr erişte",
+      "8 su bardağı su",
+      "Tuz",
+      "Karabiber"
+    ],
+    "description": "Kökeni Mezopotamya'ya dayanan yeşil mercimek; salata, çorba ve ana yemeklerin içerisinde kullanılır. Türkiye'de Güneydoğu Anadolu'da yetiştirilen bu besin, demir deposu olarak bilinir. Bu yüzden anemi ve kansızlığın giderilmesinde etkilidir. Bağışıklık sistemini güçlendirmek için, haftada bir kez tüketilmesi önerilir. Sinir sistemini düzenleyen yeşil mercimek; stres, uykusuzluk ve halsizlik gibi sorunların giderilmesinde de etkin bir rol oynar. Klasik tariften sıkılanlar için lezzetiyle herkesi kendine hayran bırakan erişteli yeşil mercimek tarifine başlayabiliriz.Tereyağını tencerede eritin. Soğanı ince doğrayıp tereyağında kavurun. Sıcak su, mercimek, tuz ve karabiberi soğana ilave edip 10 dakika pişirin. Erişteleri çorbaya ekleyip yumuşayıncaya kadar pişirin. Sıcak servis yapın.Erişteyi kaynayan suya atıp 10-12 dakika normal ateşte haşlayarak pilav gibi suyunu çektirirseniz besin değerini kaybetmez.\n"
+  }
+]},
+"et":{
+"recipes":[
+{
+    "name": "\nYulaflı buğdaylı çorba\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/yulafli-bugdayli-corba-4c3c35b4-73f1-43a3-afc1-749c03cff6a1.jpg",
+    "ingredients": [
+      "1 yemek kaşığı fındık yağı ",
+      "Yarım yemek kaşığı tereyağı ",
+      "3 diş sarımsak ",
+      "1 adet kuru soğan ",
+      "3 su bardağı su ",
+      "1 su bardağı tavuk suyu ",
+      "5 yemek kaşığı yulaf kırması ",
+      "1.5 yemek kaşığı aşurelik buğday ",
+      "1 su bardağı süt ",
+      "1 su bardağı yoğurt ",
+      "Pul biber",
+      "Biberiye, nane, kekik (İsteğe göre)"
+    ],
+    "description": "Buğdayı haşlayın ve bir kaseye alın.İnce kıyılmış sarımsak ve kuru soğanı, 1/4 su bardağı suda şeffaflaşıncaya kadar pişirin. Yağı ekleyin ve bir kez daha çevirin. Tavuk suyu ve suyu ekleyin. Yulafları ve haşlanmış buğdayı ilave edip pişirin.Süt ile yoğurdu terbiye ederek ekleyip pişirin. Üzerini tereyağlı kırmızıbiber, biberiye/nane/kekik ile süsleyebilirsiniz."
+  }
+]},
+
+"balık":{
+"recipes":[
+  {
+    "name": "\nTerbiyeli palamut çorbası\n",
+    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/terbiyelipalamut-corbasi-4f4f2012-d6d5-4334-a99a-cd76ec3294b6.jpg",
+    "ingredients": [
+      "6 su bardağı su ",
+      "2 palamut fileto",
+      "2 orta boy patates ",
+      "2 orta boy havuç",
+      "2 çorba kaşığı un ",
+      "1 yumurta sarısı",
+      "1 limonun suyu  ",
+      "Tuz, taze çekilmiş karabiber"
+    ],
+    "description": "Palamut filetoyu kuşbaşı iriliğinde doğrayın. Patates ve havuçları soyup küp küp doğrayın. Suyu tencereye alıp ısıtın. Balık, havuç ve patatesi ekleyip 10 dakika pişirin. Küçük bir kâsede unu çok az suyla ezin. Yeterince tuzla birlikte çorbaya ilave edip karıştırın. Sebzeler yumuşayıncaya kadar pişirin. Yumurta sarısı ve limon suyunu bir kâsede iyice çırpın. Çorbaya azar azar ve sürekli karıştırarak ilave edin. Tencereyi ocaktan indirip çorbayı kâselere paylaştırın. Taze çekilmiş karabiber serpip servis yapın.Terbiyeli palamut çorbasını, mısır ekmeği ile birlikte servis edebilirsiniz. Afiyet olsun."
+  }]}
+}
+
+

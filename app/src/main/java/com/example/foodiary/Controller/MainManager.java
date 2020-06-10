@@ -15,12 +15,14 @@ import com.example.foodiary.Panel.ProfilePanel;
 import com.example.foodiary.Panel.RecipePanel;
 import com.example.foodiary.Panel.RegisterPanel;
 import com.example.foodiary.Panel.RecipeSuggestionPanel;
+import com.example.foodiary.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import org.json.simple.parser.ParseException;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -74,6 +76,26 @@ public class MainManager extends AppCompatActivity {
 
     public void setRecipeDescriptions(ArrayList<String> recipeDescriptions) {
         MainManager.recipeDescriptions = recipeDescriptions;
+    }
+
+    public  String getJson(String filename) throws IOException {
+        //Context context = null;
+        String json  = null ;
+
+        try{
+            InputStream inputStream = getAssets().open("tatlilar.json");;
+            int size = inputStream.available();
+
+            byte[] buffer = new byte[size];
+            inputStream.read(buffer);
+            inputStream.close();
+            json = new String(buffer,"UTF-8");
+        }
+        catch (IOException ex ){
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
     }
 
 
