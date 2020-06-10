@@ -11,6 +11,7 @@ public class User {
     private ArrayList<StockProduct> stock = new ArrayList<StockProduct>();
     private List<String> approachingExpirationDate = new ArrayList<String>();
     private List<String> notApproachingExpirationDate = new ArrayList<String>();
+    private List<String> pastExpirationDate = new ArrayList<String>();
     private String mail;
 
     public User(String name,String surname,String username,String mail,String password){
@@ -62,6 +63,14 @@ public class User {
         approachingExpirationDate.add(product);
     }
 
+    public void setNotApproachingExpirationDate(String product) {
+        notApproachingExpirationDate.add(product);
+    }
+
+    public void setPastExpirationDate(String product) {
+        pastExpirationDate.add(product);
+    }
+
     public String getName() {
         return name;
     }
@@ -84,5 +93,25 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public void setApproachingExpirationDate(List<String> approachingExpirationDate) {
+        this.approachingExpirationDate = approachingExpirationDate;
+    }
+
+    public List<String> getNotApproachingExpirationDate() {
+        return notApproachingExpirationDate;
+    }
+
+    public void setNotApproachingExpirationDate(List<String> notApproachingExpirationDate) {
+        this.notApproachingExpirationDate = notApproachingExpirationDate;
+    }
+
+    public List<String> getPastExpirationDate() {
+        return pastExpirationDate;
+    }
+
+    public void setPastExpirationDate(List<String> pastExpirationDate) {
+        this.pastExpirationDate = pastExpirationDate;
     }
 }

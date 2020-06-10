@@ -21,6 +21,7 @@ public class RecipeSuggestionPanel extends MainManager {
     private Button homeButton;
     private Button backButton;
     private LinearLayout RecipeList;
+    private LinearLayout RecipeList2;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,14 +32,17 @@ public class RecipeSuggestionPanel extends MainManager {
         backButton = (Button) findViewById(R.id.back);
 
         RecipeList = (LinearLayout) findViewById(R.id.recipe_list_with_approach);
+        RecipeList2 = (LinearLayout) findViewById(R.id.recipe_list_with_stock);
         final AppCompatActivity activity = this;
 
         category.setText(MainManager.getInstance().getCurrentRecipeCategory());
         MainManager.getInstance().recipes();
-        MainManager.getInstance().getRecipe();
-        RecipeList.removeAllViews();
+        getCategory();
+        getRecipe();
+        getRecipe2();
 
-        for (int i = 0; i < MainManager.getInstance().getRecipeNames().size(); i++) {
+
+        for (int i = 0; i < MainManager.categoryRecipeNames.size(); i++) {
             final LinearLayout layoutToAdd = new LinearLayout(activity);
             layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
@@ -55,7 +59,7 @@ public class RecipeSuggestionPanel extends MainManager {
             layoutToAdd.addView(recipeButton);
 
             TextView recipeName = new TextView(activity);
-            recipeName.setText(MainManager.getInstance().getRecipeNames().get(i));
+            recipeName.setText(MainManager.categoryRecipeNames.get(i));
             recipeName.setTextSize(15);
             recipeName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
             recipeName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
@@ -71,7 +75,60 @@ public class RecipeSuggestionPanel extends MainManager {
             recipeButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Main.setCurrentRecipeID(finalI);
+                    MainManager.setCurrentRecipeID(finalI);
+                    MainManager.getInstance().setPastPage(0);
+                    MainManager.oneOtTwo = true;
+                    changeActivity(MainManager.getInstance().openRecipePanel());
+                }
+            });
+
+            recipeName.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    MainManager.setCurrentRecipeID(finalI);
+                    MainManager.getInstance().setPastPage(0);
+                    MainManager.oneOtTwo = true;
+                    changeActivity(MainManager.getInstance().openRecipePanel());
+                }
+            });
+
+            RecipeList.addView(layoutToAdd);
+        }
+
+        for (int i = 0; i < MainManager.categoryRecipeNames2.size(); i++) {
+            final LinearLayout layoutToAdd = new LinearLayout(activity);
+            layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT, 1f);
+            params.setMargins(0, 12, 0, 0);
+            layoutToAdd.setLayoutParams(params);
+            layoutToAdd.setWeightSum(2);
+
+            final ImageView recipeButton = new ImageView(activity);
+            recipeButton.setImageResource(R.drawable.arrow_white);
+            TableRow.LayoutParams imageProdParam = new TableRow.LayoutParams(40, 40);
+            imageProdParam.setMargins(0, 20, 10, 10);
+            recipeButton.setLayoutParams(imageProdParam);
+            layoutToAdd.addView(recipeButton);
+
+            TextView recipeName = new TextView(activity);
+            recipeName.setText(MainManager.categoryRecipeNames2.get(i));
+            recipeName.setTextSize(15);
+            recipeName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
+            recipeName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
+            recipeName.setWidth(200);
+            TableRow.LayoutParams paramName = new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT,
+                    TableRow.LayoutParams.WRAP_CONTENT, 1f);
+            paramName.setMargins(0, 20, 0, 20);
+            recipeName.setLayoutParams(paramName);
+            recipeName.setTextColor(Color.parseColor("#FFFFFF"));
+            layoutToAdd.addView(recipeName);
+
+            final int finalI = i;
+            recipeButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    MainManager.setCurrentRecipeID2(finalI);
                     MainManager.getInstance().setPastPage(0);
                     changeActivity(MainManager.getInstance().openRecipePanel());
                 }
@@ -80,13 +137,14 @@ public class RecipeSuggestionPanel extends MainManager {
             recipeName.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Main.setCurrentRecipeID(finalI);
+                    MainManager.setCurrentRecipeID2(finalI);
                     MainManager.getInstance().setPastPage(0);
                     changeActivity(MainManager.getInstance().openRecipePanel());
                 }
             });
 
-            RecipeList.addView(layoutToAdd);
+            RecipeList2.addView(layoutToAdd);
+//            MainManager.RecipeList = RecipeList;
         }
 
 
@@ -99,6 +157,7 @@ public class RecipeSuggestionPanel extends MainManager {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MainManager.clearArraylists();
                 changeActivity(MainManager.getInstance().openRecipeCaregoryPanel());
             }
         });

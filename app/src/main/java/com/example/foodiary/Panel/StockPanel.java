@@ -54,7 +54,6 @@ public class StockPanel extends MainManager implements NavigationView.OnNavigati
         final AppCompatActivity activity = this;
 
 
-
         for (int i = 0; i < MainManager.getCurrentUser().getStock().size(); i++) {
             final LinearLayout layoutToAdd = new LinearLayout(activity);
             layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
@@ -141,7 +140,7 @@ public class StockPanel extends MainManager implements NavigationView.OnNavigati
                 }
                 if (counter == 2) {
                     int expireDate2 = calculateExpiredate(expireDate);
-                    StockProduct p = new StockProduct(ingredient,expireDate2,amount);
+                    StockProduct p = new StockProduct(ingredient, expireDate2, amount);
                     MainManager.getCurrentUser().addToStock(p);
 
                     final LinearLayout layoutToAdd = new LinearLayout(activity);
@@ -188,16 +187,6 @@ public class StockPanel extends MainManager implements NavigationView.OnNavigati
                     ingredientExpireDate.setTextColor(Color.parseColor("#FFFFFF"));
                     ingredientExpireDate.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
                     layoutToAdd.addView(ingredientExpireDate);
-                    deleteButton.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            int counter = 0;
-                            //arrayden silme işlemini yapppppppp ***********************************************************
-                            IngredientList.removeView(layoutToAdd);
-                        }
-
-
-                    });
 
                     IngredientList.addView(layoutToAdd);
                 }
@@ -219,26 +208,26 @@ public class StockPanel extends MainManager implements NavigationView.OnNavigati
         navigationView.setNavigationItemSelectedListener(this);
 
     }
-    public static int calculateExpiredate(String s){//tarihi . ya göre bölerek çıkan integer değeri döndürür
-        String array[] = s.split("\\.");
-        String a="";
-        int intb=0;
 
-        for (int i = array.length-1; i >=0 ; i--) {
+    public static int calculateExpiredate(String s) {//tarihi . ya göre bölerek çıkan integer değeri döndürür
+        String array[] = s.split("\\.");
+        String a = "";
+        int intb = 0;
+
+        for (int i = array.length - 1; i >= 0; i--) {
             a += array[i];
         }
         try {
             intb = Integer.parseInt(a);
-        }
-        catch(NumberFormatException e){
-            intb =4;
+        } catch (NumberFormatException e) {
+            intb = 4;
         }
         return intb;
     }
 
     //menü için kullanılacak sonradan
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-        switch(menuItem.getItemId()) {
+        switch (menuItem.getItemId()) {
             case R.id.nav_home:
                 changeActivity(MainManager.getInstance().openHomePanel());
                 break;
@@ -249,6 +238,8 @@ public class StockPanel extends MainManager implements NavigationView.OnNavigati
                 changeActivity(MainManager.getInstance().openIngredientPanel());
                 break;
             case R.id.nav_recipe:
+                MainManager.clearArraylists();
+                MainManager.clearArraylists2();
                 changeActivity(MainManager.getInstance().openRecipeCaregoryPanel());
                 break;
         }

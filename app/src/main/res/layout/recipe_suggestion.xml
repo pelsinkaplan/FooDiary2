@@ -68,19 +68,21 @@
 
     <ImageView
         android:id="@+id/line1"
-        android:layout_width="350dp"
+        android:layout_width="200dp"
         android:layout_height="3dp"
         android:layout_below="@+id/recipes_with_approach_expire_date"
-        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@+id/recipes_with_approach_expire_date"
+        android:layout_marginStart="-10dp"
         android:layout_marginTop="5dp"
         android:background="@android:drawable/button_onoff_indicator_off" />
 
     <ImageView
         android:id="@+id/line2"
-        android:layout_width="350dp"
+        android:layout_width="200dp"
         android:layout_height="3dp"
         android:layout_below="@+id/recipes_with_stock"
-        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@+id/recipes_with_stock"
+        android:layout_marginStart="-10dp"
         android:layout_marginTop="5dp"
         android:background="@android:drawable/button_onoff_indicator_off" />
 
@@ -93,7 +95,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
         android:gravity="center_vertical"
-        android:text="SKT'ye göre Tarfiler"
+        android:text="Stoğa göre Tarfiler"
         android:textColor="@android:color/white"
         android:textSize="15sp"
         android:textStyle="bold"

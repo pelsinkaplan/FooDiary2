@@ -113,8 +113,6 @@ public class RecipeCategoryPanel extends MainManager implements NavigationView.O
                 changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
             }
         });
-
-
         dessertButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -176,6 +174,8 @@ public class RecipeCategoryPanel extends MainManager implements NavigationView.O
                 changeActivity(MainManager.getInstance().openIngredientPanel());
                 break;
             case R.id.nav_recipe:
+                MainManager.clearArraylists();
+                MainManager.clearArraylists2();
                 changeActivity(MainManager.getInstance().openRecipeCaregoryPanel());
                 break;
         }

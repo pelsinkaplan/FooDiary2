@@ -95,7 +95,7 @@ public class LoginPanel extends MainManager {
                 if (counter == 2) {
                     MainManager.getInstance().setCurrentUserEmail(MainManager.getInstance().getUserList().get(id).getMail());
                     MainManager.getInstance().setCurrentUserPassword(MainManager.getInstance().getUserList().get(id).getPassword());
-                    MainManager.getInstance().setCurrentUserName(MainManager.getInstance().getUserList().get(id).getUsername());
+                    MainManager.getInstance().setCurrentUserName(MainManager.getInstance().getUserList().get(id).getName());
                     MainManager.getInstance().setCurrentUserSurname(MainManager.getInstance().getUserList().get(id).getSurname());
                         MainManager.getInstance().usersAndDatabase();
                     changeActivity(MainManager.getInstance().openHomePanel());

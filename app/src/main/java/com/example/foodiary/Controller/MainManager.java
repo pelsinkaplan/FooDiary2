@@ -1,12 +1,10 @@
 package com.example.foodiary.Controller;
 
-import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
 
 import com.example.foodiary.DatabaseGetter.DatabaseGetter;
 import com.example.foodiary.DatabaseGetter.Product;
-import com.example.foodiary.DatabaseGetter.Main;
 import com.example.foodiary.DatabaseGetter.Recipe;
 import com.example.foodiary.DatabaseGetter.User;
 import com.example.foodiary.Panel.EditProfilePanel;
@@ -34,7 +32,6 @@ import java.util.Scanner;
 public class MainManager extends AppCompatActivity {
     DatabaseGetter db = new DatabaseGetter();
     private final static MainManager instance = new MainManager();
-    //password, name ve surname db den çekilecek (defaultları)
     private List<List<String>> recipeList = new ArrayList<List<String>>();
     private String currentUserName = "";
     private String currentUserSurname = "";
@@ -42,83 +39,62 @@ public class MainManager extends AppCompatActivity {
     private String currentUserPassword = "";
     private String currentRecipeCategory = "";
     private String currentRecipeName = "";
-    private String currentDescription="";
-    private ArrayList<String> currentIngredients = new ArrayList<>();
-    private static int currentCategoryID = 0;
-    private int pastPage = 0; // if 0 recipesuggestion, if 1 homepage
     private String searchedRecipe = "";
-    private static int currentRecipeID;
+    public static String currentDescription = "";
+    public static String currentIngredients = "";
+    private int pastPage = 0; // if 0 recipeSuggestion, if 1 homepage
+    private static int currentCategoryID = 0;
+    public static boolean oneOtTwo = false;
+
+
+    public static int currentRecipeID;
+    public static int currentRecipeID2;
+
     private static User currentUser;
-    private static ArrayList<String> categoryRecipeNames = new ArrayList<String>();//Category recipelarını gösterir
-    private static ArrayList<String> productNameOfCurrentRecipe = new ArrayList<>();//recipeların hangi üründe olduğu
-    private static ArrayList<Integer> recipeIndexInProduct = new ArrayList<Integer>();//recipeın hangi indexde odluğu
+    private static Recipe currentRecipe;
+    private static Recipe currentRecipe2;
+
+    public static ArrayList<String> categoryRecipeNames = new ArrayList<String>();//Category recipelarını gösterir
+    public static ArrayList<String> productNameOfCurrentRecipe = new ArrayList<>();//recipeların hangi üründe olduğu
+    public static ArrayList<Integer> recipeIndexInProduct = new ArrayList<Integer>();//recipeın hangi indexde odluğu
+
+    public static ArrayList<String> categoryRecipeNames2 = new ArrayList<String>();//Category recipelarını gösterir
+    public static ArrayList<String> productNameOfCurrentRecipe2 = new ArrayList<>();//recipeların hangi üründe olduğu
+    public static ArrayList<Integer> recipeIndexInProduct2 = new ArrayList<Integer>();//recipeın hangi indexde odluğu
 
 
+    //search bar
     /************************************************************************************************************************************************************/
 
     private static ArrayList<String> recipeNames = new ArrayList<String>();//Category recipelarını gösterir
     private static ArrayList<String> recipeIngredients = new ArrayList<>();//recipeların hangi üründe olduğu
     private static ArrayList<String> recipeDescriptions = new ArrayList<String>();//recipeın hangi indexde odluğu
 
-    public ArrayList<String> getRecipeNames() {
-        return recipeNames;
-    }
-
-    public void setRecipeNames(ArrayList<String> recipeNames) {
-        MainManager.recipeNames = recipeNames;
-    }
-
-    public ArrayList<String> getRecipeIngredients() {
-        return recipeIngredients;
-    }
-
-    public void setRecipeIngredients(ArrayList<String> recipeIngredients) {
-        MainManager.recipeIngredients = recipeIngredients;
-    }
-
-    public ArrayList<String> getRecipeDescriptions() {
-        return recipeDescriptions;
-    }
-
-    public void setRecipeDescriptions(ArrayList<String> recipeDescriptions) {
-        MainManager.recipeDescriptions = recipeDescriptions;
-    }
-
-
-    public void getJson2(){
-        Resources res = getResources();
-        InputStream is = res.openRawResource(R.raw.a);
-        Scanner sc = new Scanner(is);
-        StringBuilder builder = new StringBuilder();
-        while (sc.hasNextLine()){
-            builder.append(sc.nextLine());
-        }
-    }
-
     public void recipes() {
-        recipeNames.add("Sebzeli Patlıcan Dolması");
+        recipeNames.add("Söğüş Salata");
         recipeNames.add("İmambayıldı");
-        recipeNames.add("Yaz Güveci");
-        recipeNames.add("Karışık Dolma");
-        recipeNames.add("Patlıcan Kebabı");
+        recipeNames.add("Mantarlı Makarna");
+        recipeNames.add("Çoban Böreği");
+        recipeNames.add("Şehriyeli Tavuk Çorbası");
+        recipeNames.add("Sütlaç");
 
-        recipeIngredients.add("[3 kırmızı kapya biberi, Yarım demet maydanoz, 2 bostan patlıcanı, 2 soğan, 3 yemek kaşığı sızma zeytinyağı, 1 yemek kaşığı biber salçası, 1.5 su bardağı sıcak su]");
-        recipeIngredients.add("[8 orta boy patlıcan, 4 soğan, 12 diş sarımsak, 3 domates, 4 sivri biber, 1 çay bardağı zeytinyağı, Tuz, Karabiber, 2 kesme şeker, 2 su bardağı sıcak su]");
-        recipeIngredients.add("[500 kuşbaşı kuzu eti, 1 kırmızı soğan, 7~8 arpacık soğan, 1 kabak, 1 patlıcan, 10~12 taze fasulye, 1 domates, 2 domates, 2 defne yaprağı, Zeytinyağı, Tuz, Karabiber]");
-        recipeIngredients.add("[Domates, Patlıcan, Dolmalık biber, Kabak]");
-        recipeIngredients.add("[3 bostan patlıcanı, 3 domates, 1 su bardağı rendelenmiş, Kaşar peyniri]");
+        recipeIngredients.add("1 adet iri domates, 5-6 adet sivri biber, 2 adet salatalık, Yarım limon, Yarım çay bardağı zeytinyağı, 1 çay kaşığı tuz, Çıtır Ekmek (İsteğe göre)");
+        recipeIngredients.add("8 orta boy patlıcan, 4 soğan, 12 diş sarımsak, 3 domates, 4 sivri biber, 1 çay bardağı zeytinyağı, Tuz, Karabiber, 2 kesme şeker, 2 su bardağı sıcak su");
+        recipeIngredients.add("1 yemek kaşığı tereyağı, 1 adet soğan, 20 adet kültür mantarı, 3 diş sarımsak, 4-5 dal frenk soğanı (Veya taze soğan), 200 ml krema, 1 paket kelebek makarna");
+        recipeIngredients.add("1 tavuk budu, 6 iri patates, 3~4 dal maydanoz, 500 gr ıspanak, 2 pırasa, 4 yumurta, 100 gr sucuk (veya pastırma), 1 çorba kaşığı kurutulmuş domates, 1 çay bardağı sıvıyağ, 2 çorba kaşığı un, 1 su bardağı rendelenmiş kaşar peyniri, 3 çorba kaşığı çörekotu, Tuz, karabiber");
+        recipeIngredients.add("tavuk göğsü veya 2 tavuk budu, Tavuk suyu (5 bardak), Un (1 dolu yemek kaşığı), Margarin veya tereyağı (1.5 yemek kaşığı), Sıvı yağ ( 2 yemek kaşığı), Tel şehriye (1.5 kahve fincanı), Karabiber (servis sırasında), Tuz");
+        recipeIngredients.add("3/4 su bardağı Amerikan pirinci, 1.5 su bardağı su, 3 su bardağı süt, 1/2 su bardağı toz şeker, 1 tatlı kaşığı vanilin, 1 adet yumurta sarısı, Tuz");
 
-        recipeDescriptions.add("Patlıcanları yıkayıp sapları üzerinde kalacak şekilde uzunlamasına ortadan ikiye kesin. Kesik yerlerine bir fırça yardımıyla sızma zeytinyağı, sürüp önceden ısıtılmış 180 derece fırında 10 dakika pişirin. Pişen patlıcanların içlerini çıkartıp küp doğrayın. Yemeklik doğradığınız soğanı sızma zeytinyağında pembeleşinceye kadar soteleyin. Jülyen doğradığınız kırmızı biber, patlıcanlar ve biber salçasını ilave edin. Tuz ve baharatlarla tatlandırıp ocaktan alın. Harcı patlıcanların içlerine paylaştırıp bir fırın kabına alın. Sosu için, rendelenmiş domates, sızma zeytinyağı, salça ve tuzu geniş bir kasede karıştırıp patlıcanların üzerine gezdirin. Soslu patlıcanları önceden ısıtılmış 180 derece fırında 20 dakika pişirin. Sıcak servis yapın.");
+        recipeDescriptions.add("İlk olarak domates ve salataların kabuklarını soyun.Ardından biberleri yıkayın ve uç kısımlarını kesin.Tüm malzemeleri iri iri doğrayın ve geniş bir kap içerisine ekleyin.Çıtır ekmek kullanmak istiyorsanız, bayatlamış ekmekleri fırında ısıtıp küçük parçalar halinde salataya ekleyebilirsiniz.Son olarak tuz, kekik ve zeytinyağını salataya ilave edin ve tüm malzemeleri karıştırın. Afiyet olsun.");
         recipeDescriptions.add("Patlıcanların sap kısımlarını kesmeden\r\nalacalı soyun. Acısını almak için tuzlu suda\r\n10 dakika bekletin. Süzüp kağıt havlu ile\r\nkurulayın. Soğanları soyup piyazlık doğrayın.\r\nSarımsakları ayıklayın. Domatesleri\r\nsoyup küp doğrayın. Biberleri temizleyip\r\nortadan ikiye kesin ve ince doğrayın. Zeytinyağını\r\ntavada ısıtın. Soğan ve tuzu ilave edip\r\nsoteleyin. Sarımsak, domates, biber, şeker\r\nve karabiberi ekleyin. Kısık ateşte 10 dakika\r\npişirin. Ayçiçeği yağını bir tavada ısıtın. Isınan\r\nyağda patlıcanları iki taraflı hafif kızartın.\r\nKızaran patlıcanları kağıt havlu üzerine\r\nalıp fazla yağını çektirin.Patlıcanları yayvan\r\nbir tencereye aralıklı olarak yerleştirin.\r\nOrta kısımlarını bıçakla hafif kesip açın ve\r\nsoğanlı harcı paylaştırın. Tencerenin kenarından\r\n2 su bardağı sıcak su ekleyin. Kapağını\r\nkapatıp kısık ateşte 20 dakika suyunu\r\nçekene kadar pişirin. Domates sosu hazırlamak için zeytinyağını tavada ısıtın. Rendelenmiş domatesi ve salçayı ekleyip bir taşımkaynatın. Sosu bir servis tabağına alın.Üzerine patlıcanları yerleştirip ince kıyılmış maydanoz serpin. Soğuk servis yapın.İmam bayıldının yanına ne gider diyorsanız, fırında baharatlı patates ile şık bir sunum hazırlayabilirsiniz. Afiyet olsun.");
         recipeDescriptions.add("Kuşbaşı kuzu etlerini yapışmaz yüzeyli bir tavada mühürleyin. Kırmızı soğanı halka doğrayıp fırın güvecinizin tabanına dizin. Arpacık soğanlar, küp doğradığınız kabak, patlıcan, domates, ortadan ikiye kestiğiniz fasulyeler ve kuşbaşı kuzu etlerini geniş bir kasede karıştırıp güvece alın. Defne yapraklarını ilave edin ve güvecin üzerine zeytinyağı gezdirin. Tuz ve baharatlarla tatlandırıp önceden ısıtılmış 180 derece fırında iki saat pişirin. Sıcak servis yapın.");
-        recipeDescriptions.add("Öncelikle domates ve biberleri yıkayıp baş kısımlarını kesin. Domatesleri alacalı bir şekilde soyun. Ortadan ikiye kestiğiniz kabak ve patlıcanların içlerini temizleyin.İç harcı için; tereyağı, yıkayıp süzdüğünüz pirinç, kıyma, rendelediğiniz soğan, su, salça, sumak ekşisi, tuz ve baharatları geniş bir kasede karıştırın. Hazırladığınız harcı sebzelerin içlerine paylaştırıp yayvan bir tencereye dizin. Üzerine, dolmaların yarısına gelecek kadar su ekleyip kısık ateşte 15-20 dakika pişirin. Sosu için salça, su, nar ekşisi ve ezdiğiniz sarımsağı bir kasede karıştırın. Dolmaları ocaktan almadan önce üzerine sosu gezdirin ve 10 dakika daha pişirin. Karışık dolmayı, cacık ile birlikte servis edebilirsiniz. Afiyet olsun.");
-        recipeDescriptions.add("Davetlerinizde hazırladığınız tariflerle farklılık yaratın. Köfte için gerekli tüm malzemeyi derin bir kapta yoğurun. Streç filme sarıp buzdolabında 45 dakika dinlendirin. Patlıcanları alacalı soyup 1 parmak kalınlığında daire şeklinde dilimleyin ve limonlu tuzlu suda 30 dakika bekletin. Köfteleri patlıcan büyüklüğünde daire şeklinde hazırlayın. Yağı tavada ısıtın. Sırayla önce patlıcanları ardından köfteleri hafif kızartın. Domatesleri de patlıcan gibi 1 parmak kalınlığında dilimleyin. Fırın tepsisine 1 dilim patlıcan, üzerine köfte, 1 dilim domates yerleştirin. Üzerine rendelenmiş kaşar peyniri serpin. Kalan malzemelere de aynı işlemi uygulayın. Domatesli sos için gerekli malzemeleri bir kasede karıştırın ve fırın kabına aktarın. Fırın tepsisini önceden ısıttığınız 180 dereceye ayarlı fırında kızarıncaya kadar pişirin. Sıcak servis yapın.");
-
+        recipeDescriptions.add("Tavuk etini yumuşayana kadar haşlayıp süzün. Eti kemiklerinden ayırıp didikleyin. Patatesleri kabuğu ile hafif haşlayın. Süzün ve kabuklarını soyup rendeleyin. Maydanozu temizleyip kıyın. Sucuğu soyup ince doğrayın. Pırasaları temizleyip incecik doğrayın.\\nIspanakları temizleyip yıkayın. Doğrayıp tavada suyunu tamamen çekene kadar soteleyin.Rendelenmiş patates, pırasa, yumurta, tavuk eti, sucuk, kurutulmuş domates, sıvıyağ, maydanoz, rendelenmiş peynir, tuz ve biberi bir kaba alıp karıştırın. 20 cm çapındaki derin kek kalıbını yağlı kağıtla kaplayın. Ispanaklı harcı döküp spatula ile düzelterek yayın.Önceden ısıtılmış 180 dereceye ayarlı fırında üzeri pembeleşene kadar pişirin. Servis tabağına alıp üzerini çörekotu ile süsleyin ve ılınmaya bırakın. Dilimleyip servis yapın.");
+        recipeDescriptions.add("Yemeklerinizin yanına çok yakışacak, sıcacık ve mis gibi şehriyeli tavuk çorbası yapılışı oldukça kolaydır. Kullanacağınız tavuk etini göğüs veya but olarak tercih edebilirsiniz. Fakat kemikli bir tavuk eti seçmek daha yararlı olur. Böylece tavuğun lezzeti güzelce suyuna geçer. Tavuk etini tuzsuz bir şekilde haşlayarak işe başlayabilirsiniz. Suyu biraz fazla eklemelisiniz çünkü haşlanan sudan 5 bardak alarak çorba için kullanacaksınız. 1 litre su yeterli olur.Tavuk haşlandıktan sonra küçük parçalara ayırın ve ayrı bir tabağa koyun. Daha sonra, çorbanızı yapacağınız tencereyi ocağa yerleştirin. Margarin ve sıvı yağı ekleyin. Margarin eridikten sonra unu ekleyin. Topaklanmaması için iyice kavurun. Önceden ayırdığınız 5 bardak tavuk suyunu ve önceden küçük parçalara böldüğünüz tavukları ekleyin.Güzelce karıştırın ve kaynadıktan sonra şehriyeleri ekleyin.Şehriyeleri yaklaşık 10-15 dakika pişinceye kadar kaynatın. Tuz ekleyin ve çorbanız piştikten sonra tencerenin kapağını kapatarak dinlenmeye bırakın. Servis ederken üzerine biraz karabiber ekleyin.Mis gibi şehriyeli tavuk çorbanız hazır. Afiyet olsun!");
+        recipeDescriptions.add("İlk önce sosu hazırlayın. Sos için gerekli olan tüm malzemeleri ufak bir sos tenceresine alıp kaynama noktasına gelince altını kısarak 7-8 dakika pişirin. Ocaktan alıp soğumaya bırakın.Sütlaç için; pirinçleri su ile bir tencereye alıp suyunu çekene kadar pişirin. 2.5 su bardağı süt ilave edip karıştırın. Daha sonra bir tutam tuz ile toz şekeri ekleyip karıştırarak pişirmeye devam edin. Pirinçler sütü çekince kalan süt ile yumurta sarısını çırpıp tencereye ilave edin. Karıştırarak birkaç dakika daha pişirip ocaktan alın. Aralarına ve üstüne çilek sosu ekleyerek servis bardaklarına paylaştırın. Son olarak üstünü kavrulmuş ceviz içi ile tamamlayarak ılıması için bir kenarda bekletin.Dilerseniz çilek sosuna ek olarak, ev yapımı çikolata sosu da kullanabilirsiniz.");
     }
 
     public String corretTypeOfRecipeIngredient(String ingredients) {
         ingredients = ingredients.replaceAll(",", "\n");
-        ingredients = ingredients.substring(1, ingredients.length() - 1);
         return ingredients;
     }
 
@@ -127,46 +103,36 @@ public class MainManager extends AppCompatActivity {
         return description;
     }
 
-
     /******************************************************************************************************************************************************************/
-
-    public String getSearchedRecipe() {
-        return searchedRecipe;
+    /*-----------------------------------------------------------------------------------------------------------------------*/
+    public static void clearArraylists() {
+        categoryRecipeNames.clear();
+        productNameOfCurrentRecipe.clear();
+        recipeIndexInProduct.clear();
     }
 
-    public void setSearchedRecipe(String searchedRecipe) {
-        this.searchedRecipe = searchedRecipe;
+    public static void clearArraylists2() {
+        categoryRecipeNames2.clear();
+        productNameOfCurrentRecipe2.clear();
+        recipeIndexInProduct2.clear();
     }
-
-    public int getPastPage() {
-        return pastPage;
-    }
-
-    public void setPastPage(int pastPage) {
-        this.pastPage = pastPage;
-    }
-
-    //recipeList categorye göre çekilir
-
-    private static Recipe currentRecipe;
 
     //user ilk girişte userListten çekilir ve current bilgiler değiştirilir. Userın stoğu stockListe atılır
-
     private List<User> userList = new ArrayList<User>();//userlar burada hala
 
     public static ArrayList<String> getCategoryRecipeNames() {
         return categoryRecipeNames;
     }
 
-    public static void setCategoryRecipeNames(ArrayList<String> categoryRecipeNames) {
-        MainManager.categoryRecipeNames = categoryRecipeNames;
+    public void getRecipe() { //kanki bu metod ile current recipeı oluşturmuş oluyoruz
+        //getCategory();
+        currentRecipe = db.getRecipe(productNameOfCurrentRecipe.get(currentRecipeID), recipeIndexInProduct.get(currentRecipeID));
+        setRecipeInformations();
     }
 
-
-    public void getRecipe() { //kanki bu metod ile current recipeı oluşturmuş oluyoruz
-        currentRecipeID = 7;
-        setInformations();
-        currentRecipe = db.getRecipe(productNameOfCurrentRecipe.get(currentRecipeID), recipeIndexInProduct.get(currentRecipeID));
+    public void getRecipe2() { //kanki bu metod ile current recipeı oluşturmuş oluyoruz
+       // getCategory();
+        currentRecipe2 = db.getRecipe(productNameOfCurrentRecipe2.get(currentRecipeID2), recipeIndexInProduct2.get(currentRecipeID2));
         setRecipeInformations();
     }
 
@@ -181,18 +147,19 @@ public class MainManager extends AppCompatActivity {
         db.createDatabase(this);//database oluşturuyor recipelar için
     }
 
-    public  void setInformations(){
-        HashMap<String,Product> category = db.getCategoryRecipes(currentCategoryID);
-        showFoodRecipesInCategoryPage(category,currentUser);
+    public void getCategory() {//kategoryi alıyo o kategorideki ürünlere göre alttaki metoda geçiyo
+        HashMap<String, Product> category = db.getCategoryRecipes(currentCategoryID);
+        showFoodRecipesInCategoryPage(category, currentUser);
     }
 
-    public static void showFoodRecipesInCategoryPage(HashMap<String, Product> category, User user){
-        for (int i = 0; i <user.getApproachingExpirationDate().size() ; i++) {
-            if(category.containsKey(user.getApproachingExpirationDate().get(i))){//Son kullanma tarihi yaklaşan ürünlere
+    public static void showFoodRecipesInCategoryPage(HashMap<String, Product> category, User user) {
+        for (int i = 0; i < user.getApproachingExpirationDate().size(); i++) {
+            if (category.containsKey(user.getApproachingExpirationDate().get(i))) {//Son kullanma tarihi yaklaşan ürünlere
                 //bak eğer stoktaki yiyeceklerden listemde varsa bastır
                 Product p = category.get(user.getApproachingExpirationDate().get(i));
-                for (int j = 0; j <p.getProduct_recipes().size() ; j++) {
+                for (int j = 0; j < p.getProduct_recipes().size(); j++) {
                     String recipeName = p.getProduct_recipes().get(j).getName();//recipeların isimlerini göster
+                    recipeName = recipeName.replaceAll("\n", "");
                     categoryRecipeNames.add(recipeName);
                     productNameOfCurrentRecipe.add(p.getProduct_name());
                     recipeIndexInProduct.add(j);
@@ -200,81 +167,50 @@ public class MainManager extends AppCompatActivity {
                 }
             }
         }
+
+        for (int i = 0; i < user.getNotApproachingExpirationDate().size(); i++) {
+            if (category.containsKey(user.getNotApproachingExpirationDate().get(i))) {//Son kullanma tarihi yaklaşan ürünlere
+                //bak eğer stoktaki yiyeceklerden listemde varsa bastır
+                Product p = category.get(user.getNotApproachingExpirationDate().get(i));
+                for (int j = 0; j < p.getProduct_recipes().size(); j++) {
+                    String recipeName = p.getProduct_recipes().get(j).getName();//recipeların isimlerini göster
+                    recipeName = recipeName.replaceAll("\n", "");
+                    categoryRecipeNames2.add(recipeName);
+                    productNameOfCurrentRecipe2.add(p.getProduct_name());
+                    recipeIndexInProduct2.add(j);
+                    System.out.println(recipeName);
+                }
+            }
+            //else aradığınız ürünle ilgili tarif yok
+        }
     }
 
-    public  void setRecipeInformations(){
+    public void setRecipeInformations() {
         currentRecipeName = currentRecipe.getName();
         currentDescription = currentRecipe.getDescription();
-        currentIngredients = currentRecipe.getIngredients();
+        currentIngredients = returnIngredientsString(currentRecipe.getIngredients());
+        //currentIngredients = currentRecipe.getIngredients();
         System.out.println(currentRecipeName);
         System.out.println(currentDescription);
         System.out.println(currentIngredients);
     }
 
-    public String getCurrentRecipeName() {
-        return currentRecipeName;
+    public String returnIngredientsString(ArrayList<String> list) {
+        String s = "";
+        for (int i = 0; i < list.size(); i++) {
+            s = s.concat(list.get(i));
+            s = s.concat("\n");
+        }
+        return s;
     }
 
-    public void setCurrentRecipeName(String currentRecipeName) {
-        this.currentRecipeName = currentRecipeName;
-    }
-
-    public int getCurrentCategoryID() {
-        return currentCategoryID;
-    }
-
-    public void setCurrentCategoryID(int currentCategoryID) {
-        this.currentCategoryID = currentCategoryID;
-    }
-
-    public String getCurrentRecipeCategory() {
-        return currentRecipeCategory;
-    }
-
-    public void setCurrentRecipeCategory(String currentRecipeCategory) {
-        this.currentRecipeCategory = currentRecipeCategory;
-    }
-
-    public String getCurrentUserName() {
-        return currentUserName;
-    }
-
-    public void setCurrentUserName(String currentUserName) {
-        this.currentUserName = currentUserName;
-    }
-
-    public String getCurrentUserSurname() {
-        return currentUserSurname;
-    }
-
-    public void setCurrentUserSurname(String currentUserSurname) {
-        this.currentUserSurname = currentUserSurname;
-    }
-
-
-    public String getCurrentUserEmail() {
-        return currentUserEmail;
-    }
-
-    public void setCurrentUserEmail(String currentUserEmail) {
-        this.currentUserEmail = currentUserEmail;
-    }
-
-    public String getCurrentUserPassword() {
-        return currentUserPassword;
-    }
-
-    public void setCurrentUserPassword(String currentUserPassword) {
-        this.currentUserPassword = currentUserPassword;
-        //database den de değiştir
-    }
-
+    /*-----------------------------------------------------------------------------------------------------------------------*/
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
 
-
+    //Open Class Methods
     public Class openLoginPanel() {
         return LoginPanel.class;
     }
@@ -311,7 +247,8 @@ public class MainManager extends AppCompatActivity {
         return RecipeCategoryPanel.class;
     }
 
-    //Ürün ekleme
+
+    //Control Methods
     public String controlNameIngredient(String name) {
         if (name.length() == 0) {
             return "Lütfen ürünün adını girin!";
@@ -339,7 +276,6 @@ public class MainManager extends AppCompatActivity {
         return "";
     }
 
-    //Registration Control
     public String controlNameRegister(String name) {
         if (name.length() == 0) {
             return "Lütfen isminizi girin!";
@@ -433,6 +369,122 @@ public class MainManager extends AppCompatActivity {
 
     public static void setCurrentUser(User currentUser) {
         MainManager.currentUser = currentUser;
+    }
+
+    public void setRecipeNames(ArrayList<String> recipeNames) {
+        MainManager.recipeNames = recipeNames;
+    }
+
+    public ArrayList<String> getRecipeIngredients() {
+        return recipeIngredients;
+    }
+
+    public void setRecipeIngredients(ArrayList<String> recipeIngredients) {
+        MainManager.recipeIngredients = recipeIngredients;
+    }
+
+    public ArrayList<String> getRecipeDescriptions() {
+        return recipeDescriptions;
+    }
+
+    public void setRecipeDescriptions(ArrayList<String> recipeDescriptions) {
+        MainManager.recipeDescriptions = recipeDescriptions;
+    }
+
+    public ArrayList<String> getRecipeNames() {
+        return recipeNames;
+    }
+
+    public String getSearchedRecipe() {
+        return searchedRecipe;
+    }
+
+    public void setSearchedRecipe(String searchedRecipe) {
+        this.searchedRecipe = searchedRecipe;
+    }
+
+    public int getPastPage() {
+        return pastPage;
+    }
+
+    public void setPastPage(int pastPage) {
+        this.pastPage = pastPage;
+    }
+
+    public static void setCategoryRecipeNames(ArrayList<String> categoryRecipeNames) {
+        MainManager.categoryRecipeNames = categoryRecipeNames;
+    }
+
+    public String getCurrentRecipeName() {
+        return currentRecipeName;
+    }
+
+    public void setCurrentRecipeName(String currentRecipeName) {
+        this.currentRecipeName = currentRecipeName;
+    }
+
+    public int getCurrentCategoryID() {
+        return currentCategoryID;
+    }
+
+    public void setCurrentCategoryID(int currentCategoryID) {
+        this.currentCategoryID = currentCategoryID;
+    }
+
+    public String getCurrentRecipeCategory() {
+        return currentRecipeCategory;
+    }
+
+    public void setCurrentRecipeCategory(String currentRecipeCategory) {
+        this.currentRecipeCategory = currentRecipeCategory;
+    }
+
+    public String getCurrentUserName() {
+        return currentUserName;
+    }
+
+    public void setCurrentUserName(String currentUserName) {
+        this.currentUserName = currentUserName;
+    }
+
+    public String getCurrentUserSurname() {
+        return currentUserSurname;
+    }
+
+    public void setCurrentUserSurname(String currentUserSurname) {
+        this.currentUserSurname = currentUserSurname;
+    }
+
+    public String getCurrentUserEmail() {
+        return currentUserEmail;
+    }
+
+    public void setCurrentUserEmail(String currentUserEmail) {
+        this.currentUserEmail = currentUserEmail;
+    }
+
+    public String getCurrentUserPassword() {
+        return currentUserPassword;
+    }
+
+    public void setCurrentUserPassword(String currentUserPassword) {
+        this.currentUserPassword = currentUserPassword;
+        //database den de değiştir
+    }
+    public static int getCurrentRecipeID() {
+        return currentRecipeID;
+    }
+
+    public static void setCurrentRecipeID(int currentRecipeID) {
+        MainManager.currentRecipeID = currentRecipeID;
+    }
+
+    public static int getCurrentRecipeID2() {
+        return currentRecipeID2;
+    }
+
+    public static void setCurrentRecipeID2(int currentRecipeID2) {
+        MainManager.currentRecipeID2 = currentRecipeID2;
     }
 
 }

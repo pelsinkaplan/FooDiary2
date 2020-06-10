@@ -37,7 +37,6 @@ public class HomePanel extends MainManager implements NavigationView.OnNavigatio
         searchButton = (Button) findViewById(R.id.search);
         searchEdit = (EditText) findViewById(R.id.searchBar);
 
-        searchedRecipe = searchEdit.getText().toString();
 
         soupButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,9 +70,9 @@ public class HomePanel extends MainManager implements NavigationView.OnNavigatio
             @Override
             public void onClick(View v) {
                 MainManager.getInstance().setPastPage(1);
+                searchedRecipe = searchEdit.getText().toString();
                 MainManager.getInstance().setSearchedRecipe(searchedRecipe);
                 changeActivity(MainManager.getInstance().openRecipePanel());
-                //tarif bulunamadıysa ekrana error basılır
             }
         });
 
@@ -104,6 +103,8 @@ public class HomePanel extends MainManager implements NavigationView.OnNavigatio
                 changeActivity(MainManager.getInstance().openIngredientPanel());
                 break;
             case R.id.nav_recipe:
+                MainManager.clearArraylists();
+                MainManager.clearArraylists2();
                 changeActivity(MainManager.getInstance().openRecipeCaregoryPanel());
                 break;
         }
