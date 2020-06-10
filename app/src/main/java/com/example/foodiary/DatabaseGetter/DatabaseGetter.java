@@ -40,15 +40,15 @@ public class DatabaseGetter {
         allUsers.add(user1);
         allUsers.add(user2);
         allUsers.add(user3);
-        StockProduct p3 = new StockProduct("nohut", 20200610, "1 kg");
+        StockProduct p3 = new StockProduct("nohut", 20200625, "1 kg");
         StockProduct p1 = new StockProduct("muz", 20200608, "3 adet");
         StockProduct p2 = new StockProduct("un", 20200609, "500 gr");
-        StockProduct p4 = new StockProduct("tereyag", 20200609, "750 gr");
-        StockProduct p5 = new StockProduct("makarna", 20200612, "1 kg");
-        StockProduct p6 = new StockProduct("et", 20200609, "2 kg");
-        StockProduct p7 = new StockProduct("kakao", 20201011, "200 gr");
-        StockProduct p8 = new StockProduct("domates", 20201011, "1 kg");
-        StockProduct p9 = new StockProduct("tavuk",20201011,"2 kg");
+        StockProduct p4 = new StockProduct("tereyag", 20200613, "750 gr");
+        StockProduct p5 = new StockProduct("makarna", 20200614, "1 kg");
+        StockProduct p6 = new StockProduct("et", 20200615, "2 kg");
+        StockProduct p7 = new StockProduct("kakao", 20201030, "200 gr");
+        StockProduct p8 = new StockProduct("domates", 20201030, "1 kg");
+        StockProduct p9 = new StockProduct("tavuk",20201110,"2 kg");
 
         user1.addToStock(p1);
         user1.addToStock(p2);
@@ -65,16 +65,18 @@ public class DatabaseGetter {
         user2.addToStock(p5);
         user2.addToStock(p6);
         user2.addToStock(p7);
-        user1.setApproachingExpirationDate(p1.getName());
-        user1.setApproachingExpirationDate(p6.getName());
-        user1.setApproachingExpirationDate(p2.getName());
-        user1.setApproachingExpirationDate(p8.getName());
-        user1.setNotApproachingExpirationDate(p7.getName());
-        user1.setNotApproachingExpirationDate(p5.getName());
-        user1.setNotApproachingExpirationDate(p4.getName());
-        user1.setNotApproachingExpirationDate(p8.getName());
-        user1.setNotApproachingExpirationDate(p9.getName());
+//        user1.setApproachingExpirationDate(p1.getName());
+//        user1.setApproachingExpirationDate(p6.getName());
+//        user1.setApproachingExpirationDate(p2.getName());
+//        user1.setApproachingExpirationDate(p8.getName());
+//        user1.setNotApproachingExpirationDate(p7.getName());
+//        user1.setNotApproachingExpirationDate(p5.getName());
+//        user1.setNotApproachingExpirationDate(p4.getName());
+//        user1.setNotApproachingExpirationDate(p8.getName());
+//        user1.setNotApproachingExpirationDate(p9.getName());
         user1.addToStock(p9);
+        user1.date();
+        System.out.println();
     }
 
     public HashMap<String, Product> getCategoryRecipes(int categoryID) {
