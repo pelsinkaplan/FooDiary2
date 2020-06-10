@@ -38,8 +38,7 @@ public class RecipeSuggestionPanel extends MainManager {
         category.setText(MainManager.getInstance().getCurrentRecipeCategory());
         MainManager.getInstance().recipes();
         getCategory();
-        getRecipe();
-        getRecipe2();
+
 
 
         for (int i = 0; i < MainManager.categoryRecipeNames.size(); i++) {

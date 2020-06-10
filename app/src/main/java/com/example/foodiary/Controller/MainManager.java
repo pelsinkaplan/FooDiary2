@@ -2,6 +2,7 @@ package com.example.foodiary.Controller;
 
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.text.Layout;
 
 import com.example.foodiary.DatabaseGetter.DatabaseGetter;
 import com.example.foodiary.DatabaseGetter.Product;
@@ -53,7 +54,8 @@ public class MainManager extends AppCompatActivity {
     private static User currentUser;
     private static Recipe currentRecipe;
     private static Recipe currentRecipe2;
-
+    public static Layout recipe1 = null;
+    public static Layout recipe2 = null;
     public static ArrayList<String> categoryRecipeNames = new ArrayList<String>();//Category recipelarını gösterir
     public static ArrayList<String> productNameOfCurrentRecipe = new ArrayList<>();//recipeların hangi üründe olduğu
     public static ArrayList<Integer> recipeIndexInProduct = new ArrayList<Integer>();//recipeın hangi indexde odluğu
@@ -126,14 +128,18 @@ public class MainManager extends AppCompatActivity {
 
     public void getRecipe() { //kanki bu metod ile current recipeı oluşturmuş oluyoruz
         //getCategory();
-        currentRecipe = db.getRecipe(productNameOfCurrentRecipe.get(currentRecipeID), recipeIndexInProduct.get(currentRecipeID));
-        setRecipeInformations();
+        if (productNameOfCurrentRecipe.size() != 0) {
+            currentRecipe = db.getRecipe(productNameOfCurrentRecipe.get(currentRecipeID), recipeIndexInProduct.get(currentRecipeID));
+            setRecipeInformations();
+        }
     }
 
     public void getRecipe2() { //kanki bu metod ile current recipeı oluşturmuş oluyoruz
-       // getCategory();
-        currentRecipe2 = db.getRecipe(productNameOfCurrentRecipe2.get(currentRecipeID2), recipeIndexInProduct2.get(currentRecipeID2));
-        setRecipeInformations();
+        // getCategory();
+        if (productNameOfCurrentRecipe2.size() != 0) {
+            currentRecipe2 = db.getRecipe(productNameOfCurrentRecipe2.get(currentRecipeID2), recipeIndexInProduct2.get(currentRecipeID2));
+            setRecipeInformations();
+        }
     }
 
     //Bu metodda da user ve database oluşturuluyor önce bu metod sonra get recipe çağrılmalı
@@ -186,13 +192,26 @@ public class MainManager extends AppCompatActivity {
     }
 
     public void setRecipeInformations() {
-        currentRecipeName = currentRecipe.getName();
-        currentDescription = currentRecipe.getDescription();
-        currentIngredients = returnIngredientsString(currentRecipe.getIngredients());
-        //currentIngredients = currentRecipe.getIngredients();
-        System.out.println(currentRecipeName);
-        System.out.println(currentDescription);
-        System.out.println(currentIngredients);
+        if (currentRecipe != null) {
+            currentRecipeName = currentRecipe.getName();
+            currentDescription = currentRecipe.getDescription();
+            currentIngredients = returnIngredientsString(currentRecipe.getIngredients());
+            //currentIngredients = currentRecipe.getIngredients();
+            System.out.println(currentRecipeName);
+            System.out.println(currentDescription);
+            System.out.println(currentIngredients);
+        }
+        if(currentRecipe2 != null){
+
+            currentRecipeName = currentRecipe2.getName();
+            currentDescription = currentRecipe2.getDescription();
+            currentIngredients = returnIngredientsString(currentRecipe2.getIngredients());
+            //currentIngredients = currentRecipe.getIngredients();
+            System.out.println(currentRecipeName);
+            System.out.println(currentDescription);
+            System.out.println(currentIngredients);
+
+        }
     }
 
     public String returnIngredientsString(ArrayList<String> list) {
@@ -471,6 +490,7 @@ public class MainManager extends AppCompatActivity {
         this.currentUserPassword = currentUserPassword;
         //database den de değiştir
     }
+
     public static int getCurrentRecipeID() {
         return currentRecipeID;
     }

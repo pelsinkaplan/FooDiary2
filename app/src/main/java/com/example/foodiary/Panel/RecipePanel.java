@@ -45,6 +45,9 @@ public class RecipePanel extends MainManager {
         DescriptionList = (LinearLayout) findViewById(R.id.recipes_description);
         final AppCompatActivity activity = this;
 
+        getRecipe();
+        getRecipe2();
+
         if (MainManager.getInstance().getPastPage() == 0) {//recipe category pageinden gelmişse
             if (MainManager.oneOtTwo) {
                 recipeName.setText(MainManager.categoryRecipeNames.get(MainManager.getCurrentRecipeID()));
@@ -228,6 +231,7 @@ public class RecipePanel extends MainManager {
         homeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                oneOtTwo = false;
                 changeActivity(MainManager.getInstance().openHomePanel());
             }
         });
@@ -236,10 +240,14 @@ public class RecipePanel extends MainManager {
             public void onClick(View v) {
                 MainManager.clearArraylists();
                 MainManager.clearArraylists2();
-                if (MainManager.getInstance().getPastPage() == 0)
+                if (MainManager.getInstance().getPastPage() == 0) {
+                    oneOtTwo = false;
                     changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
-                else if (MainManager.getInstance().getPastPage() == 1)
+                }
+                 else if (MainManager.getInstance().getPastPage() == 1) {
+                     oneOtTwo = false;
                     changeActivity(MainManager.getInstance().openHomePanel());
+                }
             }
         });
 

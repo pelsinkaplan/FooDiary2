@@ -48,6 +48,7 @@ public class DatabaseGetter {
         StockProduct p6 = new StockProduct("et", 20200609, "2 kg");
         StockProduct p7 = new StockProduct("kakao", 20201011, "200 gr");
         StockProduct p8 = new StockProduct("domates", 20201011, "1 kg");
+        StockProduct p9 = new StockProduct("tavuk",20201011,"2 kg");
 
         user1.addToStock(p1);
         user1.addToStock(p2);
@@ -72,7 +73,8 @@ public class DatabaseGetter {
         user1.setNotApproachingExpirationDate(p5.getName());
         user1.setNotApproachingExpirationDate(p4.getName());
         user1.setNotApproachingExpirationDate(p8.getName());
-
+        user1.setNotApproachingExpirationDate(p9.getName());
+        user1.addToStock(p9);
     }
 
     public HashMap<String, Product> getCategoryRecipes(int categoryID) {
