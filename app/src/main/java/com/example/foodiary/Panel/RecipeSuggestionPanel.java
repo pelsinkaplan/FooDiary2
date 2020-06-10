@@ -40,7 +40,6 @@ public class RecipeSuggestionPanel extends MainManager {
         getCategory();
 
 
-
         for (int i = 0; i < MainManager.categoryRecipeNames.size(); i++) {
             final LinearLayout layoutToAdd = new LinearLayout(activity);
             layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
@@ -157,6 +156,7 @@ public class RecipeSuggestionPanel extends MainManager {
             @Override
             public void onClick(View v) {
                 MainManager.clearArraylists();
+                MainManager.clearArraylists2();
                 changeActivity(MainManager.getInstance().openRecipeCaregoryPanel());
             }
         });
