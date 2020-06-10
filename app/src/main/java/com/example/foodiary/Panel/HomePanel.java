@@ -41,6 +41,8 @@ public class HomePanel extends MainManager implements NavigationView.OnNavigatio
         soupButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MainManager.getInstance().setPastPage(1);
+                MainManager.getInstance().setSearchedRecipe("Kremalı Mantar Çorbası");
                 changeActivity(MainManager.getInstance().openRecipePanel());
             }
         });
@@ -48,6 +50,8 @@ public class HomePanel extends MainManager implements NavigationView.OnNavigatio
         mainFoodButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MainManager.getInstance().setPastPage(1);
+                MainManager.getInstance().setSearchedRecipe("Orman Kebabı");
                 changeActivity(MainManager.getInstance().openRecipePanel());
             }
         });
@@ -55,6 +59,8 @@ public class HomePanel extends MainManager implements NavigationView.OnNavigatio
         legumesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MainManager.getInstance().setPastPage(1);
+                MainManager.getInstance().setSearchedRecipe("Enginarlı Bulgur Pilavı");
                 changeActivity(MainManager.getInstance().openRecipePanel());
             }
         });
@@ -62,6 +68,8 @@ public class HomePanel extends MainManager implements NavigationView.OnNavigatio
         dessertButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MainManager.getInstance().setPastPage(1);
+                MainManager.getInstance().setSearchedRecipe("Saray Sarması");
                 changeActivity(MainManager.getInstance().openRecipePanel());
             }
         });

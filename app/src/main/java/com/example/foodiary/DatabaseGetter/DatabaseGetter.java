@@ -75,7 +75,7 @@ public class DatabaseGetter {
 //        user1.setNotApproachingExpirationDate(p8.getName());
 //        user1.setNotApproachingExpirationDate(p9.getName());
         user1.addToStock(p9);
-        user1.date();
+
         System.out.println();
     }
 

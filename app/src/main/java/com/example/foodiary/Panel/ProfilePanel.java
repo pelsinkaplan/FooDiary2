@@ -49,12 +49,10 @@ public class ProfilePanel extends MainManager implements NavigationView.OnNaviga
         surname = (TextView) findViewById(R.id.surnamePro);
         surname.setText(MainManager.getInstance().getCurrentUserSurname());
 
+        MainManager.getCurrentUser().date();
+
         notificationList = (LinearLayout) findViewById(R.id.notification_list);
         final AppCompatActivity activity = this;
-        //MainManager.getInstance().date();
-
-        //Kanki buraları commente aldım kod çalışssın diye burda currentUser objesinin
-        //expire date arraylisti vardı ya ordan for ile iterate edicen
 
         for (int i = 0; i < MainManager.getCurrentUser().getPastExpirationDate().size(); i++) {
             final LinearLayout layoutToAdd = new LinearLayout(activity);

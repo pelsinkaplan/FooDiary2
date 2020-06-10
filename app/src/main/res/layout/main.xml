@@ -54,11 +54,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/daily_menu"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="90dp"
         android:layout_marginTop="15dp"
-        android:text="Tarhana Çorbası"
+        android:text="Kremalı Mantar Çorbası"
         android:textColor="@android:color/background_light"
-        android:textSize="25dp"
+        android:textSize="24dp"
         android:typeface="monospace" />
 
     <TextView
@@ -67,11 +66,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/daily_soup"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="90dp"
         android:layout_marginTop="20dp"
-        android:text="Tas Kebabı"
+        android:text="Orman Kebabı"
         android:textColor="@android:color/background_light"
-        android:textSize="25dp"
+        android:textSize="24dp"
         android:typeface="monospace" />
 
     <TextView
@@ -80,11 +78,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/main_food"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="90dp"
         android:layout_marginTop="20dp"
-        android:text="Bulgur Pilavı"
+        android:text="Enginarlı Bulgur Pilavı"
         android:textColor="@android:color/background_light"
-        android:textSize="25dp"
+        android:textSize="24dp"
         android:typeface="monospace" />
 
     <TextView
@@ -93,11 +90,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/legumes"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="90dp"
         android:layout_marginTop="20dp"
-        android:text="Güllaç"
+        android:text="Saray Sarması"
         android:textColor="@android:color/background_light"
-        android:textSize="25dp"
+        android:textSize="24dp"
         android:typeface="monospace" />
 
     <EditText
@@ -108,7 +104,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="88dp"
         android:background="@android:drawable/gallery_thumb"
-        android:hint="Orman Kebabı"
+        android:hint="İmambayıldı"
         android:textAlignment="viewStart"
         android:textSize="10sp"
         android:typeface="monospace" />

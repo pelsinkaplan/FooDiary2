@@ -158,6 +158,26 @@ public class RecipePanel extends MainManager {
                 ingredientsSearched = MainManager.getInstance().corretTypeOfRecipeIngredient(MainManager.getInstance().getRecipeIngredients().get(5));
                 descriptionSearched = MainManager.getInstance().corretTypeOfRecipeDescription(MainManager.getInstance().getRecipeDescriptions().get(5));
                 hasRecipe = true;
+            } else if ((MainManager.getInstance().getSearchedRecipe().toLowerCase()).equals("kremalı mantar çorbası")) {
+                recipeSearched = MainManager.getInstance().getRecipeNames().get(6);
+                ingredientsSearched = MainManager.getInstance().corretTypeOfRecipeIngredient(MainManager.getInstance().getRecipeIngredients().get(6));
+                descriptionSearched = MainManager.getInstance().corretTypeOfRecipeDescription(MainManager.getInstance().getRecipeDescriptions().get(6));
+                hasRecipe = true;
+            } else if ((MainManager.getInstance().getSearchedRecipe().toLowerCase()).equals("orman kebabı")) {
+                recipeSearched = MainManager.getInstance().getRecipeNames().get(7);
+                ingredientsSearched = MainManager.getInstance().corretTypeOfRecipeIngredient(MainManager.getInstance().getRecipeIngredients().get(7));
+                descriptionSearched = MainManager.getInstance().corretTypeOfRecipeDescription(MainManager.getInstance().getRecipeDescriptions().get(7));
+                hasRecipe = true;
+            } else if ((MainManager.getInstance().getSearchedRecipe().toLowerCase()).equals("enginarlı bulgur pilavı")) {
+                recipeSearched = MainManager.getInstance().getRecipeNames().get(8);
+                ingredientsSearched = MainManager.getInstance().corretTypeOfRecipeIngredient(MainManager.getInstance().getRecipeIngredients().get(8));
+                descriptionSearched = MainManager.getInstance().corretTypeOfRecipeDescription(MainManager.getInstance().getRecipeDescriptions().get(8));
+                hasRecipe = true;
+            } else if ((MainManager.getInstance().getSearchedRecipe().toLowerCase()).equals("saray sarması")) {
+                recipeSearched = MainManager.getInstance().getRecipeNames().get(9);
+                ingredientsSearched = MainManager.getInstance().corretTypeOfRecipeIngredient(MainManager.getInstance().getRecipeIngredients().get(9));
+                descriptionSearched = MainManager.getInstance().corretTypeOfRecipeDescription(MainManager.getInstance().getRecipeDescriptions().get(9));
+                hasRecipe = true;
             }
             if (hasRecipe) {
                 recipeName.setText(recipeSearched);
@@ -243,9 +263,8 @@ public class RecipePanel extends MainManager {
                 if (MainManager.getInstance().getPastPage() == 0) {
                     oneOtTwo = false;
                     changeActivity(MainManager.getInstance().openRecipeSuggestionPanel());
-                }
-                 else if (MainManager.getInstance().getPastPage() == 1) {
-                     oneOtTwo = false;
+                } else if (MainManager.getInstance().getPastPage() == 1) {
+                    oneOtTwo = false;
                     changeActivity(MainManager.getInstance().openHomePanel());
                 }
             }

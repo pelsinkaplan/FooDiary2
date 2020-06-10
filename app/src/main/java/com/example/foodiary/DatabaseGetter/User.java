@@ -14,27 +14,27 @@ public class User {
     private List<String> pastExpirationDate = new ArrayList<String>();
     private String mail;
 
-    public User(String name,String surname,String username,String mail,String password){
+    public User(String name, String surname, String username, String mail, String password) {
         this.name = name;
         this.surname = surname;
         this.mail = mail;
         this.username = username;
         this.password = password;
-       // date();
+        // date();
     }
 
     public void date() {//burda sktsi yaklaşanlara bakıcam yaklaşanları approachinge diğerlerini de diğer listeye atıcam
-    int todayDate = 20200611;
+        int todayDate = 20200611;
+        pastExpirationDate.clear();
+        approachingExpirationDate.clear();
+        notApproachingExpirationDate.clear();
+        for (int i = 0; i < stock.size(); i++) {
 
-        for (int i = 0; i <stock.size() ; i++) {
-
-            if(stock.get(i).getSkt()-todayDate <= 0){
+            if (stock.get(i).getSkt() - todayDate <= 0) {
                 pastExpirationDate.add(stock.get(i).getName());
-            }
-            else if(stock.get(i).getSkt()-todayDate < 5){
+            } else if (stock.get(i).getSkt() - todayDate < 5) {
                 approachingExpirationDate.add(stock.get(i).getName());
-            }
-            else {
+            } else {
                 notApproachingExpirationDate.add(stock.get(i).getName());
             }
         }
