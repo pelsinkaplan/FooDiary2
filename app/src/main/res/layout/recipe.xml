@@ -27,14 +27,15 @@
 
     <TextView
         android:id="@+id/recipe_name"
-        android:layout_width="wrap_content"
+        android:layout_width="270dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
+        android:gravity="center"
         android:text="Tarif"
         android:textColor="#FFFF"
-        android:textSize="28dp"
+        android:textSize="24dp"
         android:typeface="monospace" />
 
 
@@ -44,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/recipe_name"
         android:layout_alignStart="@+id/make"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:text="Malzemeler :"
         android:textColor="#FFFF"
         android:textSize="18dp" />
@@ -54,8 +55,7 @@
         android:layout_width="380dp"
         android:layout_height="120dp"
         android:layout_below="@+id/ingredients"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp">
+        android:layout_marginStart="10dp">
 
         <LinearLayout
             android:id="@+id/recipes_ingredients"
@@ -85,8 +85,7 @@
         android:layout_width="380dp"
         android:layout_height="200dp"
         android:layout_below="@+id/make"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginStart="10dp">
 
         <LinearLayout
             android:id="@+id/recipes_description"

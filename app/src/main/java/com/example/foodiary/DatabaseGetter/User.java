@@ -29,8 +29,12 @@ public class User {
         return stock;
     }
 
-    public void setStock(StockProduct product) {
+    public void addToStock(StockProduct product) {
         stock.add(product);
+    }
+
+    public void removeFromStock(StockProduct product) {
+        stock.remove(product);
     }
 
     public String getUsername() {

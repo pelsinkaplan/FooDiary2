@@ -13,6 +13,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.foodiary.Controller.MainManager;
+import com.example.foodiary.DatabaseGetter.Main;
 import com.example.foodiary.R;
 
 public class RecipeSuggestionPanel extends MainManager {
@@ -33,9 +34,11 @@ public class RecipeSuggestionPanel extends MainManager {
         final AppCompatActivity activity = this;
 
         category.setText(MainManager.getInstance().getCurrentRecipeCategory());
+        MainManager.getInstance().recipes();
+//        MainManager.getInstance().getRecipe();
+        RecipeList.removeAllViews();
 
-
-        for (int i = 0; i < MainManager.getInstance().getRecipeList().size(); i++) {
+        for (int i = 0; i < MainManager.getInstance().getRecipeNames().size(); i++) {
             final LinearLayout layoutToAdd = new LinearLayout(activity);
             layoutToAdd.setOrientation(LinearLayout.HORIZONTAL);
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
@@ -52,7 +55,7 @@ public class RecipeSuggestionPanel extends MainManager {
             layoutToAdd.addView(recipeButton);
 
             TextView recipeName = new TextView(activity);
-            recipeName.setText(MainManager.getInstance().getRecipeList().get(i).get(0));
+            recipeName.setText(MainManager.getInstance().getRecipeNames().get(i));
             recipeName.setTextSize(15);
             recipeName.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
             recipeName.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
@@ -64,12 +67,12 @@ public class RecipeSuggestionPanel extends MainManager {
             recipeName.setTextColor(Color.parseColor("#FFFFFF"));
             layoutToAdd.addView(recipeName);
 
+            final int finalI = i;
             recipeButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    //                  MainManager.getInstance().setCurrentRecipeName(recipeList.get(i).get(0));
-                    //seçilen tefin adını allll *************************************************************************************
-                    //seçilen tarifin idsini alll *********************************************************
+                    Main.setCurrentRecipeID(finalI);
+                    MainManager.getInstance().setPastPage(0);
                     changeActivity(MainManager.getInstance().openRecipePanel());
                 }
             });
@@ -77,15 +80,15 @@ public class RecipeSuggestionPanel extends MainManager {
             recipeName.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    //                  MainManager.getInstance().setCurrentRecipeName(recipeList.get(i).get(0));
-                    //seçilen tefin adını allll *************************************************************************************
-                    //seçilen tarifin idsini alll *********************************************************
+                    Main.setCurrentRecipeID(finalI);
+                    MainManager.getInstance().setPastPage(0);
                     changeActivity(MainManager.getInstance().openRecipePanel());
                 }
             });
 
             RecipeList.addView(layoutToAdd);
         }
+
 
         homeButton.setOnClickListener(new View.OnClickListener() {
             @Override

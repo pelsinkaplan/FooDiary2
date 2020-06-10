@@ -36,8 +36,9 @@ public class LoginPanel extends MainManager {
         emailEdit = (EditText) findViewById(R.id.emailLog);
         passwordEdit = (EditText) findViewById(R.id.passwordLog);
 
+        MainManager.getInstance().usersAndDatabase();
         try {
-            MainManager.getInstance().usersAndDatabase();
+            MainManager.getInstance().createDatabase();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
@@ -87,6 +88,7 @@ public class LoginPanel extends MainManager {
                     MainManager.getInstance().setCurrentUserPassword(MainManager.getInstance().getUserList().get(id).getPassword());
                     MainManager.getInstance().setCurrentUserName(MainManager.getInstance().getUserList().get(id).getUsername());
                     MainManager.getInstance().setCurrentUserSurname(MainManager.getInstance().getUserList().get(id).getSurname());
+                        MainManager.getInstance().usersAndDatabase();
                     changeActivity(MainManager.getInstance().openHomePanel());
                 }
             }

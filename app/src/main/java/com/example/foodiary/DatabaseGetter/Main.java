@@ -16,9 +16,13 @@ public class Main {
     private static int currentRecipeID;
     private static String currentRecipeCategory = "";
     private static String currentRecipeName = "";
+
+
+
     private static int currentCategoryID = 0;
     private static String currentDescription="";
     private static ArrayList<String> currentIngredients= new ArrayList<String>();
+
 
     private static ArrayList<String> categoryRecipeNames =new ArrayList<String>();//Category recipelarını gösterir
     private static ArrayList<String> productNameOfCurrentRecipe = new ArrayList<>();//recipeların hangi üründe olduğu
@@ -79,6 +83,18 @@ public class Main {
 
     public void setCurrentCategoryID(int currentCategoryID) {
         this.currentCategoryID = currentCategoryID;
+    }
+
+    public static int getCurrentRecipeID() {
+        return currentRecipeID;
+    }
+
+    public static void setCurrentRecipeID(int currentRecipeID) {
+        Main.currentRecipeID = currentRecipeID;
+    }
+
+    public static ArrayList<String> getCategoryRecipeNames() {
+        return categoryRecipeNames;
     }
 }
 
