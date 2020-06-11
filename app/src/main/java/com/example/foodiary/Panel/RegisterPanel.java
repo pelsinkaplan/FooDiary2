@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.foodiary.Controller.MainManager;
+import com.example.foodiary.DatabaseGetter.User;
 import com.example.foodiary.R;
 
 import java.util.ArrayList;
@@ -84,7 +85,9 @@ public class RegisterPanel extends MainManager {
                         }
                     }
                     if (user == 0) {
-
+                        User newUser = new User(name, surname, name.concat(surname), email, password);
+                        MainManager.getInstance().addUserList(newUser);
+                        changeActivity(MainManager.getInstance().openLoginPanel());
                     }
 
                 }

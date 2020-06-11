@@ -48,6 +48,7 @@ public class RecipeCategoryPanel extends MainManager implements NavigationView.O
         mainCourseButton2 = (Button) findViewById(R.id.maincourse2);
         pastryButton2 = (Button) findViewById(R.id.pastry2);
 
+        MainManager.getCurrentUser().date();
 
         soupButton1.setOnClickListener(new View.OnClickListener() {
             @Override

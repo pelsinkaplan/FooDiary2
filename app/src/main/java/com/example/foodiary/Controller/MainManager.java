@@ -385,6 +385,11 @@ public class MainManager extends AppCompatActivity {
     }
 
 
+    public void addUserList(User user) {
+        userList.add(user);
+    }
+
+
     //Getter and Setters
     public static MainManager getInstance() {
         return instance;

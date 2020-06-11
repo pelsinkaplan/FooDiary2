@@ -1,25 +1,4 @@
 {
-"krema":{
-"recipes":[
-{
-    "name": "\nKöri Soslu Tavuk\n",
-    "img": "https://lezzet.blob.core.windows.net/images-small-recipe/kori-soslu-tavuk-8ccf6838-cafe-411f-9fc2-e6fae46b1c50.jpg",
-    "ingredients": [
-      "100 ml sıvı krema (yarım kutu kadar) ",
-      "1 parça orta boy tavuk göğsü",
-      "1 avuç içi kadar arpacık soğan",
-      "1 çorba kaşığı parmesan peyniri (arzu etmezseniz kullanmayabilirsiniz) ",
-      "3 çorba kaşığı zeytinyağı ",
-      "1 çay kaşığı tuz",
-      "1 çay kaşığı köri sosu",
-      "1 tatlı kaşığı kırmızı biber (toz) ",
-      "1 tatlı kaşığı kekik",
-      "1 çay kaşığından az karabiber"
-    ],
-    "description": "Geniş bir kızartma tavasını ocakta kızdırın. Az miktarda yağ koyabilirsiniz. Tavuğu hazırlarken koyduğunuz yağ yeterli olur. Tavukları suyunu salmadan pişirin. Etlerin üst üste olmaması tavsiye edilir. Yağa temas etmeyen etler sulanır. Bu şekilde de tavuklar kuru kalabilir. Tavukları alt üst olarak çevirip iyice pişirin. Birkaç dakika sonra arpacık soğanlarını ilave edin. Tavuklar iyice pişip altın rengini aldığı zaman köri sosuyla beraber kremayı ekleyin. Tuzu da ilave etmeyi unutmayın. 2 3 dakika boyunca karıştırarak pişirin. Son olarak yemeğe hoş bir kıvam vermesi için parmesan ilave edebilirsiniz. Arzu etmezseniz kullanmayabilirsiniz. Sıcağıyla servis edebilirsiniz.Tarif az kişilik porsiyonlara uygundur. Kalabalık misafirlerde malzeme ölçülerini artırarak aynı lezzeti yakalayabilirsiniz. Körili tavuk yanına pirinç pilavı ya da patates köftesi yapabilirsiniz. Afiyet olsun.Kalori bakımından oldukça düşük olan körili tavuğu rahatlıkla tüketebilirsiniz.Daha fazla tarif için, pratik tavuk yemeklerine göz atın."
-
-}]
-},
 "tavuk":{
 "recipes":[{
     "name": "\nKöri Soslu Tavuk\n",

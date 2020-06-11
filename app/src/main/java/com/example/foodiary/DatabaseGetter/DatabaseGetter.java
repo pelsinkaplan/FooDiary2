@@ -65,15 +65,6 @@ public class DatabaseGetter {
         user2.addToStock(p5);
         user2.addToStock(p6);
         user2.addToStock(p7);
-//        user1.setApproachingExpirationDate(p1.getName());
-//        user1.setApproachingExpirationDate(p6.getName());
-//        user1.setApproachingExpirationDate(p2.getName());
-//        user1.setApproachingExpirationDate(p8.getName());
-//        user1.setNotApproachingExpirationDate(p7.getName());
-//        user1.setNotApproachingExpirationDate(p5.getName());
-//        user1.setNotApproachingExpirationDate(p4.getName());
-//        user1.setNotApproachingExpirationDate(p8.getName());
-//        user1.setNotApproachingExpirationDate(p9.getName());
         user1.addToStock(p9);
 
         System.out.println();

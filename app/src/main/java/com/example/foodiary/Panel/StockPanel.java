@@ -127,18 +127,13 @@ public class StockPanel extends MainManager implements NavigationView.OnNavigati
                 amount = amountEdit.getText().toString();
                 expireDate = expireDateEdit.getText().toString();
                 int counter = 0;
-                if (MainManager.getInstance().controlNameIngredient(ingredient).length() == 0) {
-                    counter++;
-                } else {
-                    ingredientEdit.setError(MainManager.getInstance().controlNameIngredient(ingredient));
-                }
                 //expire date  check if there is an error then print error message
                 if (MainManager.getInstance().controlExpireDateIngredient(expireDate).length() == 0) {
                     counter++;
                 } else {
                     expireDateEdit.setError(MainManager.getInstance().controlExpireDateIngredient(expireDate));
                 }
-                if (counter == 2) {
+                if (counter == 1) {
                     int expireDate2 = calculateExpiredate(expireDate);
                     StockProduct p = new StockProduct(ingredient, expireDate2, amount);
                     MainManager.getCurrentUser().addToStock(p);
