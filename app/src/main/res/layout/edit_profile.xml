@@ -15,8 +15,8 @@
         android:background="@android:drawable/gallery_thumb"
         android:hint="@string/oldPassword"
         android:textAlignment="viewStart"
-        android:textColor="?android:attr/textColorSecondaryInverse"
-        android:textColorHint="@android:color/primary_text_dark"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
         android:textSize="13sp"
         android:typeface="monospace" />
 
@@ -30,8 +30,8 @@
         android:background="@android:drawable/gallery_thumb"
         android:hint="@string/newPassword"
         android:textAlignment="viewStart"
-        android:textColor="?android:attr/textColorSecondaryInverse"
-        android:textColorHint="@android:color/primary_text_dark"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
         android:textSize="13sp"
         android:typeface="monospace" />
 
@@ -84,15 +84,15 @@
         android:id="@+id/namePro"
         android:layout_width="150dp"
         android:layout_height="43dp"
-        android:layout_alignTop="@id/logo"
         android:layout_alignStart="@id/logo"
+        android:layout_alignTop="@id/logo"
         android:layout_marginStart="150dp"
         android:layout_marginTop="20dp"
         android:background="@android:drawable/gallery_thumb"
         android:hint="@string/name2"
         android:textAlignment="viewStart"
-        android:textColor="?android:attr/textColorSecondaryInverse"
-        android:textColorHint="@android:color/primary_text_dark"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
         android:textSize="13sp"
         android:typeface="monospace" />
 
@@ -107,8 +107,8 @@
         android:background="@android:drawable/gallery_thumb"
         android:hint="@string/surname2"
         android:textAlignment="viewStart"
-        android:textColor="?android:attr/textColorSecondaryInverse"
-        android:textColorHint="@android:color/primary_text_dark"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
         android:textSize="13sp"
         android:typeface="monospace" />
 
